@@ -1,0 +1,32 @@
+[
+    {
+        "mdPath": "main",
+        "title": "Main"
+    },
+    {
+        "mdPath": "grid",
+        "title": "Grid",
+        "children":
+        [
+            {
+                "mdPath": "grid/basic",
+                "title": "Basic"
+            },
+            {
+                "mdPath": "grid/basicSync",
+                "title": "Basic Sync"
+            }
+        ]
+    },
+    {
+        "mdPath": "another",
+        "title": "Another one",
+        "children":
+        [
+            {
+                "mdPath": "test",
+                "title": "Test nested"
+            }
+        ]
+    }
+]

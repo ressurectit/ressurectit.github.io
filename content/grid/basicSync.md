@@ -1,0 +1,1 @@
+[sample](/SAMPLES_URL/gridSamples)
