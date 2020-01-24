@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Welcome to Ressurect IT
 
-You can use the [editor on GitHub](https://github.com/ressurectit/ressurectit.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This project contains *Angular* libraries, *Javascript* libraries and *npm* tools used during development.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*Angular* libraries are deployed to *npmjs.com* registry within scope *@anglr*. *Javascript* libraries are deployed to *npmjs.com* registry within scope *@jscrpt*.
 
-### Markdown
+Read more about about our libraries at [ressurectit.github.io](https://ressurectit.github.io).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+*Angular* projects are:
 
-```markdown
-Syntax highlighted code block
+- **[Animations](https://github.com/ressurectit/ng-animations)** - Prebuilt angular animations (*triggers*)
+- **[Authentication](https://github.com/ressurectit/ng-authentication)** - Authentication and authorization *services* and *directives*
+- **[Bootstrap](https://github.com/ressurectit/ng-bootstrap)** - Wrappers for *Bootstrap* components
+- **[Common](https://github.com/ressurectit/ng-common)** - Many commonly used *Angular* components, services and so on ...
+- **[Error handling](https://github.com/ressurectit/ng-error-handling)** - Http interceptors, error handlers
+- **[Grid](https://github.com/ressurectit/ng-grid)** - Modular *grid* component for displaying *table* or *table like* data
+- **[Markdown help](https://github.com/ressurectit/ng-md-help)** - Utilities for displaying *Markdown*
+- **[Notifications](https://github.com/ressurectit/ng-notifications)** - Services and components used for displaying notifications
+- **[Rest](https://github.com/ressurectit/ng-rest)** - Base class and decorators for creating *REST* services
+- **[Select](https://github.com/ressurectit/ng-select)** - Modular *select* component used for options selection
+- **[Translate extensions](https://github.com/ressurectit/ng-translate-extensions)** - Extensions used for *@ngx-translate*
+- **[Types](https://github.com/ressurectit/ng-types)** - *Typings* used for compilation, not only *Angular*
 
-# Header 1
-## Header 2
-### Header 3
+*Javascript project is:
 
-- Bulleted
-- List
+- **[Common](https://github.com/ressurectit/js-common)** - Common utilities useful for any *Javascript* project
 
-1. Numbered
-2. List
+Helper *npm* tools are:
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ressurectit/ressurectit.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- **[Npm git version](https://github.com/ressurectit/npm-git-version)** - Tools that is used for generating version number from *git branch* and *git tag*
+- **[Gulp git version](https://github.com/ressurectit/gulp-git-version)** - Wrapper for *gulp* that uses *Npm git version*
+- **[NodeJS Connect extensions](https://github.com/ressurectit/nodejs-connect-extensions)** - Methods that are used for writing *mocks* using *Connect* http server

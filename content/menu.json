@@ -1,7 +1,7 @@
 [
     {
-        "mdPath": "main",
-        "title": "Main"
+        "mdPath": "home",
+        "title": "Home"
     },
     {
         "mdPath": "grid",
@@ -9,14 +9,30 @@
         "children":
         [
             {
+                "mdPath": "grid/concept",
+                "title": "Concept"
+            },
+            {
                 "mdPath": "grid/basic",
-                "title": "Basic"
+                "title": "Basic Async Usage"
             },
             {
                 "mdPath": "grid/basicSync",
-                "title": "Basic Sync"
+                "title": "Basic Sync Usage"
+            },
+            {
+                "mdPath": "grid/basicMetadata",
+                "title": "Basic metadata (all)"
             }
         ]
+    },
+    {
+        "mdPath": "rest",
+        "title": "Rest"
+    },
+    {
+        "mdPath": "select",
+        "title": "Select"
     },
     {
         "mdPath": "another",
