@@ -23,12 +23,27 @@
             {
                 "mdPath": "grid/basicMetadata",
                 "title": "Basic metadata (all)"
+            },
+            {
+                "mdPath": "grid/groupedMetadata",
+                "title": "Grouped metadata"
+            },
+            {
+                "mdPath": "grid/configuration",
+                "title": "Configuration"
             }
         ]
     },
     {
         "mdPath": "rest",
-        "title": "Rest"
+        "title": "Rest",
+        "children":
+        [
+            {
+                "mdPath": "rest/usage",
+                "title": "Usage"
+            }
+        ]
     },
     {
         "mdPath": "select",

@@ -11,11 +11,11 @@ This project contains *Angular* libraries, *Javascript* libraries and *npm* tool
 - **[Bootstrap](https://github.com/ressurectit/ng-bootstrap)** - Wrappers for *Bootstrap* components
 - **[Common](https://github.com/ressurectit/ng-common)** - Many commonly used *Angular* components, services and so on ...
 - **[Error handling](https://github.com/ressurectit/ng-error-handling)** - Http interceptors, error handlers
-- **[Grid](/grid.md)** - Modular *grid* component for displaying *table* or *table like* data
+- **[Grid](/grid)** - Modular *grid* component for displaying *table* or *table like* data
 - **[Markdown help](https://github.com/ressurectit/ng-md-help)** - Utilities for displaying *Markdown*
 - **[Notifications](https://github.com/ressurectit/ng-notifications)** - Services and components used for displaying notifications
-- **[Rest](https://github.com/ressurectit/ng-rest)** - Base class and decorators for creating *REST* services
-- **[Select](https://github.com/ressurectit/ng-select)** - Modular *select* component used for options selection
+- **[Rest](/rest)** - Base class and decorators for creating *REST* services
+- **[Select](/select)** - Modular *select* component used for options selection
 - **[Translate extensions](https://github.com/ressurectit/ng-translate-extensions)** - Extensions used for *@ngx-translate*
 - **[Types](https://github.com/ressurectit/ng-types)** - *Typings* used for compilation, not only *Angular*
 

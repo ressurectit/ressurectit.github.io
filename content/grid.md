@@ -14,7 +14,7 @@ Grid is used for displaying *lists*, that means it does not have to be table lay
 - [Basic asynchronous data](/grid/basic)
 - [Basic synchronous data](/grid/basicSync)
 - [Basic metadata (all)](/grid/basicMetadata)
-- [Grouped metadata](concept)
+- [Grouped metadata](/grid/groupedMetadata)
 - [Configuration](/grid/configuration)
 - [Accessing from code](/grid/accessingFromCode)
 - [Styling](concept)

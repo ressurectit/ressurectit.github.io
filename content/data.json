@@ -4,125 +4,233 @@
         "city": "Banská Bystrica",
         "zip": "97401",
         "street": "Janka Chalupku",
-        "houseNumber": "13"
+        "houseNumber": "13",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Bratislava",
         "zip": "82109",
         "street": "Trenčianska",
-        "houseNumber": "156/A"
+        "houseNumber": "156/A",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo II",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Košice",
         "zip": "04011",
         "street": "Werferova",
-        "houseNumber": "11"
+        "houseNumber": "11",
+        "citizen":
+        {
+            "name": "George",
+            "surname": "Rambo",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Banská Bystrica",
         "zip": "97404",
         "street": "Janka Chalupku",
-        "houseNumber": "13"
+        "houseNumber": "13",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Wick",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Lučenec",
         "zip": "82109",
         "street": "Trenčianska",
-        "houseNumber": "156/A"
+        "houseNumber": "156/A",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Poprad",
         "zip": "04011",
         "street": "Werferova",
-        "houseNumber": "11"
+        "houseNumber": "11",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Banská Bystrica",
         "zip": "12345",
         "street": "Janka Chalupku",
-        "houseNumber": "131"
+        "houseNumber": "131",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2002-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Trenčín",
         "zip": "82109",
         "street": "Trenčianska",
-        "houseNumber": "156/A"
+        "houseNumber": "156/A",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2005-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Poltár",
         "zip": "04011",
         "street": "Werferova",
-        "houseNumber": "11"
+        "houseNumber": "11",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "1990-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Zvolen",
         "zip": "97401",
         "street": "Janka Chalupku",
-        "houseNumber": "13"
+        "houseNumber": "13",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Bratislava",
         "zip": "82109",
         "street": "Trenčianska",
-        "houseNumber": "156/A"
+        "houseNumber": "156/A",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Košice",
         "zip": "04011",
         "street": "Werferova",
-        "houseNumber": "11"
+        "houseNumber": "11",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Banská Bystrica",
         "zip": "97401",
         "street": "Janka Chalupku",
-        "houseNumber": "13"
+        "houseNumber": "13",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Bratislava",
         "zip": "98752",
         "street": "Trenčianska",
-        "houseNumber": "156/A"
+        "houseNumber": "156/A",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Košice",
         "zip": "04011",
         "street": "Werferova",
-        "houseNumber": "11"
+        "houseNumber": "11",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Banská Bystrica",
         "zip": "97401",
         "street": "Janka Chalupku",
-        "houseNumber": "13"
+        "houseNumber": "13",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Bratislava",
         "zip": "82109",
         "street": "Trenčianska",
-        "houseNumber": "156/A"
+        "houseNumber": "156/A",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     },
     {
         "country": "Slovakia",
         "city": "Košice",
         "zip": "04011",
         "street": "Werferova",
-        "houseNumber": "11"
+        "houseNumber": "11",
+        "citizen":
+        {
+            "name": "John",
+            "surname": "Rambo",
+            "birthDate": "2000-02-04T10:15:30"
+        }
     }
 ]
