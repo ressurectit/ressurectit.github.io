@@ -36,14 +36,7 @@
     },
     {
         "mdPath": "rest",
-        "title": "Rest",
-        "children":
-        [
-            {
-                "mdPath": "rest/usage",
-                "title": "Usage"
-            }
-        ]
+        "title": "Rest"
     },
     {
         "mdPath": "select",
