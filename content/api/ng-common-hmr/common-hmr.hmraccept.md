@@ -16,8 +16,8 @@ export declare function hmrAccept(platformGet: () => PlatformRef, rootComponentS
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  platformGet | <code>() =&gt; PlatformRef</code> |  |
-|  rootComponentSelector | <code>string</code> |  |
+|  platformGet | <code>() =&gt; PlatformRef</code> | Callback used for obtaining platform used for bootstraping main module |
+|  rootComponentSelector | <code>string</code> | Name of root component, defaults to 'app' |
 
 <b>Returns:</b>
 
