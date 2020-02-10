@@ -9,5 +9,5 @@ Gets indication
 <b>Signature:</b>
 
 ```typescript
-readonly deactivated: boolean;
+get deactivated(): boolean;
 ```
