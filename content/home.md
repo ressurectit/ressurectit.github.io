@@ -6,17 +6,17 @@ This project contains *Angular* libraries, *Javascript* libraries and *npm* tool
 
 *Angular* projects are:
 
-- **[Animations](https://github.com/ressurectit/ng-animations)** - Prebuilt angular animations (*triggers*)
-- **[Authentication](https://github.com/ressurectit/ng-authentication)** - Authentication and authorization *services* and *directives*
-- **[Bootstrap](https://github.com/ressurectit/ng-bootstrap)** - Wrappers for *Bootstrap* components
-- **[Common](https://github.com/ressurectit/ng-common)** - Many commonly used *Angular* components, services and so on ...
-- **[Error handling](https://github.com/ressurectit/ng-error-handling)** - Http interceptors, error handlers
+- **[Animations](/animations)** - Prebuilt angular animations (*triggers*)
+- **[Authentication](/authentication)** - Authentication and authorization *services* and *directives*
+- **[Bootstrap](/bootstrap)** - Wrappers for *Bootstrap* components
+- **[Common](/common)** - Many commonly used *Angular* components, services and so on ...
+- **[Error handling](/error-handling)** - Http interceptors, error handlers
 - **[Grid](/grid)** - Modular *grid* component for displaying *table* or *table like* data
-- **[Markdown help](https://github.com/ressurectit/ng-md-help)** - Utilities for displaying *Markdown*
-- **[Notifications](https://github.com/ressurectit/ng-notifications)** - Services and components used for displaying notifications
+- **[Markdown help](/md-help)** - Utilities for displaying *Markdown*
+- **[Notifications](/notifications)** - Services and components used for displaying notifications
 - **[Rest](/rest)** - Base class and decorators for creating *REST* services
 - **[Select](/select)** - Modular *select* component used for options selection
-- **[Translate extensions](https://github.com/ressurectit/ng-translate-extensions)** - Extensions used for *@ngx-translate*
+- **[Translate extensions](/translate-extensions)** - Extensions used for *@ngx-translate*
 - **[Types](https://github.com/ressurectit/ng-types)** - *Typings* used for compilation, not only *Angular*
 
 *Javascript project is:

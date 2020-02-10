@@ -4,6 +4,26 @@
         "title": "Home"
     },
     {
+        "mdPath": "animations",
+        "title": "Animations"
+    },
+    {
+        "mdPath": "authentication",
+        "title": "Authentication"
+    },
+    {
+        "mdPath": "bootstrap",
+        "title": "Bootstrap"
+    },
+    {
+        "mdPath": "common",
+        "title": "Common"
+    },
+    {
+        "mdPath": "error-handling",
+        "title": "Error handling"
+    },
+    {
         "mdPath": "grid",
         "title": "Grid",
         "children":
@@ -35,6 +55,14 @@
         ]
     },
     {
+        "mdPath": "md-help",
+        "title": "MD help"
+    },
+    {
+        "mdPath": "notifications",
+        "title": "Notifications"
+    },
+    {
         "mdPath": "rest",
         "title": "Rest"
     },
@@ -43,14 +71,7 @@
         "title": "Select"
     },
     {
-        "mdPath": "another",
-        "title": "Another one",
-        "children":
-        [
-            {
-                "mdPath": "test",
-                "title": "Test nested"
-            }
-        ]
+        "mdPath": "translate-extensions",
+        "title": "Translate extensions"
     }
 ]

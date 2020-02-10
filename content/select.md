@@ -5,3 +5,6 @@
 </div>
 
 # Angular Select
+
+- [API](/api/ng-select/select)
+- [API Extensions](/api/ng-select-extensions/select-extensions)
