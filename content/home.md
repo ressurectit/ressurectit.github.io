@@ -4,6 +4,8 @@ This project contains *Angular* libraries, *Javascript* libraries and *npm* tool
 
 *Angular* libraries are deployed to *npmjs.com* registry within scope *@anglr*. *Javascript* libraries are deployed to *npmjs.com* registry within scope *@jscrpt*.
 
+**All projects samples are live samples. For each live sample you can view running sources that are used for displaying sample by clicking on `</>` icon.**
+
 *Angular* projects are:
 
 - **[Animations](/animations)** - Prebuilt angular animations (*triggers*)
