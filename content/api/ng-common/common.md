@@ -11,6 +11,9 @@
 |  [CommonModule](./common.commonmodule.md) | Module for common components, pipes and directives |
 |  [CookiePermanentStorageService](./common.cookiepermanentstorageservice.md) | Implementation of permanent storage using cookies |
 |  [CookieService](./common.cookieservice.md) | Class that is used as wrapper for working with cookies |
+|  [DebugDataComponent](./common.debugdatacomponent.md) | Component used for displaying debug data |
+|  [DebugDataEnabledService](./common.debugdataenabledservice.md) | Service used for handling enabled state for debug data component |
+|  [DebugDataModule](./common.debugdatamodule.md) | Module that contains debug data component |
 |  [GlobalizationService](./common.globalizationservice.md) | Globalization service for handling globalization changes |
 |  [IgnoredInterceptorsService](./common.ignoredinterceptorsservice.md) | Service used for disabling specific http client interceptor for one call, if you add interceptor you want to disable before call it will be disabled |
 |  [IsNaNPipe](./common.isnanpipe.md) | Returns true if object is NaN |

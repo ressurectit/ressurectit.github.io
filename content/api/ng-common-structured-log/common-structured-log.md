@@ -11,13 +11,15 @@
 |  [ConsoleComponent](./common-structured-log.consolecomponent.md) | Component used for displaying console logs |
 |  [ConsoleComponentSinkService](./common-structured-log.consolecomponentsinkservice.md) | Sink that is used for storing logs in <code>ConsoleComponent</code> |
 |  [ConsoleLogModule](./common-structured-log.consolelogmodule.md) | Module containing component Console (log) |
+|  [ConsoleSinkConfigService](./common-structured-log.consolesinkconfigservice.md) | Service used as configuration for \*console sink component\* |
 |  [LoggerService](./common-structured-log.loggerservice.md) | Service used for logging using structured-log |
 
 ## Functions
 
 |  Function | Description |
 |  --- | --- |
-|  [consoleComponentSinkFactory()](./common-structured-log.consolecomponentsinkfactory.md) | Factory method for <code>ConsoleComponentSink</code> |
+|  [consoleComponentSinkFactory(configSvc)](./common-structured-log.consolecomponentsinkfactory.md) | Factory method for <code>ConsoleComponentSink</code> |
+|  [isEnabled(level, target)](./common-structured-log.isenabled.md) | Checks if a log event level includes the target log event level. |
 |  [toText(property)](./common-structured-log.totext.md) | Transforms property to text |
 
 ## Interfaces
@@ -31,6 +33,7 @@
 
 |  Variable | Description |
 |  --- | --- |
+|  [CONSOLE\_COMPONENT\_SINK\_SERVICE\_PROVIDER](./common-structured-log.console_component_sink_service_provider.md) | Provider for ConsoleComponentSinkService for logger |
 |  [CONSOLE\_COMPONENT\_SINK\_SERVICE](./common-structured-log.console_component_sink_service.md) | Injection token for obtaining sink service for <code>ConsoleComponent</code> |
 |  [CONSOLE\_COMPONENT\_SINK](./common-structured-log.console_component_sink.md) | Provider for ConsoleComponentSink for logger |
 |  [consoleAnimationTrigger](./common-structured-log.consoleanimationtrigger.md) | Show hide animation for console component |

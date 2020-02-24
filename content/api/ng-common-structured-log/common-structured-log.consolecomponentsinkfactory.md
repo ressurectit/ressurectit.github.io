@@ -9,8 +9,15 @@ Factory method for `ConsoleComponentSink`
 <b>Signature:</b>
 
 ```typescript
-export declare function consoleComponentSinkFactory(): ConsoleComponentSinkService;
+export declare function consoleComponentSinkFactory(configSvc: ConsoleSinkConfigService): ConsoleComponentSinkService;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  configSvc | <code>ConsoleSinkConfigService</code> |  |
+
 <b>Returns:</b>
 
 `ConsoleComponentSinkService`

@@ -12,6 +12,12 @@ Sink that is used for storing logs in `ConsoleComponent`
 export declare class ConsoleComponentSinkService implements Sink, ConsoleComponentSink 
 ```
 
+## Constructors
+
+|  Constructor | Modifiers | Description |
+|  --- | --- | --- |
+|  [(constructor)(\_configSvc)](./common-structured-log.consolecomponentsinkservice._constructor_.md) |  | Constructs a new instance of the <code>ConsoleComponentSinkService</code> class |
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
