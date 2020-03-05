@@ -4,6 +4,8 @@
     </a>
 </div>
 
+@INCLUDEMD#https://raw.githubusercontent.com/ressurectit/ng-error-handling/HEAD/readme.md@
+
 # Angular Error handling
 
-- [API](/api/ng-error-handling/error-handling)
+- [API](/content/api/ng-error-handling/error-handling)

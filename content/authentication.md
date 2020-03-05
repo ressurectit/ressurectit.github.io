@@ -4,6 +4,8 @@
     </a>
 </div>
 
+@INCLUDEMD#https://raw.githubusercontent.com/ressurectit/ng-authentication/HEAD/readme.md@
+
 # Angular Authentication
 
-- [API](/api/ng-authentication/authentication)
+- [API](/content/api/ng-authentication/authentication)

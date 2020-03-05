@@ -4,6 +4,8 @@
     </a>
 </div>
 
+@INCLUDEMD#https://raw.githubusercontent.com/ressurectit/ng-animations/HEAD/readme.md@
+
 # Angular Animations
 
-- [API](/api/ng-animations/animations)
+- [API](/content/api/ng-animations/animations)

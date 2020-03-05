@@ -12,4 +12,4 @@ Order of merging options is following (from lowest priority):
 
 Options provided to `Input` are used only as a object used for merging containing *options* that are used for overriding current options. Since *Grid* is set to `ChangeDetectionStrategy.OnPush`, you have to create new `Object` with only *options* that you want to use as a *patch*. Changing values of existing *options* has no effect.
 
-[Live sample](/SAMPLES_URL/gridSamples/config)
+@SAMPLE#configuration-grid&grid/ConfigurationComponent@

@@ -4,6 +4,8 @@
     </a>
 </div>
 
+@INCLUDEMD#https://raw.githubusercontent.com/ressurectit/ng-notifications/HEAD/readme.md@
+
 # Angular Notifications
 
-- [API](/api/ng-notifications/notifications)
+- [API](/content/api/ng-notifications/notifications)

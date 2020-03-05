@@ -2,6 +2,7 @@
 
 Grouped metadata usage of *Grid*.
 
+- required module `GridModule`, `GroupedGridModule` from `@anglr/grid`
 - html `<ng-grid>` is top level element
     - `<grouped-table-metadata>` used as `MetadataGatherer`
         - `<basic-table-column>` are specified as usual
@@ -21,5 +22,4 @@ Usage of Grid with `<grouped-table-metadata>` which represents GroupedTableMetad
 - group columns metadata in groups are paired by id with columns metadata
 - to display grouped header you must use custom header content renderer GroupedTableHeaderContentRendererComponent
 
-
-[Live sample](/SAMPLES_URL/gridSamples/grouped)
+@SAMPLE#grouped-metadata-grid&grid/GroupedMetadataComponent@

@@ -4,6 +4,8 @@
     </a>
 </div>
 
+@INCLUDEMD#https://raw.githubusercontent.com/ressurectit/ng-translate-extensions/HEAD/readme.md@
+
 # Angular Translate extensions
 
-- [API](/api/ng-translate-extensions/translate-extensions)
+- [API](/content/api/ng-translate-extensions/translate-extensions)

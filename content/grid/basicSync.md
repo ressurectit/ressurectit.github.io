@@ -2,6 +2,7 @@
 
 Basic simple usage of *Grid* with data loaded synchronously. That means all data are provided to grid at once and grid will handle paging and ordering in *javascript*, on browser side. Data can be provided at initialization of grid, or later using extension method (see [Accessing from code](/grid/accessingFromCode)).
 
+- required module `GridModule` from `@anglr/grid`
 - `GridOptions` initialized with
     - `SyncDataLoaderComponent` with data provided from *DI*
         - custom ordering method specified, not required
@@ -13,4 +14,4 @@ Basic simple usage of *Grid* with data loaded synchronously. That means all data
             - `id` attribute is used for identification of column, its good to set it to unique string, used for column selection
             - `title` attribute contains text that is displayed in header of each column
 
-[Live sample](/SAMPLES_URL/gridSamples/sync)
+@SAMPLE#basic-sync-grid&grid/BasicSyncComponent@

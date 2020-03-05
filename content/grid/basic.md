@@ -2,6 +2,7 @@
 
 Basic simple usage of *Grid* with data loaded asynchronously from *REST* service and simple columns.
 
+- required module `GridModule` from `@anglr/grid`
 - `GridOptions` initialized with
     - default `AsyncDataLoaderComponent` with `dataCallback` for loading data asynchronously from rest
         - callback gets page and items per page which should be obtained
@@ -14,4 +15,4 @@ Basic simple usage of *Grid* with data loaded asynchronously from *REST* service
             - `id` attribute is used for identification of column, its good to set it to unique string, used for column selection
             - `title` attribute contains text that is displayed in header of each column
 
-[Live sample](/SAMPLES_URL/gridSamples)
+@SAMPLE#basic-grid&grid/BasicComponent@

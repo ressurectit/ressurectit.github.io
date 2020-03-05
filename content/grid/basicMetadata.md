@@ -2,6 +2,7 @@
 
 Basic simple usage of *Grid* with all metadata options specified.
 
+- required module `GridModule` from `@anglr/grid`
 - html `<ng-grid>` is top level element
     - `<basic-table-column>` properties
         - name of property that is displayed is provided by `name` attribute, name is not required if custom template is provided, altough it is used as column *name* for ordering
@@ -24,4 +25,4 @@ Basic simple usage of *Grid* with all metadata options specified.
             - cell header templating `<ng-template>` with *id* `headerTemplate` with template context
                 - `column` - Object of column metadata itself
 
-[Live sample](/SAMPLES_URL/gridSamples/metadata)
+@SAMPLE#basic-metadata-grid&grid/BasicMetadataComponent@
