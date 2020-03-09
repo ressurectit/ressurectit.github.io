@@ -9,7 +9,7 @@ Handles click event
 <b>Signature:</b>
 
 ```typescript
-export declare function handleRouterLink(event: MouseEvent, router: Router): boolean;
+export declare function handleRouterLink(event: MouseEvent, router: Router, document: HTMLDocument): boolean;
 ```
 
 ## Parameters
@@ -18,6 +18,7 @@ export declare function handleRouterLink(event: MouseEvent, router: Router): boo
 |  --- | --- | --- |
 |  event | <code>MouseEvent</code> | Mouse event that occured |
 |  router | <code>Router</code> | Router that is used for changing url |
+|  document | <code>HTMLDocument</code> |  |
 
 <b>Returns:</b>
 

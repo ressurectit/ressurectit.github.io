@@ -14,12 +14,14 @@
 |  [MdMenuComponent](./md-help-web.mdmenucomponent.md) | Component used for gathering mdHelp links |
 |  [MdMenuItemDirective](./md-help-web.mdmenuitemdirective.md) | Directive used for highligting active menuitem and also reacts to changes of new menuitem selected |
 |  [RenderMarkdownDirective](./md-help-web.rendermarkdowndirective.md) | Directive that renders markdown inside |
+|  [RenderMarkdownIncludeDirective](./md-help-web.rendermarkdownincludedirective.md) | Directive used for custom rendering of markdown with support of INCLUDEMD syntax |
 
 ## Functions
 
 |  Function | Description |
 |  --- | --- |
+|  [getCurrentUrlPrefix(document)](./md-help-web.getcurrenturlprefix.md) | Gets current URL prefix (contains protocol and host) |
 |  [handleHelpServiceError(showNotFound, notifications)](./md-help-web.handlehelpserviceerror.md) | Handles help service error |
-|  [handleRouterLink(event, router)](./md-help-web.handlerouterlink.md) | Handles click event |
+|  [handleRouterLink(event, router, document)](./md-help-web.handlerouterlink.md) | Handles click event |
 |  [renderMarkdown(markdown, router, route, baseUrl, assetsPathPrefix)](./md-help-web.rendermarkdown.md) | Renders markdown to html |
 

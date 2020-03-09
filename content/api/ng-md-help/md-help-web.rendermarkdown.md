@@ -9,7 +9,7 @@ Renders markdown to html
 <b>Signature:</b>
 
 ```typescript
-export declare function renderMarkdown(markdown: string, router: Router, route: ActivatedRoute, baseUrl: string, assetsPathPrefix?: string): string;
+export declare function renderMarkdown(markdown: string, router: Router, route: ActivatedRoute, baseUrl?: string, assetsPathPrefix?: string): string;
 ```
 
 ## Parameters
