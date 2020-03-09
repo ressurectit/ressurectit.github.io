@@ -23,5 +23,5 @@
 |  [getCurrentUrlPrefix(document)](./md-help-web.getcurrenturlprefix.md) | Gets current URL prefix (contains protocol and host) |
 |  [handleHelpServiceError(showNotFound, notifications)](./md-help-web.handlehelpserviceerror.md) | Handles help service error |
 |  [handleRouterLink(event, router, document)](./md-help-web.handlerouterlink.md) | Handles click event |
-|  [renderMarkdown(markdown, router, route, baseUrl, assetsPathPrefix)](./md-help-web.rendermarkdown.md) | Renders markdown to html |
+|  [renderMarkdown(markdown, router, route, document, charMap, baseUrl, assetsPathPrefix)](./md-help-web.rendermarkdown.md) | Renders markdown to html |
 

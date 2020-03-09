@@ -18,7 +18,7 @@ export declare function handleRouterLink(event: MouseEvent, router: Router, docu
 |  --- | --- | --- |
 |  event | <code>MouseEvent</code> | Mouse event that occured |
 |  router | <code>Router</code> | Router that is used for changing url |
-|  document | <code>HTMLDocument</code> |  |
+|  document | <code>HTMLDocument</code> | HTML document instance |
 
 <b>Returns:</b>
 

@@ -9,7 +9,7 @@ Renders markdown to html
 <b>Signature:</b>
 
 ```typescript
-export declare function renderMarkdown(markdown: string, router: Router, route: ActivatedRoute, baseUrl?: string, assetsPathPrefix?: string): string;
+export declare function renderMarkdown(markdown: string, router: Router, route: ActivatedRoute, document: HTMLDocument, charMap?: Object, baseUrl?: string, assetsPathPrefix?: string): string;
 ```
 
 ## Parameters
@@ -19,6 +19,8 @@ export declare function renderMarkdown(markdown: string, router: Router, route: 
 |  markdown | <code>string</code> | Markdown that will be rendered to html |
 |  router | <code>Router</code> | Angular router used for generating links |
 |  route | <code>ActivatedRoute</code> | Current route used during generation of relative links |
+|  document | <code>HTMLDocument</code> | HTML document instance |
+|  charMap | <code>Object</code> | Char map used for normalization of ids and anchor fragments |
 |  baseUrl | <code>string</code> | Base url used for routing links |
 |  assetsPathPrefix | <code>string</code> | Path for static assets |
 

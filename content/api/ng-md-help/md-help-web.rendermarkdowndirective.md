@@ -32,6 +32,7 @@ export declare class RenderMarkdownDirective implements OnChanges
 |  [\_router](./md-help-web.rendermarkdowndirective._router.md) |  | <code>Router</code> |  |
 |  [assetsPathPrefix](./md-help-web.rendermarkdowndirective.assetspathprefix.md) |  | <code>string</code> | Path for static assets |
 |  [baseUrl](./md-help-web.rendermarkdowndirective.baseurl.md) |  | <code>string</code> | Base url for md |
+|  [charMap](./md-help-web.rendermarkdowndirective.charmap.md) |  | <code>Object</code> | Charmap used for normalization |
 |  [renderMarkdown](./md-help-web.rendermarkdowndirective.rendermarkdown.md) |  | <code>string</code> | Markdown string to be rendered |
 |  [source](./md-help-web.rendermarkdowndirective.source.md) |  | <code>string</code> | Source string, used for obtaining markdown, using help service |
 

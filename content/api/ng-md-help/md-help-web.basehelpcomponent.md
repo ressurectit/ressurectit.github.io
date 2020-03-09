@@ -24,6 +24,7 @@ export declare abstract class BaseHelpComponent implements AfterViewInit
 |  --- | --- | --- | --- |
 |  [\_assetsPathPrefix](./md-help-web.basehelpcomponent._assetspathprefix.md) |  | <code>string</code> | Path for static assets |
 |  [\_baseUrl](./md-help-web.basehelpcomponent._baseurl.md) |  | <code>string</code> | Base url for md |
+|  [\_charMap](./md-help-web.basehelpcomponent._charmap.md) |  | <code>Object</code> | Charmap used for normalization |
 |  [\_document](./md-help-web.basehelpcomponent._document.md) |  | <code>HTMLDocument</code> |  |
 |  [\_helpSvc](./md-help-web.basehelpcomponent._helpsvc.md) |  | <code>HelpService</code> |  |
 |  [\_isBrowser](./md-help-web.basehelpcomponent._isbrowser.md) |  | <code>boolean</code> | Indication whether is code running in browser |
