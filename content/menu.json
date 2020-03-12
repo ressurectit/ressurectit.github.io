@@ -51,6 +51,10 @@
             {
                 "mdPath": "grid/configuration",
                 "title": "Configuration"
+            },
+            {
+                "mdPath": "grid/customRenderer",
+                "title": "Custom renderer"
             }
         ]
     },

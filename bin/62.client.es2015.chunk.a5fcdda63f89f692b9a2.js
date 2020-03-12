@@ -1,0 +1,2 @@
+(self.webpackJsonp=self.webpackJsonp||[]).push([[62],{1133:function(e,s){e.exports='<div class="gallery-content">\r\n    <div *ngFor="let item of data" class="gallery-item">\r\n        <img [src]="item?.source">\r\n    </div>\r\n</div>'}}]);
+//# sourceMappingURL=62.client.es2015.chunk.a5fcdda63f89f692b9a2.js.map

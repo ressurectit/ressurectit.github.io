@@ -1,0 +1,2 @@
+(self.webpackJsonp=self.webpackJsonp||[]).push([[77],{1149:function(e,n){e.exports='<div>Value: {{selectControl?.value | json}}</div>\r\n\r\n<ng-select [selectOptions]="selectOptions" [formControl]="selectControl">\r\n</ng-select>'}}]);
+//# sourceMappingURL=77.client.es2015.chunk.ca0a5543ef734f01b9e3.js.map

@@ -32,3 +32,4 @@ Grid is used for displaying *lists*, that means it does not have to be table lay
 - [Custom metadata gatherer](concept)
 - [Custom grid actions](concept)
 - [Custom grid plugin](concept)
+- [Custom renderer](./grid/customRenderer)
