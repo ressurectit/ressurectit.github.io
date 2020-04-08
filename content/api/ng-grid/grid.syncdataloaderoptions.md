@@ -9,7 +9,7 @@ Sync data loader options
 <b>Signature:</b>
 
 ```typescript
-export interface SyncDataLoaderOptions<TData, TOrdering> extends DataLoaderOptions 
+export interface SyncDataLoaderOptions<TData = any, TOrdering = any> extends DataLoaderOptions 
 ```
 
 ## Properties

@@ -9,22 +9,24 @@ Abstract component for header content renderer
 <b>Signature:</b>
 
 ```typescript
-export declare class HeaderContentRendererAbstractComponent<TData, TOptions extends HeaderContentRendererOptions<CssClassesHeaderContentRenderer>> implements HeaderContentRenderer<SimpleOrdering, BasicTableMetadata<BasicOrderableColumn<TData>>>, GridPluginGeneric<TOptions> 
+export declare abstract class HeaderContentRendererAbstractComponent<TData = any, TOptions extends HeaderContentRendererOptions<CssClassesHeaderContentRenderer> = any> implements HeaderContentRenderer<SimpleOrdering, BasicTableMetadata<BasicOrderableColumn<TData>>>, GridPluginGeneric<TOptions> 
 ```
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(pluginElement, \_changeDetector)](./grid.headercontentrendererabstractcomponent._constructor_.md) |  | Constructs a new instance of the <code>HeaderContentRendererAbstractComponent</code> class |
+|  [(constructor)(pluginElement, gridPlugins, \_changeDetector)](./grid.headercontentrendererabstractcomponent._constructor_.md) |  | Constructs a new instance of the <code>HeaderContentRendererAbstractComponent</code> class |
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [\_changeDetector](./grid.headercontentrendererabstractcomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
+|  [\_gridInitializer](./grid.headercontentrendererabstractcomponent._gridinitializer.md) |  | <code>GridInitializer</code> | Instance of grid initializer |
 |  [\_options](./grid.headercontentrendererabstractcomponent._options.md) |  | <code>TOptions</code> | Options for header content renderer |
-|  [gridPlugins](./grid.headercontentrendererabstractcomponent.gridplugins.md) |  | <code>GridPluginInstances</code> | Grid plugin instances available for this plugin |
+|  [\_ordering](./grid.headercontentrendererabstractcomponent._ordering.md) |  | <code>SimpleOrdering</code> | Current ordering state |
+|  [gridPlugins](./grid.headercontentrendererabstractcomponent.gridplugins.md) |  | <code>GridPluginInstances</code> |  |
 |  [metadata](./grid.headercontentrendererabstractcomponent.metadata.md) |  | <code>BasicTableMetadata&lt;BasicOrderableColumn&lt;TData&gt;&gt;</code> | Metadata used for rendering |
 |  [options](./grid.headercontentrendererabstractcomponent.options.md) |  | <code>TOptions</code> | Options for header content renderer |
 |  [ordering](./grid.headercontentrendererabstractcomponent.ordering.md) |  | <code>SimpleOrdering</code> | Current ordering state |
@@ -35,11 +37,12 @@ export declare class HeaderContentRendererAbstractComponent<TData, TOptions exte
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
+|  [\_initializeOrderingCss()](./grid.headercontentrendererabstractcomponent._initializeorderingcss.md) |  | Initialize ordering css |
 |  [\_resetOrdering()](./grid.headercontentrendererabstractcomponent._resetordering.md) |  | Resets ordering to none |
 |  [initialize()](./grid.headercontentrendererabstractcomponent.initialize.md) |  | Initialize plugin, to be ready to use, initialize communication with other plugins |
 |  [initOptions()](./grid.headercontentrendererabstractcomponent.initoptions.md) |  | Initialize plugin options, all operations required to be done with plugin options are handled here |
 |  [invalidateVisuals()](./grid.headercontentrendererabstractcomponent.invalidatevisuals.md) |  | Explicitly runs invalidation of content (change detection) |
 |  [mergeStringClasses(classes)](./grid.headercontentrendererabstractcomponent.mergestringclasses.md) |  | Merges css classes specified as strings |
 |  [orderBy(meta)](./grid.headercontentrendererabstractcomponent.orderby.md) |  | Applies ordering for specified column |
-|  [resetMetadata()](./grid.headercontentrendererabstractcomponent.resetmetadata.md) |  | Resets metadata to defaults |
+|  [resetMetadata(force)](./grid.headercontentrendererabstractcomponent.resetmetadata.md) |  | Resets metadata to defaults |
 

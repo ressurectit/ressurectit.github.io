@@ -9,7 +9,7 @@ Component that is rendered within dialog
 <b>Signature:</b>
 
 ```typescript
-export interface DialogMetadataSelectorContentComponent<TMetadata> 
+export interface DialogMetadataSelectorContentComponent<TMetadata = any> 
 ```
 
 ## Properties

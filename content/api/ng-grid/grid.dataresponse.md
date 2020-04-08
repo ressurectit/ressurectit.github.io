@@ -9,7 +9,7 @@ Standard data response
 <b>Signature:</b>
 
 ```typescript
-export interface DataResponse<TData> 
+export interface DataResponse<TData = any> 
 ```
 
 ## Properties

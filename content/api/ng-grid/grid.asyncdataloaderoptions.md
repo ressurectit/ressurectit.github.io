@@ -9,7 +9,7 @@ Async data loader options
 <b>Signature:</b>
 
 ```typescript
-export interface AsyncDataLoaderOptions<TData, TOrdering> extends DataLoaderOptions 
+export interface AsyncDataLoaderOptions<TData = any, TOrdering = any> extends DataLoaderOptions 
 ```
 
 ## Properties

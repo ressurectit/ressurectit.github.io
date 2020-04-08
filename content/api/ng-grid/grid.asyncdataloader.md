@@ -9,5 +9,5 @@ Public API for 'AsyncDataLoaderComponent'
 <b>Signature:</b>
 
 ```typescript
-export interface AsyncDataLoader<TData> extends DataLoader<DataResponse<TData>> 
+export interface AsyncDataLoader<TData = any> extends DataLoader<DataResponse<TData>> 
 ```

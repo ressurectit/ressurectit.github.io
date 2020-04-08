@@ -9,7 +9,7 @@ Definition of renderer for header for ContentRenderer
 <b>Signature:</b>
 
 ```typescript
-export interface HeaderContentRenderer<TOrdering, TMetadata> extends GridPlugin 
+export interface HeaderContentRenderer<TOrdering = any, TMetadata = any> extends GridPlugin 
 ```
 
 ## Properties
@@ -24,5 +24,5 @@ export interface HeaderContentRenderer<TOrdering, TMetadata> extends GridPlugin
 
 |  Method | Description |
 |  --- | --- |
-|  [resetMetadata()](./grid.headercontentrenderer.resetmetadata.md) | Resets metadata to defaults |
+|  [resetMetadata(force)](./grid.headercontentrenderer.resetmetadata.md) | Resets metadata to defaults |
 

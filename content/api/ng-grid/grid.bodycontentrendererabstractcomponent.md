@@ -9,7 +9,7 @@ Abstract component for body content renderer
 <b>Signature:</b>
 
 ```typescript
-export declare class BodyContentRendererAbstractComponent<TData, TOptions extends BodyContentRendererOptions<TCssClasses>, TMetadata, TCssClasses> implements BodyContentRenderer<TData, TMetadata>, GridPluginGeneric<TOptions> 
+export declare class BodyContentRendererAbstractComponent<TData = any, TOptions extends BodyContentRendererOptions<TCssClasses> = any, TMetadata = any, TCssClasses = any> implements BodyContentRenderer<TData, TMetadata>, GridPluginGeneric<TOptions> 
 ```
 
 ## Constructors

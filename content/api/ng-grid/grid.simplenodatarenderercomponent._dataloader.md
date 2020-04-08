@@ -9,5 +9,5 @@ Data loader currently used
 <b>Signature:</b>
 
 ```typescript
-protected _dataLoader: DataLoader<DataResponse<any>>;
+protected _dataLoader: DataLoader<DataResponse>;
 ```

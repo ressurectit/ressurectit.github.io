@@ -4,7 +4,7 @@
 
 ## CssDivsContentRendererOptions interface
 
-Options for css divs content renderer
+Options for css grid content renderer
 
 <b>Signature:</b>
 

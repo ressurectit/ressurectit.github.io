@@ -9,5 +9,7 @@ Current ordering state
 <b>Signature:</b>
 
 ```typescript
-ordering: SimpleOrdering;
+get ordering(): SimpleOrdering;
+
+set ordering(ordering: SimpleOrdering);
 ```

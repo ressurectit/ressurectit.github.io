@@ -4,10 +4,10 @@
 
 ## CONTENT\_RENDERER\_TYPE variable
 
-Injection token for 'ContentRenderer<any>' implementation
+Injection token for 'ContentRenderer' implementation
 
 <b>Signature:</b>
 
 ```typescript
-CONTENT_RENDERER_TYPE: InjectionToken<ContentRenderer<any>>
+CONTENT_RENDERER_TYPE: InjectionToken<ContentRenderer>
 ```

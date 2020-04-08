@@ -9,7 +9,7 @@ Gatherer used for gathering metadata for grid
 <b>Signature:</b>
 
 ```typescript
-export interface MetadataGatherer<TMetadata extends GatheredMetadata> 
+export interface MetadataGatherer<TMetadata extends GatheredMetadata = any> 
 ```
 
 ## Example

@@ -9,7 +9,7 @@ Base paging options for every paging
 <b>Signature:</b>
 
 ```typescript
-export interface PagingOptions<TCssClasses> extends VisualPluginOptions<TCssClasses> 
+export interface PagingOptions<TCssClasses = any> extends VisualPluginOptions<TCssClasses> 
 ```
 
 ## Properties

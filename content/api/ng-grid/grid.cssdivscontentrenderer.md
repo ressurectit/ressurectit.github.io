@@ -9,5 +9,5 @@ Public API for CssDivsContentRenderer
 <b>Signature:</b>
 
 ```typescript
-export interface CssDivsContentRenderer<TOrdering> extends ContentRenderer<TOrdering> 
+export interface CssDivsContentRenderer<TOrdering = any> extends ContentRenderer<TOrdering> 
 ```

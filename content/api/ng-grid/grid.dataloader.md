@@ -9,7 +9,7 @@ Data loader plugin interface
 <b>Signature:</b>
 
 ```typescript
-export interface DataLoader<TResult> extends GridPlugin 
+export interface DataLoader<TResult = any> extends GridPlugin 
 ```
 
 ## Properties

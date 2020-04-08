@@ -9,5 +9,5 @@ Public API for VirtualScrollTableHeaderContentRenderer
 <b>Signature:</b>
 
 ```typescript
-export interface VirtualScrollTableHeaderContentRenderer<TOrdering, TMetadata> extends HeaderContentRenderer<TOrdering, TMetadata> 
+export interface VirtualScrollTableHeaderContentRenderer<TOrdering = any, TMetadata = any> extends HeaderContentRenderer<TOrdering, TMetadata> 
 ```

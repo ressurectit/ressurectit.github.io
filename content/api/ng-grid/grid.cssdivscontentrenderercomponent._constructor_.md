@@ -9,7 +9,7 @@ Constructs a new instance of the `CssDivsContentRendererComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(pluginElement: ElementRef, gridPlugins: GridPluginInstances, options?: CssDivsContentRendererOptions);
+constructor(pluginElement: ElementRef, _sanitizer: DomSanitizer, gridPlugins: GridPluginInstances, options?: CssDivsContentRendererOptions, _changeDetector?: ChangeDetectorRef);
 ```
 
 ## Parameters
@@ -17,6 +17,8 @@ constructor(pluginElement: ElementRef, gridPlugins: GridPluginInstances, options
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  pluginElement | <code>ElementRef</code> |  |
+|  \_sanitizer | <code>DomSanitizer</code> |  |
 |  gridPlugins | <code>GridPluginInstances</code> |  |
 |  options | <code>CssDivsContentRendererOptions</code> |  |
+|  \_changeDetector | <code>ChangeDetectorRef</code> |  |
 

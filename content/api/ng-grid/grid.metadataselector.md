@@ -9,7 +9,7 @@ Metadata selector plugin interface
 <b>Signature:</b>
 
 ```typescript
-export interface MetadataSelector<TMetadata> extends GridPlugin 
+export interface MetadataSelector<TMetadata = any> extends GridPlugin 
 ```
 
 ## Properties

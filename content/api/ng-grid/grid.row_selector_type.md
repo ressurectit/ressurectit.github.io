@@ -9,5 +9,5 @@ Injection token for 'RowSelector' implementation
 <b>Signature:</b>
 
 ```typescript
-ROW_SELECTOR_TYPE: InjectionToken<RowSelector<any, any, any>>
+ROW_SELECTOR_TYPE: InjectionToken<RowSelector>
 ```

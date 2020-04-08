@@ -9,7 +9,7 @@ Constructs a new instance of the `CssDivsHeaderContentRendererComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(pluginElement: ElementRef, changeDetector: ChangeDetectorRef, options: CssDivsHeaderContentRendererOptions);
+constructor(pluginElement: ElementRef, changeDetector: ChangeDetectorRef, options: CssDivsHeaderContentRendererOptions, gridPlugins: GridPluginInstances);
 ```
 
 ## Parameters
@@ -19,4 +19,5 @@ constructor(pluginElement: ElementRef, changeDetector: ChangeDetectorRef, option
 |  pluginElement | <code>ElementRef</code> |  |
 |  changeDetector | <code>ChangeDetectorRef</code> |  |
 |  options | <code>CssDivsHeaderContentRendererOptions</code> |  |
+|  gridPlugins | <code>GridPluginInstances</code> |  |
 

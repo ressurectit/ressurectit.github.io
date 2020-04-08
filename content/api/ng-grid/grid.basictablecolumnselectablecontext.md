@@ -9,7 +9,7 @@ Context for basic table column selectable template
 <b>Signature:</b>
 
 ```typescript
-export declare class BasicTableColumnSelectableContext<TData> extends BasicTableColumnContext<TData> 
+export declare class BasicTableColumnSelectableContext<TData = any> extends BasicTableColumnContext<TData> 
 ```
 
 ## Constructors

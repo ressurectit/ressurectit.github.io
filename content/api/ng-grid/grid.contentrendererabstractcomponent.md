@@ -9,7 +9,7 @@ Abstract component for content renderers
 <b>Signature:</b>
 
 ```typescript
-export declare class ContentRendererAbstractComponent<TOrdering, TData, TMetadata, TOptions extends ContentRendererOptions<CssClassesContentRenderer, ContentRendererPlugins>> implements ContentRenderer<TOrdering>, OnDestroy, GridPluginGeneric<TOptions> 
+export declare class ContentRendererAbstractComponent<TOrdering = any, TData = any, TMetadata = any, TOptions extends ContentRendererOptions<CssClassesContentRenderer, ContentRendererPlugins> = any> implements ContentRenderer<TOrdering>, OnDestroy, GridPluginGeneric<TOptions> 
 ```
 
 ## Constructors

@@ -9,7 +9,7 @@ Component used for rendering table header in table content renderer
 <b>Signature:</b>
 
 ```typescript
-export declare class VirtualScrollTableHeaderContentRendererComponent<TData> extends HeaderContentRendererAbstractComponent<TData, VirtualScrollTableHeaderContentRendererOptions> implements VirtualScrollTableHeaderContentRenderer<SimpleOrdering, BasicTableMetadata<BasicOrderableColumn<TData>>> 
+export declare class VirtualScrollTableHeaderContentRendererComponent<TData = any> extends HeaderContentRendererAbstractComponent<TData, VirtualScrollTableHeaderContentRendererOptions> implements VirtualScrollTableHeaderContentRenderer<SimpleOrdering, BasicTableMetadata<BasicOrderableColumn<TData>>> 
 ```
 
 ## Constructors

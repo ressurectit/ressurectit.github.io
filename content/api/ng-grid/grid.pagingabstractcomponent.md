@@ -9,7 +9,7 @@ Abstract class that represents any paging component
 <b>Signature:</b>
 
 ```typescript
-export declare abstract class PagingAbstractComponent<TCssClasses, TOptions extends PagingOptions<TCssClasses>> implements Paging, GridPluginGeneric<TOptions>, OnDestroy 
+export declare abstract class PagingAbstractComponent<TCssClasses = any, TOptions extends PagingOptions<TCssClasses> = any> implements Paging, GridPluginGeneric<TOptions>, OnDestroy 
 ```
 
 ## Constructors
@@ -24,7 +24,7 @@ export declare abstract class PagingAbstractComponent<TCssClasses, TOptions exte
 |  --- | --- | --- | --- |
 |  [\_changeDetector](./grid.pagingabstractcomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
 |  [\_dataChangedSubscription](./grid.pagingabstractcomponent._datachangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes in data |
-|  [\_dataLoader](./grid.pagingabstractcomponent._dataloader.md) |  | <code>DataLoader&lt;DataResponse&lt;any&gt;&gt;</code> | Data loader used within grid |
+|  [\_dataLoader](./grid.pagingabstractcomponent._dataloader.md) |  | <code>DataLoader&lt;DataResponse&gt;</code> | Data loader used within grid |
 |  [\_initialized](./grid.pagingabstractcomponent._initialized.md) |  | <code>boolean</code> | Indication whether is component initialized |
 |  [\_options](./grid.pagingabstractcomponent._options.md) |  | <code>TOptions</code> | Options specific to paging implementation |
 |  [firstItemIndex](./grid.pagingabstractcomponent.firstitemindex.md) |  | <code>number</code> | Zero based index of first displayed item on page |

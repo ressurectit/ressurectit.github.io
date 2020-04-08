@@ -20,6 +20,7 @@
 |  [reinitializeOptions(options)](./grid-extensions.reinitializeoptions.md) | Method reinitialize options for grid |
 |  [resetSelection()](./grid-extensions.resetselection.md) | Resets (deselects) all selection |
 |  [selectAllOnPage(select, predicate)](./grid-extensions.selectallonpage.md) | Selects or deselects all items on current page |
+|  [setOrdering(ordering)](./grid-extensions.setordering.md) | Sets ordering for grid |
 |  [setPage(page)](./grid-extensions.setpage.md) | Sets page for grid |
 |  [setSyncData(data, force)](./grid-extensions.setsyncdata.md) | Sets data for SyncDataLoader |
 |  [showMetadataSelector()](./grid-extensions.showmetadataselector.md) | Shows metadata (column) selector |

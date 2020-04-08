@@ -9,7 +9,7 @@ Renderer used for rendering (data) content
 <b>Signature:</b>
 
 ```typescript
-export interface ContentRenderer<TOrdering> extends GridPlugin 
+export interface ContentRenderer<TOrdering = any> extends GridPlugin 
 ```
 
 ## Properties

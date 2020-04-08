@@ -9,5 +9,5 @@ Options for 'TableBodyContentRendererComponent'
 <b>Signature:</b>
 
 ```typescript
-export interface TableBodyContentRendererOptions extends BodyContentRendererOptions<any> 
+export interface TableBodyContentRendererOptions extends BodyContentRendererOptions 
 ```

@@ -16,7 +16,7 @@ export interface AdvancedMetadataSelectorOptions extends MetadataSelectorOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [cookieName](./grid.advancedmetadataselectoroptions.cookiename.md) | <code>string</code> | Name of cookie storing current metadata status |
 |  [headerColumnGetter](./grid.advancedmetadataselectoroptions.headercolumngetter.md) | <code>(header: HTMLElement) =&gt; number[]</code> | Method that traverse through html and finds html elements that represents header columns |
+|  [storageName](./grid.advancedmetadataselectoroptions.storagename.md) | <code>string</code> | Name of storage storing current metadata status |
 |  [texts](./grid.advancedmetadataselectoroptions.texts.md) | <code>AdvancedMetadataSelectorTexts</code> | Texts that are used within AdvancedMetadataSelector |
 

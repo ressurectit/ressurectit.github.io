@@ -9,5 +9,5 @@ Public API for CssDivsBodyContentRenderer
 <b>Signature:</b>
 
 ```typescript
-export interface CssDivsBodyContentRenderer<TData, TMetadata> extends BodyContentRenderer<TData, TMetadata> 
+export interface CssDivsBodyContentRenderer<TData = any, TMetadata = any> extends BodyContentRenderer<TData, TMetadata> 
 ```

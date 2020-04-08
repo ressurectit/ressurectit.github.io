@@ -11,7 +11,7 @@ This is metadata gatherer which works with `GroupedTableColumnComponent` and `He
 <b>Signature:</b>
 
 ```typescript
-export declare class GroupedTableMetadataGathererComponent<TData> implements AfterContentInit, MetadataGatherer<GroupedTableMetadata<BasicTableColumn<TData>>> 
+export declare class GroupedTableMetadataGathererComponent<TData = any> implements AfterContentInit, MetadataGatherer<GroupedTableMetadata<BasicTableColumn<TData>>> 
 ```
 
 ## Properties

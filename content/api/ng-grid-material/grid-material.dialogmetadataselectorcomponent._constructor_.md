@@ -9,7 +9,7 @@ Constructs a new instance of the `DialogMetadataSelectorComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(gridPlugins: GridPluginInstances, pluginElement: ElementRef, _changeDetector: ChangeDetectorRef, _cookies: CookieService, _dialog: MatDialog, _stringLocalization: StringLocalization, options?: DialogMetadataSelectorOptions<BasicTableMetadata<GridColumn>>);
+constructor(gridPlugins: GridPluginInstances, pluginElement: ElementRef, _changeDetector: ChangeDetectorRef, _storage: PermanentStorage, _dialog: MatDialog, _stringLocalization: StringLocalization, options?: DialogMetadataSelectorOptions<BasicTableMetadata<GridColumn>>);
 ```
 
 ## Parameters
@@ -19,7 +19,7 @@ constructor(gridPlugins: GridPluginInstances, pluginElement: ElementRef, _change
 |  gridPlugins | <code>GridPluginInstances</code> |  |
 |  pluginElement | <code>ElementRef</code> |  |
 |  \_changeDetector | <code>ChangeDetectorRef</code> |  |
-|  \_cookies | <code>CookieService</code> |  |
+|  \_storage | <code>PermanentStorage</code> |  |
 |  \_dialog | <code>MatDialog</code> |  |
 |  \_stringLocalization | <code>StringLocalization</code> |  |
 |  options | <code>DialogMetadataSelectorOptions&lt;BasicTableMetadata&lt;GridColumn&gt;&gt;</code> |  |

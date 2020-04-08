@@ -9,5 +9,5 @@ Public API for 'NoMetadataSelectorComponent'
 <b>Signature:</b>
 
 ```typescript
-export interface NoMetadataSelector<TMetadata> extends MetadataSelector<TMetadata> 
+export interface NoMetadataSelector<TMetadata = any> extends MetadataSelector<TMetadata> 
 ```

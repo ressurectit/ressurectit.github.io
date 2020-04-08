@@ -9,5 +9,5 @@ Public API for 'DialogMetadataSelector'
 <b>Signature:</b>
 
 ```typescript
-export interface DialogMetadataSelector<TMetadata> extends MetadataSelector<TMetadata> 
+export interface DialogMetadataSelector<TMetadata = any> extends MetadataSelector<TMetadata> 
 ```

@@ -9,7 +9,7 @@ Options for advanced table body content renderer
 <b>Signature:</b>
 
 ```typescript
-export interface AdvancedTableBodyContentRendererOptions<TData> extends TableBodyContentRendererOptions 
+export interface AdvancedTableBodyContentRendererOptions<TData = any> extends TableBodyContentRendererOptions 
 ```
 
 ## Properties

@@ -9,7 +9,7 @@ Public API for VirtualScrollTableContentRenderer
 <b>Signature:</b>
 
 ```typescript
-export interface VirtualScrollTableContentRenderer<TOrdering> extends ContentRenderer<TOrdering> 
+export interface VirtualScrollTableContentRenderer<TOrdering = any> extends ContentRenderer<TOrdering> 
 ```
 
 ## Properties

@@ -9,7 +9,7 @@ Component for gathering information about basic table column
 <b>Signature:</b>
 
 ```typescript
-export declare class BasicTableColumnComponent<TData> implements BasicTableColumn<TData> 
+export declare class BasicTableColumnComponent<TData = any> implements BasicTableColumn<TData> 
 ```
 
 ## Properties

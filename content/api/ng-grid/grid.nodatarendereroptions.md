@@ -9,13 +9,13 @@ Base no data renderer options
 <b>Signature:</b>
 
 ```typescript
-export interface NoDataRendererOptions<TCssClasses> extends VisualPluginOptions<TCssClasses> 
+export interface NoDataRendererOptions<TCssClasses = any> extends VisualPluginOptions<TCssClasses> 
 ```
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [template](./grid.nodatarendereroptions.template.md) | <code>TemplateRef&lt;void&gt;</code> | Custom template for no data |
+|  [template](./grid.nodatarendereroptions.template.md) | <code>TemplateRef&lt;NgIfContext&lt;boolean&gt;&gt;</code> | Custom template for no data |
 |  [texts](./grid.nodatarendereroptions.texts.md) | <code>NoDataRendererTexts</code> | Texts that are used within NoDataRenderer |
 

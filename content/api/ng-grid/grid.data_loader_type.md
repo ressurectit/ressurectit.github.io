@@ -4,10 +4,10 @@
 
 ## DATA\_LOADER\_TYPE variable
 
-Injection token for 'DataLoader<any>' implementation
+Injection token for 'DataLoader' implementation
 
 <b>Signature:</b>
 
 ```typescript
-DATA_LOADER_TYPE: InjectionToken<DataLoader<any>>
+DATA_LOADER_TYPE: InjectionToken<DataLoader>
 ```

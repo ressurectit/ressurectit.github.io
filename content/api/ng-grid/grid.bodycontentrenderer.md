@@ -9,7 +9,7 @@ Definition of renderer for body for ContentRenderer
 <b>Signature:</b>
 
 ```typescript
-export interface BodyContentRenderer<TData, TMetadata> extends GridPlugin 
+export interface BodyContentRenderer<TData = any, TMetadata = any> extends GridPlugin 
 ```
 
 ## Properties

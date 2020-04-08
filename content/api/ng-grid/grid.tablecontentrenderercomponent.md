@@ -9,7 +9,7 @@ Component used for 'TableContentRendererComponent'
 <b>Signature:</b>
 
 ```typescript
-export declare class TableContentRendererComponent<TOrdering, TData, TMetadata> extends ContentRendererAbstractComponent<TOrdering, TData, TMetadata, TableContentRendererOptions> implements OnDestroy 
+export declare class TableContentRendererComponent<TOrdering = any, TData = any, TMetadata = any> extends ContentRendererAbstractComponent<TOrdering, TData, TMetadata, TableContentRendererOptions> implements OnDestroy 
 ```
 
 ## Constructors

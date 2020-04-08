@@ -9,7 +9,7 @@ Row selector options
 <b>Signature:</b>
 
 ```typescript
-export interface RowSelectorOptions<TSelectedData, TData, TId> extends PluginOptions 
+export interface RowSelectorOptions<TSelectedData = any, TData = any, TId = any> extends PluginOptions 
 ```
 
 ## Properties

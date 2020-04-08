@@ -9,5 +9,5 @@ No paging options for paging
 <b>Signature:</b>
 
 ```typescript
-export interface NoPagingOptions<TCssClasses> extends PagingOptions<TCssClasses> 
+export interface NoPagingOptions<TCssClasses = any> extends PagingOptions<TCssClasses> 
 ```

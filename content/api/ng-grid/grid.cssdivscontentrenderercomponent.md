@@ -9,12 +9,25 @@ Component used for 'CssDivsContentRendererComponent'
 <b>Signature:</b>
 
 ```typescript
-export declare class CssDivsContentRendererComponent<TOrdering, TData, TMetadata> extends ContentRendererAbstractComponent<TOrdering, TData, TMetadata, CssDivsContentRendererOptions> implements OnDestroy 
+export declare class CssDivsContentRendererComponent<TOrdering = any, TData = any, TMetadata = any> extends ContentRendererAbstractComponent<TOrdering, TData, TMetadata, CssDivsContentRendererOptions> implements OnDestroy 
 ```
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(pluginElement, gridPlugins, options)](./grid.cssdivscontentrenderercomponent._constructor_.md) |  | Constructs a new instance of the <code>CssDivsContentRendererComponent</code> class |
+|  [(constructor)(pluginElement, \_sanitizer, gridPlugins, options, \_changeDetector)](./grid.cssdivscontentrenderercomponent._constructor_.md) |  | Constructs a new instance of the <code>CssDivsContentRendererComponent</code> class |
+
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [cssClass](./grid.cssdivscontentrenderercomponent.cssclass.md) |  | <code>string</code> | Css class applied to grid itself |
+|  [gridTemplateColumns](./grid.cssdivscontentrenderercomponent.gridtemplatecolumns.md) |  | <code>SafeStyle</code> | Sanitized value for grid template columns |
+
+## Methods
+
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [initialize()](./grid.cssdivscontentrenderercomponent.initialize.md) |  | Initiliaze Content Renderer plugin |
 

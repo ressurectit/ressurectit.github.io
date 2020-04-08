@@ -9,5 +9,5 @@ Plugin used for rendering of body
 <b>Signature:</b>
 
 ```typescript
-bodyRenderer?: PluginDescription<BodyContentRenderer<any, any>>;
+bodyRenderer?: PluginDescription<BodyContentRenderer>;
 ```

@@ -9,15 +9,15 @@ Dialog metadata selector options
 <b>Signature:</b>
 
 ```typescript
-export interface DialogMetadataSelectorOptions<TMetadata> extends MetadataSelectorOptions, VisualPluginOptions<CssClassesDialogMetadataSelector> 
+export interface DialogMetadataSelectorOptions<TMetadata = any> extends MetadataSelectorOptions, VisualPluginOptions<CssClassesDialogMetadataSelector> 
 ```
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [cookieName](./grid-material.dialogmetadataselectoroptions.cookiename.md) | <code>string</code> | Name of cookie storing current metadata status |
 |  [dialogComponent](./grid-material.dialogmetadataselectoroptions.dialogcomponent.md) | <code>Type&lt;DialogMetadataSelectorContentComponent&lt;TMetadata&gt;&gt;</code> | Component that is used for handling metadata selection itself |
 |  [showButtonVisible](./grid-material.dialogmetadataselectoroptions.showbuttonvisible.md) | <code>boolean</code> | Indication whether is button for showing metadata selection visible |
+|  [storageName](./grid-material.dialogmetadataselectoroptions.storagename.md) | <code>string</code> | Name of storage storing current metadata status |
 |  [texts](./grid-material.dialogmetadataselectoroptions.texts.md) | <code>DialogMetadataSelectorTexts</code> | Texts that are used within DialogMetadataSelector |
 

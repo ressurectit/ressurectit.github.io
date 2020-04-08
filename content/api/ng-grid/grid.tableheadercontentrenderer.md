@@ -9,5 +9,5 @@ Public API for TableHeaderContentRenderer
 <b>Signature:</b>
 
 ```typescript
-export interface TableHeaderContentRenderer<TOrdering, TMetadata> extends HeaderContentRenderer<TOrdering, TMetadata> 
+export interface TableHeaderContentRenderer<TOrdering = any, TMetadata = any> extends HeaderContentRenderer<TOrdering, TMetadata> 
 ```

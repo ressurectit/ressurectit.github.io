@@ -9,7 +9,7 @@ Constructs a new instance of the `NoPagingComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(pluginElement: ElementRef, changeDetector: ChangeDetectorRef, gridPlugins?: GridPluginInstances, options?: NoPagingOptions<any>);
+constructor(pluginElement: ElementRef, changeDetector: ChangeDetectorRef, gridPlugins?: GridPluginInstances, options?: NoPagingOptions);
 ```
 
 ## Parameters
@@ -19,5 +19,5 @@ constructor(pluginElement: ElementRef, changeDetector: ChangeDetectorRef, gridPl
 |  pluginElement | <code>ElementRef</code> |  |
 |  changeDetector | <code>ChangeDetectorRef</code> |  |
 |  gridPlugins | <code>GridPluginInstances</code> |  |
-|  options | <code>NoPagingOptions&lt;any&gt;</code> |  |
+|  options | <code>NoPagingOptions</code> |  |
 

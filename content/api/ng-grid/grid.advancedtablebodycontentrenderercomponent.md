@@ -9,7 +9,7 @@ Component used for rendering tbody for 'TableContentRenderer' advanced
 <b>Signature:</b>
 
 ```typescript
-export declare class AdvancedTableBodyContentRendererComponent<TData> extends BodyContentRendererAbstractComponent<TData, AdvancedTableBodyContentRendererOptions<TData>, BasicTableMetadata<BasicTableColumn<TData>>, any> 
+export declare class AdvancedTableBodyContentRendererComponent<TData = any> extends BodyContentRendererAbstractComponent<TData, AdvancedTableBodyContentRendererOptions<TData>, BasicTableMetadata<BasicTableColumn<TData>>> 
 ```
 
 ## Constructors

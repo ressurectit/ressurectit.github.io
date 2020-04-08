@@ -9,7 +9,7 @@ Constructs a new instance of the `HeaderContentRendererAbstractComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(pluginElement: ElementRef, _changeDetector: ChangeDetectorRef);
+constructor(pluginElement: ElementRef, gridPlugins: GridPluginInstances, _changeDetector: ChangeDetectorRef);
 ```
 
 ## Parameters
@@ -17,5 +17,6 @@ constructor(pluginElement: ElementRef, _changeDetector: ChangeDetectorRef);
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  pluginElement | <code>ElementRef</code> |  |
+|  gridPlugins | <code>GridPluginInstances</code> |  |
 |  \_changeDetector | <code>ChangeDetectorRef</code> |  |
 

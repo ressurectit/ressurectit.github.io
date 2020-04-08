@@ -9,7 +9,7 @@ Component that is used for gathering metadata for basic table
 <b>Signature:</b>
 
 ```typescript
-export declare class BasicTableMetadataGathererComponent<TData> implements AfterContentInit, MetadataGatherer<BasicTableMetadata<BasicTableColumn<TData>>> 
+export declare class BasicTableMetadataGathererComponent<TData = any> implements AfterContentInit, MetadataGatherer<BasicTableMetadata<BasicTableColumn<TData>>> 
 ```
 
 ## Example

@@ -13,7 +13,7 @@ Working with `BasicRowSelectorComponent` from code should be done using extensio
 <b>Signature:</b>
 
 ```typescript
-export declare class BasicRowSelectorComponent<TSelectedData, TData, TId> implements BasicRowSelector<TSelectedData, TData, TId>, GridPluginGeneric<BasicRowSelectorOptions<TSelectedData, TData, TId>>, OnDestroy 
+export declare class BasicRowSelectorComponent<TSelectedData = any, TData = any, TId = any> implements BasicRowSelector<TSelectedData, TData, TId>, GridPluginGeneric<BasicRowSelectorOptions<TSelectedData, TData, TId>>, OnDestroy 
 ```
 
 ## Example 1
@@ -99,8 +99,8 @@ public ngAfterViewInit()
 {
     this._setSelectedFlags();
 
-    let dataLoader = this.grid.getPlugin<DataLoader<DataResponse<any>>>(DATA_LOADER);
-    let rowSelector = this.grid.getPlugin<RowSelector<any, any, any>>(ROW_SELECTOR);
+    let dataLoader = this.grid.getPlugin<DataLoader<DataResponse>>(DATA_LOADER);
+    let rowSelector = this.grid.getPlugin<RowSelector>(ROW_SELECTOR);
 
     rowSelector.selectedChange.subscribe(() => this._setSelectedFlags());
     dataLoader.resultChange.subscribe(() => this._setSelectedFlags());
@@ -131,7 +131,7 @@ private _setSelectedFlags()
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [\_dataChangedSubscription](./grid.basicrowselectorcomponent._datachangedsubscription.md) |  | <code>Subscription</code> | Subscription for data changes |
-|  [\_dataLoader](./grid.basicrowselectorcomponent._dataloader.md) |  | <code>DataLoader&lt;any&gt;</code> | Data loader used for loading data |
+|  [\_dataLoader](./grid.basicrowselectorcomponent._dataloader.md) |  | <code>DataLoader</code> | Data loader used for loading data |
 |  [\_options](./grid.basicrowselectorcomponent._options.md) |  | <code>BasicRowSelectorOptions&lt;TSelectedData, TData, TId&gt;</code> | Options for grid plugin |
 |  [gridPlugins](./grid.basicrowselectorcomponent.gridplugins.md) |  | <code>GridPluginInstances</code> |  |
 |  [options](./grid.basicrowselectorcomponent.options.md) |  | <code>BasicRowSelectorOptions&lt;TSelectedData, TData, TId&gt;</code> | Options for grid plugin |

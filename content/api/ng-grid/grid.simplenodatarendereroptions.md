@@ -9,5 +9,5 @@ Base simple no data renderer options
 <b>Signature:</b>
 
 ```typescript
-export interface SimpleNoDataRendererOptions<TCssClasses> extends NoDataRendererOptions<TCssClasses> 
+export interface SimpleNoDataRendererOptions<TCssClasses = any> extends NoDataRendererOptions<TCssClasses> 
 ```

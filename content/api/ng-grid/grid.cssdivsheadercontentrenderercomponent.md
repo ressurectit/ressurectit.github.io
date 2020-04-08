@@ -4,19 +4,19 @@
 
 ## CssDivsHeaderContentRendererComponent class
 
-Component used for rendering css divs header in css divs content renderer
+Component used for rendering css grid header in css grid content renderer
 
 <b>Signature:</b>
 
 ```typescript
-export declare class CssDivsHeaderContentRendererComponent<TData> extends HeaderContentRendererAbstractComponent<TData, CssDivsHeaderContentRendererOptions> 
+export declare class CssDivsHeaderContentRendererComponent<TData = any> extends HeaderContentRendererAbstractComponent<TData, CssDivsHeaderContentRendererOptions> 
 ```
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(pluginElement, changeDetector, options)](./grid.cssdivsheadercontentrenderercomponent._constructor_.md) |  | Constructs a new instance of the <code>CssDivsHeaderContentRendererComponent</code> class |
+|  [(constructor)(pluginElement, changeDetector, options, gridPlugins)](./grid.cssdivsheadercontentrenderercomponent._constructor_.md) |  | Constructs a new instance of the <code>CssDivsHeaderContentRendererComponent</code> class |
 
 ## Properties
 

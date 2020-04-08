@@ -4,7 +4,7 @@
 
 ## CssClassesCssDivsBodyContentRenderer interface
 
-Css classes for css divs body content renderer
+Css classes for css grid body content renderer
 
 <b>Signature:</b>
 

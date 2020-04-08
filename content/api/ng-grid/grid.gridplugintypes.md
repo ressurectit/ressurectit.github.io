@@ -16,11 +16,11 @@ export declare class GridPluginTypes
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [contentRenderer](./grid.gridplugintypes.contentrenderer.md) |  | <code>PluginDescription&lt;ContentRenderer&lt;any&gt;&gt;</code> | Renderer that renders obtained data |
-|  [dataLoader](./grid.gridplugintypes.dataloader.md) |  | <code>PluginDescription&lt;DataLoader&lt;any&gt;&gt;</code> | Loader that is used for obtaining data that will be displayed |
-|  [metadataSelector](./grid.gridplugintypes.metadataselector.md) |  | <code>PluginDescription&lt;MetadataSelector&lt;any&gt;&gt;</code> | Metadata selector used for gathering and manipulation with metadata |
+|  [contentRenderer](./grid.gridplugintypes.contentrenderer.md) |  | <code>PluginDescription&lt;ContentRenderer&gt;</code> | Renderer that renders obtained data |
+|  [dataLoader](./grid.gridplugintypes.dataloader.md) |  | <code>PluginDescription&lt;DataLoader&gt;</code> | Loader that is used for obtaining data that will be displayed |
+|  [gridInitializer](./grid.gridplugintypes.gridinitializer.md) |  | <code>PluginDescription&lt;GridInitializer&gt;</code> | Grid initializer component used for obtaining stored grid data |
+|  [metadataSelector](./grid.gridplugintypes.metadataselector.md) |  | <code>PluginDescription&lt;MetadataSelector&gt;</code> | Metadata selector used for gathering and manipulation with metadata |
 |  [noDataRenderer](./grid.gridplugintypes.nodatarenderer.md) |  | <code>PluginDescription&lt;NoDataRenderer&gt;</code> | Renderer used for rendering information that there are no data currently |
 |  [paging](./grid.gridplugintypes.paging.md) |  | <code>PluginDescription&lt;Paging&gt;</code> | Paging component used for applying paging to data |
-|  [pagingInitializer](./grid.gridplugintypes.paginginitializer.md) |  | <code>PluginDescription&lt;PagingInitializer&gt;</code> | Paging initializer component used for obtaining initial paging data |
-|  [rowSelector](./grid.gridplugintypes.rowselector.md) |  | <code>PluginDescription&lt;RowSelector&lt;any, any, any&gt;&gt;</code> | Row selector used for handling row selection |
+|  [rowSelector](./grid.gridplugintypes.rowselector.md) |  | <code>PluginDescription&lt;RowSelector&gt;</code> | Row selector used for handling row selection |
 

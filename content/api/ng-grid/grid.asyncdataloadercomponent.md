@@ -9,7 +9,7 @@ Data loader that allows asynchronous data loading
 <b>Signature:</b>
 
 ```typescript
-export declare class AsyncDataLoaderComponent<TData, TOrdering> extends DataLoaderAbstractComponent<AsyncDataLoaderOptions<TData, TOrdering>, TOrdering, DataResponse<TData>> implements AsyncDataLoader<TData> 
+export declare class AsyncDataLoaderComponent<TData = any, TOrdering = any> extends DataLoaderAbstractComponent<AsyncDataLoaderOptions<TData, TOrdering>, TOrdering, DataResponse<TData>> implements AsyncDataLoader<TData> 
 ```
 
 ## Example 1

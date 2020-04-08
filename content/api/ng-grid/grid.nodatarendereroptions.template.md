@@ -9,5 +9,5 @@ Custom template for no data
 <b>Signature:</b>
 
 ```typescript
-template?: TemplateRef<void>;
+template?: TemplateRef<NgIfContext<boolean>>;
 ```

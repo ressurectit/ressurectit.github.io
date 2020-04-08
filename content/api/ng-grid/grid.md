@@ -22,8 +22,8 @@
 |  [ContentVirtualScrollPagingComponent](./grid.contentvirtualscrollpagingcomponent.md) | Paging that uses scrolling to load data |
 |  [CssDivsBodyContentRendererComponent](./grid.cssdivsbodycontentrenderercomponent.md) | Component used for rendering body for 'CssDivsContentRenderer' |
 |  [CssDivsContentRendererComponent](./grid.cssdivscontentrenderercomponent.md) | Component used for 'CssDivsContentRendererComponent' |
-|  [CssDivsHeaderContentRendererComponent](./grid.cssdivsheadercontentrenderercomponent.md) | Component used for rendering css divs header in css divs content renderer |
-|  [CssGridModule](./grid.cssgridmodule.md) | Module for grid components, allows using css grid and divs for rendering |
+|  [CssDivsHeaderContentRendererComponent](./grid.cssdivsheadercontentrenderercomponent.md) | Component used for rendering css grid header in css grid content renderer |
+|  [CssDivsModule](./grid.cssdivsmodule.md) | Module for grid components, allows using css grid and divs for rendering |
 |  [DataLoaderAbstractComponent](./grid.dataloaderabstractcomponent.md) | Abstract class that represents any data loader component |
 |  [GridComponent](./grid.gridcomponent.md) | Grid component used for rendering grid |
 |  [GridModule](./grid.gridmodule.md) | Module for grid components |
@@ -35,16 +35,17 @@
 |  [HeaderTableGroupColumnComponent](./grid.headertablegroupcolumncomponent.md) | Component for gathering information about table group column |
 |  [HeaderTableGroupComponent](./grid.headertablegroupcomponent.md) | Component for gathering information about table group |
 |  [HeaderTableGroupContext](./grid.headertablegroupcontext.md) | Context for header table group template |
+|  [LimitedRowSelectorComponent](./grid.limitedrowselectorcomponent.md) | Component used for handling row selection with limit to count of selected rows |
 |  [LoadMorePagingComponent](./grid.loadmorepagingcomponent.md) | Paging that uses simple button to load more content |
 |  [METADATA\_GATHERER](./grid.metadata_gatherer.md) | Token for getting component that is used as metadata gatherer |
+|  [NoGridInitializerComponent](./grid.nogridinitializercomponent.md) | Component used for rendering no grid initializer |
 |  [NoMetadataSelectorComponent](./grid.nometadataselectorcomponent.md) | Plugin component for metadata selector, which does not allows selection of metadata |
 |  [NoPagingComponent](./grid.nopagingcomponent.md) | Component used for no paging |
-|  [NoPagingInitializerComponent](./grid.nopaginginitializercomponent.md) | Component used for rendering no paging initializer |
 |  [PageVirtualScrollPagingComponent](./grid.pagevirtualscrollpagingcomponent.md) | Paging that uses scrolling to load data |
 |  [PagingAbstractComponent](./grid.pagingabstractcomponent.md) | Abstract class that represents any paging component |
 |  [PreviousNextPagingComponent](./grid.previousnextpagingcomponent.md) | Component used for rendering paging with next and previous buttons |
-|  [QueryCookiePagingInitializerComponent](./grid.querycookiepaginginitializercomponent.md) | Component used for rendering query cookie paging initializer |
-|  [QueryPagingInitializerComponent](./grid.querypaginginitializercomponent.md) | Component used for rendering query paging initializer |
+|  [QueryGridInitializerComponent](./grid.querygridinitializercomponent.md) | Component used for rendering query grid initializer |
+|  [QueryPermanentStorageGridInitializerComponent](./grid.querypermanentstoragegridinitializercomponent.md) | Component used for rendering query, permanent storage grid initializer |
 |  [SimpleNoDataRendererComponent](./grid.simplenodatarenderercomponent.md) | Component for basic simple no data renderer |
 |  [SyncDataLoaderComponent](./grid.syncdataloadercomponent.md) | Data loader that allows synchronous data loading |
 |  [TableBodyContentRendererComponent](./grid.tablebodycontentrenderercomponent.md) | Component used for rendering tbody for 'TableContentRenderer' |
@@ -58,6 +59,14 @@
 |  --- | --- |
 |  [DataLoaderState](./grid.dataloaderstate.md) | Possible states of data loader |
 |  [PagingPosition](./grid.pagingposition.md) | Available paging position where should be rendered |
+
+## Functions
+
+|  Function | Description |
+|  --- | --- |
+|  [applyRowSelectionBlock(grid, itm, event)](./grid.applyrowselectionblock.md) | Applies block of row selection to grid, if row was not selected checkbox change event will be blocked |
+|  [deserializeSimpleOrdering(ordering)](./grid.deserializesimpleordering.md) | Deserialize ordering |
+|  [serializeSimpleOrdering(ordering)](./grid.serializesimpleordering.md) | Serialize ordering |
 
 ## Interfaces
 
@@ -88,9 +97,9 @@
 |  [CssClassesAdvancedMetadataSelector](./grid.cssclassesadvancedmetadataselector.md) | Css classes for advanced metadata selector |
 |  [CssClassesBasicPaging](./grid.cssclassesbasicpaging.md) | Css classes for basic paging |
 |  [CssClassesContentRenderer](./grid.cssclassescontentrenderer.md) | Css classes for content renderer |
-|  [CssClassesCssDivsBodyContentRenderer](./grid.cssclassescssdivsbodycontentrenderer.md) | Css classes for css divs body content renderer |
-|  [CssClassesCssDivsContentRenderer](./grid.cssclassescssdivscontentrenderer.md) | Css classes for css divs content renderer |
-|  [CssClassesCssDivsHeaderContentRenderer](./grid.cssclassescssdivsheadercontentrenderer.md) | Css classes for css divs header content renderer |
+|  [CssClassesCssDivsBodyContentRenderer](./grid.cssclassescssdivsbodycontentrenderer.md) | Css classes for css grid body content renderer |
+|  [CssClassesCssDivsContentRenderer](./grid.cssclassescssdivscontentrenderer.md) | Css classes for css grid content renderer |
+|  [CssClassesCssDivsHeaderContentRenderer](./grid.cssclassescssdivsheadercontentrenderer.md) | Css classes for css grid header content renderer |
 |  [CssClassesHeaderContentRenderer](./grid.cssclassesheadercontentrenderer.md) | Css classes for header content renderer |
 |  [CssClassesLoadMorePaging](./grid.cssclassesloadmorepaging.md) | Css classes for load more paging |
 |  [CssClassesPreviousNextPaging](./grid.cssclassespreviousnextpaging.md) | Css classes for previous next paging |
@@ -101,7 +110,7 @@
 |  [CssDivsBodyContentRenderer](./grid.cssdivsbodycontentrenderer.md) | Public API for CssDivsBodyContentRenderer |
 |  [CssDivsBodyContentRendererOptions](./grid.cssdivsbodycontentrendereroptions.md) | Options for 'CssDivsBodyContentRendererComponent' |
 |  [CssDivsContentRenderer](./grid.cssdivscontentrenderer.md) | Public API for CssDivsContentRenderer |
-|  [CssDivsContentRendererOptions](./grid.cssdivscontentrendereroptions.md) | Options for css divs content renderer |
+|  [CssDivsContentRendererOptions](./grid.cssdivscontentrendereroptions.md) | Options for css grid content renderer |
 |  [CssDivsHeaderContentRenderer](./grid.cssdivsheadercontentrenderer.md) | Public API for CssDivsHeaderContentRenderer |
 |  [CssDivsHeaderContentRendererOptions](./grid.cssdivsheadercontentrendereroptions.md) | Options for 'CssDivsHeaderContentRendererOptions' |
 |  [DataLoader](./grid.dataloader.md) | Data loader plugin interface |
@@ -110,6 +119,8 @@
 |  [GatheredMetadata](./grid.gatheredmetadata.md) | Base interface for metadata |
 |  [Grid](./grid.grid.md) | Public API for grid |
 |  [GridColumn](./grid.gridcolumn.md) | Basic grid column definition |
+|  [GridInitializer](./grid.gridinitializer.md) | Initializer that is used for initialization (restoring) of grid data and grid plugins data |
+|  [GridInitializerOptions](./grid.gridinitializeroptions.md) | Base grid initializer options for every grid initializer |
 |  [GridOptions](./grid.gridoptions.md) | Describes grid options used for grid |
 |  [GridPlugin](./grid.gridplugin.md) | Grid plugin interface |
 |  [GridPluginGeneric](./grid.gridplugingeneric.md) | Grid plugin generic interface |
@@ -120,6 +131,8 @@
 |  [HeaderContentRendererOptions](./grid.headercontentrendereroptions.md) | Options for 'HeaderContentRenderer' |
 |  [HeaderTableGroup](./grid.headertablegroup.md) | Represents information about group that is used as header group |
 |  [HeaderTableGroupColumn](./grid.headertablegroupcolumn.md) | Represents information about column that is inside of group |
+|  [LimitedRowSelector](./grid.limitedrowselector.md) | Public API for limited row selector |
+|  [LimitedRowSelectorOptions](./grid.limitedrowselectoroptions.md) | Limited row selector options |
 |  [LoadMorePaging](./grid.loadmorepaging.md) | Public API for 'LoadMorePagingComponent' |
 |  [LoadMorePagingOptions](./grid.loadmorepagingoptions.md) | Load more paging options |
 |  [LoadMorePagingTexts](./grid.loadmorepagingtexts.md) | Texts that are used within LoadMorePaging |
@@ -129,26 +142,24 @@
 |  [NoDataRenderer](./grid.nodatarenderer.md) | public API for no data renderer |
 |  [NoDataRendererOptions](./grid.nodatarendereroptions.md) | Base no data renderer options |
 |  [NoDataRendererTexts](./grid.nodatarenderertexts.md) | Texts that are used within NoDataRenderer |
+|  [NoGridInitializer](./grid.nogridinitializer.md) | No grid initializer that does nothing |
+|  [NoGridInitializerOptions](./grid.nogridinitializeroptions.md) | No grid initializer options |
 |  [NoMetadataSelector](./grid.nometadataselector.md) | Public API for 'NoMetadataSelectorComponent' |
 |  [NoMetadataSelectorOptions](./grid.nometadataselectoroptions.md) | No metadata selector options |
 |  [NoPaging](./grid.nopaging.md) | Public API for no paging |
-|  [NoPagingInitializer](./grid.nopaginginitializer.md) | No paging initializer that does nothing |
-|  [NoPagingInitializerOptions](./grid.nopaginginitializeroptions.md) | No paging initializer options |
 |  [NoPagingOptions](./grid.nopagingoptions.md) | No paging options for paging |
 |  [PageVirtualScrollPaging](./grid.pagevirtualscrollpaging.md) | Public API for 'PageVirtualScrollPaging' |
 |  [PageVirtualScrollPagingOptions](./grid.pagevirtualscrollpagingoptions.md) | Page virtual scroll paging options |
 |  [Paging](./grid.paging.md) | Public API for paging |
-|  [PagingInitializer](./grid.paginginitializer.md) | Initializer that is used for initialization of paging |
-|  [PagingInitializerOptions](./grid.paginginitializeroptions.md) | Base paging initializer options for every paging initializer |
 |  [PagingOptions](./grid.pagingoptions.md) | Base paging options for every paging |
 |  [PluginDescription](./grid.plugindescription.md) | Defines interface, that describes minimal set of parameters for specifying plugin for grid |
 |  [PluginOptions](./grid.pluginoptions.md) | Base options for every plugin |
 |  [PreviousNextPaging](./grid.previousnextpaging.md) | Public API for 'PreviousNextPagingComponent' |
 |  [PreviousNextPagingOptions](./grid.previousnextpagingoptions.md) | Previous next paging options |
-|  [QueryCookiePagingInitializer](./grid.querycookiepaginginitializer.md) | Query cookie paging initializer that uses query params for getting and storing paging info |
-|  [QueryCookiePagingInitializerOptions](./grid.querycookiepaginginitializeroptions.md) | Query cookie paging initializer options |
-|  [QueryPagingInitializer](./grid.querypaginginitializer.md) | Query paging initializer that uses query params for getting and storing paging info |
-|  [QueryPagingInitializerOptions](./grid.querypaginginitializeroptions.md) | Query paging initializer options |
+|  [QueryGridInitializer](./grid.querygridinitializer.md) | Query grid initializer that uses query params for getting and storing grid data |
+|  [QueryGridInitializerOptions](./grid.querygridinitializeroptions.md) | Query grid initializer options |
+|  [QueryPermanentStorageGridInitializer](./grid.querypermanentstoragegridinitializer.md) | Query permanentStorage grid initializer that uses query params and permanentStorage for getting and storing grid info |
+|  [QueryPermanentStorageGridInitializerOptions](./grid.querypermanentstoragegridinitializeroptions.md) | Query permanentStorage grid initializer options |
 |  [RowSelector](./grid.rowselector.md) | Public API for row selector |
 |  [RowSelectorOptions](./grid.rowselectoroptions.md) | Row selector options |
 |  [SimpleNoDataRenderer](./grid.simplenodatarenderer.md) | public API for simple no data renderer |
@@ -173,24 +184,24 @@
 |  [BODY\_CONTENT\_RENDERER\_OPTIONS](./grid.body_content_renderer_options.md) | Token for injecting options for content body renderer |
 |  [BODY\_CONTENT\_RENDERER](./grid.body_content_renderer.md) | Constant used for accessing content body renderer in grid |
 |  [CONTENT\_RENDERER\_OPTIONS](./grid.content_renderer_options.md) | Token for injecting options for content renderer |
-|  [CONTENT\_RENDERER\_TYPE](./grid.content_renderer_type.md) | Injection token for 'ContentRenderer<any>' implementation |
+|  [CONTENT\_RENDERER\_TYPE](./grid.content_renderer_type.md) | Injection token for 'ContentRenderer' implementation |
 |  [CONTENT\_RENDERER](./grid.content_renderer.md) | Constant used for accessing content renderer in grid |
 |  [DATA\_LOADER\_OPTIONS](./grid.data_loader_options.md) | Token for injecting options for data loader |
-|  [DATA\_LOADER\_TYPE](./grid.data_loader_type.md) | Injection token for 'DataLoader<any>' implementation |
+|  [DATA\_LOADER\_TYPE](./grid.data_loader_type.md) | Injection token for 'DataLoader' implementation |
 |  [DATA\_LOADER](./grid.data_loader.md) | Constant used for accessing data loader in grid |
+|  [GRID\_INITIALIZER\_OPTIONS](./grid.grid_initializer_options.md) | Token for injecting options for grid initializer |
+|  [GRID\_INITIALIZER\_TYPE](./grid.grid_initializer_type.md) | Injection token for 'GridInitializer' implementation |
+|  [GRID\_INITIALIZER](./grid.grid_initializer.md) | Constant used for accessing grid initializer in grid |
 |  [GRID\_OPTIONS](./grid.grid_options.md) | Injection token for 'GridOptions' |
 |  [GRID\_PLUGIN\_INSTANCES](./grid.grid_plugin_instances.md) | Token used for obtaining 'GridPluginInstances' |
 |  [HEADER\_CONTENT\_RENDERER\_OPTIONS](./grid.header_content_renderer_options.md) | Token for injecting options for content header renderer |
 |  [HEADER\_CONTENT\_RENDERER](./grid.header_content_renderer.md) | Constant used for accessing content header renderer in grid |
 |  [METADATA\_SELECTOR\_OPTIONS](./grid.metadata_selector_options.md) | Token for injecting options for metadata selector |
-|  [METADATA\_SELECTOR\_TYPE](./grid.metadata_selector_type.md) | Injection token for 'MetadataSelector<any>' implementation |
+|  [METADATA\_SELECTOR\_TYPE](./grid.metadata_selector_type.md) | Injection token for 'MetadataSelector' implementation |
 |  [METADATA\_SELECTOR](./grid.metadata_selector.md) | Constant used for accessing metadata selector in grid |
 |  [NO\_DATA\_RENDERER\_OPTIONS](./grid.no_data_renderer_options.md) | Token for injecting options for no data renderer |
 |  [NO\_DATA\_RENDERER\_TYPE](./grid.no_data_renderer_type.md) | Injection token for 'NoDataRenderer' implementation |
 |  [NO\_DATA\_RENDERER](./grid.no_data_renderer.md) | Constant used for accessing no data renderer in grid |
-|  [PAGING\_INITIALIZER\_OPTIONS](./grid.paging_initializer_options.md) | Token for injecting options for paging initializer |
-|  [PAGING\_INITIALIZER\_TYPE](./grid.paging_initializer_type.md) | Injection token for 'PagingInitializer' implementation |
-|  [PAGING\_INITIALIZER](./grid.paging_initializer.md) | Constant used for accessing paging initializer in grid |
 |  [PAGING\_OPTIONS](./grid.paging_options.md) | Token for injecting options for paging |
 |  [PAGING\_TYPE](./grid.paging_type.md) | Injection token for 'Paging' implementation |
 |  [PAGING](./grid.paging.md) | Constant used for accessing paging in grid |

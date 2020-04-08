@@ -9,5 +9,5 @@ Data loader used for loading data
 <b>Signature:</b>
 
 ```typescript
-protected _dataLoader: DataLoader<any>;
+protected _dataLoader: DataLoader;
 ```

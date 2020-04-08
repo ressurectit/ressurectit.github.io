@@ -9,7 +9,7 @@ Options for content renderer
 <b>Signature:</b>
 
 ```typescript
-export interface ContentRendererOptions<TCssClasses extends CssClassesContentRenderer, TPlugins extends ContentRendererPlugins> extends VisualPluginOptions<TCssClasses> 
+export interface ContentRendererOptions<TCssClasses extends CssClassesContentRenderer = any, TPlugins extends ContentRendererPlugins = any> extends VisualPluginOptions<TCssClasses> 
 ```
 
 ## Properties

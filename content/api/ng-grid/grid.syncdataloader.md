@@ -9,5 +9,5 @@ Public API for 'SyncDataLoaderComponent'
 <b>Signature:</b>
 
 ```typescript
-export interface SyncDataLoader<TData> extends DataLoader<DataResponse<TData>> 
+export interface SyncDataLoader<TData = any> extends DataLoader<DataResponse<TData>> 
 ```

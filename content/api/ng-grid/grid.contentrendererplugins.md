@@ -16,6 +16,6 @@ export interface ContentRendererPlugins
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [bodyRenderer](./grid.contentrendererplugins.bodyrenderer.md) | <code>PluginDescription&lt;BodyContentRenderer&lt;any, any&gt;&gt;</code> | Plugin used for rendering of body |
-|  [headerRenderer](./grid.contentrendererplugins.headerrenderer.md) | <code>PluginDescription&lt;HeaderContentRenderer&lt;any, any&gt;&gt;</code> | Plugin used for rendering of header |
+|  [bodyRenderer](./grid.contentrendererplugins.bodyrenderer.md) | <code>PluginDescription&lt;BodyContentRenderer&gt;</code> | Plugin used for rendering of body |
+|  [headerRenderer](./grid.contentrendererplugins.headerrenderer.md) | <code>PluginDescription&lt;HeaderContentRenderer&gt;</code> | Plugin used for rendering of header |
 

@@ -9,5 +9,5 @@ Row selector used for handling row selection
 <b>Signature:</b>
 
 ```typescript
-rowSelector?: PluginDescription<RowSelector<any, any, any>>;
+rowSelector?: PluginDescription<RowSelector>;
 ```

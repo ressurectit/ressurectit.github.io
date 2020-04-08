@@ -9,5 +9,5 @@ Token for injecting options for content body renderer
 <b>Signature:</b>
 
 ```typescript
-BODY_CONTENT_RENDERER_OPTIONS: InjectionToken<VisualPluginOptions<any>>
+BODY_CONTENT_RENDERER_OPTIONS: InjectionToken<VisualPluginOptions>
 ```

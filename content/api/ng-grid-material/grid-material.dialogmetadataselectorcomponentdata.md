@@ -9,7 +9,7 @@ Data that are passed to component that handles metadata
 <b>Signature:</b>
 
 ```typescript
-export interface DialogMetadataSelectorComponentData<TMetadata> 
+export interface DialogMetadataSelectorComponentData<TMetadata = any> 
 ```
 
 ## Properties

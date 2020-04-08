@@ -9,5 +9,5 @@ Public API for 'AdvancedMetadataSelector'
 <b>Signature:</b>
 
 ```typescript
-export interface AdvancedMetadataSelector<TMetadata> extends MetadataSelector<TMetadata> 
+export interface AdvancedMetadataSelector<TMetadata = any> extends MetadataSelector<TMetadata> 
 ```

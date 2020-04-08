@@ -9,5 +9,5 @@ Plugin used for rendering of header
 <b>Signature:</b>
 
 ```typescript
-headerRenderer?: PluginDescription<HeaderContentRenderer<any, any>>;
+headerRenderer?: PluginDescription<HeaderContentRenderer>;
 ```

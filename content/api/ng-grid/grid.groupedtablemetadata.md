@@ -9,7 +9,7 @@ Grouped table metadata, contains columns and metadata for column groups
 <b>Signature:</b>
 
 ```typescript
-export interface GroupedTableMetadata<TColumn extends GridColumn> extends BasicTableMetadata<TColumn> 
+export interface GroupedTableMetadata<TColumn extends GridColumn = any> extends BasicTableMetadata<TColumn> 
 ```
 
 ## Properties

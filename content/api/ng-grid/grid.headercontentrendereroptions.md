@@ -9,5 +9,5 @@ Options for 'HeaderContentRenderer'
 <b>Signature:</b>
 
 ```typescript
-export interface HeaderContentRendererOptions<TCssClasses extends CssClassesHeaderContentRenderer> extends VisualPluginOptions<TCssClasses> 
+export interface HeaderContentRendererOptions<TCssClasses extends CssClassesHeaderContentRenderer = any> extends VisualPluginOptions<TCssClasses> 
 ```

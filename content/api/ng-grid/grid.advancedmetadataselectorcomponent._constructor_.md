@@ -9,7 +9,7 @@ Constructs a new instance of the `AdvancedMetadataSelectorComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(gridPlugins: GridPluginInstances, pluginElement: ElementRef, _changeDetector: ChangeDetectorRef, _cookies: CookieService, _stringLocalization: StringLocalization, options?: AdvancedMetadataSelectorOptions);
+constructor(gridPlugins: GridPluginInstances, pluginElement: ElementRef, _changeDetector: ChangeDetectorRef, _storage: PermanentStorage, _stringLocalization: StringLocalization, options?: AdvancedMetadataSelectorOptions);
 ```
 
 ## Parameters
@@ -19,7 +19,7 @@ constructor(gridPlugins: GridPluginInstances, pluginElement: ElementRef, _change
 |  gridPlugins | <code>GridPluginInstances</code> |  |
 |  pluginElement | <code>ElementRef</code> |  |
 |  \_changeDetector | <code>ChangeDetectorRef</code> |  |
-|  \_cookies | <code>CookieService</code> |  |
+|  \_storage | <code>PermanentStorage</code> |  |
 |  \_stringLocalization | <code>StringLocalization</code> |  |
 |  options | <code>AdvancedMetadataSelectorOptions</code> |  |
 

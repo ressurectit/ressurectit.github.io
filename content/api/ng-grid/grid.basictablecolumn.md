@@ -9,7 +9,7 @@ Basic table column definition
 <b>Signature:</b>
 
 ```typescript
-export interface BasicTableColumn<TData> extends GridColumn 
+export interface BasicTableColumn<TData = any> extends GridColumn 
 ```
 
 ## Properties

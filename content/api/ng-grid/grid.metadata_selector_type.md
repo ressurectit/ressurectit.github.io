@@ -4,10 +4,10 @@
 
 ## METADATA\_SELECTOR\_TYPE variable
 
-Injection token for 'MetadataSelector<any>' implementation
+Injection token for 'MetadataSelector' implementation
 
 <b>Signature:</b>
 
 ```typescript
-METADATA_SELECTOR_TYPE: InjectionToken<MetadataSelector<any>>
+METADATA_SELECTOR_TYPE: InjectionToken<MetadataSelector>
 ```

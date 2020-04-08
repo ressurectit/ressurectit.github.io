@@ -4,8 +4,6 @@
 
 ## HeaderContentRendererAbstractComponent.gridPlugins property
 
-Grid plugin instances available for this plugin
-
 <b>Signature:</b>
 
 ```typescript

@@ -9,5 +9,5 @@ Definition of function that can be executed on grid and returns some data
 <b>Signature:</b>
 
 ```typescript
-export declare type GridFunction<TResult> = (grid: Grid) => TResult;
+export declare type GridFunction<TResult = any> = (grid: Grid) => TResult;
 ```

@@ -9,7 +9,7 @@ Basic table metadata, contains columns
 <b>Signature:</b>
 
 ```typescript
-export interface BasicTableMetadata<TColumn extends GridColumn> extends GatheredMetadata 
+export interface BasicTableMetadata<TColumn extends GridColumn = any> extends GatheredMetadata 
 ```
 
 ## Properties

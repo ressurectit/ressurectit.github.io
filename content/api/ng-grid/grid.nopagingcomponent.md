@@ -9,7 +9,7 @@ Component used for no paging
 <b>Signature:</b>
 
 ```typescript
-export declare class NoPagingComponent extends PagingAbstractComponent<any, NoPagingOptions<any>> implements NoPaging 
+export declare class NoPagingComponent extends PagingAbstractComponent<any, NoPagingOptions> implements NoPaging 
 ```
 
 ## Constructors

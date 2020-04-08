@@ -9,5 +9,5 @@ Metadata selector used for gathering and manipulation with metadata
 <b>Signature:</b>
 
 ```typescript
-metadataSelector?: PluginDescription<MetadataSelector<any>>;
+metadataSelector?: PluginDescription<MetadataSelector>;
 ```

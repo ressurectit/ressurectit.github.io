@@ -9,7 +9,7 @@ Constructs a new instance of the `GridComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(_changeDetector: ChangeDetectorRef, _pluginInstances: GridPluginInstances, options?: GridOptions, pagingType?: Type<Paging>, pagingInitializerType?: Type<PagingInitializer>, dataLoaderType?: Type<DataLoader<any>>, contentRendererType?: Type<ContentRenderer<any>>, metadataSelectorType?: Type<MetadataSelector<any>>, noDataRendererType?: Type<NoDataRenderer>, rowSelectorType?: Type<RowSelector<any, any, any>>);
+constructor(_changeDetector: ChangeDetectorRef, _pluginInstances: GridPluginInstances, options?: GridOptions, pagingType?: Type<Paging>, gridInitializerType?: Type<GridInitializer>, dataLoaderType?: Type<DataLoader>, contentRendererType?: Type<ContentRenderer>, metadataSelectorType?: Type<MetadataSelector>, noDataRendererType?: Type<NoDataRenderer>, rowSelectorType?: Type<RowSelector>);
 ```
 
 ## Parameters
@@ -20,10 +20,10 @@ constructor(_changeDetector: ChangeDetectorRef, _pluginInstances: GridPluginInst
 |  \_pluginInstances | <code>GridPluginInstances</code> |  |
 |  options | <code>GridOptions</code> |  |
 |  pagingType | <code>Type&lt;Paging&gt;</code> |  |
-|  pagingInitializerType | <code>Type&lt;PagingInitializer&gt;</code> |  |
-|  dataLoaderType | <code>Type&lt;DataLoader&lt;any&gt;&gt;</code> |  |
-|  contentRendererType | <code>Type&lt;ContentRenderer&lt;any&gt;&gt;</code> |  |
-|  metadataSelectorType | <code>Type&lt;MetadataSelector&lt;any&gt;&gt;</code> |  |
+|  gridInitializerType | <code>Type&lt;GridInitializer&gt;</code> |  |
+|  dataLoaderType | <code>Type&lt;DataLoader&gt;</code> |  |
+|  contentRendererType | <code>Type&lt;ContentRenderer&gt;</code> |  |
+|  metadataSelectorType | <code>Type&lt;MetadataSelector&gt;</code> |  |
 |  noDataRendererType | <code>Type&lt;NoDataRenderer&gt;</code> |  |
-|  rowSelectorType | <code>Type&lt;RowSelector&lt;any, any, any&gt;&gt;</code> |  |
+|  rowSelectorType | <code>Type&lt;RowSelector&gt;</code> |  |
 

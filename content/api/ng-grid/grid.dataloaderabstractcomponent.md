@@ -9,7 +9,7 @@ Abstract class that represents any data loader component
 <b>Signature:</b>
 
 ```typescript
-export declare abstract class DataLoaderAbstractComponent<TOptions extends DataLoaderOptions, TOrdering, TResult> implements DataLoader<TResult>, GridPluginGeneric<TOptions>, OnDestroy 
+export declare abstract class DataLoaderAbstractComponent<TOptions extends DataLoaderOptions = any, TOrdering = any, TResult = any> implements DataLoader<TResult>, GridPluginGeneric<TOptions>, OnDestroy 
 ```
 
 ## Constructors

@@ -9,7 +9,7 @@ Context for basic table column template
 <b>Signature:</b>
 
 ```typescript
-export declare class BasicTableColumnContext<TData> 
+export declare class BasicTableColumnContext<TData = any> 
 ```
 
 ## Constructors

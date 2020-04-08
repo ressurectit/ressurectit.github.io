@@ -9,5 +9,5 @@ Token for injecting options for no data renderer
 <b>Signature:</b>
 
 ```typescript
-NO_DATA_RENDERER_OPTIONS: InjectionToken<NoDataRendererOptions<any>>
+NO_DATA_RENDERER_OPTIONS: InjectionToken<NoDataRendererOptions>
 ```

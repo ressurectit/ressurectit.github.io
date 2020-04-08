@@ -9,7 +9,7 @@ Component used for rendering body for 'CssDivsContentRenderer'
 <b>Signature:</b>
 
 ```typescript
-export declare class CssDivsBodyContentRendererComponent<TData> extends BodyContentRendererAbstractComponent<TData, CssDivsBodyContentRendererOptions, BasicTableMetadata<BasicTableColumn<TData>>, CssClassesCssDivsBodyContentRenderer> 
+export declare class CssDivsBodyContentRendererComponent<TData = any> extends BodyContentRendererAbstractComponent<TData, CssDivsBodyContentRendererOptions, BasicTableMetadata<BasicTableColumn<TData>>, CssClassesCssDivsBodyContentRenderer> 
 ```
 
 ## Constructors

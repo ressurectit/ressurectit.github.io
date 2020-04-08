@@ -16,7 +16,7 @@ export declare class GridComponent implements OnInit, AfterViewInit, Grid
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(\_changeDetector, \_pluginInstances, options, pagingType, pagingInitializerType, dataLoaderType, contentRendererType, metadataSelectorType, noDataRendererType, rowSelectorType)](./grid.gridcomponent._constructor_.md) |  | Constructs a new instance of the <code>GridComponent</code> class |
+|  [(constructor)(\_changeDetector, \_pluginInstances, options, pagingType, gridInitializerType, dataLoaderType, contentRendererType, metadataSelectorType, noDataRendererType, rowSelectorType)](./grid.gridcomponent._constructor_.md) |  | Constructs a new instance of the <code>GridComponent</code> class |
 
 ## Properties
 

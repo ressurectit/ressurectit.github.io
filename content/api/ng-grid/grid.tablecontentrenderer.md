@@ -9,5 +9,5 @@ Public API for TableContentRenderer
 <b>Signature:</b>
 
 ```typescript
-export interface TableContentRenderer<TOrdering> extends ContentRenderer<TOrdering> 
+export interface TableContentRenderer<TOrdering = any> extends ContentRenderer<TOrdering> 
 ```

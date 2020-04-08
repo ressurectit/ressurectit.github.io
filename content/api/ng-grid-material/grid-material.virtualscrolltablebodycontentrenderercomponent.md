@@ -9,7 +9,7 @@ Component used for rendering tbody for 'TableContentRenderer'
 <b>Signature:</b>
 
 ```typescript
-export declare class VirtualScrollTableBodyContentRendererComponent<TData> extends BodyContentRendererAbstractComponent<TData, VirtualScrollTableBodyContentRendererOptions, BasicTableMetadata<BasicTableColumn<TData>>, any> implements VirtualScrollTableBodyContentRenderer<TData, BasicTableMetadata<BasicTableColumn<TData>>> 
+export declare class VirtualScrollTableBodyContentRendererComponent<TData = any> extends BodyContentRendererAbstractComponent<TData, VirtualScrollTableBodyContentRendererOptions, BasicTableMetadata<BasicTableColumn<TData>>, any> implements VirtualScrollTableBodyContentRenderer<TData, BasicTableMetadata<BasicTableColumn<TData>>> 
 ```
 
 ## Constructors

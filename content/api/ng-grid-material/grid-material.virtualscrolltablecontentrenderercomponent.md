@@ -9,7 +9,7 @@ Component used for 'VirtualScrollTableContentRendererComponent'
 <b>Signature:</b>
 
 ```typescript
-export declare class VirtualScrollTableContentRendererComponent<TOrdering, TData, TMetadata> extends ContentRendererAbstractComponent<TOrdering, TData, TMetadata, VirtualScrollTableContentRendererOptions> implements VirtualScrollTableContentRenderer<TOrdering>, OnDestroy 
+export declare class VirtualScrollTableContentRendererComponent<TOrdering = any, TData = any, TMetadata = any> extends ContentRendererAbstractComponent<TOrdering, TData, TMetadata, VirtualScrollTableContentRendererOptions> implements VirtualScrollTableContentRenderer<TOrdering>, OnDestroy 
 ```
 
 ## Constructors

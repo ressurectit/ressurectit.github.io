@@ -9,7 +9,7 @@ Public API for row selector
 <b>Signature:</b>
 
 ```typescript
-export interface RowSelector<TSelectedData, TData, TId> extends GridPlugin 
+export interface RowSelector<TSelectedData = any, TData = any, TId = any> extends GridPlugin 
 ```
 
 ## Properties

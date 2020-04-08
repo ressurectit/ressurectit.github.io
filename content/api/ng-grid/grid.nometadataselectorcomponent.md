@@ -9,7 +9,7 @@ Plugin component for metadata selector, which does not allows selection of metad
 <b>Signature:</b>
 
 ```typescript
-export declare class NoMetadataSelectorComponent<TMetadata> implements NoMetadataSelector<TMetadata>, GridPluginGeneric<NoMetadataSelectorOptions>, OnDestroy 
+export declare class NoMetadataSelectorComponent<TMetadata = any> implements NoMetadataSelector<TMetadata>, GridPluginGeneric<NoMetadataSelectorOptions>, OnDestroy 
 ```
 
 ## Constructors

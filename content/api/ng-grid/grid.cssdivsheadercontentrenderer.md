@@ -9,5 +9,5 @@ Public API for CssDivsHeaderContentRenderer
 <b>Signature:</b>
 
 ```typescript
-export interface CssDivsHeaderContentRenderer<TOrdering, TMetadata> extends HeaderContentRenderer<TOrdering, TMetadata> 
+export interface CssDivsHeaderContentRenderer<TOrdering = any, TMetadata = any> extends HeaderContentRenderer<TOrdering, TMetadata> 
 ```

@@ -9,5 +9,5 @@ Options for 'VirtualScrollTableBodyContentRendererComponent'
 <b>Signature:</b>
 
 ```typescript
-export interface VirtualScrollTableBodyContentRendererOptions extends BodyContentRendererOptions<any> 
+export interface VirtualScrollTableBodyContentRendererOptions extends BodyContentRendererOptions 
 ```

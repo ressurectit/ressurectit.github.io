@@ -9,7 +9,7 @@ Constructs a new instance of the `TableHeaderContentRendererComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(pluginElement: ElementRef, changeDetector: ChangeDetectorRef, options: TableHeaderContentRendererOptions);
+constructor(pluginElement: ElementRef, changeDetector: ChangeDetectorRef, options: TableHeaderContentRendererOptions, gridPlugins: GridPluginInstances);
 ```
 
 ## Parameters
@@ -19,4 +19,5 @@ constructor(pluginElement: ElementRef, changeDetector: ChangeDetectorRef, option
 |  pluginElement | <code>ElementRef</code> |  |
 |  changeDetector | <code>ChangeDetectorRef</code> |  |
 |  options | <code>TableHeaderContentRendererOptions</code> |  |
+|  gridPlugins | <code>GridPluginInstances</code> |  |
 

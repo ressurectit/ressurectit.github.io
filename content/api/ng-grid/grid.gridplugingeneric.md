@@ -9,7 +9,7 @@ Grid plugin generic interface
 <b>Signature:</b>
 
 ```typescript
-export interface GridPluginGeneric<TOptions> extends GridPlugin 
+export interface GridPluginGeneric<TOptions = any> extends GridPlugin 
 ```
 
 ## Properties

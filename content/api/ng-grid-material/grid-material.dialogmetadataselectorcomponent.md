@@ -16,7 +16,7 @@ export declare class DialogMetadataSelectorComponent implements DialogMetadataSe
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(gridPlugins, pluginElement, \_changeDetector, \_cookies, \_dialog, \_stringLocalization, options)](./grid-material.dialogmetadataselectorcomponent._constructor_.md) |  | Constructs a new instance of the <code>DialogMetadataSelectorComponent</code> class |
+|  [(constructor)(gridPlugins, pluginElement, \_changeDetector, \_storage, \_dialog, \_stringLocalization, options)](./grid-material.dialogmetadataselectorcomponent._constructor_.md) |  | Constructs a new instance of the <code>DialogMetadataSelectorComponent</code> class |
 
 ## Properties
 
@@ -24,7 +24,6 @@ export declare class DialogMetadataSelectorComponent implements DialogMetadataSe
 |  --- | --- | --- | --- |
 |  [\_allMetadata](./grid-material.dialogmetadataselectorcomponent._allmetadata.md) |  | <code>BasicTableMetadata&lt;GridColumn&gt;</code> | All metadata that are available |
 |  [\_changeDetector](./grid-material.dialogmetadataselectorcomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
-|  [\_cookies](./grid-material.dialogmetadataselectorcomponent._cookies.md) |  | <code>CookieService</code> |  |
 |  [\_cssClass](./grid-material.dialogmetadataselectorcomponent._cssclass.md) |  | <code>string</code> | Last applied css class |
 |  [\_dialog](./grid-material.dialogmetadataselectorcomponent._dialog.md) |  | <code>MatDialog</code> |  |
 |  [\_dialogComponent](./grid-material.dialogmetadataselectorcomponent._dialogcomponent.md) |  | <code>Type&lt;DialogMetadataSelectorContentComponent&lt;BasicTableMetadata&lt;GridColumn&gt;&gt;&gt;</code> | Component that is used for handling metadata selection itself |
@@ -33,6 +32,7 @@ export declare class DialogMetadataSelectorComponent implements DialogMetadataSe
 |  [\_metadataForSelection](./grid-material.dialogmetadataselectorcomponent._metadataforselection.md) |  | <code>BasicTableMetadata&lt;GridColumn&gt;</code> | Metadata for selection, contains all metadata in correct order |
 |  [\_metadataGatherer](./grid-material.dialogmetadataselectorcomponent._metadatagatherer.md) |  | <code>MetadataGatherer&lt;BasicTableMetadata&lt;GridColumn&gt;&gt;</code> | Instance of metadata gatherer, which is used for getting initial metadata |
 |  [\_options](./grid-material.dialogmetadataselectorcomponent._options.md) |  | <code>DialogMetadataSelectorOptions&lt;BasicTableMetadata&lt;GridColumn&gt;&gt;</code> | Options for grid plugin |
+|  [\_storage](./grid-material.dialogmetadataselectorcomponent._storage.md) |  | <code>PermanentStorage</code> |  |
 |  [\_stringLocalization](./grid-material.dialogmetadataselectorcomponent._stringlocalization.md) |  | <code>StringLocalization</code> |  |
 |  [\_textsChangedSubscription](./grid-material.dialogmetadataselectorcomponent._textschangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes in texts |
 |  [gridPlugins](./grid-material.dialogmetadataselectorcomponent.gridplugins.md) |  | <code>GridPluginInstances</code> |  |
@@ -49,8 +49,8 @@ export declare class DialogMetadataSelectorComponent implements DialogMetadataSe
 |  [\_initMetadata()](./grid-material.dialogmetadataselectorcomponent._initmetadata.md) |  | Initialize metadata |
 |  [\_initTexts()](./grid-material.dialogmetadataselectorcomponent._inittexts.md) |  | Initialize texts |
 |  [\_initTextsObject(texts)](./grid-material.dialogmetadataselectorcomponent._inittextsobject.md) |  | Initialize texts object |
-|  [\_loadFromCookie()](./grid-material.dialogmetadataselectorcomponent._loadfromcookie.md) |  | Gets stored cookie state |
-|  [\_saveToCookie()](./grid-material.dialogmetadataselectorcomponent._savetocookie.md) |  | Saves current state to cookie |
+|  [\_loadFromStorage()](./grid-material.dialogmetadataselectorcomponent._loadfromstorage.md) |  | Gets stored storage state |
+|  [\_saveToStorage()](./grid-material.dialogmetadataselectorcomponent._savetostorage.md) |  | Saves current state to storage |
 |  [\_setMetadata()](./grid-material.dialogmetadataselectorcomponent._setmetadata.md) |  | Sets visible metadata from all metadata |
 |  [initialize()](./grid-material.dialogmetadataselectorcomponent.initialize.md) |  | Initialize plugin, to be ready to use, initialize communication with other plugins |
 |  [initOptions()](./grid-material.dialogmetadataselectorcomponent.initoptions.md) |  | Initialize plugin options, all operations required to be done with plugin options are handled here |

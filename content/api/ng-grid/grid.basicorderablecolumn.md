@@ -9,7 +9,7 @@ Metadata for column extended with orderable information
 <b>Signature:</b>
 
 ```typescript
-export interface BasicOrderableColumn<TData> extends BasicTableColumn<TData> 
+export interface BasicOrderableColumn<TData = any> extends BasicTableColumn<TData> 
 ```
 
 ## Properties

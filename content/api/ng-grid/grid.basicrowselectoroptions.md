@@ -9,5 +9,5 @@ Basic row selector options
 <b>Signature:</b>
 
 ```typescript
-export interface BasicRowSelectorOptions<TSelectedData, TData, TId> extends RowSelectorOptions<TSelectedData, TData, TId> 
+export interface BasicRowSelectorOptions<TSelectedData = any, TData = any, TId = any> extends RowSelectorOptions<TSelectedData, TData, TId> 
 ```

@@ -23,7 +23,7 @@ export declare class SimpleNoDataRendererComponent implements SimpleNoDataRender
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [\_changeDetector](./grid.simplenodatarenderercomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
-|  [\_dataLoader](./grid.simplenodatarenderercomponent._dataloader.md) |  | <code>DataLoader&lt;DataResponse&lt;any&gt;&gt;</code> | Data loader currently used |
+|  [\_dataLoader](./grid.simplenodatarenderercomponent._dataloader.md) |  | <code>DataLoader&lt;DataResponse&gt;</code> | Data loader currently used |
 |  [\_options](./grid.simplenodatarenderercomponent._options.md) |  | <code>SimpleNoDataRendererOptions&lt;CssClassesSimpleNoDataRenderer&gt;</code> | Options for grid plugin |
 |  [\_stateChangedSubscription](./grid.simplenodatarenderercomponent._statechangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes in state of data loader |
 |  [\_stringLocalization](./grid.simplenodatarenderercomponent._stringlocalization.md) |  | <code>StringLocalization</code> |  |

@@ -9,5 +9,5 @@ Public API for TableBodyContentRenderer
 <b>Signature:</b>
 
 ```typescript
-export interface TableBodyContentRenderer<TData, TMetadata> extends BodyContentRenderer<TData, TMetadata> 
+export interface TableBodyContentRenderer<TData = any, TMetadata = any> extends BodyContentRenderer<TData, TMetadata> 
 ```

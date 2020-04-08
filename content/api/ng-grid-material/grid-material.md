@@ -23,7 +23,6 @@
 |  --- | --- |
 |  [CdkVirtualScrollPaging](./grid-material.cdkvirtualscrollpaging.md) | Public API for 'CdkVirtualScrollPagingComponent' |
 |  [CdkVirtualScrollPagingOptions](./grid-material.cdkvirtualscrollpagingoptions.md) | Cdk virtual scroll paging options |
-|  [CookieState](./grid-material.cookiestate.md) | Cookie state |
 |  [CssClassesCdkVirtualScrollPaging](./grid-material.cssclassescdkvirtualscrollpaging.md) | Css classes for cdk virtual scroll paging |
 |  [CssClassesDialogMetadataSelector](./grid-material.cssclassesdialogmetadataselector.md) | Css classes for dialog metadata selector |
 |  [CssClassesVerticalDragNDropSelection](./grid-material.cssclassesverticaldragndropselection.md) | Css classes for vertical drag n drop selection |
@@ -34,6 +33,7 @@
 |  [DialogMetadataSelectorContentComponent](./grid-material.dialogmetadataselectorcontentcomponent.md) | Component that is rendered within dialog |
 |  [DialogMetadataSelectorOptions](./grid-material.dialogmetadataselectoroptions.md) | Dialog metadata selector options |
 |  [DialogMetadataSelectorTexts](./grid-material.dialogmetadataselectortexts.md) | Texts that are used within DialogMetadataSelector |
+|  [StorageState](./grid-material.storagestate.md) | Storage state |
 |  [VerticalDragNDropSelectionTexts](./grid-material.verticaldragndropselectiontexts.md) | Texts that are used within VerticalDragNDropSelection |
 |  [VirtualScrollTableBodyContentRenderer](./grid-material.virtualscrolltablebodycontentrenderer.md) | Public API for VirtualScrollTableBodyContentRenderer |
 |  [VirtualScrollTableBodyContentRendererOptions](./grid-material.virtualscrolltablebodycontentrendereroptions.md) | Options for 'VirtualScrollTableBodyContentRendererComponent' |

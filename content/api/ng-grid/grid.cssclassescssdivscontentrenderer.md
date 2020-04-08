@@ -4,7 +4,7 @@
 
 ## CssClassesCssDivsContentRenderer interface
 
-Css classes for css divs content renderer
+Css classes for css grid content renderer
 
 <b>Signature:</b>
 

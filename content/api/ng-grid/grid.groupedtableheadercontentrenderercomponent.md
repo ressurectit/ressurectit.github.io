@@ -9,14 +9,14 @@ Component used for rendering table header in table content renderer
 <b>Signature:</b>
 
 ```typescript
-export declare class GroupedTableHeaderContentRendererComponent<TData> extends HeaderContentRendererAbstractComponent<TData, TableHeaderContentRendererOptions> 
+export declare class GroupedTableHeaderContentRendererComponent<TData = any> extends HeaderContentRendererAbstractComponent<TData, TableHeaderContentRendererOptions> 
 ```
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(pluginElement, changeDetector, options)](./grid.groupedtableheadercontentrenderercomponent._constructor_.md) |  | Constructs a new instance of the <code>GroupedTableHeaderContentRendererComponent</code> class |
+|  [(constructor)(pluginElement, changeDetector, options, gridPlugins)](./grid.groupedtableheadercontentrenderercomponent._constructor_.md) |  | Constructs a new instance of the <code>GroupedTableHeaderContentRendererComponent</code> class |
 
 ## Properties
 

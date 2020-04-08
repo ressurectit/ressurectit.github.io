@@ -9,5 +9,5 @@ Public API for VirtualScrollTableBodyContentRenderer
 <b>Signature:</b>
 
 ```typescript
-export interface VirtualScrollTableBodyContentRenderer<TData, TMetadata> extends BodyContentRenderer<TData, TMetadata> 
+export interface VirtualScrollTableBodyContentRenderer<TData = any, TMetadata = any> extends BodyContentRenderer<TData, TMetadata> 
 ```

@@ -9,8 +9,15 @@ Resets metadata to defaults
 <b>Signature:</b>
 
 ```typescript
-resetMetadata(): void;
+resetMetadata(force?: boolean): void;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  force | <code>boolean</code> | Indication whether forcibly reset ordering, otherwise it is reset only if column is not present in displayed metadata |
+
 <b>Returns:</b>
 
 `void`

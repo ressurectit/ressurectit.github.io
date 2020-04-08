@@ -9,5 +9,5 @@ Token for injecting options for paging
 <b>Signature:</b>
 
 ```typescript
-PAGING_OPTIONS: InjectionToken<PagingOptions<any>>
+PAGING_OPTIONS: InjectionToken<PagingOptions>
 ```

@@ -9,7 +9,7 @@ Data loader that allows synchronous data loading
 <b>Signature:</b>
 
 ```typescript
-export declare class SyncDataLoaderComponent<TData, TOrdering> extends DataLoaderAbstractComponent<SyncDataLoaderOptions<TData, TOrdering>, TOrdering, DataResponse<TData>> implements SyncDataLoader<TData> 
+export declare class SyncDataLoaderComponent<TData = any, TOrdering = any> extends DataLoaderAbstractComponent<SyncDataLoaderOptions<TData, TOrdering>, TOrdering, DataResponse<TData>> implements SyncDataLoader<TData> 
 ```
 
 ## Example

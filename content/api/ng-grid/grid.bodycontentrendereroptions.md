@@ -9,5 +9,5 @@ Options for 'BodyContentRenderer'
 <b>Signature:</b>
 
 ```typescript
-export interface BodyContentRendererOptions<TCssClasses> extends VisualPluginOptions<TCssClasses> 
+export interface BodyContentRendererOptions<TCssClasses = any> extends VisualPluginOptions<TCssClasses> 
 ```

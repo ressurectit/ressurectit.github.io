@@ -9,5 +9,5 @@ Renderer that renders obtained data
 <b>Signature:</b>
 
 ```typescript
-contentRenderer?: PluginDescription<ContentRenderer<any>>;
+contentRenderer?: PluginDescription<ContentRenderer>;
 ```

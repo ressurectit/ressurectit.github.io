@@ -9,5 +9,5 @@ Data loader used within grid
 <b>Signature:</b>
 
 ```typescript
-protected _dataLoader?: DataLoader<DataResponse<any>>;
+protected _dataLoader?: DataLoader<DataResponse>;
 ```

@@ -9,5 +9,5 @@ Loader that is used for obtaining data that will be displayed
 <b>Signature:</b>
 
 ```typescript
-dataLoader?: PluginDescription<DataLoader<any>>;
+dataLoader?: PluginDescription<DataLoader>;
 ```

@@ -16,7 +16,7 @@ export declare class AdvancedMetadataSelectorComponent implements AdvancedMetada
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(gridPlugins, pluginElement, \_changeDetector, \_cookies, \_stringLocalization, options)](./grid.advancedmetadataselectorcomponent._constructor_.md) |  | Constructs a new instance of the <code>AdvancedMetadataSelectorComponent</code> class |
+|  [(constructor)(gridPlugins, pluginElement, \_changeDetector, \_storage, \_stringLocalization, options)](./grid.advancedmetadataselectorcomponent._constructor_.md) |  | Constructs a new instance of the <code>AdvancedMetadataSelectorComponent</code> class |
 
 ## Properties
 
