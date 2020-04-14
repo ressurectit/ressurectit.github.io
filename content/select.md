@@ -8,6 +8,20 @@
 
 ## Samples
 
+- [Basic](#basic)
+- [Basic lazy](#basic-lazy)
+- [Multiple](#multiple)
+- [Readonly](#readonly)
+- [Live search](#live-search)
+- [Dynamic](#dynamic)
+- [Custom template](#custom-template)
+- [Custom readonly](#custom-readonly)
+- [Config](#config)
+- [External source](#external-source)
+- [Absolute](#absolute)
+- [Modal popup](#modal-popup)
+- [Edit](#edit)
+
 ### Basic
 
 Basic usage is using only html markup and default `NgSelectOptions` or options provided by DI. Options for select are provided as static values.
@@ -180,3 +194,35 @@ External source allows you to easily create `Directives` that sets *selectOption
     - `ExternalSourceDirective` is applied to element allowing gather additional parameters using `Input`s
 
 @SAMPLE#external-source-select&select/ExternalComponent@
+
+---
+
+### Absolute
+
+Dialog with absolutely positioned popup.
+
+@SAMPLE#absolute-select&select/AbsoluteComponent@
+
+---
+
+### Modal popup
+
+Dialog popup is displayed as *modal dialog*. *Popup* plugin is set using *DialogPopupDirective*. Using default *dialog* content type and default options, this can be changed.
+
+- required module `NgSelectModule` from `@anglr/select` and `NgSelectDialogPopupModule` from `@anglr/select/material`
+- `NgSelectOptions` initialized with default or DI provided defaults, additinally changed in `Directive`
+    - `DialogPopupDirective` applies *dialogPopup* component
+- html `<ng-select>` is top level element
+    - it contains static `<ng-option>` elements
+        - `value` - value that is assigned to this option, if selected this value will be used
+        - `text` - text that is displayed for option
+
+@SAMPLE#modal-popup-select&select/ModalPopupComponent@
+
+---
+
+### Edit
+
+Dialog using `Edit` plugins.
+
+@SAMPLE#edit-select&select/EditComponent@

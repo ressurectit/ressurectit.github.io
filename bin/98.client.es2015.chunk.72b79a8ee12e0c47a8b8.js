@@ -1,0 +1,2 @@
+(self.webpackJsonp=self.webpackJsonp||[]).push([[98],{1176:function(t,e){t.exports=".gallery-content{display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, max-content));grid-auto-rows:200px;column-gap:20px;row-gap:20px}img{object-fit:cover;width:100%;height:100%}\n"}}]);
+//# sourceMappingURL=98.client.es2015.chunk.72b79a8ee12e0c47a8b8.js.map

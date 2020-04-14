@@ -1,0 +1,2 @@
+(self.webpackJsonp=self.webpackJsonp||[]).push([[67],{1174:function(e,r){e.exports='<ng-grid [gridOptions]="gridOptions">\r\n    <gallery-metadata>\r\n        <gallery-item source="test"></gallery-item>\r\n    </gallery-metadata>\r\n</ng-grid>'}}]);
+//# sourceMappingURL=67.client.es2015.chunk.49f6ea3f022173319567.js.map

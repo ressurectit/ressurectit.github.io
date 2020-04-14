@@ -39,9 +39,9 @@ No data renderer plugin can be used for displaying *something* that you want to 
 
 Paging plugin is used for changing of displayed page and items per page from whole set of data. Allows you to split your whole set of data in smaller parts.
 
-### Paging Initializer
+### Grid Initializer
 
-Paging initializer plugin can be used inside of *Paging* and its purpose is to get *default* values of page and items per page during initialization of grid. For example loading items per page from *cookies*, or page from *query string*.
+Grid initializer plugin can be used inside of *Paging* or any other *plugin* and its purpose is to get *default* values for *Grid* data initialization of grid *plugins* from store. For example loading items per page from *cookies*, or page from *query string*, or ordering from *query string*.
 
 ### Row Selector
 
