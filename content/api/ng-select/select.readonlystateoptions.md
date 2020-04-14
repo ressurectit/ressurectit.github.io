@@ -9,5 +9,5 @@ Options for readonly state plugin
 <b>Signature:</b>
 
 ```typescript
-export interface ReadonlyStateOptions<TCssClasses> extends NormalStateOptions<TCssClasses> 
+export interface ReadonlyStateOptions<TCssClasses = any> extends NormalStateOptions<TCssClasses> 
 ```

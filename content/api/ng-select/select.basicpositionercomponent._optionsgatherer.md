@@ -9,5 +9,5 @@ Instance of previous options gatherer, that is used for obtaining available opti
 <b>Signature:</b>
 
 ```typescript
-protected _optionsGatherer: OptionsGatherer<any>;
+protected _optionsGatherer: OptionsGatherer;
 ```

@@ -8,37 +8,19 @@
 
 |  Class | Description |
 |  --- | --- |
-|  [CdkVirtualScrollPagingComponent](./grid-material.cdkvirtualscrollpagingcomponent.md) | Paging that Angular CDK virtual scroll to load more content |
-|  [DialogMetadataSelectorComponent](./grid-material.dialogmetadataselectorcomponent.md) | Component for rendering dialog metadata selector |
-|  [DialogMetadataSelectorModule](./grid-material.dialogmetadataselectormodule.md) | Module allows using of angular material dialog for metadata selector |
-|  [VerticalDragNDropSelectionComponent](./grid-material.verticaldragndropselectioncomponent.md) | Component that is used for handling metadata seletion using vertical drag n drop |
-|  [VirtualScrollTableBodyContentRendererComponent](./grid-material.virtualscrolltablebodycontentrenderercomponent.md) | Component used for rendering tbody for 'TableContentRenderer' |
-|  [VirtualScrollTableContentRendererComponent](./grid-material.virtualscrolltablecontentrenderercomponent.md) | Component used for 'VirtualScrollTableContentRendererComponent' |
-|  [VirtualScrollTableContentRendererModule](./grid-material.virtualscrolltablecontentrenderermodule.md) | Module allows using of angular material virtual scroll within content renderer |
-|  [VirtualScrollTableHeaderContentRendererComponent](./grid-material.virtualscrolltableheadercontentrenderercomponent.md) | Component used for rendering table header in table content renderer |
+|  [BasicDialogPopupComponent](./grid-material.basicdialogpopupcomponent.md) | Basic dialog popup |
+|  [DialogPopupComponent](./grid-material.dialogpopupcomponent.md) | Component used for rendering basic popup with options |
+|  [DialogPopupModule](./grid-material.dialogpopupmodule.md) | Module allows using of angular material dialog for metadata selector |
 
 ## Interfaces
 
 |  Interface | Description |
 |  --- | --- |
-|  [CdkVirtualScrollPaging](./grid-material.cdkvirtualscrollpaging.md) | Public API for 'CdkVirtualScrollPagingComponent' |
-|  [CdkVirtualScrollPagingOptions](./grid-material.cdkvirtualscrollpagingoptions.md) | Cdk virtual scroll paging options |
-|  [CssClassesCdkVirtualScrollPaging](./grid-material.cssclassescdkvirtualscrollpaging.md) | Css classes for cdk virtual scroll paging |
-|  [CssClassesDialogMetadataSelector](./grid-material.cssclassesdialogmetadataselector.md) | Css classes for dialog metadata selector |
-|  [CssClassesVerticalDragNDropSelection](./grid-material.cssclassesverticaldragndropselection.md) | Css classes for vertical drag n drop selection |
-|  [CssClassesVirtualScrollTableContentRenderer](./grid-material.cssclassesvirtualscrolltablecontentrenderer.md) | Css classes for virtual scroll table content renderer |
-|  [CssClassesVirtualScrollTableHeaderContentRenderer](./grid-material.cssclassesvirtualscrolltableheadercontentrenderer.md) | Css classes for virtual scroll table header content renderer |
-|  [DialogMetadataSelector](./grid-material.dialogmetadataselector.md) | Public API for 'DialogMetadataSelector' |
-|  [DialogMetadataSelectorComponentData](./grid-material.dialogmetadataselectorcomponentdata.md) | Data that are passed to component that handles metadata |
-|  [DialogMetadataSelectorContentComponent](./grid-material.dialogmetadataselectorcontentcomponent.md) | Component that is rendered within dialog |
-|  [DialogMetadataSelectorOptions](./grid-material.dialogmetadataselectoroptions.md) | Dialog metadata selector options |
-|  [DialogMetadataSelectorTexts](./grid-material.dialogmetadataselectortexts.md) | Texts that are used within DialogMetadataSelector |
-|  [StorageState](./grid-material.storagestate.md) | Storage state |
-|  [VerticalDragNDropSelectionTexts](./grid-material.verticaldragndropselectiontexts.md) | Texts that are used within VerticalDragNDropSelection |
-|  [VirtualScrollTableBodyContentRenderer](./grid-material.virtualscrolltablebodycontentrenderer.md) | Public API for VirtualScrollTableBodyContentRenderer |
-|  [VirtualScrollTableBodyContentRendererOptions](./grid-material.virtualscrolltablebodycontentrendereroptions.md) | Options for 'VirtualScrollTableBodyContentRendererComponent' |
-|  [VirtualScrollTableContentRenderer](./grid-material.virtualscrolltablecontentrenderer.md) | Public API for VirtualScrollTableContentRenderer |
-|  [VirtualScrollTableContentRendererOptions](./grid-material.virtualscrolltablecontentrendereroptions.md) | Options for virtual scroll table content renderer |
-|  [VirtualScrollTableHeaderContentRenderer](./grid-material.virtualscrolltableheadercontentrenderer.md) | Public API for VirtualScrollTableHeaderContentRenderer |
-|  [VirtualScrollTableHeaderContentRendererOptions](./grid-material.virtualscrolltableheadercontentrendereroptions.md) | Options for 'VirtualScrollTableHeaderContentRendererComponent' |
+|  [BasicDialogPopupOptions](./grid-material.basicdialogpopupoptions.md) | Basic dialog popup options |
+|  [CssClassesBasicDialogPopup](./grid-material.cssclassesbasicdialogpopup.md) | Css classes for basic dialog popup |
+|  [CssClassesDialogPopup](./grid-material.cssclassesdialogpopup.md) | Css classes for dialog popup |
+|  [DialogPopup](./grid-material.dialogpopup.md) | Public API for 'DialogPopupComponent' |
+|  [DialogPopupComponentData](./grid-material.dialogpopupcomponentdata.md) | Data that are passed to component that displays popup |
+|  [DialogPopupContentComponent](./grid-material.dialogpopupcontentcomponent.md) | Component that is rendered within dialog and represents popup |
+|  [DialogPopupOptions](./grid-material.dialogpopupoptions.md) | Dialog popup options |
 

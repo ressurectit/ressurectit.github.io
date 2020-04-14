@@ -11,13 +11,3 @@ Normal state plugin interface
 ```typescript
 export interface NormalState extends NgSelectPlugin 
 ```
-
-## Properties
-
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [cancelOption](./select.normalstate.canceloption.md) | <code>EventEmitter&lt;NgSelectOption&lt;any&gt;&gt;</code> | Occurs when user tries to cancel one of selected values |
-|  [click](./select.normalstate.click.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when user clicks on normal state |
-|  [focus](./select.normalstate.focus.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when normal state gains focus |
-|  [templateGatherer](./select.normalstate.templategatherer.md) | <code>TemplateGatherer</code> | Gatherer used for obtaining custom templates |
-

@@ -9,5 +9,5 @@ Token for injecting options for live search plugin
 <b>Signature:</b>
 
 ```typescript
-LIVE_SEARCH_OPTIONS: InjectionToken<LiveSearchOptions<any>>
+LIVE_SEARCH_OPTIONS: InjectionToken<LiveSearchOptions>
 ```

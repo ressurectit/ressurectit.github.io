@@ -9,5 +9,5 @@ Token for injecting options for popup plugin
 <b>Signature:</b>
 
 ```typescript
-POPUP_OPTIONS: InjectionToken<PopupOptions<any>>
+POPUP_OPTIONS: InjectionToken<PopupOptions>
 ```

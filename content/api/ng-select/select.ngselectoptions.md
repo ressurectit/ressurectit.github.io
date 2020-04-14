@@ -9,7 +9,7 @@ Describes select options used for NgSelect
 <b>Signature:</b>
 
 ```typescript
-export interface NgSelectOptions<TValue> 
+export interface NgSelectOptions<TValue = any> extends PluginBusOptions<TValue> 
 ```
 
 ## Properties
@@ -20,11 +20,5 @@ export interface NgSelectOptions<TValue>
 |  [autoInitialize](./select.ngselectoptions.autoinitialize.md) | <code>boolean</code> | Indication whether NgSelect should be initialized automaticaly during 'NgOnInit' phase |
 |  [cssClasses](./select.ngselectoptions.cssclasses.md) | <code>{}</code> | Css classes applied to ng select component, possible to override only part of classes |
 |  [forceValueCheckOnInit](./select.ngselectoptions.forcevaluecheckoninit.md) | <code>boolean</code> | Indication whether force value check on initialization of select, this allows to change value of form control to value of valueHandler |
-|  [liveSearchFilter](./select.ngselectoptions.livesearchfilter.md) | <code>LiveSearchFilter&lt;TValue&gt;</code> | Method that is used for filtering when live search is running on static data |
-|  [normalizer](./select.ngselectoptions.normalizer.md) | <code>NormalizeFunc&lt;TValue&gt;</code> | Normalizer used for normalizing values |
-|  [optionsGatherer](./select.ngselectoptions.optionsgatherer.md) | <code>OptionsGatherer&lt;TValue&gt;</code> | Instance of options gatherer that is used for obtaining options |
 |  [plugins](./select.ngselectoptions.plugins.md) | <code>NgSelectPluginTypes</code> | Object defining overrides for default plugins, default plugins can be also specified using DI |
-|  [readonly](./select.ngselectoptions.readonly.md) | <code>boolean</code> | Indication whether is NgSelect readonly or not |
-|  [templateGatherer](./select.ngselectoptions.templategatherer.md) | <code>TemplateGatherer</code> | Instance of template gatherer used for obtaining custom templates |
-|  [valueComparer](./select.ngselectoptions.valuecomparer.md) | <code>CompareValueFunc&lt;TValue&gt;</code> | Function of value comparer that is used for comparison of values |
 

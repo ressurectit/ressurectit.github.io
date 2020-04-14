@@ -9,7 +9,7 @@ NgSelect plugin interface
 <b>Signature:</b>
 
 ```typescript
-export interface NgSelectPlugin 
+export interface NgSelectPlugin<TOptions = any, TValue = any> 
 ```
 
 ## Properties
@@ -17,7 +17,8 @@ export interface NgSelectPlugin
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [ngSelectPlugins](./select.ngselectplugin.ngselectplugins.md) | <code>NgSelectPluginInstances</code> | NgSelect plugin instances available for this plugin |
-|  [options](./select.ngselectplugin.options.md) | <code>any</code> | Options for NgSelect plugin |
+|  [options](./select.ngselectplugin.options.md) | <code>TOptions</code> | Options for NgSelect plugin |
+|  [pluginBus](./select.ngselectplugin.pluginbus.md) | <code>PluginBus&lt;TValue&gt;</code> | Plugin bus used in select |
 |  [pluginElement](./select.ngselectplugin.pluginelement.md) | <code>ElementRef</code> | Element that represents plugin |
 
 ## Methods

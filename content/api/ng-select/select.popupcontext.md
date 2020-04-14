@@ -16,6 +16,6 @@ export interface PopupContext
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [$implicit](./select.popupcontext._implicit.md) | <code>NgSelectOption&lt;any&gt;</code> | Instance of plugin itself |
+|  [$implicit](./select.popupcontext._implicit.md) | <code>NgSelectOption</code> | Instance of plugin itself |
 |  [popup](./select.popupcontext.popup.md) | <code>Popup</code> | Instance of plugin itself |
 

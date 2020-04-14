@@ -9,52 +9,12 @@ Component used for rendering basic popup with options
 <b>Signature:</b>
 
 ```typescript
-export declare class BasicPopupComponent implements BasicPopup, NgSelectPluginGeneric<BasicPopupOptions>, AfterViewInit, OnDestroy 
+export declare class BasicPopupComponent extends PopupAbstractComponent<CssClassesBasicPopup, BasicPopupOptions> implements BasicPopup, NgSelectPlugin<BasicPopupOptions>, AfterViewInit, OnDestroy 
 ```
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(ngSelectPlugins, pluginElement, \_changeDetector, options, \_document)](./select.basicpopupcomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicPopupComponent</code> class |
-
-## Properties
-
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [\_changeDetector](./select.basicpopupcomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
-|  [\_clickSubscription](./select.basicpopupcomponent._clicksubscription.md) |  | <code>Subscription</code> | Subscription for click event on normal state |
-|  [\_document](./select.basicpopupcomponent._document.md) |  | <code>HTMLDocument</code> |  |
-|  [\_handleClickOutside](./select.basicpopupcomponent._handleclickoutside.md) |  | <code>(event: MouseEvent) =&gt; void</code> | Handles click outside of select element |
-|  [\_handleVisibilityChange](./select.basicpopupcomponent._handlevisibilitychange.md) |  | <code>(visible: boolean) =&gt; void</code> | Handles visibility change |
-|  [\_keyboardHandler](./select.basicpopupcomponent._keyboardhandler.md) |  | <code>KeyboardHandler</code> | Keyboard handler that is used |
-|  [\_khPopupVisibilityRequestSubscription](./select.basicpopupcomponent._khpopupvisibilityrequestsubscription.md) |  | <code>Subscription</code> | Subscription for popup visibility request from keyboard handler |
-|  [\_normalState](./select.basicpopupcomponent._normalstate.md) |  | <code>NormalState</code> | Normal state that is displayed |
-|  [\_options](./select.basicpopupcomponent._options.md) |  | <code>BasicPopupOptions</code> | Options for NgSelect plugin |
-|  [\_optionsChangeSubscription](./select.basicpopupcomponent._optionschangesubscription.md) |  | <code>Subscription</code> | Subscription for changes of options in options gatherer |
-|  [\_optionsGatherer](./select.basicpopupcomponent._optionsgatherer.md) |  | <code>OptionsGatherer&lt;any&gt;</code> | Instance of previous options gatherer, that is used for obtaining available options |
-|  [\_popupVisible](./select.basicpopupcomponent._popupvisible.md) |  | <code>boolean</code> | Indication whether is popup visible |
-|  [\_valueHandler](./select.basicpopupcomponent._valuehandler.md) |  | <code>ValueHandler&lt;any&gt;</code> | Value handler that is used |
-|  [\_vhPopupVisibilityRequestSubscription](./select.basicpopupcomponent._vhpopupvisibilityrequestsubscription.md) |  | <code>Subscription</code> | Subscription for popup visibility request from value handler |
-|  [ngSelectPlugins](./select.basicpopupcomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
-|  [optionClick](./select.basicpopupcomponent.optionclick.md) |  | <code>EventEmitter&lt;NgSelectOption&lt;any&gt;&gt;</code> | Occurs when user clicks on option, clicked options is passed as argument |
-|  [options](./select.basicpopupcomponent.options.md) |  | <code>BasicPopupOptions</code> | Options for NgSelect plugin |
-|  [optionsGatherer](./select.basicpopupcomponent.optionsgatherer.md) |  | <code>OptionsGatherer&lt;any&gt;</code> | Instance of options gatherer, that is used for obtaining available options |
-|  [pluginElement](./select.basicpopupcomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
-|  [popupElement](./select.basicpopupcomponent.popupelement.md) |  | <code>HTMLElement</code> | Html element that represents popup itself |
-|  [selectElement](./select.basicpopupcomponent.selectelement.md) |  | <code>HTMLElement</code> | HTML element that represents select itself |
-|  [templateGatherer](./select.basicpopupcomponent.templategatherer.md) |  | <code>TemplateGatherer</code> | Gatherer used for obtaining custom templates |
-|  [visibilityChange](./select.basicpopupcomponent.visibilitychange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when visibility of popup has changed |
-
-## Methods
-
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [initialize()](./select.basicpopupcomponent.initialize.md) |  | Initialize plugin, to be ready to use, initialize communication with other plugins |
-|  [initOptions()](./select.basicpopupcomponent.initoptions.md) |  | Initialize plugin options, all operations required to be done with plugin options are handled here |
-|  [invalidateVisuals()](./select.basicpopupcomponent.invalidatevisuals.md) |  | Explicitly runs invalidation of content (change detection) |
-|  [loadOptions()](./select.basicpopupcomponent.loadoptions.md) |  | Loads options |
-|  [ngAfterViewInit()](./select.basicpopupcomponent.ngafterviewinit.md) |  | Called when view was initialized |
-|  [ngOnDestroy()](./select.basicpopupcomponent.ngondestroy.md) |  | Called when component is destroyed |
-|  [togglePopup()](./select.basicpopupcomponent.togglepopup.md) |  | Toggles popup visibility |
+|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, changeDetector, options, document)](./select.basicpopupcomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicPopupComponent</code> class |
 

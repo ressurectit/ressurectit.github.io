@@ -9,7 +9,7 @@ Options for dynamic options gatherer
 <b>Signature:</b>
 
 ```typescript
-export interface DynamicOptionsGathererOptions<TValue> 
+export interface DynamicOptionsGathererOptions<TValue = any> 
 ```
 
 ## Properties

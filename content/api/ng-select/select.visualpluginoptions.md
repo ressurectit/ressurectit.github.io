@@ -9,7 +9,7 @@ Base options for every visual plugin (component)
 <b>Signature:</b>
 
 ```typescript
-export interface VisualPluginOptions<TCssClasses> extends PluginOptions 
+export interface VisualPluginOptions<TCssClasses = any> extends PluginOptions 
 ```
 
 ## Properties

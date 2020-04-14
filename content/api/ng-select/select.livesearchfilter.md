@@ -9,5 +9,5 @@ Callback that is used for filtering static values during live search
 <b>Signature:</b>
 
 ```typescript
-export interface LiveSearchFilter<TValue> 
+export interface LiveSearchFilter<TValue = any> 
 ```

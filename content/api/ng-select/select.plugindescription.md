@@ -9,14 +9,14 @@ Defines interface, that describes minimal set of parameters for specifying plugi
 <b>Signature:</b>
 
 ```typescript
-export interface PluginDescription<PluginType> 
+export interface PluginDescription<PluginType = any> 
 ```
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [instanceCallback](./select.plugindescription.instancecallback.md) | <code>(instance: PluginType &#124; null) =&gt; void</code> | Optional callback used for obtaining dynamic instance of plugin (allows direct communication with plugin) |
+|  [instanceCallback](./select.plugindescription.instancecallback.md) | <code>(instance: NgSelectPlugin &#124; null) =&gt; void</code> | Optional callback used for obtaining dynamic instance of plugin (allows direct communication with plugin) |
 |  [options](./select.plugindescription.options.md) | <code>PluginOptions</code> | Options that will be passed to dynamically instantiated plugin |
 |  [type](./select.plugindescription.type.md) | <code>Type&lt;PluginType&gt;</code> | Type of plugin that will be dynamically instantiated |
 

@@ -4,10 +4,10 @@
 
 ## ValueHandlerBase.normalizer property
 
-Normalizer used for normalizing values, usually when filtering
+Normalizer used for normalizing values
 
 <b>Signature:</b>
 
 ```typescript
-normalizer: NormalizeFunc<TValue>;
+protected get normalizer(): NormalizeFunc<TValue>;
 ```

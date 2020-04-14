@@ -9,7 +9,7 @@ Constructs a new instance of the `ValueHandlerBase` class
 <b>Signature:</b>
 
 ```typescript
-constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef);
+constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef, pluginBus: PluginBus<TValue>);
 ```
 
 ## Parameters
@@ -18,4 +18,5 @@ constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef)
 |  --- | --- | --- |
 |  ngSelectPlugins | <code>NgSelectPluginInstances</code> |  |
 |  pluginElement | <code>ElementRef</code> |  |
+|  pluginBus | <code>PluginBus&lt;TValue&gt;</code> |  |
 

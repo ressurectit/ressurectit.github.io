@@ -9,5 +9,5 @@ Injection token for 'ValueHandler' implementation
 <b>Signature:</b>
 
 ```typescript
-VALUE_HANDLER_TYPE: InjectionToken<Type<ValueHandler<any>>>
+VALUE_HANDLER_TYPE: InjectionToken<Type<ValueHandler>>
 ```

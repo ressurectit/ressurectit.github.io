@@ -9,7 +9,7 @@ Gatherer used for obtaining options for select
 <b>Signature:</b>
 
 ```typescript
-export interface OptionsGatherer<TValue> 
+export interface OptionsGatherer<TValue = any> 
 ```
 
 ## Properties
@@ -21,6 +21,7 @@ export interface OptionsGatherer<TValue>
 |  [ngSelectPlugins](./select.optionsgatherer.ngselectplugins.md) | <code>NgSelectPluginInstances</code> | NgSelect plugin instances available for gatherer |
 |  [options](./select.optionsgatherer.options.md) | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of provided options for select |
 |  [optionsChange](./select.optionsgatherer.optionschange.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of provided options has changed |
+|  [pluginBus](./select.optionsgatherer.pluginbus.md) | <code>PluginBus</code> | Plugin bus used for inter plugin shared events |
 
 ## Methods
 

@@ -9,7 +9,7 @@ Options gatherer used for static options gathering from code
 <b>Signature:</b>
 
 ```typescript
-export declare class CodeOptionsGatherer<TValue> implements OptionsGatherer<TValue> 
+export declare class CodeOptionsGatherer<TValue = any> implements OptionsGatherer<TValue> 
 ```
 
 ## Constructors
@@ -29,6 +29,7 @@ export declare class CodeOptionsGatherer<TValue> implements OptionsGatherer<TVal
 |  [ngSelectPlugins](./select.codeoptionsgatherer.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> | NgSelect plugin instances available for gatherer |
 |  [options](./select.codeoptionsgatherer.options.md) |  | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of provided options for select |
 |  [optionsChange](./select.codeoptionsgatherer.optionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of provided options has changed |
+|  [pluginBus](./select.codeoptionsgatherer.pluginbus.md) |  | <code>PluginBus&lt;TValue&gt;</code> | Plugin bus used for inter plugin shared events |
 
 ## Methods
 

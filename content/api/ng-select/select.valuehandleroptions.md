@@ -11,10 +11,3 @@ Options for value handler plugin
 ```typescript
 export interface ValueHandlerOptions extends PluginOptions 
 ```
-
-## Properties
-
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [multiple](./select.valuehandleroptions.multiple.md) | <code>boolean</code> | Indication that multiple values can be selected |
-

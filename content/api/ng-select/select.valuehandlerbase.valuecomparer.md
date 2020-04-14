@@ -9,5 +9,5 @@ Function of value comparer that is used for comparison of values
 <b>Signature:</b>
 
 ```typescript
-valueComparer: CompareValueFunc<TValue>;
+protected get valueComparer(): CompareValueFunc<TValue>;
 ```

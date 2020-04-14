@@ -9,5 +9,5 @@ Defintion of action that can be executed on NgSelect
 <b>Signature:</b>
 
 ```typescript
-export declare type NgSelectAction<TValue> = (ngSelect: NgSelect<TValue>) => void;
+export declare type NgSelectAction<TValue = any> = (ngSelect: NgSelect<TValue>) => void;
 ```

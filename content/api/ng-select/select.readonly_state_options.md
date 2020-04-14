@@ -9,5 +9,5 @@ Token for injecting options for readonly state plugin
 <b>Signature:</b>
 
 ```typescript
-READONLY_STATE_OPTIONS: InjectionToken<ReadonlyStateOptions<any>>
+READONLY_STATE_OPTIONS: InjectionToken<ReadonlyStateOptions>
 ```

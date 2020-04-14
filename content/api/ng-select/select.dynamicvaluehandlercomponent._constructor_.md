@@ -9,7 +9,7 @@ Constructs a new instance of the `DynamicValueHandlerComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef, options?: DynamicValueHandlerOptions<TValue>);
+constructor(ngSelectPlugins: NgSelectPluginInstances, pluginBus: PluginBus<TValue>, pluginElement: ElementRef, options?: DynamicValueHandlerOptions<TValue>);
 ```
 
 ## Parameters
@@ -17,6 +17,7 @@ constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef,
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  ngSelectPlugins | <code>NgSelectPluginInstances</code> |  |
+|  pluginBus | <code>PluginBus&lt;TValue&gt;</code> |  |
 |  pluginElement | <code>ElementRef</code> |  |
 |  options | <code>DynamicValueHandlerOptions&lt;TValue&gt;</code> |  |
 

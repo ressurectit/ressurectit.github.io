@@ -8,5 +8,6 @@
 
 |  Function | Description |
 |  --- | --- |
+|  [patchOptions(options)](./select-extensions.patchoptions.md) | Method used to patch options without full initialization of NgSelect, only options are initialized |
 |  [reinitializeOptions(options)](./select-extensions.reinitializeoptions.md) | Method reinitialize options for NgSelect |
 

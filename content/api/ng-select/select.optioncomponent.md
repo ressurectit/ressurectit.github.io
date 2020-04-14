@@ -9,7 +9,7 @@ Component used for options in select component
 <b>Signature:</b>
 
 ```typescript
-export declare class OptionComponent<TValue> implements NgSelectOption<TValue> 
+export declare class OptionComponent<TValue = any> implements NgSelectOption<TValue> 
 ```
 
 ## Properties

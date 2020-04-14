@@ -9,39 +9,12 @@ Component used for rendering basic simple normal state of select
 <b>Signature:</b>
 
 ```typescript
-export declare class BasicNormalStateComponent implements BasicNormalState, NgSelectPluginGeneric<BasicNormalStateOptions>, OnDestroy 
+export declare class BasicNormalStateComponent extends NormalStateAbstractComponent<CssClassesBasicNormalState, BasicNormalStateOptions> implements BasicNormalState, NgSelectPlugin<BasicNormalStateOptions>, OnDestroy 
 ```
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(ngSelectPlugins, pluginElement, \_changeDetector, \_stringLocalization, options)](./select.basicnormalstatecomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicNormalStateComponent</code> class |
-
-## Properties
-
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [\_changeDetector](./select.basicnormalstatecomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
-|  [\_destroyed](./select.basicnormalstatecomponent._destroyed.md) |  | <code>boolean</code> | Indication whether was component destroyed |
-|  [\_options](./select.basicnormalstatecomponent._options.md) |  | <code>BasicNormalStateOptions</code> | Options for NgSelect plugin |
-|  [\_stringLocalization](./select.basicnormalstatecomponent._stringlocalization.md) |  | <code>StringLocalization</code> |  |
-|  [\_textsChangedSubscription](./select.basicnormalstatecomponent._textschangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes in texts |
-|  [cancelOption](./select.basicnormalstatecomponent.canceloption.md) |  | <code>EventEmitter&lt;NgSelectOption&lt;any&gt;&gt;</code> | Occurs when user tries to cancel one of selected values |
-|  [click](./select.basicnormalstatecomponent.click.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when user clicks on normal state |
-|  [focus](./select.basicnormalstatecomponent.focus.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when normal state gains focus |
-|  [ngSelectPlugins](./select.basicnormalstatecomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
-|  [options](./select.basicnormalstatecomponent.options.md) |  | <code>BasicNormalStateOptions</code> | Options for NgSelect plugin |
-|  [pluginElement](./select.basicnormalstatecomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
-|  [templateGatherer](./select.basicnormalstatecomponent.templategatherer.md) |  | <code>TemplateGatherer</code> | Gatherer used for obtaining custom templates |
-
-## Methods
-
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [\_initTexts()](./select.basicnormalstatecomponent._inittexts.md) |  | Initialize texts |
-|  [initialize()](./select.basicnormalstatecomponent.initialize.md) |  | Initialize plugin, to be ready to use, initialize communication with other plugins |
-|  [initOptions()](./select.basicnormalstatecomponent.initoptions.md) |  | Initialize plugin options, all operations required to be done with plugin options are handled here |
-|  [invalidateVisuals()](./select.basicnormalstatecomponent.invalidatevisuals.md) |  | Explicitly runs invalidation of content (change detection) |
-|  [ngOnDestroy()](./select.basicnormalstatecomponent.ngondestroy.md) |  | Called when component is destroyed |
+|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, changeDetector, stringLocalization, options)](./select.basicnormalstatecomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicNormalStateComponent</code> class |
 

@@ -11,13 +11,3 @@ Keyboard handler plugin interface
 ```typescript
 export interface KeyboardHandler extends NgSelectPlugin 
 ```
-
-## Properties
-
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [optionSelect](./select.keyboardhandler.optionselect.md) | <code>EventEmitter&lt;NgSelectOption&lt;any&gt;&gt;</code> | Occurs when option was selected using keyboard |
-|  [optionsGatherer](./select.keyboardhandler.optionsgatherer.md) | <code>OptionsGatherer&lt;any&gt;</code> | Instance of options gatherer, that is used for obtaining available options |
-|  [popupVisibilityRequest](./select.keyboardhandler.popupvisibilityrequest.md) | <code>EventEmitter&lt;boolean&gt;</code> | Occurs when there is requested for change of visibility of popup using keyboard |
-|  [selectElement](./select.keyboardhandler.selectelement.md) | <code>HTMLElement</code> | HTML element that represents select itself |
-

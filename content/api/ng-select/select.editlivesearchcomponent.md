@@ -9,30 +9,30 @@ Component used for obtaining edit live search html element
 <b>Signature:</b>
 
 ```typescript
-export declare class EditLiveSearchComponent implements EditLiveSearch, NgSelectPluginGeneric<EditLiveSearchOptions>, OnDestroy 
+export declare class EditLiveSearchComponent implements EditLiveSearch, NgSelectPlugin<EditLiveSearchOptions>, OnDestroy 
 ```
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(ngSelectPlugins, pluginElement, \_changeDetector, \_stringLocalization, options)](./select.editlivesearchcomponent._constructor_.md) |  | Constructs a new instance of the <code>EditLiveSearchComponent</code> class |
+|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, \_changeDetector, \_stringLocalization, options)](./select.editlivesearchcomponent._constructor_.md) |  | Constructs a new instance of the <code>EditLiveSearchComponent</code> class |
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [\_changeDetector](./select.editlivesearchcomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
-|  [\_normalState](./select.editlivesearchcomponent._normalstate.md) |  | <code>NormalState</code> | Normal state plugin used within <code>NgSelect</code> |
 |  [\_options](./select.editlivesearchcomponent._options.md) |  | <code>EditLiveSearchOptions</code> | Options for NgSelect plugin |
 |  [\_popup](./select.editlivesearchcomponent._popup.md) |  | <code>Popup</code> | Popup plugin used within <code>NgSelect</code> |
 |  [\_stringLocalization](./select.editlivesearchcomponent._stringlocalization.md) |  | <code>StringLocalization</code> |  |
 |  [\_textsChangedSubscription](./select.editlivesearchcomponent._textschangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes in texts |
 |  [\_valueChangedSubscription](./select.editlivesearchcomponent._valuechangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes of selected value |
-|  [\_valueHandler](./select.editlivesearchcomponent._valuehandler.md) |  | <code>ValueHandler&lt;any&gt;</code> | Value handler plugin used within <code>NgSelect</code> |
+|  [\_valueHandler](./select.editlivesearchcomponent._valuehandler.md) |  | <code>ValueHandler</code> | Value handler plugin used within <code>NgSelect</code> |
 |  [liveSearchElement](./select.editlivesearchcomponent.livesearchelement.md) |  | <code>HTMLElement</code> | HTML element that represents live search |
 |  [ngSelectPlugins](./select.editlivesearchcomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
 |  [options](./select.editlivesearchcomponent.options.md) |  | <code>EditLiveSearchOptions</code> | Options for NgSelect plugin |
+|  [pluginBus](./select.editlivesearchcomponent.pluginbus.md) |  | <code>PluginBus</code> |  |
 |  [pluginElement](./select.editlivesearchcomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
 |  [searchValue](./select.editlivesearchcomponent.searchvalue.md) |  | <code>string</code> | Current value of live search |
 |  [searchValueChange](./select.editlivesearchcomponent.searchvaluechange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when current value of live search changes |

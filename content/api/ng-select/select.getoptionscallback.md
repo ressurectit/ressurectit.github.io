@@ -9,5 +9,5 @@ Callback used for obtaining dynamic options
 <b>Signature:</b>
 
 ```typescript
-export interface GetOptionsCallback<TValue> 
+export interface GetOptionsCallback<TValue = any> 
 ```

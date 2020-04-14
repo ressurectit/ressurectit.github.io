@@ -9,7 +9,7 @@ Pipe to transform ng select selected option into
 <b>Signature:</b>
 
 ```typescript
-export declare class NgSelectValuePipe<TValue> implements PipeTransform 
+export declare class NgSelectValuePipe<TValue = any> implements PipeTransform 
 ```
 
 ## Methods

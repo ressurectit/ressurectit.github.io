@@ -9,21 +9,16 @@ Value handler plugin interface
 <b>Signature:</b>
 
 ```typescript
-export interface ValueHandler<TValue> extends NgSelectPlugin 
+export interface ValueHandler<TValue = any> extends NgSelectPlugin 
 ```
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [liveSearchFilter](./select.valuehandler.livesearchfilter.md) | <code>LiveSearchFilter&lt;TValue&gt;</code> | Function for filtering options |
-|  [normalizer](./select.valuehandler.normalizer.md) | <code>NormalizeFunc&lt;TValue&gt;</code> | Normalizer used for normalizing values, usually when filtering |
-|  [optionsGatherer](./select.valuehandler.optionsgatherer.md) | <code>OptionsGatherer&lt;TValue&gt;</code> | Instance of options gatherer, that is used for obtaining available options |
-|  [popupVisibilityRequest](./select.valuehandler.popupvisibilityrequest.md) | <code>EventEmitter&lt;boolean&gt;</code> | Occurs when there is requested for change of visibility of popup using keyboard |
 |  [selectedOptions](./select.valuehandler.selectedoptions.md) | <code>NgSelectOption&lt;TValue&gt; &#124; NgSelectOption&lt;TValue&gt;[]</code> | Current selected options of NgSelect |
 |  [value](./select.valuehandler.value.md) | <code>TValue &#124; TValue[]</code> | Current selected value of NgSelect |
 |  [valueChange](./select.valuehandler.valuechange.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when value of NgSelect changes |
-|  [valueComparer](./select.valuehandler.valuecomparer.md) | <code>CompareValueFunc&lt;TValue&gt;</code> | Function of value comparer that is used for comparison of values |
 
 ## Methods
 

@@ -9,13 +9,12 @@ Options for normal state plugin
 <b>Signature:</b>
 
 ```typescript
-export interface NormalStateOptions<TCssClasses> extends VisualPluginOptions<TCssClasses> 
+export interface NormalStateOptions<TCssClasses = any> extends VisualPluginOptions<TCssClasses> 
 ```
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [readonly](./select.normalstateoptions.readonly.md) | <code>boolean</code> | Indication whether NgSelect should be in readonly state |
 |  [texts](./select.normalstateoptions.texts.md) | <code>NormalStateTexts</code> | Texts that are used within any NormalState |
 

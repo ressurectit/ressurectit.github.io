@@ -9,27 +9,31 @@ Component that represents NgSelect itself, allows selection of value from option
 <b>Signature:</b>
 
 ```typescript
-export declare class NgSelectComponent<TValue> implements NgSelect<TValue>, OnChanges, OnInit, AfterViewInit, OnDestroy, OptionsGatherer<TValue>, TemplateGatherer 
+export declare class NgSelectComponent<TValue = any> implements NgSelect<TValue>, OnChanges, OnInit, AfterViewInit, OnDestroy, OptionsGatherer<TValue>, TemplateGatherer 
 ```
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(\_changeDetector, \_element, componentFactoryResolver, appRef, injector, \_pluginInstances, options, normalStateType, keyboardHandlerType, popupType, positionerType, readonlyStateType, valueHandlerType, liveSearchType, readonly, disabled, multiple)](./select.ngselectcomponent._constructor_.md) |  | Constructs a new instance of the <code>NgSelectComponent</code> class |
+|  [(constructor)(\_changeDetector, \_element, \_componentFactoryResolver, \_appRef, \_injector, \_pluginBus, \_pluginInstances, options, normalStateType, keyboardHandlerType, popupType, positionerType, readonlyStateType, valueHandlerType, liveSearchType, readonly, disabled, multiple)](./select.ngselectcomponent._constructor_.md) |  | Constructs a new instance of the <code>NgSelectComponent</code> class |
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [\_absolutePopup](./select.ngselectcomponent._absolutepopup.md) |  | <code>ComponentRef&lt;Popup&gt;</code> | Instance of component ref for absolute popup |
+|  [\_appRef](./select.ngselectcomponent._appref.md) |  | <code>ApplicationRef</code> |  |
 |  [\_availableOptions](./select.ngselectcomponent._availableoptions.md) |  | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of available options to be displayed |
 |  [\_availableOptionsChange](./select.ngselectcomponent._availableoptionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of visible, displayed options has changed |
 |  [\_changeDetector](./select.ngselectcomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
+|  [\_componentFactoryResolver](./select.ngselectcomponent._componentfactoryresolver.md) |  | <code>ComponentFactoryResolver</code> |  |
 |  [\_element](./select.ngselectcomponent._element.md) |  | <code>ElementRef&lt;HTMLElement&gt;</code> |  |
 |  [\_initializedSubject](./select.ngselectcomponent._initializedsubject.md) |  | <code>BehaviorSubject&lt;boolean&gt;</code> | Subject used for indication that NgSelect was initialized |
+|  [\_injector](./select.ngselectcomponent._injector.md) |  | <code>Injector</code> |  |
 |  [\_liveSearch](./select.ngselectcomponent._livesearch.md) |  | <code>LiveSearch</code> | Live search plugin currently used in NgSelect |
 |  [\_optionsChange](./select.ngselectcomponent._optionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of provided options has changed |
+|  [\_pluginBus](./select.ngselectcomponent._pluginbus.md) |  | <code>PluginBus&lt;TValue&gt;</code> |  |
 |  [\_pluginInstances](./select.ngselectcomponent._plugininstances.md) |  | <code>NgSelectPluginInstances</code> |  |
 |  [\_searchValueChangeSubscription](./select.ngselectcomponent._searchvaluechangesubscription.md) |  | <code>Subscription</code> | Subscription for changes of live search value |
 |  [\_selectOptions](./select.ngselectcomponent._selectoptions.md) |  | <code>NgSelectOptions&lt;TValue&gt;</code> | NgSelect options |
@@ -45,12 +49,14 @@ export declare class NgSelectComponent<TValue> implements NgSelect<TValue>, OnCh
 |  --- | --- | --- |
 |  [\_appendPopupToBody(component)](./select.ngselectcomponent._appendpopuptobody.md) |  | Appends popup component directly to body, allows absolute positioning over page body |
 |  [\_destroyAbsolutePopup()](./select.ngselectcomponent._destroyabsolutepopup.md) |  | Destroyes absolute popup if it exists |
+|  [\_registerNewPlugin(plugin, pluginKey, pluginName)](./select.ngselectcomponent._registernewplugin.md) |  | Registers newly created plugin |
 |  [execute(actions)](./select.ngselectcomponent.execute.md) |  | Executes actions on NgSelect |
 |  [executeAndReturn(func)](./select.ngselectcomponent.executeandreturn.md) |  | Executes function on NgSelect and returns result |
 |  [getPlugin(pluginId)](./select.ngselectcomponent.getplugin.md) |  | Gets instance of plugin by its id |
 |  [initialize()](./select.ngselectcomponent.initialize.md) |  | Initialize component, automatically called once if not blocked by options |
 |  [initOptions()](./select.ngselectcomponent.initoptions.md) |  | Initialize options, automaticaly called during init phase, but can be used to reinitialize NgSelectOptions |
 |  [invalidateVisuals()](./select.ngselectcomponent.invalidatevisuals.md) |  | Explicitly runs invalidation of content (change detection) |
+|  [listenTo(eventName, handler)](./select.ngselectcomponent.listento.md) |  | Subscribes for event |
 |  [ngAfterViewInit()](./select.ngselectcomponent.ngafterviewinit.md) |  | Called when view was initialized |
 |  [ngOnChanges(changes)](./select.ngselectcomponent.ngonchanges.md) |  | Called when input value changes |
 |  [ngOnDestroy()](./select.ngselectcomponent.ngondestroy.md) |  | Called when component is destroyed |

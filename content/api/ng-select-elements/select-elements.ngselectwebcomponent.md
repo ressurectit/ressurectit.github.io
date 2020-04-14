@@ -9,7 +9,7 @@ Public API for NgSelect WebComponent
 <b>Signature:</b>
 
 ```typescript
-export interface NgSelectWebComponent<TValue> 
+export interface NgSelectWebComponent<TValue = any> 
 ```
 
 ## Properties

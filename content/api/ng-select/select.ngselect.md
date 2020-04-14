@@ -9,7 +9,7 @@ Public API for NgSelect
 <b>Signature:</b>
 
 ```typescript
-export interface NgSelect<TValue> 
+export interface NgSelect<TValue = any> 
 ```
 
 ## Properties
@@ -30,4 +30,5 @@ export interface NgSelect<TValue>
 |  [initialize()](./select.ngselect.initialize.md) | Initialize component, automatically called once if not blocked by options |
 |  [initOptions()](./select.ngselect.initoptions.md) | Initialize options, automaticaly called during init phase, but can be used to reinitialize NgSelectOptions |
 |  [invalidateVisuals()](./select.ngselect.invalidatevisuals.md) | Explicitly runs invalidation of content (change detection) |
+|  [listenTo(eventName, handler)](./select.ngselect.listento.md) | Subscribes for event |
 

@@ -9,7 +9,7 @@ Component used for obtaining basic live search html element
 <b>Signature:</b>
 
 ```typescript
-export declare class BasicLiveSearchComponent implements BasicLiveSearch, NgSelectPluginGeneric<BasicLiveSearchOptions>, OnDestroy 
+export declare class BasicLiveSearchComponent implements BasicLiveSearch, NgSelectPlugin<BasicLiveSearchOptions>, OnDestroy 
 ```
 
 ## Constructors
@@ -31,6 +31,7 @@ export declare class BasicLiveSearchComponent implements BasicLiveSearch, NgSele
 |  [liveSearchElement](./select.basiclivesearchcomponent.livesearchelement.md) |  | <code>HTMLElement</code> | HTML element that represents live search |
 |  [ngSelectPlugins](./select.basiclivesearchcomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
 |  [options](./select.basiclivesearchcomponent.options.md) |  | <code>BasicLiveSearchOptions</code> | Options for NgSelect plugin |
+|  [pluginBus](./select.basiclivesearchcomponent.pluginbus.md) |  | <code>PluginBus</code> | Plugin bus used for inter plugin shared events |
 |  [pluginElement](./select.basiclivesearchcomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
 |  [searchValue](./select.basiclivesearchcomponent.searchvalue.md) |  | <code>string</code> | Current value of live search |
 |  [searchValueChange](./select.basiclivesearchcomponent.searchvaluechange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when current value of live search changes |

@@ -4,7 +4,7 @@
 
 ## ValueHandlerBase.\_optionSelectSubscription property
 
-Subscription for option selection using keyboard
+Subscription for option selection
 
 <b>Signature:</b>
 

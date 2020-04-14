@@ -9,7 +9,7 @@ Method reinitialize options for NgSelect
 <b>Signature:</b>
 
 ```typescript
-export declare function reinitializeOptions<TValue>(options?: NgSelectOptions<TValue>): NgSelectAction<TValue>;
+export declare function reinitializeOptions<TValue = any>(options?: NgSelectOptions<TValue>): NgSelectAction<TValue>;
 ```
 
 ## Parameters

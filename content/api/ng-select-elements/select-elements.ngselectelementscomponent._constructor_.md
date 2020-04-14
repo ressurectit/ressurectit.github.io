@@ -9,7 +9,7 @@ Constructs a new instance of the `NgSelectElementsComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(changeDetector: ChangeDetectorRef, element: ElementRef<HTMLElement>, componentFactoryResolver: ComponentFactoryResolver, appRef: ApplicationRef, injector: Injector, pluginInstances: NgSelectPluginInstances, readonly?: string, disabled?: string, multiple?: string);
+constructor(changeDetector: ChangeDetectorRef, element: ElementRef<HTMLElement>, componentFactoryResolver: ComponentFactoryResolver, appRef: ApplicationRef, injector: Injector, pluginBus: PluginBus<TValue>, pluginInstances: NgSelectPluginInstances, readonly?: string, disabled?: string, multiple?: string);
 ```
 
 ## Parameters
@@ -21,6 +21,7 @@ constructor(changeDetector: ChangeDetectorRef, element: ElementRef<HTMLElement>,
 |  componentFactoryResolver | <code>ComponentFactoryResolver</code> |  |
 |  appRef | <code>ApplicationRef</code> |  |
 |  injector | <code>Injector</code> |  |
+|  pluginBus | <code>PluginBus&lt;TValue&gt;</code> |  |
 |  pluginInstances | <code>NgSelectPluginInstances</code> |  |
 |  readonly | <code>string</code> |  |
 |  disabled | <code>string</code> |  |

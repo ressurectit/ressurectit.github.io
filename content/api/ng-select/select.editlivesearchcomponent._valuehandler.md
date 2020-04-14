@@ -9,5 +9,5 @@ Value handler plugin used within `NgSelect`
 <b>Signature:</b>
 
 ```typescript
-protected _valueHandler: ValueHandler<any>;
+protected _valueHandler: ValueHandler;
 ```

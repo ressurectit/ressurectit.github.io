@@ -9,5 +9,5 @@ Function used for comparing two values
 <b>Signature:</b>
 
 ```typescript
-export interface CompareValueFunc<TValue> 
+export interface CompareValueFunc<TValue = any> 
 ```

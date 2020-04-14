@@ -9,5 +9,5 @@ Injection token for 'NgSelectOptions'
 <b>Signature:</b>
 
 ```typescript
-NG_SELECT_OPTIONS: InjectionToken<NgSelectOptions<any>>
+NG_SELECT_OPTIONS: InjectionToken<NgSelectOptions>
 ```

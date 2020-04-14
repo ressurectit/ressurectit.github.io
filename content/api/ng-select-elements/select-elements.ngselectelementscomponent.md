@@ -9,14 +9,14 @@ Component that represents WebComponent implementation of NgSelect
 <b>Signature:</b>
 
 ```typescript
-export declare class NgSelectElementsComponent<TValue> extends NgSelectComponent<TValue> implements NgSelectWebComponent<TValue> 
+export declare class NgSelectElementsComponent<TValue = any> extends NgSelectComponent<TValue> implements NgSelectWebComponent<TValue> 
 ```
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(changeDetector, element, componentFactoryResolver, appRef, injector, pluginInstances, readonly, disabled, multiple)](./select-elements.ngselectelementscomponent._constructor_.md) |  | Constructs a new instance of the <code>NgSelectElementsComponent</code> class |
+|  [(constructor)(changeDetector, element, componentFactoryResolver, appRef, injector, pluginBus, pluginInstances, readonly, disabled, multiple)](./select-elements.ngselectelementscomponent._constructor_.md) |  | Constructs a new instance of the <code>NgSelectElementsComponent</code> class |
 
 ## Properties
 
@@ -26,7 +26,7 @@ export declare class NgSelectElementsComponent<TValue> extends NgSelectComponent
 |  [\_optionsObserver](./select-elements.ngselectelementscomponent._optionsobserver.md) |  | <code>MutationObserver</code> | Mutation observer, that observes ng-options |
 |  [executeAndReturnWC](./select-elements.ngselectelementscomponent.executeandreturnwc.md) |  | <code>&lt;TResult&gt;(func: NgSelectFunction&lt;TResult, TValue&gt;) =&gt; TResult</code> | Executes function on NgSelect and returns result |
 |  [executeWC](./select-elements.ngselectelementscomponent.executewc.md) |  | <code>(...actions: NgSelectAction&lt;TValue&gt;[]) =&gt; void</code> | Executes actions on NgSelect |
-|  [getPluginWC](./select-elements.ngselectelementscomponent.getpluginwc.md) |  | <code>&lt;PluginType extends NgSelectPlugin&gt;(pluginId: string) =&gt; PluginType</code> | Gets instance of plugin by its id |
+|  [getPluginWC](./select-elements.ngselectelementscomponent.getpluginwc.md) |  | <code>&lt;PluginType extends NgSelectPlugin&lt;any, any&gt;&gt;(pluginId: string) =&gt; PluginType</code> | Gets instance of plugin by its id |
 |  [initializedWC](./select-elements.ngselectelementscomponent.initializedwc.md) |  | <code>Observable&lt;boolean&gt;</code> | Occurs every time when NgSelect is initialized or reinitialized, if value is false NgSelect was not initialized yet |
 |  [initializeWC](./select-elements.ngselectelementscomponent.initializewc.md) |  | <code>() =&gt; void</code> | Initialize component, automatically called once if not blocked by options |
 |  [initOptionsWC](./select-elements.ngselectelementscomponent.initoptionswc.md) |  | <code>() =&gt; void</code> | Initialize options, automaticaly called during init phase, but can be used to reinitialize NgSelectOptions |

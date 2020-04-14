@@ -9,7 +9,7 @@ Constructs a new instance of the `EditPopupComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef, _changeDetector: ChangeDetectorRef, options?: EditPopupOptions, _document?: HTMLDocument);
+constructor(ngSelectPlugins: NgSelectPluginInstances, pluginBus: PluginBus, pluginElement: ElementRef, changeDetector: ChangeDetectorRef, options?: EditPopupOptions, document?: HTMLDocument);
 ```
 
 ## Parameters
@@ -17,8 +17,9 @@ constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef,
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  ngSelectPlugins | <code>NgSelectPluginInstances</code> |  |
+|  pluginBus | <code>PluginBus</code> |  |
 |  pluginElement | <code>ElementRef</code> |  |
-|  \_changeDetector | <code>ChangeDetectorRef</code> |  |
+|  changeDetector | <code>ChangeDetectorRef</code> |  |
 |  options | <code>EditPopupOptions</code> |  |
-|  \_document | <code>HTMLDocument</code> |  |
+|  document | <code>HTMLDocument</code> |  |
 

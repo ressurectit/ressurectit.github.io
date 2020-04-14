@@ -9,5 +9,5 @@ Gets instance of plugin by its id
 <b>Signature:</b>
 
 ```typescript
-getPluginWC: <PluginType extends NgSelectPlugin>(pluginId: string) => PluginType;
+getPluginWC: <PluginType extends NgSelectPlugin<any, any>>(pluginId: string) => PluginType;
 ```

@@ -9,5 +9,5 @@ Function used for normalization of value, used during comparison or search
 <b>Signature:</b>
 
 ```typescript
-export interface NormalizeFunc<TValue> 
+export interface NormalizeFunc<TValue = any> 
 ```

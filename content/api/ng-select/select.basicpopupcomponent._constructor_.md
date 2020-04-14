@@ -9,7 +9,7 @@ Constructs a new instance of the `BasicPopupComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef, _changeDetector: ChangeDetectorRef, options?: BasicPopupOptions, _document?: HTMLDocument);
+constructor(ngSelectPlugins: NgSelectPluginInstances, pluginBus: PluginBus, pluginElement: ElementRef, changeDetector: ChangeDetectorRef, options?: BasicPopupOptions, document?: HTMLDocument);
 ```
 
 ## Parameters
@@ -17,8 +17,9 @@ constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef,
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  ngSelectPlugins | <code>NgSelectPluginInstances</code> |  |
+|  pluginBus | <code>PluginBus</code> |  |
 |  pluginElement | <code>ElementRef</code> |  |
-|  \_changeDetector | <code>ChangeDetectorRef</code> |  |
+|  changeDetector | <code>ChangeDetectorRef</code> |  |
 |  options | <code>BasicPopupOptions</code> |  |
-|  \_document | <code>HTMLDocument</code> |  |
+|  document | <code>HTMLDocument</code> |  |
 

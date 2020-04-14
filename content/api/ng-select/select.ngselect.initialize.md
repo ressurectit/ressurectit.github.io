@@ -9,9 +9,9 @@ Initialize component, automatically called once if not blocked by options
 <b>Signature:</b>
 
 ```typescript
-initialize(): any;
+initialize(): void;
 ```
 <b>Returns:</b>
 
-`any`
+`void`
 

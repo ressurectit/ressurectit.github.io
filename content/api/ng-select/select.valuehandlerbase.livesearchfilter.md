@@ -4,10 +4,10 @@
 
 ## ValueHandlerBase.liveSearchFilter property
 
-Function for filtering options
+Method that is used for filtering when live search is running on static data
 
 <b>Signature:</b>
 
 ```typescript
-liveSearchFilter: LiveSearchFilter<TValue>;
+protected get liveSearchFilter(): LiveSearchFilter<TValue>;
 ```

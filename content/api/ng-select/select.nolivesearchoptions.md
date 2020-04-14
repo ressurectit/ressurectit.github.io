@@ -9,5 +9,5 @@ No live search options
 <b>Signature:</b>
 
 ```typescript
-export interface NoLiveSearchOptions extends LiveSearchOptions<any> 
+export interface NoLiveSearchOptions extends LiveSearchOptions 
 ```

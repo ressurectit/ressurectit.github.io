@@ -9,7 +9,7 @@ Executes actions on NgSelect
 <b>Signature:</b>
 
 ```typescript
-execute(...actions: NgSelectAction<TValue>[]): any;
+execute(...actions: NgSelectAction<TValue>[]): void;
 ```
 
 ## Parameters
@@ -20,5 +20,5 @@ execute(...actions: NgSelectAction<TValue>[]): any;
 
 <b>Returns:</b>
 
-`any`
+`void`
 

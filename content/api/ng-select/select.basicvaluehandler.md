@@ -9,5 +9,5 @@ Public API for 'BasicValueHandlerComponent'
 <b>Signature:</b>
 
 ```typescript
-export interface BasicValueHandler<TValue> extends ValueHandler<TValue> 
+export interface BasicValueHandler<TValue = any> extends ValueHandler<TValue> 
 ```

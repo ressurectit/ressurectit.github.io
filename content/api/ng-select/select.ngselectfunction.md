@@ -9,5 +9,5 @@ Definition of function that can be executed on NgSelect and returns some data
 <b>Signature:</b>
 
 ```typescript
-export declare type NgSelectFunction<TResult, TValue> = (ngSelect: NgSelect<TValue>) => TResult;
+export declare type NgSelectFunction<TResult = any, TValue = any> = (ngSelect: NgSelect<TValue>) => TResult;
 ```

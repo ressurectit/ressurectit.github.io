@@ -9,14 +9,14 @@ Component used for obtaining basic keyboard handler html element
 <b>Signature:</b>
 
 ```typescript
-export declare class BasicKeyboardHandlerComponent implements BasicKeyboardHandler, NgSelectPluginGeneric<BasicKeyboardHandlerOptions>, OnDestroy 
+export declare class BasicKeyboardHandlerComponent implements BasicKeyboardHandler, NgSelectPlugin<BasicKeyboardHandlerOptions>, OnDestroy 
 ```
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(ngSelectPlugins, pluginElement, options)](./select.basickeyboardhandlercomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicKeyboardHandlerComponent</code> class |
+|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, options)](./select.basickeyboardhandlercomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicKeyboardHandlerComponent</code> class |
 
 ## Properties
 
@@ -25,14 +25,11 @@ export declare class BasicKeyboardHandlerComponent implements BasicKeyboardHandl
 |  [\_handleKeyboard](./select.basickeyboardhandlercomponent._handlekeyboard.md) |  | <code>(event: KeyboardEvent) =&gt; void</code> | Handles keyboard event |
 |  [\_options](./select.basickeyboardhandlercomponent._options.md) |  | <code>BasicKeyboardHandlerOptions</code> | Options for NgSelect plugin |
 |  [\_popup](./select.basickeyboardhandlercomponent._popup.md) |  | <code>Popup</code> | Popup that is displayed |
-|  [availableOptions](./select.basickeyboardhandlercomponent.availableoptions.md) |  | <code>ɵNgSelectOption&lt;any&gt;[]</code> | Gets currently available options |
+|  [availableOptions](./select.basickeyboardhandlercomponent.availableoptions.md) |  | <code>ɵNgSelectOption[]</code> | Gets currently available options |
 |  [ngSelectPlugins](./select.basickeyboardhandlercomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
 |  [options](./select.basickeyboardhandlercomponent.options.md) |  | <code>BasicKeyboardHandlerOptions</code> | Options for NgSelect plugin |
-|  [optionSelect](./select.basickeyboardhandlercomponent.optionselect.md) |  | <code>EventEmitter&lt;NgSelectOption&lt;any&gt;&gt;</code> | Occurs when option was selected using keyboard |
-|  [optionsGatherer](./select.basickeyboardhandlercomponent.optionsgatherer.md) |  | <code>OptionsGatherer&lt;any&gt;</code> | Instance of options gatherer, that is used for obtaining available options |
+|  [pluginBus](./select.basickeyboardhandlercomponent.pluginbus.md) |  | <code>PluginBus</code> |  |
 |  [pluginElement](./select.basickeyboardhandlercomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
-|  [popupVisibilityRequest](./select.basickeyboardhandlercomponent.popupvisibilityrequest.md) |  | <code>EventEmitter&lt;boolean&gt;</code> | Occurs when there is requested for change of visibility of popup using keyboard |
-|  [selectElement](./select.basickeyboardhandlercomponent.selectelement.md) |  | <code>HTMLElement</code> | HTML element that represents select itself |
 
 ## Methods
 

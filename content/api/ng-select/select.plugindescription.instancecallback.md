@@ -9,5 +9,5 @@ Optional callback used for obtaining dynamic instance of plugin (allows direct c
 <b>Signature:</b>
 
 ```typescript
-instanceCallback?: (instance: PluginType | null) => void;
+instanceCallback?: (instance: NgSelectPlugin | null) => void;
 ```

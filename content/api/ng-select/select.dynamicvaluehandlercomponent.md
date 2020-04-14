@@ -9,14 +9,14 @@ Component used for handling current value of NgSelect, allows values which are n
 <b>Signature:</b>
 
 ```typescript
-export declare class DynamicValueHandlerComponent<TValue> extends ValueHandlerBase<TValue, DynamicValueHandlerOptions<TValue>> implements DynamicValueHandler<TValue> 
+export declare class DynamicValueHandlerComponent<TValue = any> extends ValueHandlerBase<TValue, DynamicValueHandlerOptions<TValue>> implements DynamicValueHandler<TValue> 
 ```
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(ngSelectPlugins, pluginElement, options)](./select.dynamicvaluehandlercomponent._constructor_.md) |  | Constructs a new instance of the <code>DynamicValueHandlerComponent</code> class |
+|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, options)](./select.dynamicvaluehandlercomponent._constructor_.md) |  | Constructs a new instance of the <code>DynamicValueHandlerComponent</code> class |
 
 ## Properties
 

@@ -9,5 +9,5 @@ Gets currently available options
 <b>Signature:</b>
 
 ```typescript
-protected get availableOptions(): ɵNgSelectOption<any>[];
+protected get availableOptions(): ɵNgSelectOption[];
 ```

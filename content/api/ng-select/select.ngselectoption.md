@@ -9,7 +9,7 @@ Option for ng select
 <b>Signature:</b>
 
 ```typescript
-export interface NgSelectOption<TValue> 
+export interface NgSelectOption<TValue = any> 
 ```
 
 ## Properties

@@ -22,5 +22,5 @@ export interface NgSelectPluginTypes
 |  [popup](./select.ngselectplugintypes.popup.md) | <code>PluginDescription&lt;Popup&gt;</code> | Component used for displaying available options for selection |
 |  [positioner](./select.ngselectplugintypes.positioner.md) | <code>PluginDescription&lt;Positioner&gt;</code> | Handles correct position of pop component |
 |  [readonlyState](./select.ngselectplugintypes.readonlystate.md) | <code>PluginDescription&lt;ReadonlyState&gt;</code> | Component used for displaying readonly/disabled state of select, can be null, in that case normal state component is used |
-|  [valueHandler](./select.ngselectplugintypes.valuehandler.md) | <code>PluginDescription&lt;ValueHandler&lt;any&gt;&gt;</code> | Handles obtaining and setting value of component |
+|  [valueHandler](./select.ngselectplugintypes.valuehandler.md) | <code>PluginDescription&lt;ValueHandler&gt;</code> | Handles obtaining and setting value of component |
 

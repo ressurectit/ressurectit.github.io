@@ -9,13 +9,12 @@ Options for popup plugin
 <b>Signature:</b>
 
 ```typescript
-export interface PopupOptions<TCssClasses> extends VisualPluginOptions<TCssClasses> 
+export interface PopupOptions<TCssClasses = any> extends VisualPluginOptions<TCssClasses> 
 ```
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [multiple](./select.popupoptions.multiple.md) | <code>boolean</code> | Indication that multiple values can be selected |
 |  [visible](./select.popupoptions.visible.md) | <code>boolean</code> | Indication whether are popup options visible, or not |
 

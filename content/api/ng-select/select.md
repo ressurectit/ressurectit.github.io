@@ -28,8 +28,12 @@
 |  [NgSelectModule](./select.ngselectmodule.md) | Module for select and its options |
 |  [NgSelectValuePipe](./select.ngselectvaluepipe.md) | Pipe to transform ng select selected option into |
 |  [NoLiveSearchComponent](./select.nolivesearchcomponent.md) | Component used for no live search |
+|  [NoPositionerComponent](./select.nopositionercomponent.md) | Component used for not positioning popup |
+|  [NormalStateAbstractComponent](./select.normalstateabstractcomponent.md) | Base abstract class for normal state of select |
 |  [OptGroupComponent](./select.optgroupcomponent.md) | Component used for options group in select component |
 |  [OptionComponent](./select.optioncomponent.md) | Component used for options in select component |
+|  [PluginBus](./select.pluginbus.md) | Class represents centralized bus for plugin communications |
+|  [PopupAbstractComponent](./select.popupabstractcomponent.md) | Base abstract class for popup with options |
 |  [ValueHandlerBase](./select.valuehandlerbase.md) | Base class for value handlers |
 
 ## Functions
@@ -86,11 +90,12 @@
 |  [NgSelectOption](./select.ngselectoption.md) | Option for ng select |
 |  [NgSelectOptions](./select.ngselectoptions.md) | Describes select options used for NgSelect |
 |  [NgSelectPlugin](./select.ngselectplugin.md) | NgSelect plugin interface |
-|  [NgSelectPluginGeneric](./select.ngselectplugingeneric.md) | NgSelect plugin generic interface |
 |  [NgSelectPluginInstances](./select.ngselectplugininstances.md) | Interface describing object storing all existing plugin instances for NgSelect |
 |  [NgSelectPluginTypes](./select.ngselectplugintypes.md) | All available types of plugins for NgSelect |
 |  [NoLiveSearch](./select.nolivesearch.md) | Public API for 'NoLiveSearchComponent' |
 |  [NoLiveSearchOptions](./select.nolivesearchoptions.md) | No live search options |
+|  [NoPositioner](./select.nopositioner.md) | Public API for 'NoPositionerComponent' |
+|  [NoPositionerOptions](./select.nopositioneroptions.md) | No positioner options |
 |  [NormalizeFunc](./select.normalizefunc.md) | Function used for normalization of value, used during comparison or search |
 |  [NormalState](./select.normalstate.md) | Normal state plugin interface |
 |  [NormalStateContext](./select.normalstatecontext.md) | Context for template that is used within normal state plugin |
@@ -98,6 +103,8 @@
 |  [NormalStateTexts](./select.normalstatetexts.md) | Texts that are used within NormalState |
 |  [OptionsGatherer](./select.optionsgatherer.md) | Gatherer used for obtaining options for select |
 |  [ɵNgSelectOption](./select._ngselectoption.md) | Option for ng select |
+|  [PluginBusEvents](./select.pluginbusevents.md) | Represents all events implemented by plugin bus |
+|  [PluginBusOptions](./select.pluginbusoptions.md) | Options used for plugin bus |
 |  [PluginDescription](./select.plugindescription.md) | Defines interface, that describes minimal set of parameters for specifying plugin for NgSelect |
 |  [PluginOptions](./select.pluginoptions.md) | Base options for every plugin |
 |  [Popup](./select.popup.md) | Popup plugin interface |

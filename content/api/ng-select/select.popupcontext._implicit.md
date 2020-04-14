@@ -9,5 +9,5 @@ Instance of plugin itself
 <b>Signature:</b>
 
 ```typescript
-$implicit: NgSelectOption<any>;
+$implicit: NgSelectOption;
 ```

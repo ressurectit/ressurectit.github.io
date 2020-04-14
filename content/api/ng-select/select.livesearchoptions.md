@@ -9,7 +9,7 @@ Options for live search plugin
 <b>Signature:</b>
 
 ```typescript
-export interface LiveSearchOptions<TCssClasses> extends VisualPluginOptions<TCssClasses> 
+export interface LiveSearchOptions<TCssClasses = any> extends VisualPluginOptions<TCssClasses> 
 ```
 
 ## Properties

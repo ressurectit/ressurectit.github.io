@@ -9,5 +9,5 @@ Token for injecting options for normal state plugin
 <b>Signature:</b>
 
 ```typescript
-NORMAL_STATE_OPTIONS: InjectionToken<NormalStateOptions<any>>
+NORMAL_STATE_OPTIONS: InjectionToken<NormalStateOptions>
 ```

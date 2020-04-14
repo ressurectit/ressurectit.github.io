@@ -9,7 +9,7 @@ Control value accessor for NgSelectComponent
 <b>Signature:</b>
 
 ```typescript
-export declare class NgSelectControlValueAccessor<TValue> implements ControlValueAccessor, OnDestroy 
+export declare class NgSelectControlValueAccessor<TValue = any> implements ControlValueAccessor, OnDestroy 
 ```
 
 ## Constructors

@@ -9,7 +9,7 @@ Option group for ng select
 <b>Signature:</b>
 
 ```typescript
-export interface NgSelectOptGroup<TValue> 
+export interface NgSelectOptGroup<TValue = any> 
 ```
 
 ## Properties

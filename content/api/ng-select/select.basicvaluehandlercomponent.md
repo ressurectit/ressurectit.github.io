@@ -9,14 +9,14 @@ Component used for handling current value of NgSelect
 <b>Signature:</b>
 
 ```typescript
-export declare class BasicValueHandlerComponent<TValue> extends ValueHandlerBase<TValue, BasicValueHandlerOptions> implements BasicValueHandler<TValue> 
+export declare class BasicValueHandlerComponent<TValue = any> extends ValueHandlerBase<TValue, BasicValueHandlerOptions> implements BasicValueHandler<TValue> 
 ```
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(ngSelectPlugins, pluginElement, options)](./select.basicvaluehandlercomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicValueHandlerComponent</code> class |
+|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, options)](./select.basicvaluehandlercomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicValueHandlerComponent</code> class |
 
 ## Properties
 

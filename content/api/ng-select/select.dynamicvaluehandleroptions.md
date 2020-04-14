@@ -9,7 +9,7 @@ Dynamic value handler options
 <b>Signature:</b>
 
 ```typescript
-export interface DynamicValueHandlerOptions<TValue> extends ValueHandlerOptions 
+export interface DynamicValueHandlerOptions<TValue = any> extends ValueHandlerOptions 
 ```
 
 ## Properties

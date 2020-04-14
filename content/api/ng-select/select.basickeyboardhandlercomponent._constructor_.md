@@ -9,7 +9,7 @@ Constructs a new instance of the `BasicKeyboardHandlerComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef, options?: BasicKeyboardHandlerOptions);
+constructor(ngSelectPlugins: NgSelectPluginInstances, pluginBus: PluginBus, pluginElement: ElementRef, options?: BasicKeyboardHandlerOptions);
 ```
 
 ## Parameters
@@ -17,6 +17,7 @@ constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef,
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  ngSelectPlugins | <code>NgSelectPluginInstances</code> |  |
+|  pluginBus | <code>PluginBus</code> |  |
 |  pluginElement | <code>ElementRef</code> |  |
 |  options | <code>BasicKeyboardHandlerOptions</code> |  |
 

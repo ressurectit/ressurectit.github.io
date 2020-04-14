@@ -9,7 +9,7 @@ Component used for options group in select component
 <b>Signature:</b>
 
 ```typescript
-export declare class OptGroupComponent<TValue> implements NgSelectOptGroup<TValue>, AfterViewInit 
+export declare class OptGroupComponent<TValue = any> implements NgSelectOptGroup<TValue>, AfterViewInit 
 ```
 
 ## Properties

@@ -9,9 +9,9 @@ Initialize options, automaticaly called during init phase, but can be used to re
 <b>Signature:</b>
 
 ```typescript
-initOptions(): any;
+initOptions(): void;
 ```
 <b>Returns:</b>
 
-`any`
+`void`
 

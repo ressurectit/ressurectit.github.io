@@ -9,7 +9,7 @@ Class that is used as for options gathering in dynamic way, for example from ext
 <b>Signature:</b>
 
 ```typescript
-export declare class DynamicOptionsGatherer<TValue> implements OptionsGatherer<TValue> 
+export declare class DynamicOptionsGatherer<TValue = any> implements OptionsGatherer<TValue> 
 ```
 
 ## Constructors
@@ -31,6 +31,7 @@ export declare class DynamicOptionsGatherer<TValue> implements OptionsGatherer<T
 |  [ngSelectPlugins](./select.dynamicoptionsgatherer.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> | NgSelect plugin instances available for gatherer |
 |  [options](./select.dynamicoptionsgatherer.options.md) |  | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of provided options for select |
 |  [optionsChange](./select.dynamicoptionsgatherer.optionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of provided options has changed |
+|  [pluginBus](./select.dynamicoptionsgatherer.pluginbus.md) |  | <code>PluginBus&lt;TValue&gt;</code> | Plugin bus used for inter plugin shared events |
 
 ## Methods
 

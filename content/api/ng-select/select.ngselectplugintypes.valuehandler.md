@@ -9,5 +9,5 @@ Handles obtaining and setting value of component
 <b>Signature:</b>
 
 ```typescript
-valueHandler?: PluginDescription<ValueHandler<any>>;
+valueHandler?: PluginDescription<ValueHandler>;
 ```

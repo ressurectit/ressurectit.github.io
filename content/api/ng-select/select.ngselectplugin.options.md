@@ -9,5 +9,5 @@ Options for NgSelect plugin
 <b>Signature:</b>
 
 ```typescript
-options: any;
+options: TOptions;
 ```

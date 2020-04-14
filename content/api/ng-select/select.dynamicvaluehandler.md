@@ -9,5 +9,5 @@ Public API for 'DynamicValueHandlerComponent'
 <b>Signature:</b>
 
 ```typescript
-export interface DynamicValueHandler<TValue> extends ValueHandler<TValue> 
+export interface DynamicValueHandler<TValue = any> extends ValueHandler<TValue> 
 ```

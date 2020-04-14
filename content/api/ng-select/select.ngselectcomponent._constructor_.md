@@ -9,7 +9,7 @@ Constructs a new instance of the `NgSelectComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(_changeDetector: ChangeDetectorRef, _element: ElementRef<HTMLElement>, componentFactoryResolver: ComponentFactoryResolver, appRef: ApplicationRef, injector: Injector, _pluginInstances: NgSelectPluginInstances, options?: NgSelectOptions<TValue>, normalStateType?: Type<NormalState>, keyboardHandlerType?: Type<KeyboardHandler>, popupType?: Type<Popup>, positionerType?: Type<Positioner>, readonlyStateType?: Type<ReadonlyState>, valueHandlerType?: Type<ValueHandler<any>>, liveSearchType?: Type<LiveSearch>, readonly?: string, disabled?: string, multiple?: string);
+constructor(_changeDetector: ChangeDetectorRef, _element: ElementRef<HTMLElement>, _componentFactoryResolver: ComponentFactoryResolver, _appRef: ApplicationRef, _injector: Injector, _pluginBus: PluginBus<TValue>, _pluginInstances: NgSelectPluginInstances, options?: NgSelectOptions<TValue>, normalStateType?: Type<NormalState>, keyboardHandlerType?: Type<KeyboardHandler>, popupType?: Type<Popup>, positionerType?: Type<Positioner>, readonlyStateType?: Type<ReadonlyState>, valueHandlerType?: Type<ValueHandler>, liveSearchType?: Type<LiveSearch>, readonly?: string, disabled?: string, multiple?: string);
 ```
 
 ## Parameters
@@ -18,9 +18,10 @@ constructor(_changeDetector: ChangeDetectorRef, _element: ElementRef<HTMLElement
 |  --- | --- | --- |
 |  \_changeDetector | <code>ChangeDetectorRef</code> |  |
 |  \_element | <code>ElementRef&lt;HTMLElement&gt;</code> |  |
-|  componentFactoryResolver | <code>ComponentFactoryResolver</code> |  |
-|  appRef | <code>ApplicationRef</code> |  |
-|  injector | <code>Injector</code> |  |
+|  \_componentFactoryResolver | <code>ComponentFactoryResolver</code> |  |
+|  \_appRef | <code>ApplicationRef</code> |  |
+|  \_injector | <code>Injector</code> |  |
+|  \_pluginBus | <code>PluginBus&lt;TValue&gt;</code> |  |
 |  \_pluginInstances | <code>NgSelectPluginInstances</code> |  |
 |  options | <code>NgSelectOptions&lt;TValue&gt;</code> |  |
 |  normalStateType | <code>Type&lt;NormalState&gt;</code> |  |
@@ -28,7 +29,7 @@ constructor(_changeDetector: ChangeDetectorRef, _element: ElementRef<HTMLElement
 |  popupType | <code>Type&lt;Popup&gt;</code> |  |
 |  positionerType | <code>Type&lt;Positioner&gt;</code> |  |
 |  readonlyStateType | <code>Type&lt;ReadonlyState&gt;</code> |  |
-|  valueHandlerType | <code>Type&lt;ValueHandler&lt;any&gt;&gt;</code> |  |
+|  valueHandlerType | <code>Type&lt;ValueHandler&gt;</code> |  |
 |  liveSearchType | <code>Type&lt;LiveSearch&gt;</code> |  |
 |  readonly | <code>string</code> |  |
 |  disabled | <code>string</code> |  |
