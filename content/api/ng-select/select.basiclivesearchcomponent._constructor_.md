@@ -9,7 +9,7 @@ Constructs a new instance of the `BasicLiveSearchComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef, _changeDetector: ChangeDetectorRef, _stringLocalization: StringLocalization, options?: BasicLiveSearchOptions);
+constructor(ngSelectPlugins: NgSelectPluginInstances, pluginBus: PluginBus, pluginElement: ElementRef, _changeDetector: ChangeDetectorRef, _stringLocalization: StringLocalization, options?: BasicLiveSearchOptions);
 ```
 
 ## Parameters
@@ -17,6 +17,7 @@ constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef,
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  ngSelectPlugins | <code>NgSelectPluginInstances</code> |  |
+|  pluginBus | <code>PluginBus</code> |  |
 |  pluginElement | <code>ElementRef</code> |  |
 |  \_changeDetector | <code>ChangeDetectorRef</code> |  |
 |  \_stringLocalization | <code>StringLocalization</code> |  |

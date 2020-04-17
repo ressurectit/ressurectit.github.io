@@ -16,12 +16,12 @@ Angular Grid. Fully modular grid component, which allows changing parts of grid 
 
 Grid is used for displaying *lists*, that means it does not have to be table layout, but completely custom layout.
 
-- [Basic concept](./grid/concept)
-- [Basic asynchronous data](./grid/basic)
-- [Basic synchronous data](./grid/basicSync)
-- [Basic metadata (all)](./grid/basicMetadata)
-- [Grouped metadata](./grid/groupedMetadata)
-- [Configuration](./grid/configuration)
+- [Basic concept](https://ressurectit.github.io/#/content/grid/concept)
+- [Basic asynchronous data](https://ressurectit.github.io/#/content/grid/basic)
+- [Basic synchronous data](https://ressurectit.github.io/#/content/grid/basicSync)
+- [Basic metadata (all)](https://ressurectit.github.io/#/content/grid/basicMetadata)
+- [Grouped metadata](https://ressurectit.github.io/#/content/grid/groupedMetadata)
+- [Configuration](https://ressurectit.github.io/#/content/grid/configuration)
 - [Accessing from code](./grid/accessingFromCode)
 - [Styling](concept)
 - [Row selection](concept)
@@ -32,4 +32,4 @@ Grid is used for displaying *lists*, that means it does not have to be table lay
 - [Custom metadata gatherer](concept)
 - [Custom grid actions](concept)
 - [Custom grid plugin](concept)
-- [Custom renderer](./grid/customRenderer)
+- [Custom renderer](https://ressurectit.github.io/#/content/grid/customRenderer)

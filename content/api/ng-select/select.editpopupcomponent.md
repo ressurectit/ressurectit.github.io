@@ -16,5 +16,12 @@ export declare class EditPopupComponent extends PopupAbstractComponent<CssClasse
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, changeDetector, options, document)](./select.editpopupcomponent._constructor_.md) |  | Constructs a new instance of the <code>EditPopupComponent</code> class |
+|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, changeDetector, options, stringLocalization, document)](./select.editpopupcomponent._constructor_.md) |  | Constructs a new instance of the <code>EditPopupComponent</code> class |
+
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [allOptions](./select.editpopupcomponent.alloptions.md) |  | <code>ɵNgSelectOption[]</code> | Gets all options |
+|  [keepOpen](./select.editpopupcomponent.keepopen.md) |  | <code>boolean</code> | Gets indication whether keep open popup after value change |
 

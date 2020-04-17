@@ -24,7 +24,7 @@ export declare class DialogPopupComponent<TComponent extends DialogPopupContentC
 |  --- | --- | --- | --- |
 |  [\_changeDetector](./grid-material.dialogpopupcomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
 |  [\_dialog](./grid-material.dialogpopupcomponent._dialog.md) |  | <code>MatDialog</code> |  |
-|  [\_dialogComponent](./grid-material.dialogpopupcomponent._dialogcomponent.md) |  | <code>TComponent</code> | Component that is used for handling metadata selection itself |
+|  [\_dialogComponent](./grid-material.dialogpopupcomponent._dialogcomponent.md) |  | <code>ComponentType&lt;TComponent&gt;</code> | Component that is used for handling metadata selection itself |
 |  [\_dialogRef](./grid-material.dialogpopupcomponent._dialogref.md) |  | <code>MatDialogRef&lt;TComponent&gt;</code> | Popup dialog reference |
 |  [\_handleDialog](./grid-material.dialogpopupcomponent._handledialog.md) |  | <code>(visible: boolean) =&gt; void</code> | Handles dialog visibility change |
 |  [\_options](./grid-material.dialogpopupcomponent._options.md) |  | <code>DialogPopupOptions&lt;TComponent, TDialogOptions, TValue, TCssClasses&gt;</code> | Options for NgSelect plugin |

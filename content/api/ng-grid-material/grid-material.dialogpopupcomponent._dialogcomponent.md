@@ -9,5 +9,5 @@ Component that is used for handling metadata selection itself
 <b>Signature:</b>
 
 ```typescript
-protected _dialogComponent?: TComponent;
+protected _dialogComponent?: ComponentType<TComponent>;
 ```

@@ -16,6 +16,6 @@ export interface DialogPopupOptions<TComponent extends DialogPopupContentCompone
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [dialogComponent](./grid-material.dialogpopupoptions.dialogcomponent.md) | <code>TComponent</code> | Component that is used to show popup content in dialog |
+|  [dialogComponent](./grid-material.dialogpopupoptions.dialogcomponent.md) | <code>ComponentType&lt;TComponent&gt;</code> | Component that is used to show popup content in dialog |
 |  [dialogOptions](./grid-material.dialogpopupoptions.dialogoptions.md) | <code>TOptions</code> | Options passed to dialog component |
 

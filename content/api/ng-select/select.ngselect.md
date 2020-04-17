@@ -9,7 +9,7 @@ Public API for NgSelect
 <b>Signature:</b>
 
 ```typescript
-export interface NgSelect<TValue = any> 
+export interface NgSelect<TValue = any> extends OptionsGatherer<TValue>, TemplateGatherer 
 ```
 
 ## Properties

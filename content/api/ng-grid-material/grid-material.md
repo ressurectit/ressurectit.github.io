@@ -10,7 +10,8 @@
 |  --- | --- |
 |  [BasicDialogPopupComponent](./grid-material.basicdialogpopupcomponent.md) | Basic dialog popup |
 |  [DialogPopupComponent](./grid-material.dialogpopupcomponent.md) | Component used for rendering basic popup with options |
-|  [DialogPopupModule](./grid-material.dialogpopupmodule.md) | Module allows using of angular material dialog for metadata selector |
+|  [DialogPopupDirective](./grid-material.dialogpopupdirective.md) | Directive that changes ng select popup to DialogPopup |
+|  [NgSelectDialogPopupModule](./grid-material.ngselectdialogpopupmodule.md) | Module allows using of angular material dialog for select popup |
 
 ## Interfaces
 

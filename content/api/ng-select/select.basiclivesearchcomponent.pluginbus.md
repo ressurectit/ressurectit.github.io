@@ -4,8 +4,6 @@
 
 ## BasicLiveSearchComponent.pluginBus property
 
-Plugin bus used for inter plugin shared events
-
 <b>Signature:</b>
 
 ```typescript

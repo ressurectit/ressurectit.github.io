@@ -17,4 +17,5 @@ export interface EditLiveSearchOptions extends LiveSearchOptions<CssClassesEditL
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [keepSearchValue](./select.editlivesearchoptions.keepsearchvalue.md) | <code>boolean</code> | Indication whether keep search value after popup close |
+|  [nonExistingCancel](./select.editlivesearchoptions.nonexistingcancel.md) | <code>boolean</code> | Indication whether cancel selected value if non existing value is in live search, works for single value |
 

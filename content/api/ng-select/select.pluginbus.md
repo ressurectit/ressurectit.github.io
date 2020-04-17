@@ -17,10 +17,12 @@ export declare class PluginBus<TValue = any> implements PluginBusEvents
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [focus](./select.pluginbus.focus.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when any part of select gains focus |
+|  [liveSearchFocus](./select.pluginbus.livesearchfocus.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when live search should gain focus |
 |  [optionCancel](./select.pluginbus.optioncancel.md) |  | <code>EventEmitter&lt;NgSelectOption&gt;</code> | Occurs when option should be canceled |
 |  [optionSelect](./select.pluginbus.optionselect.md) |  | <code>EventEmitter&lt;NgSelectOption&gt;</code> | Occurs when option should be selected |
 |  [selectElement](./select.pluginbus.selectelement.md) |  | <code>ElementRef&lt;HTMLElement&gt;</code> | HTML element that represents select itself |
 |  [selectOptions](./select.pluginbus.selectoptions.md) |  | <code>PluginBusOptions&lt;TValue&gt;</code> | Options passed to select |
 |  [showHidePopup](./select.pluginbus.showhidepopup.md) |  | <code>EventEmitter&lt;boolean&gt;</code> | Occurs when popup visibility should be changed |
 |  [togglePopup](./select.pluginbus.togglepopup.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when popup visibility should be toggled |
+|  [updateDisplayedValue](./select.pluginbus.updatedisplayedvalue.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when there is need for updating displayed value |
 

@@ -17,9 +17,11 @@
 |  [CodeOptionsGatherer](./select.codeoptionsgatherer.md) | Options gatherer used for static options gathering from code |
 |  [DynamicOptionsGatherer](./select.dynamicoptionsgatherer.md) | Class that is used as for options gathering in dynamic way, for example from external source when writing |
 |  [DynamicValueHandlerComponent](./select.dynamicvaluehandlercomponent.md) | Component used for handling current value of NgSelect, allows values which are not present in options |
+|  [EditKeyboardHandlerComponent](./select.editkeyboardhandlercomponent.md) | Component used for obtaining edit keyboard handler html element |
 |  [EditLiveSearchComponent](./select.editlivesearchcomponent.md) | Component used for obtaining edit live search html element |
 |  [EditNormalStateComponent](./select.editnormalstatecomponent.md) | Component used for rendering edit normal state of select |
 |  [EditPopupComponent](./select.editpopupcomponent.md) | Component used for rendering edit popup with options |
+|  [ExcludingOptionsGatherer](./select.excludingoptionsgatherer.md) | Options gatherer using default build in gatherer extended with exclusion of selected options |
 |  [NgSelectComponent](./select.ngselectcomponent.md) | Component that represents NgSelect itself, allows selection of value from options |
 |  [NgSelectControlValueAccessor](./select.ngselectcontrolvalueaccessor.md) | Control value accessor for NgSelectComponent |
 |  [NgSelectDynamicModule](./select.ngselectdynamicmodule.md) | Module for select and its options, allows use of dynamic value handler |
@@ -72,6 +74,8 @@
 |  [DynamicOptionsGathererOptions](./select.dynamicoptionsgathereroptions.md) | Options for dynamic options gatherer |
 |  [DynamicValueHandler](./select.dynamicvaluehandler.md) | Public API for 'DynamicValueHandlerComponent' |
 |  [DynamicValueHandlerOptions](./select.dynamicvaluehandleroptions.md) | Dynamic value handler options |
+|  [EditKeyboardHandler](./select.editkeyboardhandler.md) | Public API for 'EditKeyboardHandlerComponent' |
+|  [EditKeyboardHandlerOptions](./select.editkeyboardhandleroptions.md) | Edit keyboard handler options |
 |  [EditLiveSearch](./select.editlivesearch.md) | Public API for 'EditLiveSearchComponent' |
 |  [EditLiveSearchOptions](./select.editlivesearchoptions.md) | Edit live search options |
 |  [EditNormalState](./select.editnormalstate.md) | Public API for 'EditNormalStateComponent' |
@@ -110,6 +114,7 @@
 |  [Popup](./select.popup.md) | Popup plugin interface |
 |  [PopupContext](./select.popupcontext.md) | Context for template that is used within popup plugin |
 |  [PopupOptions](./select.popupoptions.md) | Options for popup plugin |
+|  [PopupTexts](./select.popuptexts.md) | Texts that are used within Popup |
 |  [Positioner](./select.positioner.md) | Positioner plugin interface |
 |  [PositionerOptions](./select.positioneroptions.md) | Options for positioner plugin |
 |  [ReadonlyState](./select.readonlystate.md) | Readonly state plugin interface |

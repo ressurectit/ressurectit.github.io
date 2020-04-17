@@ -23,12 +23,17 @@ export declare class EditLiveSearchComponent implements EditLiveSearch, NgSelect
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [\_changeDetector](./select.editlivesearchcomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
+|  [\_liveSearchFocusSubscription](./select.editlivesearchcomponent._livesearchfocussubscription.md) |  | <code>Subscription</code> | Subscription for live search focus request |
 |  [\_options](./select.editlivesearchcomponent._options.md) |  | <code>EditLiveSearchOptions</code> | Options for NgSelect plugin |
+|  [\_optionsChangeSubscription](./select.editlivesearchcomponent._optionschangesubscription.md) |  | <code>Subscription</code> | Subscription for changes of options in options gatherer |
+|  [\_optionsGatherer](./select.editlivesearchcomponent._optionsgatherer.md) |  | <code>OptionsGatherer</code> | Instance of previous options gatherer, that is used for obtaining available options |
 |  [\_popup](./select.editlivesearchcomponent._popup.md) |  | <code>Popup</code> | Popup plugin used within <code>NgSelect</code> |
 |  [\_stringLocalization](./select.editlivesearchcomponent._stringlocalization.md) |  | <code>StringLocalization</code> |  |
 |  [\_textsChangedSubscription](./select.editlivesearchcomponent._textschangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes in texts |
+|  [\_updateDisplayedValueSubscription](./select.editlivesearchcomponent._updatedisplayedvaluesubscription.md) |  | <code>Subscription</code> | Subscription for update displayed value request |
 |  [\_valueChangedSubscription](./select.editlivesearchcomponent._valuechangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes of selected value |
 |  [\_valueHandler](./select.editlivesearchcomponent._valuehandler.md) |  | <code>ValueHandler</code> | Value handler plugin used within <code>NgSelect</code> |
+|  [availableOptions](./select.editlivesearchcomponent.availableoptions.md) |  | <code>ɵNgSelectOption[]</code> | Gets currently available options |
 |  [liveSearchElement](./select.editlivesearchcomponent.livesearchelement.md) |  | <code>HTMLElement</code> | HTML element that represents live search |
 |  [ngSelectPlugins](./select.editlivesearchcomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
 |  [options](./select.editlivesearchcomponent.options.md) |  | <code>EditLiveSearchOptions</code> | Options for NgSelect plugin |
@@ -41,7 +46,9 @@ export declare class EditLiveSearchComponent implements EditLiveSearch, NgSelect
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
+|  [\_activateSelectedOrFirst()](./select.editlivesearchcomponent._activateselectedorfirst.md) |  | Activates first available option or selected option |
 |  [\_initTexts()](./select.editlivesearchcomponent._inittexts.md) |  | Initialize texts |
+|  [handleBlur()](./select.editlivesearchcomponent.handleblur.md) |  | Handles blur of live search |
 |  [initialize()](./select.editlivesearchcomponent.initialize.md) |  | Initialize plugin, to be ready to use, initialize communication with other plugins |
 |  [initOptions()](./select.editlivesearchcomponent.initoptions.md) |  | Initialize plugin options, all operations required to be done with plugin options are handled here |
 |  [invalidateVisuals()](./select.editlivesearchcomponent.invalidatevisuals.md) |  | Explicitly runs invalidation of content (change detection) |

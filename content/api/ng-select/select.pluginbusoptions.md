@@ -22,5 +22,6 @@ export interface PluginBusOptions<TValue = any>
 |  [optionsGatherer](./select.pluginbusoptions.optionsgatherer.md) | <code>OptionsGatherer&lt;TValue&gt;</code> | Instance of options gatherer that is used for obtaining options |
 |  [readonly](./select.pluginbusoptions.readonly.md) | <code>boolean</code> | Indication whether is NgSelect readonly or not |
 |  [templateGatherer](./select.pluginbusoptions.templategatherer.md) | <code>TemplateGatherer</code> | Instance of template gatherer used for obtaining custom templates |
+|  [useNonExistingAsValue](./select.pluginbusoptions.usenonexistingasvalue.md) | <code>boolean</code> | Indication whether use non existing value in live search as new value, use with dynamic value handler |
 |  [valueComparer](./select.pluginbusoptions.valuecomparer.md) | <code>CompareValueFunc&lt;TValue&gt;</code> | Function of value comparer that is used for comparison of values |
 

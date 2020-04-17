@@ -16,7 +16,7 @@ export declare class PopupAbstractComponent<TCssClasses = any, TOptions extends 
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, \_changeDetector, \_document)](./select.popupabstractcomponent._constructor_.md) |  | Constructs a new instance of the <code>PopupAbstractComponent</code> class |
+|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, \_changeDetector, \_document, \_stringLocalization)](./select.popupabstractcomponent._constructor_.md) |  | Constructs a new instance of the <code>PopupAbstractComponent</code> class |
 
 ## Properties
 
@@ -31,7 +31,12 @@ export declare class PopupAbstractComponent<TCssClasses = any, TOptions extends 
 |  [\_optionsGatherer](./select.popupabstractcomponent._optionsgatherer.md) |  | <code>OptionsGatherer</code> | Instance of previous options gatherer, that is used for obtaining available options |
 |  [\_popupToggleSubscription](./select.popupabstractcomponent._popuptogglesubscription.md) |  | <code>Subscription</code> | Subscription for toggle popup event |
 |  [\_popupVisible](./select.popupabstractcomponent._popupvisible.md) |  | <code>boolean</code> | Indication whether is popup visible |
+|  [\_stringLocalization](./select.popupabstractcomponent._stringlocalization.md) |  | <code>StringLocalization</code> |  |
+|  [\_textsChangedSubscription](./select.popupabstractcomponent._textschangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes in texts |
+|  [\_valueChangedSubscription](./select.popupabstractcomponent._valuechangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes of selected value |
+|  [\_valueHandler](./select.popupabstractcomponent._valuehandler.md) |  | <code>ValueHandler</code> | Value handler plugin used within <code>NgSelect</code> |
 |  [\_visibilityRequestSubscription](./select.popupabstractcomponent._visibilityrequestsubscription.md) |  | <code>Subscription</code> | Subscription for popup visibility change request |
+|  [keepOpen](./select.popupabstractcomponent.keepopen.md) |  | <code>boolean</code> | Gets indication whether keep open popup after value change |
 |  [ngSelectPlugins](./select.popupabstractcomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
 |  [options](./select.popupabstractcomponent.options.md) |  | <code>TOptions</code> | Options for NgSelect plugin |
 |  [pluginBus](./select.popupabstractcomponent.pluginbus.md) |  | <code>PluginBus</code> |  |
@@ -43,6 +48,7 @@ export declare class PopupAbstractComponent<TCssClasses = any, TOptions extends 
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
+|  [\_initTexts()](./select.popupabstractcomponent._inittexts.md) |  | Initialize texts |
 |  [initialize()](./select.popupabstractcomponent.initialize.md) |  | Initialize plugin, to be ready to use, initialize communication with other plugins |
 |  [initOptions()](./select.popupabstractcomponent.initoptions.md) |  | Initialize plugin options, all operations required to be done with plugin options are handled here |
 |  [invalidateVisuals()](./select.popupabstractcomponent.invalidatevisuals.md) |  | Explicitly runs invalidation of content (change detection) |

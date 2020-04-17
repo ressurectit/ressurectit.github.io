@@ -11,3 +11,10 @@ Directive that applies options for NgSelect which enable usage of NgSelect edit 
 ```typescript
 export declare class NgSelectEditDirective 
 ```
+
+## Constructors
+
+|  Constructor | Modifiers | Description |
+|  --- | --- | --- |
+|  [(constructor)(select)](./select.ngselecteditdirective._constructor_.md) |  | Constructs a new instance of the <code>NgSelectEditDirective</code> class |
+

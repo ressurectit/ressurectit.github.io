@@ -16,13 +16,14 @@ export declare class BasicLiveSearchComponent implements BasicLiveSearch, NgSele
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(ngSelectPlugins, pluginElement, \_changeDetector, \_stringLocalization, options)](./select.basiclivesearchcomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicLiveSearchComponent</code> class |
+|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, \_changeDetector, \_stringLocalization, options)](./select.basiclivesearchcomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicLiveSearchComponent</code> class |
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [\_changeDetector](./select.basiclivesearchcomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
+|  [\_liveSearchFocusSubscription](./select.basiclivesearchcomponent._livesearchfocussubscription.md) |  | <code>Subscription</code> | Subscription for live search focus request |
 |  [\_options](./select.basiclivesearchcomponent._options.md) |  | <code>BasicLiveSearchOptions</code> | Options for NgSelect plugin |
 |  [\_popup](./select.basiclivesearchcomponent._popup.md) |  | <code>Popup</code> | Popup used in NgSelect |
 |  [\_stringLocalization](./select.basiclivesearchcomponent._stringlocalization.md) |  | <code>StringLocalization</code> |  |
@@ -31,7 +32,7 @@ export declare class BasicLiveSearchComponent implements BasicLiveSearch, NgSele
 |  [liveSearchElement](./select.basiclivesearchcomponent.livesearchelement.md) |  | <code>HTMLElement</code> | HTML element that represents live search |
 |  [ngSelectPlugins](./select.basiclivesearchcomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
 |  [options](./select.basiclivesearchcomponent.options.md) |  | <code>BasicLiveSearchOptions</code> | Options for NgSelect plugin |
-|  [pluginBus](./select.basiclivesearchcomponent.pluginbus.md) |  | <code>PluginBus</code> | Plugin bus used for inter plugin shared events |
+|  [pluginBus](./select.basiclivesearchcomponent.pluginbus.md) |  | <code>PluginBus</code> |  |
 |  [pluginElement](./select.basiclivesearchcomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
 |  [searchValue](./select.basiclivesearchcomponent.searchvalue.md) |  | <code>string</code> | Current value of live search |
 |  [searchValueChange](./select.basiclivesearchcomponent.searchvaluechange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when current value of live search changes |

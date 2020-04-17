@@ -18,3 +18,15 @@ export declare class EditNormalStateComponent extends NormalStateAbstractCompone
 |  --- | --- | --- |
 |  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, changeDetector, stringLocalization, options)](./select.editnormalstatecomponent._constructor_.md) |  | Constructs a new instance of the <code>EditNormalStateComponent</code> class |
 
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [selectedOptions](./select.editnormalstatecomponent.selectedoptions.md) |  | <code>NgSelectOption[]</code> | Gets currently selected options |
+
+## Methods
+
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [cancelSelected()](./select.editnormalstatecomponent.cancelselected.md) |  | Cancel selected options |
+

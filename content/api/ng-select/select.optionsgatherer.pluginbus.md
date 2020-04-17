@@ -9,5 +9,5 @@ Plugin bus used for inter plugin shared events
 <b>Signature:</b>
 
 ```typescript
-pluginBus: PluginBus;
+pluginBus: PluginBus<TValue>;
 ```

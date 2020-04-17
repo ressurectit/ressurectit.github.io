@@ -21,7 +21,8 @@ export interface OptionsGatherer<TValue = any>
 |  [ngSelectPlugins](./select.optionsgatherer.ngselectplugins.md) | <code>NgSelectPluginInstances</code> | NgSelect plugin instances available for gatherer |
 |  [options](./select.optionsgatherer.options.md) | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of provided options for select |
 |  [optionsChange](./select.optionsgatherer.optionschange.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of provided options has changed |
-|  [pluginBus](./select.optionsgatherer.pluginbus.md) | <code>PluginBus</code> | Plugin bus used for inter plugin shared events |
+|  [pluginBus](./select.optionsgatherer.pluginbus.md) | <code>PluginBus&lt;TValue&gt;</code> | Plugin bus used for inter plugin shared events |
+|  [select](./select.optionsgatherer.select.md) | <code>NgSelect&lt;TValue&gt;</code> | Select element that implements default gatherers |
 
 ## Methods
 

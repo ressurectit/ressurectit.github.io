@@ -16,5 +16,5 @@ export declare class BasicPopupComponent extends PopupAbstractComponent<CssClass
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, changeDetector, options, document)](./select.basicpopupcomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicPopupComponent</code> class |
+|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, changeDetector, options, stringLocalization, document)](./select.basicpopupcomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicPopupComponent</code> class |
 

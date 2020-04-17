@@ -11,3 +11,10 @@ Edit normal state options
 ```typescript
 export interface EditNormalStateOptions extends NormalStateOptions<CssClassesEditNormalState> 
 ```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [cancelButton](./select.editnormalstateoptions.cancelbutton.md) | <code>boolean</code> | Indication whether display cancel button |
+

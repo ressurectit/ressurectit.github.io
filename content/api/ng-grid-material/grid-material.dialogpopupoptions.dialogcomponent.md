@@ -9,5 +9,5 @@ Component that is used to show popup content in dialog
 <b>Signature:</b>
 
 ```typescript
-dialogComponent: TComponent;
+dialogComponent?: ComponentType<TComponent>;
 ```

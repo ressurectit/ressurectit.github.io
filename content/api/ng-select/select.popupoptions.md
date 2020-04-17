@@ -16,5 +16,6 @@ export interface PopupOptions<TCssClasses = any> extends VisualPluginOptions<TCs
 
 |  Property | Type | Description |
 |  --- | --- | --- |
+|  [texts](./select.popupoptions.texts.md) | <code>PopupTexts</code> | Texts that are used within any Popup |
 |  [visible](./select.popupoptions.visible.md) | <code>boolean</code> | Indication whether are popup options visible, or not |
 

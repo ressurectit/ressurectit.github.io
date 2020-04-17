@@ -9,7 +9,7 @@ Component that represents NgSelect itself, allows selection of value from option
 <b>Signature:</b>
 
 ```typescript
-export declare class NgSelectComponent<TValue = any> implements NgSelect<TValue>, OnChanges, OnInit, AfterViewInit, OnDestroy, OptionsGatherer<TValue>, TemplateGatherer 
+export declare class NgSelectComponent<TValue = any> implements NgSelect<TValue>, OnChanges, OnInit, AfterViewInit, OnDestroy 
 ```
 
 ## Constructors

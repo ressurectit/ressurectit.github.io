@@ -29,7 +29,6 @@ export declare abstract class ValueHandlerBase<TValue = any, TOptions extends Va
 |  [\_optionsChangeSubscription](./select.valuehandlerbase._optionschangesubscription.md) |  | <code>Subscription</code> | Subscription for changes of options in options gatherer |
 |  [\_optionSelectSubscription](./select.valuehandlerbase._optionselectsubscription.md) |  | <code>Subscription</code> | Subscription for option selection |
 |  [\_optionsGatherer](./select.valuehandlerbase._optionsgatherer.md) |  | <code>OptionsGatherer&lt;TValue&gt;</code> | Instance of previous options gatherer, that is used for obtaining available options |
-|  [\_popup](./select.valuehandlerbase._popup.md) |  | <code>Popup</code> | Popup that is used |
 |  [\_setValue](./select.valuehandlerbase._setvalue.md) |  | <code>(option: ɵNgSelectOption&lt;TValue&gt;) =&gt; void</code> | Sets value |
 |  [liveSearchFilter](./select.valuehandlerbase.livesearchfilter.md) |  | <code>LiveSearchFilter&lt;TValue&gt;</code> | Method that is used for filtering when live search is running on static data |
 |  [ngSelectPlugins](./select.valuehandlerbase.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
@@ -49,7 +48,6 @@ export declare abstract class ValueHandlerBase<TValue = any, TOptions extends Va
 |  [\_clearSelected()](./select.valuehandlerbase._clearselected.md) |  | Clears all selected values |
 |  [\_loadOptions()](./select.valuehandlerbase._loadoptions.md) |  | Loads options |
 |  [\_markValueAsSelected()](./select.valuehandlerbase._markvalueasselected.md) |  | Marks current value as selected |
-|  [findAvailableOption(text, exact)](./select.valuehandlerbase.findavailableoption.md) |  | Returns first found options or null |
 |  [initialize()](./select.valuehandlerbase.initialize.md) |  | Initialize plugin, to be ready to use, initialize communication with other plugins |
 |  [initOptions()](./select.valuehandlerbase.initoptions.md) |  | Initialize plugin options, all operations required to be done with plugin options are handled here |
 |  [invalidateVisuals()](./select.valuehandlerbase.invalidatevisuals.md) |  | Explicitly runs invalidation of content (change detection) |

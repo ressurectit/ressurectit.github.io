@@ -12,12 +12,6 @@ Options gatherer used for static options gathering from code
 export declare class CodeOptionsGatherer<TValue = any> implements OptionsGatherer<TValue> 
 ```
 
-## Constructors
-
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [(constructor)(\_liveSearchFilter, \_normalizer)](./select.codeoptionsgatherer._constructor_.md) |  | Constructs a new instance of the <code>CodeOptionsGatherer</code> class |
-
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -30,6 +24,7 @@ export declare class CodeOptionsGatherer<TValue = any> implements OptionsGathere
 |  [options](./select.codeoptionsgatherer.options.md) |  | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of provided options for select |
 |  [optionsChange](./select.codeoptionsgatherer.optionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of provided options has changed |
 |  [pluginBus](./select.codeoptionsgatherer.pluginbus.md) |  | <code>PluginBus&lt;TValue&gt;</code> | Plugin bus used for inter plugin shared events |
+|  [select](./select.codeoptionsgatherer.select.md) |  | <code>NgSelect&lt;TValue&gt;</code> | Select element that implements default gatherers |
 
 ## Methods
 

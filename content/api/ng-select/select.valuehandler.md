@@ -24,6 +24,5 @@ export interface ValueHandler<TValue = any> extends NgSelectPlugin
 
 |  Method | Description |
 |  --- | --- |
-|  [findAvailableOption(text, exact)](./select.valuehandler.findavailableoption.md) | Returns first found options or null |
 |  [setValue(value)](./select.valuehandler.setvalue.md) | Sets value for NgSelect |
 

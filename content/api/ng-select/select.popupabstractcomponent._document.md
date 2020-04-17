@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-protected _document?: HTMLDocument;
+protected _document: HTMLDocument;
 ```
