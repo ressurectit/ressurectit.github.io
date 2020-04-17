@@ -199,7 +199,15 @@ External source allows you to easily create `Directives` that sets *selectOption
 
 ### Absolute
 
-Dialog with absolutely positioned popup.
+Demonstration of dialog with standard `popup` plugin and with absolutely positioned `popup` plugin, which solves problems with overflowing of popup.
+
+- required module `NgSelectModule` from `@anglr/select`
+- `NgSelectOptions` initialized
+    - `absolute` set to `true`
+- html `<ng-select>` is top level element
+    - it contains static `<ng-option>` elements
+        - `value` - value that is assigned to this option, if selected this value will be used
+        - `text` - text that is displayed for option
 
 @SAMPLE#absolute-select&select/AbsoluteComponent@
 
@@ -209,7 +217,7 @@ Dialog with absolutely positioned popup.
 
 Dialog popup is displayed as *modal dialog*. *Popup* plugin is set using *DialogPopupDirective*. Using default *dialog* content type and default options, this can be changed.
 
-- required module `NgSelectModule` from `@anglr/select` and `NgSelectDialogPopupModule` from `@anglr/select/material`
+- required modules `NgSelectModule` from `@anglr/select` and `NgSelectDialogPopupModule` from `@anglr/select/material`
 - `NgSelectOptions` initialized with default or DI provided defaults, additinally changed in `Directive`
     - `DialogPopupDirective` applies *dialogPopup* component
 - html `<ng-select>` is top level element
@@ -223,6 +231,21 @@ Dialog popup is displayed as *modal dialog*. *Popup* plugin is set using *Dialog
 
 ### Edit
 
-Dialog using `Edit` plugins.
+Select with customized `keyboardHandler`, `popup`, `normalState`, `liveSearch` plugins, which allows to change value by typing, can be used as *autocomplete* input.
+
+- required modules `NgSelectModule`, `NgSelectEditModule` from `@anglr/select`
+- `NgSelectOptions` initialized with default or DI provided defaults, additinally changed in `Directive`
+    - `NgSelectEditDirective` applies following changes
+        - sets `normalState` plugin type to `EditNormalStateComponent`
+        - sets `liveSearch` plugin type to `EditLiveSearchComponent`
+        - sets `popup` plugin type to `EditPopupComponent`
+        - sets `keyboardHandler` plugin type to `EditKeyboardHandlerComponent`
+        - sets `optionsGatherer` to `ExcludingOptionsGatherer`
+- html `<ng-select>` is top level element
+    - applied `editStyle` attribute for `NgSelectEditDirective`
+    - one select has `multiple` attribute
+    - it contains static `<ng-option>` elements 
+        - `value` - value that is assigned to this option, if selected this value will be used
+        - `text` - text that is displayed for option
 
 @SAMPLE#edit-select&select/EditComponent@
