@@ -11,6 +11,7 @@ Component that is used for displaying server validation messages
 ```typescript
 export declare class ServerValidationMessagesComponent implements OnInit, DoCheck, AfterViewInit 
 ```
+<b>Implements:</b> OnInit, DoCheck, AfterViewInit
 
 ## Constructors
 
@@ -22,12 +23,12 @@ export declare class ServerValidationMessagesComponent implements OnInit, DoChec
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [contentTemplate](./error-handling.servervalidationmessagescomponent.contenttemplate.md) |  | <code>TemplateRef&lt;ImplicitString&gt;</code> | Item render template from content |
-|  [errors](./error-handling.servervalidationmessagescomponent.errors.md) |  | <code>string[]</code> | Errors that are displayed |
-|  [errorTemplate](./error-handling.servervalidationmessagescomponent.errortemplate.md) |  | <code>TemplateRef&lt;ImplicitString&gt;</code> | Error template that can be used for rendering items |
-|  [itemCssClass](./error-handling.servervalidationmessagescomponent.itemcssclass.md) |  | <code>string</code> | Additional css classes that are applied to each rendered item with default template |
-|  [itemTemplate](./error-handling.servervalidationmessagescomponent.itemtemplate.md) |  | <code>Subject&lt;TemplateRef&lt;ImplicitString&gt;&gt;</code> | Gets template for rendering single item |
-|  [viewTemplate](./error-handling.servervalidationmessagescomponent.viewtemplate.md) |  | <code>TemplateRef&lt;ImplicitString&gt;</code> | Item render template from view |
+|  [contentTemplate](./error-handling.servervalidationmessagescomponent.contenttemplate.md) |  | TemplateRef&lt;[ImplicitString](./error-handling.implicitstring.md)<!-- -->&gt; | Item render template from content |
+|  [errors](./error-handling.servervalidationmessagescomponent.errors.md) |  | string\[\] | Errors that are displayed |
+|  [errorTemplate](./error-handling.servervalidationmessagescomponent.errortemplate.md) |  | TemplateRef&lt;[ImplicitString](./error-handling.implicitstring.md)<!-- -->&gt; | Error template that can be used for rendering items |
+|  [itemCssClass](./error-handling.servervalidationmessagescomponent.itemcssclass.md) |  | string | Additional css classes that are applied to each rendered item with default template |
+|  [itemTemplate](./error-handling.servervalidationmessagescomponent.itemtemplate.md) |  | Subject&lt;TemplateRef&lt;[ImplicitString](./error-handling.implicitstring.md)<!-- -->&gt;&gt; | Gets template for rendering single item |
+|  [viewTemplate](./error-handling.servervalidationmessagescomponent.viewtemplate.md) |  | TemplateRef&lt;[ImplicitString](./error-handling.implicitstring.md)<!-- -->&gt; | Item render template from view |
 
 ## Methods
 

@@ -22,7 +22,7 @@ export declare class HttpErrorInterceptorOptions
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [debug](./error-handling.httperrorinterceptoroptions.debug.md) |  | <code>boolean</code> | Indication whether run this interceptor in debug mode |
-|  [globalValidationMessages](./error-handling.httperrorinterceptoroptions.globalvalidationmessages.md) |  | <code>boolean</code> | Indication whether display validation messages globally |
-|  [shouldHandlePredicate](./error-handling.httperrorinterceptoroptions.shouldhandlepredicate.md) |  | <code>(response: HttpErrorResponse) =&gt; boolean</code> | Predicate that is used for testing whether response should be handled by HttpErrorInterceptor |
+|  [debug](./error-handling.httperrorinterceptoroptions.debug.md) |  | boolean | Indication whether run this interceptor in debug mode |
+|  [globalValidationMessages](./error-handling.httperrorinterceptoroptions.globalvalidationmessages.md) |  | boolean | Indication whether display validation messages globally |
+|  [shouldHandlePredicate](./error-handling.httperrorinterceptoroptions.shouldhandlepredicate.md) |  | (response: HttpErrorResponse) =&gt; boolean | Predicate that is used for testing whether response should be handled by HttpErrorInterceptor |
 

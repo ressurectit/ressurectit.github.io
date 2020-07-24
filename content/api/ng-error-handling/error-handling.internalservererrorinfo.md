@@ -16,7 +16,7 @@ export declare class InternalServerErrorInfo
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [errorHtml](./error-handling.internalservererrorinfo.errorhtml.md) |  | <code>SafeResourceUrl</code> | Html displaying info about error |
-|  [id](./error-handling.internalservererrorinfo.id.md) |  | <code>number</code> | Id of error |
-|  [requestUrl](./error-handling.internalservererrorinfo.requesturl.md) |  | <code>string</code> | Request url that was called and caused error |
+|  [errorHtml](./error-handling.internalservererrorinfo.errorhtml.md) |  | SafeResourceUrl | Html displaying info about error |
+|  [id](./error-handling.internalservererrorinfo.id.md) |  | number | Id of error |
+|  [requestUrl](./error-handling.internalservererrorinfo.requesturl.md) |  | string | Request url that was called and caused error |
 

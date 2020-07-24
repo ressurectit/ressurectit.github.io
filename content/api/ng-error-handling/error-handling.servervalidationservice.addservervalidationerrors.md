@@ -18,9 +18,9 @@ addServerValidationErrors(validationErrors: {
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  validationErrors | <code>{</code><br/><code>        [key: string]: string[];</code><br/><code>    }</code> | List of validation errors |
+|  validationErrors | { \[key: string\]: string\[\]; } | List of validation errors |
 
 <b>Returns:</b>
 
-`void`
+void
 

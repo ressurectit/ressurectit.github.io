@@ -16,10 +16,10 @@ intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  req | <code>HttpRequest&lt;any&gt;</code> | Request to be intercepted |
-|  next | <code>HttpHandler</code> | Next middleware that can be called for next processing |
+|  req | HttpRequest&lt;any&gt; | Request to be intercepted |
+|  next | HttpHandler | Next middleware that can be called for next processing |
 
 <b>Returns:</b>
 
-`Observable<HttpEvent<any>>`
+Observable&lt;HttpEvent&lt;any&gt;&gt;
 

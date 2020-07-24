@@ -16,8 +16,8 @@ export declare class ServerValidationService
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [serverValidations](./error-handling.servervalidationservice.servervalidations.md) |  | <code>{</code><br/><code>        [key: string]: string[];</code><br/><code>    }</code> | Server validation errors that are currently present |
-|  [serverValidationsChanged](./error-handling.servervalidationservice.servervalidationschanged.md) |  | <code>Observable&lt;boolean&gt;</code> | Occurs when server validation has changed, parameter indicates whether there are errors present, or not |
+|  [serverValidations](./error-handling.servervalidationservice.servervalidations.md) |  | { \[key: string\]: string\[\]; } | Server validation errors that are currently present |
+|  [serverValidationsChanged](./error-handling.servervalidationservice.servervalidationschanged.md) |  | Observable&lt;boolean&gt; | Occurs when server validation has changed, parameter indicates whether there are errors present, or not |
 
 ## Methods
 

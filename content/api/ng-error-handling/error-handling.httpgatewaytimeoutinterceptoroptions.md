@@ -22,6 +22,6 @@ export declare class HttpGatewayTimeoutInterceptorOptions
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [action](./error-handling.httpgatewaytimeoutinterceptoroptions.action.md) |  | <code>HttpGatewayTimeoutAction</code> | Action called when 504 status code received |
-|  [text](./error-handling.httpgatewaytimeoutinterceptoroptions.text.md) |  | <code>string</code> | Text displayed |
+|  [action](./error-handling.httpgatewaytimeoutinterceptoroptions.action.md) |  | [HttpGatewayTimeoutAction](./error-handling.httpgatewaytimeoutaction.md) | Action called when 504 status code received |
+|  [text](./error-handling.httpgatewaytimeoutinterceptoroptions.text.md) |  | string | Text displayed |
 

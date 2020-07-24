@@ -11,11 +11,12 @@ Angular error containing also promise
 ```typescript
 export interface AngularError extends ErrorWithStack 
 ```
+<b>Extends:</b> [ErrorWithStack](./error-handling.errorwithstack.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [promise](./error-handling.angularerror.promise.md) | <code>Promise&lt;any&gt;</code> |  |
-|  [rejection](./error-handling.angularerror.rejection.md) | <code>ErrorWithStack</code> |  |
+|  [promise](./error-handling.angularerror.promise.md) | Promise&lt;any&gt; |  |
+|  [rejection](./error-handling.angularerror.rejection.md) | [ErrorWithStack](./error-handling.errorwithstack.md) |  |
 

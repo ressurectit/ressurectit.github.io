@@ -16,6 +16,6 @@ constructor(text?: string, action?: NoConnectionAction);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  text | <code>string</code> | Text displayed |
-|  action | <code>NoConnectionAction</code> | Action called when 0 status code received |
+|  text | string | Text displayed |
+|  action | [NoConnectionAction](./error-handling.noconnectionaction.md) | Action called when 0 status code received |
 

@@ -16,6 +16,6 @@ constructor(text?: string, action?: HttpGatewayTimeoutAction);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  text | <code>string</code> | Text displayed |
-|  action | <code>HttpGatewayTimeoutAction</code> | Action called when 504 status code received |
+|  text | string | Text displayed |
+|  action | [HttpGatewayTimeoutAction](./error-handling.httpgatewaytimeoutaction.md) | Action called when 504 status code received |
 

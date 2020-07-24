@@ -11,6 +11,7 @@ Directive that runs form validations when server validation has changed
 ```typescript
 export declare class WithServerValidationsDirective implements OnDestroy 
 ```
+<b>Implements:</b> OnDestroy
 
 ## Constructors
 

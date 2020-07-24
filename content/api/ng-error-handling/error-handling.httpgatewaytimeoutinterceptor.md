@@ -11,6 +11,7 @@ HttpGatewayTimeoutInterceptor used for intercepting http responses and handling 
 ```typescript
 export declare class HttpGatewayTimeoutInterceptor implements HttpInterceptor 
 ```
+<b>Implements:</b> HttpInterceptor
 
 ## Constructors
 

@@ -9,12 +9,13 @@ Implicit context for template
 <b>Signature:</b>
 
 ```typescript
-export interface ImplicitString 
+export interface ImplicitString extends NgForOfContext<string, string[]> 
 ```
+<b>Extends:</b> NgForOfContext&lt;string, string\[\]&gt;
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [$implicit](./error-handling.implicitstring._implicit.md) | <code>string</code> |  |
+|  [$implicit](./error-handling.implicitstring._implicit.md) | string |  |
 

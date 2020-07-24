@@ -16,6 +16,6 @@ constructor(_serverValidation: string, _serverValidationService: ServerValidatio
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_serverValidation | <code>string</code> |  |
-|  \_serverValidationService | <code>ServerValidationService</code> |  |
+|  \_serverValidation | string |  |
+|  \_serverValidationService | [ServerValidationService](./error-handling.servervalidationservice.md) |  |
 

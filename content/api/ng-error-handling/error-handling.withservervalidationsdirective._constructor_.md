@@ -16,6 +16,6 @@ constructor(serviceValidationSvc: ServerValidationService, form: ControlContaine
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  serviceValidationSvc | <code>ServerValidationService</code> |  |
-|  form | <code>ControlContainer</code> |  |
+|  serviceValidationSvc | [ServerValidationService](./error-handling.servervalidationservice.md) |  |
+|  form | ControlContainer |  |
 

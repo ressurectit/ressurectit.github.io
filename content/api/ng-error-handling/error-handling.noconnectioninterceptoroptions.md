@@ -22,6 +22,6 @@ export declare class NoConnectionInterceptorOptions
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [action](./error-handling.noconnectioninterceptoroptions.action.md) |  | <code>NoConnectionAction</code> | Action called when 0 status code received |
-|  [text](./error-handling.noconnectioninterceptoroptions.text.md) |  | <code>string</code> | Text displayed |
+|  [action](./error-handling.noconnectioninterceptoroptions.action.md) |  | [NoConnectionAction](./error-handling.noconnectionaction.md) | Action called when 0 status code received |
+|  [text](./error-handling.noconnectioninterceptoroptions.text.md) |  | string | Text displayed |
 

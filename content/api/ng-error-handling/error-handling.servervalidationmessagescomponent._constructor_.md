@@ -16,5 +16,5 @@ constructor(_differs: KeyValueDiffers);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_differs | <code>KeyValueDiffers</code> |  |
+|  \_differs | KeyValueDiffers |  |
 

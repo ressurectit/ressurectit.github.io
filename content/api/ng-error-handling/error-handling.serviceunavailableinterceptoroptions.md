@@ -22,6 +22,6 @@ export declare class ServiceUnavailableInterceptorOptions
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [action](./error-handling.serviceunavailableinterceptoroptions.action.md) |  | <code>ServiceUnavailableAction</code> | Action called when 504 status code received |
-|  [text](./error-handling.serviceunavailableinterceptoroptions.text.md) |  | <code>string</code> | Text displayed |
+|  [action](./error-handling.serviceunavailableinterceptoroptions.action.md) |  | [ServiceUnavailableAction](./error-handling.serviceunavailableaction.md) | Action called when 504 status code received |
+|  [text](./error-handling.serviceunavailableinterceptoroptions.text.md) |  | string | Text displayed |
 

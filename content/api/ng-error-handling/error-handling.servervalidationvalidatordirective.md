@@ -11,6 +11,7 @@ Server validation directive injecting server validations validator
 ```typescript
 export declare class ServerValidationValidatorDirective implements Validator 
 ```
+<b>Implements:</b> Validator
 
 ## Constructors
 

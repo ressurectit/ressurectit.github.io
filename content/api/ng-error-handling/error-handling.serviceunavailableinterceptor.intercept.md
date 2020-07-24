@@ -16,10 +16,10 @@ intercept(req: HttpRequestIgnoredInterceptorId<any>, next: HttpHandler): Observa
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  req | <code>HttpRequestIgnoredInterceptorId&lt;any&gt;</code> | Request to be intercepted |
-|  next | <code>HttpHandler</code> | Next middleware that can be called for next processing |
+|  req | HttpRequestIgnoredInterceptorId&lt;any&gt; | Request to be intercepted |
+|  next | HttpHandler | Next middleware that can be called for next processing |
 
 <b>Returns:</b>
 
-`Observable<HttpEvent<any>>`
+Observable&lt;HttpEvent&lt;any&gt;&gt;
 

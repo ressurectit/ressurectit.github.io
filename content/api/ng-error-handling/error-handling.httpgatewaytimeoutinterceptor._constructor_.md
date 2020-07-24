@@ -16,7 +16,7 @@ constructor(_options: HttpGatewayTimeoutInterceptorOptions, _ignoredInterceptors
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_options | <code>HttpGatewayTimeoutInterceptorOptions</code> |  |
-|  \_ignoredInterceptorsService | <code>IgnoredInterceptorsService</code> |  |
-|  \_injector | <code>Injector</code> |  |
+|  \_options | [HttpGatewayTimeoutInterceptorOptions](./error-handling.httpgatewaytimeoutinterceptoroptions.md) |  |
+|  \_ignoredInterceptorsService | IgnoredInterceptorsService |  |
+|  \_injector | Injector |  |
 

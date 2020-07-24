@@ -16,10 +16,10 @@ showInternalServerError(errorHtml: string, requestUrl: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  errorHtml | <code>string</code> | Html that will be displayed in dialog |
-|  requestUrl | <code>string</code> | Url of request that ended with internal server error |
+|  errorHtml | string | Html that will be displayed in dialog |
+|  requestUrl | string | Url of request that ended with internal server error |
 
 <b>Returns:</b>
 
-`void`
+void
 

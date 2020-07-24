@@ -16,7 +16,7 @@ export declare class InternalServerErrorService
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [internalServerErrorOccured](./error-handling.internalservererrorservice.internalservererroroccured.md) |  | <code>Observable&lt;InternalServerErrorInfo&gt;</code> | Occurs when internal server occurs during http request |
+|  [internalServerErrorOccured](./error-handling.internalservererrorservice.internalservererroroccured.md) |  | Observable&lt;[InternalServerErrorInfo](./error-handling.internalservererrorinfo.md)<!-- -->&gt; | Occurs when internal server occurs during http request |
 
 ## Methods
 

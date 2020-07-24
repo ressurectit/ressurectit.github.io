@@ -11,12 +11,13 @@ Interceptor that is used for handling http errors with default codes 400, 405..5
 ```typescript
 export declare class HttpErrorInterceptor implements HttpInterceptor 
 ```
+<b>Implements:</b> HttpInterceptor
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(\_options, \_internalServerErrorService, \_serverValidationService, \_responseMapper, \_notifications)](./error-handling.httperrorinterceptor._constructor_.md) |  | Constructs a new instance of the <code>HttpErrorInterceptor</code> class |
+|  [(constructor)(\_options, \_internalServerErrorService, \_serverValidationService, \_responseMapper, \_notifications, \_logger)](./error-handling.httperrorinterceptor._constructor_.md) |  | Constructs a new instance of the <code>HttpErrorInterceptor</code> class |
 
 ## Methods
 

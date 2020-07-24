@@ -16,6 +16,6 @@ constructor(text?: string, action?: ServiceUnavailableAction);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  text | <code>string</code> | Text displayed |
-|  action | <code>ServiceUnavailableAction</code> | Action called when 503 status code received |
+|  text | string | Text displayed |
+|  action | [ServiceUnavailableAction](./error-handling.serviceunavailableaction.md) | Action called when 503 status code received |
 

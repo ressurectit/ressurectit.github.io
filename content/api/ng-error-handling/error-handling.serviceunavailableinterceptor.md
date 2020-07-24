@@ -11,6 +11,7 @@ ServiceUnavailableInterceptor used for intercepting http responses and handling 
 ```typescript
 export declare class ServiceUnavailableInterceptor implements HttpInterceptor 
 ```
+<b>Implements:</b> HttpInterceptor
 
 ## Constructors
 

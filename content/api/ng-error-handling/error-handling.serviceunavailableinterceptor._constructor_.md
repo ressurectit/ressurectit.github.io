@@ -16,7 +16,7 @@ constructor(_options: ServiceUnavailableInterceptorOptions, _ignoredInterceptors
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_options | <code>ServiceUnavailableInterceptorOptions</code> |  |
-|  \_ignoredInterceptorsService | <code>IgnoredInterceptorsService</code> |  |
-|  \_injector | <code>Injector</code> |  |
+|  \_options | [ServiceUnavailableInterceptorOptions](./error-handling.serviceunavailableinterceptoroptions.md) |  |
+|  \_ignoredInterceptorsService | IgnoredInterceptorsService |  |
+|  \_injector | Injector |  |
 

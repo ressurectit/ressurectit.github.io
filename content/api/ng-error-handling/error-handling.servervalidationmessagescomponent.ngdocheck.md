@@ -13,5 +13,5 @@ ngDoCheck(): any;
 ```
 <b>Returns:</b>
 
-`any`
+any
 

@@ -9,16 +9,16 @@ Removes displayed report
 <b>Signature:</b>
 
 ```typescript
-removeReport(itm: InternalServerErrorInfo): void;
+removeReport(errorInfo: InternalServerErrorInfo): void;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  itm | <code>InternalServerErrorInfo</code> | Report to be removed |
+|  errorInfo | [InternalServerErrorInfo](./error-handling.internalservererrorinfo.md) | Report to be removed |
 
 <b>Returns:</b>
 
-`void`
+void
 

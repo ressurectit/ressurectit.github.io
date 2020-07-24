@@ -11,10 +11,11 @@ Error extended with stack trace
 ```typescript
 export interface ErrorWithStack extends Error 
 ```
+<b>Extends:</b> Error
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [stack](./error-handling.errorwithstack.stack.md) | <code>string</code> |  |
+|  [stack](./error-handling.errorwithstack.stack.md) | string |  |
 

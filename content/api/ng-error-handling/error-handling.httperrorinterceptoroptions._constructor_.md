@@ -16,7 +16,7 @@ constructor(debug?: boolean, globalValidationMessages?: boolean, shouldHandlePre
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  debug | <code>boolean</code> | Indication whether run this interceptor in debug mode |
-|  globalValidationMessages | <code>boolean</code> | Indication whether display validation messages globally |
-|  shouldHandlePredicate | <code>(response: HttpErrorResponse) =&gt; boolean</code> | Predicate that is used for testing whether response should be handled by HttpErrorInterceptor |
+|  debug | boolean | Indication whether run this interceptor in debug mode |
+|  globalValidationMessages | boolean | Indication whether display validation messages globally |
+|  shouldHandlePredicate | (response: HttpErrorResponse) =&gt; boolean | Predicate that is used for testing whether response should be handled by HttpErrorInterceptor |
 

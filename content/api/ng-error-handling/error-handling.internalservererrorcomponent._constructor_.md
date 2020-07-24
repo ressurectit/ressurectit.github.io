@@ -9,13 +9,15 @@ Constructs a new instance of the `InternalServerErrorComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(internalServerErrorService: InternalServerErrorService, sanitizerService: DomSanitizer);
+constructor(internalServerErrorService: InternalServerErrorService, sanitizerService: DomSanitizer, _renderer: InternalServerErrorRenderer, _changeDetector: ChangeDetectorRef);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  internalServerErrorService | <code>InternalServerErrorService</code> |  |
-|  sanitizerService | <code>DomSanitizer</code> |  |
+|  internalServerErrorService | [InternalServerErrorService](./error-handling.internalservererrorservice.md) |  |
+|  sanitizerService | DomSanitizer |  |
+|  \_renderer | [InternalServerErrorRenderer](./error-handling.internalservererrorrenderer.md) |  |
+|  \_changeDetector | ChangeDetectorRef |  |
 

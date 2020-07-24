@@ -11,6 +11,7 @@ NoConnectionInterceptor used for intercepting http responses and handling 0 stat
 ```typescript
 export declare class NoConnectionInterceptor implements HttpInterceptor 
 ```
+<b>Implements:</b> HttpInterceptor
 
 ## Constructors
 

@@ -8,19 +8,18 @@
 
 |  Class | Description |
 |  --- | --- |
+|  [AnglrExceptionHandler](./error-handling.anglrexceptionhandler.md) | Exception handler that is capable of customized handling of unhandled errors |
+|  [AnglrExceptionHandlerOptions](./error-handling.anglrexceptionhandleroptions.md) | Options that are used within ReportingExceptionHandler |
 |  [HttpErrorInterceptor](./error-handling.httperrorinterceptor.md) | Interceptor that is used for handling http errors with default codes 400, 405..599 |
 |  [HttpErrorInterceptorOptions](./error-handling.httperrorinterceptoroptions.md) | Options for HttpErrorInterceptor |
 |  [HttpGatewayTimeoutInterceptor](./error-handling.httpgatewaytimeoutinterceptor.md) | HttpGatewayTimeoutInterceptor used for intercepting http responses and handling 504 statuses |
 |  [HttpGatewayTimeoutInterceptorOptions](./error-handling.httpgatewaytimeoutinterceptoroptions.md) | Options for HttpGatewayTimeoutInterceptor |
-|  [InternalServerErrorComponent](./error-handling.internalservererrorcomponent.md) | Displays internal server errors in bootstrap modal dialog |
+|  [InternalServerErrorComponent](./error-handling.internalservererrorcomponent.md) | Displays internal server errors in modal dialog |
 |  [InternalServerErrorInfo](./error-handling.internalservererrorinfo.md) | Internal server error information |
 |  [InternalServerErrorModule](./error-handling.internalservererrormodule.md) | Module for internal server error handling |
 |  [InternalServerErrorService](./error-handling.internalservererrorservice.md) | Service that is used for displaying internal server errors in InternalServerError component |
 |  [NoConnectionInterceptor](./error-handling.noconnectioninterceptor.md) | NoConnectionInterceptor used for intercepting http responses and handling 0 statuses |
 |  [NoConnectionInterceptorOptions](./error-handling.noconnectioninterceptoroptions.md) | Options for NoConnectionInterceptor |
-|  [ɵb](./error-handling._b.md) | Exception handler that is capable of reporting and logging occured exceptions |
-|  [ReportingExceptionHandlerOptions](./error-handling.reportingexceptionhandleroptions.md) | Options that are used within ReportingExceptionHandler |
-|  [ReportingExceptionHandlerService](./error-handling.reportingexceptionhandlerservice.md) | Service that should be extended and is used for reporting |
 |  [ServerValidationMessagesComponent](./error-handling.servervalidationmessagescomponent.md) | Component that is used for displaying server validation messages |
 |  [ServerValidationService](./error-handling.servervalidationservice.md) | Service that is used for distribution of server validations |
 |  [ServerValidationsModule](./error-handling.servervalidationsmodule.md) | Module for server validations |
@@ -33,21 +32,29 @@
 
 |  Interface | Description |
 |  --- | --- |
+|  [AnglrExceptionExtender](./error-handling.anglrexceptionextender.md) | Definition of method that is used for extending error with additional data |
 |  [AngularError](./error-handling.angularerror.md) | Angular error containing also promise |
 |  [BadRequestDetail](./error-handling.badrequestdetail.md) | Information about error, formatted for REST api |
+|  [ErrorWithScreenShot](./error-handling.errorwithscreenshot.md) | Error object extended with base64 string of current screenshot |
 |  [ErrorWithStack](./error-handling.errorwithstack.md) | Error extended with stack trace |
+|  [ErrorWithUrl](./error-handling.errorwithurl.md) | Error object extended with current application URL |
 |  [ImplicitString](./error-handling.implicitstring.md) | Implicit context for template |
+|  [InternalServerErrorRenderer](./error-handling.internalservererrorrenderer.md) | Renderer used for displaying/rendering internal server error |
 
 ## Variables
 
 |  Variable | Description |
 |  --- | --- |
+|  [ANGLR\_EXCEPTION\_EXTENDERS](./error-handling.anglr_exception_extenders.md) | Injection token used for injecting multiple AnglrExceptionExtender |
+|  [ANGLR\_EXCEPTION\_HANDLER\_PROVIDER](./error-handling.anglr_exception_handler_provider.md) | Anglr custom exception handler provider |
 |  [ERROR\_RESPONSE\_MAP\_PROVIDER](./error-handling.error_response_map_provider.md) | Token for map function provider |
+|  [ERROR\_WITH\_URL\_EXTENDER](./error-handling.error_with_url_extender.md) | Extender used for extending error with current application URL |
+|  [errorWithUrlExtender](./error-handling.errorwithurlextender.md) | Extends error with current application URL |
 |  [HTTP\_ERROR\_INTERCEPTOR\_PROVIDER](./error-handling.http_error_interceptor_provider.md) | Provider for proper use of HttpErrorInterceptor, use this provider to inject this interceptor |
 |  [HTTP\_GATEWAY\_TIMEOUT\_INTERCEPTOR\_PROVIDER](./error-handling.http_gateway_timeout_interceptor_provider.md) | Provider for proper use of HttpGatewayTimeoutInterceptor, use this provider to inject this interceptor |
+|  [INTERNAL\_SERVER\_ERROR\_RENDERER](./error-handling.internal_server_error_renderer.md) | Injection token used for InternalServerErrorRenderer |
 |  [NO\_CONNECTION\_INTERCEPTOR\_PROVIDER](./error-handling.no_connection_interceptor_provider.md) | Provider for proper use of NoConnectionInterceptor, use this provider to inject this interceptor |
-|  [ɵa](./error-handling._a.md) | Validator that is injected with directive ServerValidationValidator |
-|  [REPORTING\_EXCEPTION\_HANDLER\_PROVIDER](./error-handling.reporting_exception_handler_provider.md) | Reporting exception handler provider |
+|  [SERVER\_VALIDATIONS\_VALIDATOR](./error-handling.server_validations_validator.md) | Validator that is injected with directive ServerValidationValidator |
 |  [SERVICE\_UNAVAILABLE\_INTERCEPTOR\_PROVIDER](./error-handling.service_unavailable_interceptor_provider.md) | Provider for proper use of ServiceUnavailableInterceptor, use this provider to inject this interceptor |
 
 ## Type Aliases

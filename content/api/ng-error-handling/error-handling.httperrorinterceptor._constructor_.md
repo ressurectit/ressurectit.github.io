@@ -9,16 +9,17 @@ Constructs a new instance of the `HttpErrorInterceptor` class
 <b>Signature:</b>
 
 ```typescript
-constructor(_options: HttpErrorInterceptorOptions, _internalServerErrorService: InternalServerErrorService, _serverValidationService: ServerValidationService, _responseMapper: ResponseMapperFunction, _notifications: GlobalNotificationsService);
+constructor(_options: HttpErrorInterceptorOptions, _internalServerErrorService: InternalServerErrorService, _serverValidationService: ServerValidationService, _responseMapper: ResponseMapperFunction, _notifications: GlobalNotificationsService, _logger: Logger);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_options | <code>HttpErrorInterceptorOptions</code> |  |
-|  \_internalServerErrorService | <code>InternalServerErrorService</code> |  |
-|  \_serverValidationService | <code>ServerValidationService</code> |  |
-|  \_responseMapper | <code>ResponseMapperFunction</code> |  |
-|  \_notifications | <code>GlobalNotificationsService</code> |  |
+|  \_options | [HttpErrorInterceptorOptions](./error-handling.httperrorinterceptoroptions.md) |  |
+|  \_internalServerErrorService | [InternalServerErrorService](./error-handling.internalservererrorservice.md) |  |
+|  \_serverValidationService | [ServerValidationService](./error-handling.servervalidationservice.md) |  |
+|  \_responseMapper | [ResponseMapperFunction](./error-handling.responsemapperfunction.md) |  |
+|  \_notifications | GlobalNotificationsService |  |
+|  \_logger | Logger |  |
 

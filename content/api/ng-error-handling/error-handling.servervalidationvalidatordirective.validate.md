@@ -15,9 +15,7 @@ validate(): {
 ```
 <b>Returns:</b>
 
-`{
-        [key: string]: any;
-    }`
+{ \[key: string\]: any; }
 
 validation results
 

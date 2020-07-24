@@ -16,6 +16,6 @@ export interface BadRequestDetail
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [errors](./error-handling.badrequestdetail.errors.md) | <code>string[]</code> | Gets or sets error messages that will be displayed |
-|  [validationErrors](./error-handling.badrequestdetail.validationerrors.md) | <code>{</code><br/><code>        [key: string]: string[];</code><br/><code>    }</code> | Gets or sets validation error messages to be displayed |
+|  [errors](./error-handling.badrequestdetail.errors.md) | string\[\] | Gets or sets error messages that will be displayed |
+|  [validationErrors](./error-handling.badrequestdetail.validationerrors.md) | { \[key: string\]: string\[\]; } | Gets or sets validation error messages to be displayed |
 

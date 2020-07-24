@@ -4,30 +4,26 @@
 
 ## InternalServerErrorComponent class
 
-Displays internal server errors in bootstrap modal dialog
+Displays internal server errors in modal dialog
 
 <b>Signature:</b>
 
 ```typescript
 export declare class InternalServerErrorComponent implements OnDestroy 
 ```
+<b>Implements:</b> OnDestroy
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(internalServerErrorService, sanitizerService)](./error-handling.internalservererrorcomponent._constructor_.md) |  | Constructs a new instance of the <code>InternalServerErrorComponent</code> class |
-
-## Properties
-
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [errorsHtml](./error-handling.internalservererrorcomponent.errorshtml.md) |  | <code>InternalServerErrorInfo[]</code> | Array of html errors that should be displayed |
+|  [(constructor)(internalServerErrorService, sanitizerService, \_renderer, \_changeDetector)](./error-handling.internalservererrorcomponent._constructor_.md) |  | Constructs a new instance of the <code>InternalServerErrorComponent</code> class |
 
 ## Methods
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [ngOnDestroy()](./error-handling.internalservererrorcomponent.ngondestroy.md) |  | Called when component is destroyed |
-|  [removeReport(itm)](./error-handling.internalservererrorcomponent.removereport.md) |  | Removes displayed report |
+|  [removeReport(errorInfo)](./error-handling.internalservererrorcomponent.removereport.md) |  | Removes displayed report |
+|  [show(errorInfo)](./error-handling.internalservererrorcomponent.show.md) |  | Shows error info in provided renderer |
 

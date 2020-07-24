@@ -16,7 +16,7 @@ constructor(_options: NoConnectionInterceptorOptions, _ignoredInterceptorsServic
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_options | <code>NoConnectionInterceptorOptions</code> |  |
-|  \_ignoredInterceptorsService | <code>IgnoredInterceptorsService</code> |  |
-|  \_injector | <code>Injector</code> |  |
+|  \_options | [NoConnectionInterceptorOptions](./error-handling.noconnectioninterceptoroptions.md) |  |
+|  \_ignoredInterceptorsService | IgnoredInterceptorsService |  |
+|  \_injector | Injector |  |
 
