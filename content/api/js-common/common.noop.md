@@ -11,5 +11,5 @@ export declare function noop(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

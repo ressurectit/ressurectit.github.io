@@ -14,9 +14,9 @@ isEmpty(val: any): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  val | <code>any</code> |  |
+|  val | any |  |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

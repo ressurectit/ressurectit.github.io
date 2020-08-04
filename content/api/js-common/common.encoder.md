@@ -26,9 +26,9 @@ export declare class Encoder
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [arr1](./common.encoder.arr1.md) |  | <code>string[]</code> |  |
-|  [arr2](./common.encoder.arr2.md) |  | <code>string[]</code> |  |
-|  [EncodeType](./common.encoder.encodetype.md) |  | <code>string</code> |  |
+|  [arr1](./common.encoder.arr1.md) |  | string\[\] |  |
+|  [arr2](./common.encoder.arr2.md) |  | string\[\] |  |
+|  [EncodeType](./common.encoder.encodetype.md) |  | string |  |
 
 ## Methods
 

@@ -20,12 +20,12 @@ export declare function merge(source1: {
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  source1 | <code>{</code><br/><code>    [key: string]: any;</code><br/><code>}</code> | First source object |
-|  source2 | <code>{</code><br/><code>    [key: string]: any;</code><br/><code>}</code> | Second source object |
+|  source1 | { \[key: string\]: any; } | First source object |
+|  source2 | { \[key: string\]: any; } | Second source object |
 
 <b>Returns:</b>
 
-`Object`
+Object
 
 Object Object containing properties from source1 and source2 objects
 

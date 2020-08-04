@@ -14,9 +14,9 @@ export declare function isStringMap(obj: any): obj is Object;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  obj | <code>any</code> |  |
+|  obj | any |  |
 
 <b>Returns:</b>
 
-`obj is Object`
+obj is Object
 

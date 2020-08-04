@@ -14,9 +14,9 @@ export declare function isJsObject(o: any): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  o | <code>any</code> |  |
+|  o | any |  |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

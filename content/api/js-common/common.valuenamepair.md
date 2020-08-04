@@ -16,6 +16,6 @@ export interface ValueNamePair
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [name](./common.valuenamepair.name.md) | <code>string</code> | Name of the pair |
-|  [value](./common.valuenamepair.value.md) | <code>string</code> | Value of the pair |
+|  [name](./common.valuenamepair.name.md) | string | Name of the pair |
+|  [value](./common.valuenamepair.value.md) | string | Value of the pair |
 

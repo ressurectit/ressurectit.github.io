@@ -16,12 +16,12 @@ export declare function extend<TResult>(deepOrObject: boolean | Object, ...objec
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  deepOrObject | <code>boolean &#124; Object</code> | Object to be extended or indication that deep copy should be performed |
-|  objectN | <code>Object[]</code> | Objects that will be used for extending, if deep is used first here is target object |
+|  deepOrObject | boolean \| Object | Object to be extended or indication that deep copy should be performed |
+|  objectN | Object\[\] | Objects that will be used for extending, if deep is used first here is target object |
 
 <b>Returns:</b>
 
-`TResult`
+TResult
 
 Object Extended object with properties from other objects
 

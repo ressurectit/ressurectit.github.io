@@ -16,10 +16,10 @@ export declare function htmlToElement(html: string, doc?: HTMLDocument): HTMLEle
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  html | <code>string</code> | Html string to be converted to DOM |
-|  doc | <code>HTMLDocument</code> | Optional html document to be used |
+|  html | string | Html string to be converted to DOM |
+|  doc | HTMLDocument | Optional html document to be used |
 
 <b>Returns:</b>
 
-`HTMLElement`
+HTMLElement
 

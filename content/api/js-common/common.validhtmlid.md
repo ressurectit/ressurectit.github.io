@@ -16,10 +16,10 @@ export declare function validHtmlId(id: string, charMap?: Object): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  id | <code>string</code> | Id that is going to be converted to valid html id |
-|  charMap | <code>Object</code> | Character map used during normalization |
+|  id | string | Id that is going to be converted to valid html id |
+|  charMap | Object | Character map used during normalization |
 
 <b>Returns:</b>
 
-`string`
+string
 

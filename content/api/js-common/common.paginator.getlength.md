@@ -13,7 +13,7 @@ getLength(): number;
 ```
 <b>Returns:</b>
 
-`number`
+number
 
 number Number of items on page
 

@@ -14,9 +14,9 @@ export declare function isDate(obj: any): obj is Date;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  obj | <code>any</code> |  |
+|  obj | any |  |
 
 <b>Returns:</b>
 
-`obj is Date`
+obj is Date
 

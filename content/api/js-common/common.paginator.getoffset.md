@@ -13,7 +13,7 @@ getOffset(): number;
 ```
 <b>Returns:</b>
 
-`number`
+number
 
 number Absolute index of first item
 

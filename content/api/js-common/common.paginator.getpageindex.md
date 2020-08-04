@@ -13,7 +13,7 @@ protected getPageIndex(): number;
 ```
 <b>Returns:</b>
 
-`number`
+number
 
 number Zero-based page number
 

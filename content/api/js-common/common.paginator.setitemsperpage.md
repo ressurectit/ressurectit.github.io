@@ -16,11 +16,11 @@ setItemsPerPage(itemsPerPage: number): Paginator;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  itemsPerPage | <code>number</code> | Number of items per page |
+|  itemsPerPage | number | Number of items per page |
 
 <b>Returns:</b>
 
-`Paginator`
+[Paginator](./common.paginator.md)
 
 Paginator Provides a fluent interface
 

@@ -11,5 +11,5 @@ GetFirstPage(): number;
 ```
 <b>Returns:</b>
 
-`number`
+number
 

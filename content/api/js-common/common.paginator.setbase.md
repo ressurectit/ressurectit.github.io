@@ -16,11 +16,11 @@ setBase(baseVal: number): Paginator;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  baseVal | <code>number</code> | Index of base page |
+|  baseVal | number | Index of base page |
 
 <b>Returns:</b>
 
-`Paginator`
+[Paginator](./common.paginator.md)
 
 Paginator Provides a fluent interface
 

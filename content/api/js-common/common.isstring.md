@@ -14,9 +14,9 @@ export declare function isString(obj: any): obj is string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  obj | <code>any</code> |  |
+|  obj | any |  |
 
 <b>Returns:</b>
 
-`obj is string`
+obj is string
 

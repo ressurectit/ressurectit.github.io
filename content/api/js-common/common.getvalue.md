@@ -16,10 +16,10 @@ export declare function getValue(object: any, expression: string): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  object | <code>any</code> | Object which property value will be obtained |
-|  expression | <code>string</code> | Expression for obtaining value |
+|  object | any | Object which property value will be obtained |
+|  expression | string | Expression for obtaining value |
 
 <b>Returns:</b>
 
-`any`
+any
 

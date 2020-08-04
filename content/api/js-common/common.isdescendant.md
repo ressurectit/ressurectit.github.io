@@ -16,10 +16,10 @@ export declare function isDescendant(parent: HTMLElement, child: HTMLElement): b
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  parent | <code>HTMLElement</code> | Parent to be tested |
-|  child | <code>HTMLElement</code> | Child to be looked for |
+|  parent | HTMLElement | Parent to be tested |
+|  child | HTMLElement | Child to be looked for |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

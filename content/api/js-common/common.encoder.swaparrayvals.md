@@ -14,11 +14,11 @@ swapArrayVals(s: any, arr1: any, arr2: any): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  s | <code>any</code> |  |
-|  arr1 | <code>any</code> |  |
-|  arr2 | <code>any</code> |  |
+|  s | any |  |
+|  arr1 | any |  |
+|  arr2 | any |  |
 
 <b>Returns:</b>
 
-`any`
+any
 

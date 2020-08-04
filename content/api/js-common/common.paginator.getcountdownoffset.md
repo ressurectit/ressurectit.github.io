@@ -13,7 +13,7 @@ getCountdownOffset(): number;
 ```
 <b>Returns:</b>
 
-`number`
+number
 
 number Countdown offset of first item
 

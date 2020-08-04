@@ -14,9 +14,9 @@ export declare function normalizeBlank(obj: Object): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  obj | <code>Object</code> |  |
+|  obj | Object |  |
 
 <b>Returns:</b>
 
-`any`
+any
 

@@ -16,11 +16,11 @@ export declare function reverseString(str: string): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  str | <code>string</code> | String to be reversed |
+|  str | string | String to be reversed |
 
 <b>Returns:</b>
 
-`string`
+string
 
 string Reverse string
 

@@ -14,9 +14,9 @@ export declare function isPresent(obj: any): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  obj | <code>any</code> |  |
+|  obj | any |  |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

@@ -14,10 +14,10 @@ inArray(item: any, arr: any): number;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  item | <code>any</code> |  |
-|  arr | <code>any</code> |  |
+|  item | any |  |
+|  arr | any |  |
 
 <b>Returns:</b>
 
-`number`
+number
 

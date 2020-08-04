@@ -14,10 +14,10 @@ export declare function hasConstructor(value: Object, type: any): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  value | <code>Object</code> |  |
-|  type | <code>any</code> |  |
+|  value | Object |  |
+|  type | any |  |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

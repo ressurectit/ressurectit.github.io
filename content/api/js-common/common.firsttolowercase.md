@@ -16,9 +16,9 @@ export declare function firstToLowerCase(text: string): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  text | <code>string</code> | Text to be converted |
+|  text | string | Text to be converted |
 
 <b>Returns:</b>
 
-`string`
+string
 

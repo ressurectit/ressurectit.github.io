@@ -16,11 +16,11 @@ export declare function setValue(object: any, value: any, expression: string): v
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  object | <code>any</code> | Object which property value will be set |
-|  value | <code>any</code> | Value that will be set |
-|  expression | <code>string</code> | Expression for setting value |
+|  object | any | Object which property value will be set |
+|  value | any | Value that will be set |
+|  expression | string | Expression for setting value |
 
 <b>Returns:</b>
 
-`void`
+void
 

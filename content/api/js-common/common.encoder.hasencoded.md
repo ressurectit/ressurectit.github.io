@@ -14,9 +14,9 @@ hasEncoded(s: any): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  s | <code>any</code> |  |
+|  s | any |  |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

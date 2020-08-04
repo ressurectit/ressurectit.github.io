@@ -14,9 +14,9 @@ htmlDecode(s: any): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  s | <code>any</code> |  |
+|  s | any |  |
 
 <b>Returns:</b>
 
-`any`
+any
 

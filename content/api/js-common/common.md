@@ -9,6 +9,7 @@
 |  Class | Description |
 |  --- | --- |
 |  [Encoder](./common.encoder.md) | A Javascript object to encode and/or decode html characters using HTML or Numeric entities that handles double or partial encoding Author: R Reid source: http://www.strictly-software.com/htmlencode Licences: GPL, The MIT License (MIT) Copyright: (c) 2011 Robert Reid - Strictly-Software.com<!-- -->Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.<!-- -->Revision: 2011-07-14, Jacques-Yves Bleau: - fixed conversion error with capitalized accentuated characters + converted arr1 and arr2 to object property to remove redundancy<!-- -->Revision: 2011-11-10, Ce-Yi Hio: - fixed conversion error with a number of capitalized entity characters<!-- -->Revision: 2011-11-10, Rob Reid: - changed array format<!-- -->Revision: 2012-09-23, Alex Oss: - replaced string concatonation in numEncode with string builder, push and join for peformance with ammendments by Rob Reid |
+|  [NormalizationCharMaps](./common.normalizationcharmaps.md) | Available char maps |
 |  [Paginator](./common.paginator.md) | Class for paging evaluation |
 
 ## Enumerations
@@ -40,6 +41,7 @@
 |  [isFunction(obj)](./common.isfunction.md) |  |
 |  [isJsObject(o)](./common.isjsobject.md) |  |
 |  [isNumber(obj)](./common.isnumber.md) |  |
+|  [isOverflown(element)](./common.isoverflown.md) | Checks whether is element overflown either horizontal, or vertical |
 |  [isPresent(obj)](./common.ispresent.md) |  |
 |  [isPrimitive(obj)](./common.isprimitive.md) |  |
 |  [isStrictStringMap(obj)](./common.isstrictstringmap.md) |  |
@@ -48,6 +50,7 @@
 |  [isType(obj)](./common.istype.md) |  |
 |  [merge(source1, source2)](./common.merge.md) | Merges properties of two separate object into new third one |
 |  [noop()](./common.noop.md) |  |
+|  [normalize(str, charMap)](./common.normalize.md) | Normalize strings, removes accent |
 |  [normalizeBlank(obj)](./common.normalizeblank.md) |  |
 |  [offset(element, doc)](./common.offset.md) | Computes offset of element against document |
 |  [reverseString(str)](./common.reversestring.md) | Reverse current string and returns new reverse string |

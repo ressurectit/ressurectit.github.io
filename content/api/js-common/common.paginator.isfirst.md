@@ -13,7 +13,7 @@ isFirst(): boolean;
 ```
 <b>Returns:</b>
 
-`boolean`
+boolean
 
 boolean True if current page is first one
 

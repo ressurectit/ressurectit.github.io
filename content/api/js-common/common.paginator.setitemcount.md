@@ -16,11 +16,11 @@ setItemCount(itemCount: number): Paginator;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  itemCount | <code>number</code> | Count of items or -1 for infinity |
+|  itemCount | number | Count of items or -1 for infinity |
 
 <b>Returns:</b>
 
-`Paginator`
+[Paginator](./common.paginator.md)
 
 Paginator Provides a fluent interface
 

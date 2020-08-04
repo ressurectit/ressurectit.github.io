@@ -16,11 +16,11 @@ getPagesWithTrimDispersion(dispersion: number): number[];
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  dispersion | <code>number</code> | Number identifying dispersion |
+|  dispersion | number | Number identifying dispersion |
 
 <b>Returns:</b>
 
-`number[]`
+number\[\]
 
 number Page numbers according specified dispersion
 

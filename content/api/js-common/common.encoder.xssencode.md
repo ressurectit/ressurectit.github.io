@@ -14,10 +14,10 @@ XSSEncode(s: any, en: any): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  s | <code>any</code> |  |
-|  en | <code>any</code> |  |
+|  s | any |  |
+|  en | any |  |
 
 <b>Returns:</b>
 
-`any`
+any
 

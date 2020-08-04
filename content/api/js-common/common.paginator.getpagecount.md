@@ -13,7 +13,7 @@ getPageCount(): number;
 ```
 <b>Returns:</b>
 
-`number`
+number
 
 number Total number of pages
 

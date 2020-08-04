@@ -16,11 +16,11 @@ getPagesWithUniformDistribution(numberOfPages: number): number[];
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  numberOfPages | <code>number</code> | Number of pages that are going to be uniformly distributed between first and last page (including) |
+|  numberOfPages | number | Number of pages that are going to be uniformly distributed between first and last page (including) |
 
 <b>Returns:</b>
 
-`number[]`
+number\[\]
 
 number Uniformly distributed page numbers
 

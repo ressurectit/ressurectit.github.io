@@ -14,10 +14,10 @@ htmlEncode(s: any, dbl: any): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  s | <code>any</code> |  |
-|  dbl | <code>any</code> |  |
+|  s | any |  |
+|  dbl | any |  |
 
 <b>Returns:</b>
 
-`any`
+any
 

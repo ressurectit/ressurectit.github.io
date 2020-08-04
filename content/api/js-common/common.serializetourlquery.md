@@ -16,10 +16,10 @@ export declare function serializeToUrlQuery<TObj>(obj: TObj, replacer?: (this: a
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  obj | <code>TObj</code> | Object to be serialized |
-|  replacer | <code>(this: any, key: string, value: any) =&gt; any</code> | Function that can be used for replacing provided values |
+|  obj | TObj | Object to be serialized |
+|  replacer | (this: any, key: string, value: any) =&gt; any | Function that can be used for replacing provided values |
 
 <b>Returns:</b>
 
-`string`
+string
 

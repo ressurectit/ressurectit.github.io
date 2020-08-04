@@ -16,10 +16,10 @@ export declare function format(str: string, ...args: any[]): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  str | <code>string</code> | String containing substitution constants |
-|  args | <code>any[]</code> | Arguments that are used for replacement |
+|  str | string | String containing substitution constants |
+|  args | any\[\] | Arguments that are used for replacement |
 
 <b>Returns:</b>
 
-`string`
+string
 

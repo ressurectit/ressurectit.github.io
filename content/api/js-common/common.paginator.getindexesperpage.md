@@ -13,7 +13,7 @@ getIndexesPerPage(): number[];
 ```
 <b>Returns:</b>
 
-`number[]`
+number\[\]
 
 number Array of items indexes
 

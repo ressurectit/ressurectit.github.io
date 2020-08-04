@@ -16,11 +16,11 @@ export declare function generateId(length: number): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  length | <code>number</code> | Length of generated string |
+|  length | number | Length of generated string |
 
 <b>Returns:</b>
 
-`string`
+string
 
 number Generated string
 

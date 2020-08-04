@@ -16,11 +16,11 @@ setPage(page: number): Paginator;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  page | <code>number</code> | Page number |
+|  page | number | Page number |
 
 <b>Returns:</b>
 
-`Paginator`
+[Paginator](./common.paginator.md)
 
 Paginator Provides a fluent interface
 

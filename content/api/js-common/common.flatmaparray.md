@@ -16,9 +16,9 @@ export declare function flatMapArray<TItem>(array: TItem[][]): TItem[];
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  array | <code>TItem[][]</code> | Array to be reduced using flatMap |
+|  array | TItem\[\]\[\] | Array to be reduced using flatMap |
 
 <b>Returns:</b>
 
-`TItem[]`
+TItem\[\]
 

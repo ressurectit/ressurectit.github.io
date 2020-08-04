@@ -21,15 +21,10 @@ export declare function offset(element: HTMLElement, doc?: HTMLDocument): {
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  element | <code>HTMLElement</code> | Html element which offset is counted |
-|  doc | <code>HTMLDocument</code> | Html document to be used for extracting scroll offset |
+|  element | HTMLElement | Html element which offset is counted |
+|  doc | HTMLDocument | Html document to be used for extracting scroll offset |
 
 <b>Returns:</b>
 
-`{
-    top: number;
-    left: number;
-    bottom: number;
-    right: number;
-}`
+{ top: number; left: number; bottom: number; right: number; }
 

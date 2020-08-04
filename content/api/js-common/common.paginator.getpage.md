@@ -13,7 +13,7 @@ getPage(): number;
 ```
 <b>Returns:</b>
 
-`number`
+number
 
 number Current page number
 

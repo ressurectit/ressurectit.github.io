@@ -16,10 +16,10 @@ export declare function deserializeFromUrlQuery<TObj>(queryParamValue: string, r
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  queryParamValue | <code>string</code> | Query param string value |
-|  reviver | <code>(this: any, key: string, value: any) =&gt; any</code> | Function that can be used for correctly deserializing value |
+|  queryParamValue | string | Query param string value |
+|  reviver | (this: any, key: string, value: any) =&gt; any | Function that can be used for correctly deserializing value |
 
 <b>Returns:</b>
 
-`TObj`
+TObj
 

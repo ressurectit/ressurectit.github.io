@@ -13,7 +13,7 @@ getLastPage(): number;
 ```
 <b>Returns:</b>
 
-`number`
+number
 
 number Number of last page
 

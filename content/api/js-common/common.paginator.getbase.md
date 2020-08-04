@@ -13,7 +13,7 @@ getBase(): number;
 ```
 <b>Returns:</b>
 
-`number`
+number
 
 number Index of base page
 

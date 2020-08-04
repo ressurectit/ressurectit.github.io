@@ -16,9 +16,9 @@ export declare function getEnumValues(enumType: any): ValueNamePair[];
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  enumType | <code>any</code> | Enum type that will have extracted values |
+|  enumType | any | Enum type that will have extracted values |
 
 <b>Returns:</b>
 
-`ValueNamePair[]`
+[ValueNamePair](./common.valuenamepair.md)<!-- -->\[\]
 
