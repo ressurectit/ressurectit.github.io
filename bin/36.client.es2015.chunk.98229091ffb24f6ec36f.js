@@ -1,2 +1,0 @@
-(self.webpackJsonp=self.webpackJsonp||[]).push([[36],{1162:function(t,s,c){"use strict";c.r(s),c.d(s,"GalleryItemContext",(function(){return e}));class e{constructor(t){this.$implicit=t}}}}]);
-//# sourceMappingURL=36.client.es2015.chunk.98229091ffb24f6ec36f.js.map

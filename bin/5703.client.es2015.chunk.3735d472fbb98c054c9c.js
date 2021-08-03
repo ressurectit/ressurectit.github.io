@@ -1,0 +1,1 @@
+(self.webpackChunkressurectit_github_io=self.webpackChunkressurectit_github_io||[]).push([[5703],{15824:(e,s,t)=>{"use strict";t.r(s)}}]);
