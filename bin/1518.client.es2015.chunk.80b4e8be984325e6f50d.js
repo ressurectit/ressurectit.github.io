@@ -1,0 +1,2 @@
+(self.webpackChunkressurectit_github_io=self.webpackChunkressurectit_github_io||[]).push([[1518],{81518:(t,s,e)=>{"use strict";e.r(s),e.d(s,{GalleryItemContext:()=>i});class i{constructor(t){this.$implicit=t}}}}]);
+//# sourceMappingURL=1518.client.es2015.chunk.80b4e8be984325e6f50d.js.map
