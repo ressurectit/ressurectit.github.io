@@ -11,6 +11,9 @@ Component used for handling current value of NgSelect, allows values which are n
 ```typescript
 export declare class DynamicValueHandlerComponent<TValue = any> extends ValueHandlerBase<TValue, DynamicValueHandlerOptions<TValue>> implements DynamicValueHandler<TValue> 
 ```
+<b>Extends:</b> [ValueHandlerBase](./select.valuehandlerbase.md)<!-- -->&lt;TValue, [DynamicValueHandlerOptions](./select.dynamicvaluehandleroptions.md)<!-- -->&lt;TValue&gt;&gt;
+
+<b>Implements:</b> [DynamicValueHandler](./select.dynamicvaluehandler.md)<!-- -->&lt;TValue&gt;
 
 ## Constructors
 
@@ -22,8 +25,8 @@ export declare class DynamicValueHandlerComponent<TValue = any> extends ValueHan
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_setValue](./select.dynamicvaluehandlercomponent._setvalue.md) |  | <code>(option: ɵNgSelectOption&lt;TValue&gt;) =&gt; void</code> | Sets value |
-|  [options](./select.dynamicvaluehandlercomponent.options.md) |  | <code>DynamicValueHandlerOptions&lt;TValue&gt;</code> | Options for NgSelect plugin |
+|  [\_setValue](./select.dynamicvaluehandlercomponent._setvalue.md) |  | (option: [ɵNgSelectOption](./select._ngselectoption.md)<!-- -->&lt;TValue&gt;) =&gt; void | Sets value |
+|  [options](./select.dynamicvaluehandlercomponent.options.md) |  | [DynamicValueHandlerOptions](./select.dynamicvaluehandleroptions.md)<!-- -->&lt;TValue&gt; | Options for NgSelect plugin |
 
 ## Methods
 

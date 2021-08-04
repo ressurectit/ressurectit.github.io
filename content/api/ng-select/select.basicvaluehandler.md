@@ -11,3 +11,5 @@ Public API for 'BasicValueHandlerComponent'
 ```typescript
 export interface BasicValueHandler<TValue = any> extends ValueHandler<TValue> 
 ```
+<b>Extends:</b> [ValueHandler](./select.valuehandler.md)<!-- -->&lt;TValue&gt;
+

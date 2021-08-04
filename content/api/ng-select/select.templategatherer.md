@@ -16,6 +16,6 @@ export interface TemplateGatherer
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [normalStateTemplate](./select.templategatherer.normalstatetemplate.md) | <code>TemplateRef&lt;NormalStateContext&gt;</code> | Template used within normal state |
-|  [optionTemplate](./select.templategatherer.optiontemplate.md) | <code>TemplateRef&lt;PopupContext&gt;</code> | Template that is used within Popup as option |
+|  [normalStateTemplate](./select.templategatherer.normalstatetemplate.md) | TemplateRef&lt;[NormalStateContext](./select.normalstatecontext.md)<!-- -->&gt; | Template used within normal state |
+|  [optionTemplate](./select.templategatherer.optiontemplate.md) | TemplateRef&lt;[PopupContext](./select.popupcontext.md)<!-- -->&gt; | Template that is used within Popup as option |
 

@@ -16,5 +16,5 @@ constructor(injector: Injector);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  injector | <code>Injector</code> |  |
+|  injector | Injector |  |
 

@@ -11,3 +11,5 @@ Keyboard handler plugin interface
 ```typescript
 export interface KeyboardHandler extends NgSelectPlugin 
 ```
+<b>Extends:</b> [NgSelectPlugin](./select.ngselectplugin.md)
+

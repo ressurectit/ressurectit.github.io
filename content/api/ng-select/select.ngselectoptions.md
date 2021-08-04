@@ -11,14 +11,15 @@ Describes select options used for NgSelect
 ```typescript
 export interface NgSelectOptions<TValue = any> extends PluginBusOptions<TValue> 
 ```
+<b>Extends:</b> [PluginBusOptions](./select.pluginbusoptions.md)<!-- -->&lt;TValue&gt;
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [absolute](./select.ngselectoptions.absolute.md) | <code>boolean</code> | Indication whether is 'Popup' plugin displayd inside of NgSelect (false) or directly in Body (true) |
-|  [autoInitialize](./select.ngselectoptions.autoinitialize.md) | <code>boolean</code> | Indication whether NgSelect should be initialized automaticaly during 'NgOnInit' phase |
-|  [cssClasses](./select.ngselectoptions.cssclasses.md) | <code>{}</code> | Css classes applied to ng select component, possible to override only part of classes |
-|  [forceValueCheckOnInit](./select.ngselectoptions.forcevaluecheckoninit.md) | <code>boolean</code> | Indication whether force value check on initialization of select, this allows to change value of form control to value of valueHandler |
-|  [plugins](./select.ngselectoptions.plugins.md) | <code>NgSelectPluginTypes</code> | Object defining overrides for default plugins, default plugins can be also specified using DI |
+|  [absolute](./select.ngselectoptions.absolute.md) | boolean | Indication whether is 'Popup' plugin displayd inside of NgSelect (false) or directly in Body (true) |
+|  [autoInitialize](./select.ngselectoptions.autoinitialize.md) | boolean | Indication whether NgSelect should be initialized automaticaly during 'NgOnInit' phase |
+|  [cssClasses](./select.ngselectoptions.cssclasses.md) | {} | Css classes applied to ng select component, possible to override only part of classes |
+|  [forceValueCheckOnInit](./select.ngselectoptions.forcevaluecheckoninit.md) | boolean | Indication whether force value check on initialization of select, this allows to change value of form control to value of valueHandler |
+|  [plugins](./select.ngselectoptions.plugins.md) | [NgSelectPluginTypes](./select.ngselectplugintypes.md) | Object defining overrides for default plugins, default plugins can be also specified using DI |
 

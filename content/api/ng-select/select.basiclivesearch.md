@@ -11,3 +11,5 @@ Public API for 'BasicLiveSearchComponent'
 ```typescript
 export interface BasicLiveSearch extends LiveSearch 
 ```
+<b>Extends:</b> [LiveSearch](./select.livesearch.md)
+

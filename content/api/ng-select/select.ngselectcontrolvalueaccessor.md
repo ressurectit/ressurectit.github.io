@@ -11,6 +11,7 @@ Control value accessor for NgSelectComponent
 ```typescript
 export declare class NgSelectControlValueAccessor<TValue = any> implements ControlValueAccessor, OnDestroy 
 ```
+<b>Implements:</b> ControlValueAccessor, OnDestroy
 
 ## Constructors
 

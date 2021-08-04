@@ -16,11 +16,11 @@ protected _registerNewPlugin(plugin: NgSelectPlugin, pluginKey: string, pluginNa
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  plugin | <code>NgSelectPlugin</code> | Plugin to be registered |
-|  pluginKey | <code>string</code> | Key of plugin used for pluginInstances |
-|  pluginName | <code>keyof NgSelectPluginTypes</code> | Name property for plugin from options |
+|  plugin | [NgSelectPlugin](./select.ngselectplugin.md) | Plugin to be registered |
+|  pluginKey | string | Key of plugin used for pluginInstances |
+|  pluginName | keyof [NgSelectPluginTypes](./select.ngselectplugintypes.md) | Name property for plugin from options |
 
 <b>Returns:</b>
 
-`void`
+void
 

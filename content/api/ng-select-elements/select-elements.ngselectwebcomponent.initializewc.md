@@ -13,5 +13,5 @@ initializeWC(): any;
 ```
 <b>Returns:</b>
 
-`any`
+any
 

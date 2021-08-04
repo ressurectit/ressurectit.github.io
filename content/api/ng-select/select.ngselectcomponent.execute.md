@@ -16,9 +16,9 @@ execute(...actions: NgSelectAction<TValue>[]): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  actions | <code>NgSelectAction&lt;TValue&gt;[]</code> | Array of actions that are executed over NgSelect |
+|  actions | [NgSelectAction](./select.ngselectaction.md)<!-- -->&lt;TValue&gt;\[\] | Array of actions that are executed over NgSelect |
 
 <b>Returns:</b>
 
-`void`
+void
 

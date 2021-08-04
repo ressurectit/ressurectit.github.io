@@ -16,9 +16,9 @@ getPlugin<PluginType extends NgSelectPlugin>(pluginId: string): PluginType;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  pluginId | <code>string</code> | Id of plugin, use constants |
+|  pluginId | string | Id of plugin, use constants |
 
 <b>Returns:</b>
 
-`PluginType`
+PluginType
 

@@ -11,3 +11,5 @@ No live search options
 ```typescript
 export interface NoLiveSearchOptions extends LiveSearchOptions 
 ```
+<b>Extends:</b> [LiveSearchOptions](./select.livesearchoptions.md)
+

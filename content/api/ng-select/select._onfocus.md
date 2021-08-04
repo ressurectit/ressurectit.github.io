@@ -16,9 +16,9 @@ export declare function ɵOnFocus<TValue>(callback: () => void): NgSelectFunctio
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  callback | <code>() =&gt; void</code> |  |
+|  callback | () =&gt; void |  |
 
 <b>Returns:</b>
 
-`NgSelectFunction<Subscription, TValue>`
+[NgSelectFunction](./select.ngselectfunction.md)<!-- -->&lt;Subscription, TValue&gt;
 

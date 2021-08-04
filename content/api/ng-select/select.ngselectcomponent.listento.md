@@ -16,10 +16,10 @@ listenTo<TParam = void>(eventName: keyof PluginBusEvents, handler: (data: TParam
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  eventName | <code>keyof PluginBusEvents</code> | Name of event that should be listened to |
-|  handler | <code>(data: TParam) =&gt; void</code> | Function used for handling event |
+|  eventName | keyof [PluginBusEvents](./select.pluginbusevents.md) | Name of event that should be listened to |
+|  handler | (data: TParam) =&gt; void | Function used for handling event |
 
 <b>Returns:</b>
 
-`Subscription`
+Subscription
 

@@ -16,11 +16,11 @@ export interface CssClassesEditNormalState
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [cancelSelectedElement](./select.cssclasseseditnormalstate.cancelselectedelement.md) | <code>string</code> | Applied to element that is used as cancel selected button |
-|  [normalStateElement](./select.cssclasseseditnormalstate.normalstateelement.md) | <code>string</code> | Applied to HTML element that represents normal default state visible to user |
-|  [selectedCarret](./select.cssclasseseditnormalstate.selectedcarret.md) | <code>string</code> | Applied to "carret", indicating that it is select and there is more options available |
-|  [selectedCarretWrapper](./select.cssclasseseditnormalstate.selectedcarretwrapper.md) | <code>string</code> | Applied to "carret" wrapper element |
-|  [selectedMultiValueCancel](./select.cssclasseseditnormalstate.selectedmultivaluecancel.md) | <code>string</code> | Applied to element used for canceling selected value |
-|  [selectedMultiValueContainer](./select.cssclasseseditnormalstate.selectedmultivaluecontainer.md) | <code>string</code> | Applied to container displaying single multi value |
-|  [selectedValue](./select.cssclasseseditnormalstate.selectedvalue.md) | <code>string</code> | Applied to currently selected value, which is visible to user (default template) |
+|  [cancelSelectedElement](./select.cssclasseseditnormalstate.cancelselectedelement.md) | string | Applied to element that is used as cancel selected button |
+|  [normalStateElement](./select.cssclasseseditnormalstate.normalstateelement.md) | string | Applied to HTML element that represents normal default state visible to user |
+|  [selectedCarret](./select.cssclasseseditnormalstate.selectedcarret.md) | string | Applied to "carret", indicating that it is select and there is more options available |
+|  [selectedCarretWrapper](./select.cssclasseseditnormalstate.selectedcarretwrapper.md) | string | Applied to "carret" wrapper element |
+|  [selectedMultiValueCancel](./select.cssclasseseditnormalstate.selectedmultivaluecancel.md) | string | Applied to element used for canceling selected value |
+|  [selectedMultiValueContainer](./select.cssclasseseditnormalstate.selectedmultivaluecontainer.md) | string | Applied to container displaying single multi value |
+|  [selectedValue](./select.cssclasseseditnormalstate.selectedvalue.md) | string | Applied to currently selected value, which is visible to user (default template) |
 

@@ -11,11 +11,12 @@ Dynamic value handler options
 ```typescript
 export interface DynamicValueHandlerOptions<TValue = any> extends ValueHandlerOptions 
 ```
+<b>Extends:</b> [ValueHandlerOptions](./select.valuehandleroptions.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [dynamicOptionsCallback](./select.dynamicvaluehandleroptions.dynamicoptionscallback.md) | <code>GetOptionsCallback&lt;TValue&gt;</code> | Callback used for obtaining dynamic options during initialization, if not specified value will be used as text |
-|  [textExtractor](./select.dynamicvaluehandleroptions.textextractor.md) | <code>(value: TValue) =&gt; string</code> | Used for obtaining displayed text from value, defaults to value itself, if dynamicOptionsCallback is specified this is not called |
+|  [dynamicOptionsCallback](./select.dynamicvaluehandleroptions.dynamicoptionscallback.md) | [GetOptionsCallback](./select.getoptionscallback.md)<!-- -->&lt;TValue&gt; | Callback used for obtaining dynamic options during initialization, if not specified value will be used as text |
+|  [textExtractor](./select.dynamicvaluehandleroptions.textextractor.md) | (value: TValue) =&gt; string | Used for obtaining displayed text from value, defaults to value itself, if dynamicOptionsCallback is specified this is not called |
 

@@ -16,9 +16,9 @@ export declare function patchOptions<TValue = any>(options: NgSelectOptions<TVal
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>NgSelectOptions&lt;TValue&gt;</code> | Options to be used as patch |
+|  options | NgSelectOptions&lt;TValue&gt; | Options to be used as patch |
 
 <b>Returns:</b>
 
-`NgSelectAction<TValue>`
+NgSelectAction&lt;TValue&gt;
 

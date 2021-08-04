@@ -11,10 +11,11 @@ Basic live search options
 ```typescript
 export interface BasicLiveSearchOptions extends LiveSearchOptions<CssClassesBasicLiveSearch> 
 ```
+<b>Extends:</b> [LiveSearchOptions](./select.livesearchoptions.md)<!-- -->&lt;[CssClassesBasicLiveSearch](./select.cssclassesbasiclivesearch.md)<!-- -->&gt;
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [keepSearchValue](./select.basiclivesearchoptions.keepsearchvalue.md) | <code>boolean</code> | Indication whether keep search value after popup close |
+|  [keepSearchValue](./select.basiclivesearchoptions.keepsearchvalue.md) | boolean | Indication whether keep search value after popup close |
 

@@ -16,7 +16,7 @@ export interface CssClassesBasicNormalState
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [normalStateElement](./select.cssclassesbasicnormalstate.normalstateelement.md) | <code>string</code> | Applied to HTML element that represents normal default state visible to user |
-|  [selectedCarret](./select.cssclassesbasicnormalstate.selectedcarret.md) | <code>string</code> | Applied to "carret", indicating that it is select and there is more options available |
-|  [selectedValue](./select.cssclassesbasicnormalstate.selectedvalue.md) | <code>string</code> | Applied to currently selected value, which is visible to user (default template) |
+|  [normalStateElement](./select.cssclassesbasicnormalstate.normalstateelement.md) | string | Applied to HTML element that represents normal default state visible to user |
+|  [selectedCarret](./select.cssclassesbasicnormalstate.selectedcarret.md) | string | Applied to "carret", indicating that it is select and there is more options available |
+|  [selectedValue](./select.cssclassesbasicnormalstate.selectedvalue.md) | string | Applied to currently selected value, which is visible to user (default template) |
 

@@ -9,8 +9,9 @@ Base abstract class for normal state of select
 <b>Signature:</b>
 
 ```typescript
-export declare abstract class NormalStateAbstractComponent<TCssClasses = any, TOptions extends NormalStateOptions<TCssClasses> = any> implements NormalState, NgSelectPlugin<TOptions>, OnDestroy 
+export declare abstract class NormalStateAbstractComponent<TCssClasses = any, TOptions extends NormalStateOptions<TCssClasses, TValue> = any, TValue = any> implements NormalState, NgSelectPlugin<TOptions>, OnDestroy 
 ```
+<b>Implements:</b> [NormalState](./select.normalstate.md)<!-- -->, [NgSelectPlugin](./select.ngselectplugin.md)<!-- -->&lt;TOptions&gt;, OnDestroy
 
 ## Constructors
 
@@ -22,15 +23,15 @@ export declare abstract class NormalStateAbstractComponent<TCssClasses = any, TO
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_changeDetector](./select.normalstateabstractcomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
-|  [\_destroyed](./select.normalstateabstractcomponent._destroyed.md) |  | <code>boolean</code> | Indication whether was component destroyed |
-|  [\_options](./select.normalstateabstractcomponent._options.md) |  | <code>TOptions</code> | Options for NgSelect plugin |
-|  [\_stringLocalization](./select.normalstateabstractcomponent._stringlocalization.md) |  | <code>StringLocalization</code> |  |
-|  [\_textsChangedSubscription](./select.normalstateabstractcomponent._textschangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes in texts |
-|  [ngSelectPlugins](./select.normalstateabstractcomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
-|  [options](./select.normalstateabstractcomponent.options.md) |  | <code>TOptions</code> | Options for NgSelect plugin |
-|  [pluginBus](./select.normalstateabstractcomponent.pluginbus.md) |  | <code>PluginBus</code> |  |
-|  [pluginElement](./select.normalstateabstractcomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
+|  [\_changeDetector](./select.normalstateabstractcomponent._changedetector.md) |  | ChangeDetectorRef |  |
+|  [\_destroyed](./select.normalstateabstractcomponent._destroyed.md) |  | boolean | Indication whether was component destroyed |
+|  [\_options](./select.normalstateabstractcomponent._options.md) |  | TOptions | Options for NgSelect plugin |
+|  [\_stringLocalization](./select.normalstateabstractcomponent._stringlocalization.md) |  | StringLocalization |  |
+|  [\_textsChangedSubscription](./select.normalstateabstractcomponent._textschangedsubscription.md) |  | Subscription | Subscription for changes in texts |
+|  [ngSelectPlugins](./select.normalstateabstractcomponent.ngselectplugins.md) |  | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  [options](./select.normalstateabstractcomponent.options.md) |  | TOptions | Options for NgSelect plugin |
+|  [pluginBus](./select.normalstateabstractcomponent.pluginbus.md) |  | [PluginBus](./select.pluginbus.md) |  |
+|  [pluginElement](./select.normalstateabstractcomponent.pluginelement.md) |  | ElementRef |  |
 
 ## Methods
 

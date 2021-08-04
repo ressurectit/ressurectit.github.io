@@ -16,9 +16,9 @@ export declare function reinitializeOptions<TValue = any>(options?: NgSelectOpti
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>NgSelectOptions&lt;TValue&gt;</code> | Options to be used for reinitialization |
+|  options | NgSelectOptions&lt;TValue&gt; | Options to be used for reinitialization |
 
 <b>Returns:</b>
 
-`NgSelectAction<TValue>`
+NgSelectAction&lt;TValue&gt;
 

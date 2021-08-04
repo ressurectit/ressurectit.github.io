@@ -13,5 +13,5 @@ protected togglePopup(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

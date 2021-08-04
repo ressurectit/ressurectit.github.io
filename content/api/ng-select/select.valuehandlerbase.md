@@ -11,6 +11,7 @@ Base class for value handlers
 ```typescript
 export declare abstract class ValueHandlerBase<TValue = any, TOptions extends ValueHandlerOptions = any> implements ValueHandler<TValue>, NgSelectPlugin<TOptions, TValue>, OnDestroy 
 ```
+<b>Implements:</b> [ValueHandler](./select.valuehandler.md)<!-- -->&lt;TValue&gt;, [NgSelectPlugin](./select.ngselectplugin.md)<!-- -->&lt;TOptions, TValue&gt;, OnDestroy
 
 ## Constructors
 
@@ -22,24 +23,24 @@ export declare abstract class ValueHandlerBase<TValue = any, TOptions extends Va
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_cancelValue](./select.valuehandlerbase._cancelvalue.md) |  | <code>(option: ɵNgSelectOption&lt;TValue&gt;) =&gt; void</code> | Cancels, removes option from selected options |
-|  [\_normalState](./select.valuehandlerbase._normalstate.md) |  | <code>NormalState</code> | Normal state that is used |
-|  [\_optionCancelSubscription](./select.valuehandlerbase._optioncancelsubscription.md) |  | <code>Subscription</code> | Subscription for option cancelation |
-|  [\_options](./select.valuehandlerbase._options.md) |  | <code>TOptions</code> | Options for NgSelect plugin |
-|  [\_optionsChangeSubscription](./select.valuehandlerbase._optionschangesubscription.md) |  | <code>Subscription</code> | Subscription for changes of options in options gatherer |
-|  [\_optionSelectSubscription](./select.valuehandlerbase._optionselectsubscription.md) |  | <code>Subscription</code> | Subscription for option selection |
-|  [\_optionsGatherer](./select.valuehandlerbase._optionsgatherer.md) |  | <code>OptionsGatherer&lt;TValue&gt;</code> | Instance of previous options gatherer, that is used for obtaining available options |
-|  [\_setValue](./select.valuehandlerbase._setvalue.md) |  | <code>(option: ɵNgSelectOption&lt;TValue&gt;) =&gt; void</code> | Sets value |
-|  [liveSearchFilter](./select.valuehandlerbase.livesearchfilter.md) |  | <code>LiveSearchFilter&lt;TValue&gt;</code> | Method that is used for filtering when live search is running on static data |
-|  [ngSelectPlugins](./select.valuehandlerbase.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
-|  [normalizer](./select.valuehandlerbase.normalizer.md) |  | <code>NormalizeFunc&lt;TValue&gt;</code> | Normalizer used for normalizing values |
-|  [options](./select.valuehandlerbase.options.md) |  | <code>TOptions</code> | Options for NgSelect plugin |
-|  [pluginBus](./select.valuehandlerbase.pluginbus.md) |  | <code>PluginBus&lt;TValue&gt;</code> |  |
-|  [pluginElement](./select.valuehandlerbase.pluginelement.md) |  | <code>ElementRef</code> |  |
-|  [selectedOptions](./select.valuehandlerbase.selectedoptions.md) |  | <code>NgSelectOption&lt;TValue&gt; &#124; NgSelectOption&lt;TValue&gt;[]</code> | Current value of NgSelect |
-|  [value](./select.valuehandlerbase.value.md) |  | <code>TValue &#124; TValue[]</code> | Current selected value of NgSelect |
-|  [valueChange](./select.valuehandlerbase.valuechange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when value of NgSelect changes |
-|  [valueComparer](./select.valuehandlerbase.valuecomparer.md) |  | <code>CompareValueFunc&lt;TValue&gt;</code> | Function of value comparer that is used for comparison of values |
+|  [\_cancelValue](./select.valuehandlerbase._cancelvalue.md) |  | (option: [ɵNgSelectOption](./select._ngselectoption.md)<!-- -->&lt;TValue&gt;) =&gt; void | Cancels, removes option from selected options |
+|  [\_normalState](./select.valuehandlerbase._normalstate.md) |  | [NormalState](./select.normalstate.md) | Normal state that is used |
+|  [\_optionCancelSubscription](./select.valuehandlerbase._optioncancelsubscription.md) |  | Subscription | Subscription for option cancelation |
+|  [\_options](./select.valuehandlerbase._options.md) |  | TOptions | Options for NgSelect plugin |
+|  [\_optionsChangeSubscription](./select.valuehandlerbase._optionschangesubscription.md) |  | Subscription | Subscription for changes of options in options gatherer |
+|  [\_optionSelectSubscription](./select.valuehandlerbase._optionselectsubscription.md) |  | Subscription | Subscription for option selection |
+|  [\_optionsGatherer](./select.valuehandlerbase._optionsgatherer.md) |  | [OptionsGatherer](./select.optionsgatherer.md)<!-- -->&lt;TValue&gt; | Instance of previous options gatherer, that is used for obtaining available options |
+|  [\_setValue](./select.valuehandlerbase._setvalue.md) |  | (option: [ɵNgSelectOption](./select._ngselectoption.md)<!-- -->&lt;TValue&gt;) =&gt; void | Sets value |
+|  [liveSearchFilter](./select.valuehandlerbase.livesearchfilter.md) |  | [LiveSearchFilter](./select.livesearchfilter.md)<!-- -->&lt;TValue&gt; | Method that is used for filtering when live search is running on static data |
+|  [ngSelectPlugins](./select.valuehandlerbase.ngselectplugins.md) |  | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  [normalizer](./select.valuehandlerbase.normalizer.md) |  | [NormalizeFunc](./select.normalizefunc.md)<!-- -->&lt;TValue&gt; | Normalizer used for normalizing values |
+|  [options](./select.valuehandlerbase.options.md) |  | TOptions | Options for NgSelect plugin |
+|  [pluginBus](./select.valuehandlerbase.pluginbus.md) |  | [PluginBus](./select.pluginbus.md)<!-- -->&lt;TValue&gt; |  |
+|  [pluginElement](./select.valuehandlerbase.pluginelement.md) |  | ElementRef |  |
+|  [selectedOptions](./select.valuehandlerbase.selectedoptions.md) |  | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt; \| [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Current value of NgSelect |
+|  [value](./select.valuehandlerbase.value.md) |  | TValue \| TValue\[\] | Current selected value of NgSelect |
+|  [valueChange](./select.valuehandlerbase.valuechange.md) |  | EventEmitter&lt;void&gt; | Occurs when value of NgSelect changes |
+|  [valueComparer](./select.valuehandlerbase.valuecomparer.md) |  | [CompareValueFunc](./select.comparevaluefunc.md)<!-- -->&lt;TValue&gt; | Function of value comparer that is used for comparison of values |
 
 ## Methods
 

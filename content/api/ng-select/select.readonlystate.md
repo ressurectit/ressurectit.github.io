@@ -11,3 +11,5 @@ Readonly state plugin interface
 ```typescript
 export interface ReadonlyState extends NormalState 
 ```
+<b>Extends:</b> [NormalState](./select.normalstate.md)
+

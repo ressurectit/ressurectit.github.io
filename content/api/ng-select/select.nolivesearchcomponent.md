@@ -11,6 +11,7 @@ Component used for no live search
 ```typescript
 export declare class NoLiveSearchComponent implements NoLiveSearch, NgSelectPlugin<NoLiveSearchOptions> 
 ```
+<b>Implements:</b> [NoLiveSearch](./select.nolivesearch.md)<!-- -->, [NgSelectPlugin](./select.ngselectplugin.md)<!-- -->&lt;[NoLiveSearchOptions](./select.nolivesearchoptions.md)<!-- -->&gt;
 
 ## Constructors
 
@@ -22,14 +23,14 @@ export declare class NoLiveSearchComponent implements NoLiveSearch, NgSelectPlug
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_options](./select.nolivesearchcomponent._options.md) |  | <code>NoLiveSearchOptions</code> | Options for NgSelect plugin |
-|  [liveSearchElement](./select.nolivesearchcomponent.livesearchelement.md) |  | <code>HTMLElement</code> | HTML element that represents live search |
-|  [ngSelectPlugins](./select.nolivesearchcomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
-|  [options](./select.nolivesearchcomponent.options.md) |  | <code>NoLiveSearchOptions</code> | Options for NgSelect plugin |
-|  [pluginBus](./select.nolivesearchcomponent.pluginbus.md) |  | <code>PluginBus</code> | Plugin bus used for inter plugin shared events |
-|  [pluginElement](./select.nolivesearchcomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
-|  [searchValue](./select.nolivesearchcomponent.searchvalue.md) |  | <code>string</code> | Current value of live search |
-|  [searchValueChange](./select.nolivesearchcomponent.searchvaluechange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when current value of live search changes |
+|  [\_options](./select.nolivesearchcomponent._options.md) |  | [NoLiveSearchOptions](./select.nolivesearchoptions.md) | Options for NgSelect plugin |
+|  [liveSearchElement](./select.nolivesearchcomponent.livesearchelement.md) |  | HTMLElement | HTML element that represents live search |
+|  [ngSelectPlugins](./select.nolivesearchcomponent.ngselectplugins.md) |  | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  [options](./select.nolivesearchcomponent.options.md) |  | [NoLiveSearchOptions](./select.nolivesearchoptions.md) | Options for NgSelect plugin |
+|  [pluginBus](./select.nolivesearchcomponent.pluginbus.md) |  | [PluginBus](./select.pluginbus.md) | Plugin bus used for inter plugin shared events |
+|  [pluginElement](./select.nolivesearchcomponent.pluginelement.md) |  | ElementRef |  |
+|  [searchValue](./select.nolivesearchcomponent.searchvalue.md) |  | string | Current value of live search |
+|  [searchValueChange](./select.nolivesearchcomponent.searchvaluechange.md) |  | EventEmitter&lt;void&gt; | Occurs when current value of live search changes |
 
 ## Methods
 

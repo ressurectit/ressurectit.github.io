@@ -16,5 +16,5 @@ export interface NormalStateContext
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [$implicit](./select.normalstatecontext._implicit.md) | <code>NormalState</code> | Instance of plugin itself |
+|  [$implicit](./select.normalstatecontext._implicit.md) | [NormalState](./select.normalstate.md) | Instance of plugin itself |
 

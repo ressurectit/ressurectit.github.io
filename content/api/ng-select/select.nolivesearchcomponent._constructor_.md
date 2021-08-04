@@ -16,7 +16,7 @@ constructor(ngSelectPlugins: NgSelectPluginInstances, pluginElement: ElementRef,
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  ngSelectPlugins | <code>NgSelectPluginInstances</code> |  |
-|  pluginElement | <code>ElementRef</code> |  |
-|  \_document | <code>HTMLDocument</code> |  |
+|  ngSelectPlugins | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  pluginElement | ElementRef |  |
+|  \_document | HTMLDocument |  |
 

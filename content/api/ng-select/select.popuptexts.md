@@ -16,5 +16,5 @@ export interface PopupTexts
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [noAvailableOptions](./select.popuptexts.noavailableoptions.md) | <code>string</code> | Displayed when there is are no available options to be displayed |
+|  [noAvailableOptions](./select.popuptexts.noavailableoptions.md) | string | Displayed when there is are no available options to be displayed |
 

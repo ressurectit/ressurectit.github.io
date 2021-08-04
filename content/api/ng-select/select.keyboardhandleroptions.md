@@ -11,3 +11,5 @@ Options for keyboard handler plugin
 ```typescript
 export interface KeyboardHandlerOptions extends PluginOptions 
 ```
+<b>Extends:</b> [PluginOptions](./select.pluginoptions.md)
+

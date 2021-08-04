@@ -11,6 +11,7 @@ Component used for not positioning popup
 ```typescript
 export declare class NoPositionerComponent implements NoPositioner, NgSelectPlugin<NoPositionerOptions> 
 ```
+<b>Implements:</b> [NoPositioner](./select.nopositioner.md)<!-- -->, [NgSelectPlugin](./select.ngselectplugin.md)<!-- -->&lt;[NoPositionerOptions](./select.nopositioneroptions.md)<!-- -->&gt;
 
 ## Constructors
 
@@ -22,11 +23,11 @@ export declare class NoPositionerComponent implements NoPositioner, NgSelectPlug
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_options](./select.nopositionercomponent._options.md) |  | <code>NoPositionerOptions</code> | Options for NgSelect plugin |
-|  [ngSelectPlugins](./select.nopositionercomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
-|  [options](./select.nopositionercomponent.options.md) |  | <code>NoPositionerOptions</code> | Options for NgSelect plugin |
-|  [pluginBus](./select.nopositionercomponent.pluginbus.md) |  | <code>PluginBus</code> | Plugin bus used for inter plugin shared events |
-|  [pluginElement](./select.nopositionercomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
+|  [\_options](./select.nopositionercomponent._options.md) |  | [NoPositionerOptions](./select.nopositioneroptions.md) | Options for NgSelect plugin |
+|  [ngSelectPlugins](./select.nopositionercomponent.ngselectplugins.md) |  | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  [options](./select.nopositionercomponent.options.md) |  | [NoPositionerOptions](./select.nopositioneroptions.md) | Options for NgSelect plugin |
+|  [pluginBus](./select.nopositionercomponent.pluginbus.md) |  | [PluginBus](./select.pluginbus.md) | Plugin bus used for inter plugin shared events |
+|  [pluginElement](./select.nopositionercomponent.pluginelement.md) |  | ElementRef |  |
 
 ## Methods
 

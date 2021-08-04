@@ -13,5 +13,5 @@ protected _clearSelected(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

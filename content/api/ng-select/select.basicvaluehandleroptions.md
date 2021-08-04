@@ -11,3 +11,5 @@ Basic value handler options
 ```typescript
 export interface BasicValueHandlerOptions extends ValueHandlerOptions 
 ```
+<b>Extends:</b> [ValueHandlerOptions](./select.valuehandleroptions.md)
+

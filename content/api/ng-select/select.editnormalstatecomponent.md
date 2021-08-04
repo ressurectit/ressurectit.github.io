@@ -9,8 +9,11 @@ Component used for rendering edit normal state of select
 <b>Signature:</b>
 
 ```typescript
-export declare class EditNormalStateComponent extends NormalStateAbstractComponent<CssClassesEditNormalState, EditNormalStateOptions> implements EditNormalState, NgSelectPlugin<EditNormalStateOptions>, OnDestroy 
+export declare class EditNormalStateComponent<TValue = any> extends NormalStateAbstractComponent<CssClassesEditNormalState, EditNormalStateOptions<TValue>, TValue> implements EditNormalState, NgSelectPlugin<EditNormalStateOptions>, OnDestroy 
 ```
+<b>Extends:</b> [NormalStateAbstractComponent](./select.normalstateabstractcomponent.md)<!-- -->&lt;[CssClassesEditNormalState](./select.cssclasseseditnormalstate.md)<!-- -->, [EditNormalStateOptions](./select.editnormalstateoptions.md)<!-- -->&lt;TValue&gt;, TValue&gt;
+
+<b>Implements:</b> [EditNormalState](./select.editnormalstate.md)<!-- -->, [NgSelectPlugin](./select.ngselectplugin.md)<!-- -->&lt;[EditNormalStateOptions](./select.editnormalstateoptions.md)<!-- -->&gt;, OnDestroy
 
 ## Constructors
 
@@ -22,7 +25,7 @@ export declare class EditNormalStateComponent extends NormalStateAbstractCompone
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [selectedOptions](./select.editnormalstatecomponent.selectedoptions.md) |  | <code>NgSelectOption[]</code> | Gets currently selected options |
+|  [selectedOptions](./select.editnormalstatecomponent.selectedoptions.md) |  | [NgSelectOption](./select.ngselectoption.md)<!-- -->\[\] | Gets currently selected options |
 
 ## Methods
 

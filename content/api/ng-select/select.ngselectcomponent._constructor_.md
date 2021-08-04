@@ -16,22 +16,22 @@ constructor(_changeDetector: ChangeDetectorRef, _element: ElementRef<HTMLElement
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_changeDetector | <code>ChangeDetectorRef</code> |  |
-|  \_element | <code>ElementRef&lt;HTMLElement&gt;</code> |  |
-|  \_componentFactoryResolver | <code>ComponentFactoryResolver</code> |  |
-|  \_appRef | <code>ApplicationRef</code> |  |
-|  \_injector | <code>Injector</code> |  |
-|  \_pluginBus | <code>PluginBus&lt;TValue&gt;</code> |  |
-|  \_pluginInstances | <code>NgSelectPluginInstances</code> |  |
-|  options | <code>NgSelectOptions&lt;TValue&gt;</code> |  |
-|  normalStateType | <code>Type&lt;NormalState&gt;</code> |  |
-|  keyboardHandlerType | <code>Type&lt;KeyboardHandler&gt;</code> |  |
-|  popupType | <code>Type&lt;Popup&gt;</code> |  |
-|  positionerType | <code>Type&lt;Positioner&gt;</code> |  |
-|  readonlyStateType | <code>Type&lt;ReadonlyState&gt;</code> |  |
-|  valueHandlerType | <code>Type&lt;ValueHandler&gt;</code> |  |
-|  liveSearchType | <code>Type&lt;LiveSearch&gt;</code> |  |
-|  readonly | <code>string</code> |  |
-|  disabled | <code>string</code> |  |
-|  multiple | <code>string</code> |  |
+|  \_changeDetector | ChangeDetectorRef |  |
+|  \_element | ElementRef&lt;HTMLElement&gt; |  |
+|  \_componentFactoryResolver | ComponentFactoryResolver |  |
+|  \_appRef | ApplicationRef |  |
+|  \_injector | Injector |  |
+|  \_pluginBus | [PluginBus](./select.pluginbus.md)<!-- -->&lt;TValue&gt; |  |
+|  \_pluginInstances | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  options | [NgSelectOptions](./select.ngselectoptions.md)<!-- -->&lt;TValue&gt; |  |
+|  normalStateType | Type&lt;[NormalState](./select.normalstate.md)<!-- -->&gt; |  |
+|  keyboardHandlerType | Type&lt;[KeyboardHandler](./select.keyboardhandler.md)<!-- -->&gt; |  |
+|  popupType | Type&lt;[Popup](./select.popup.md)<!-- -->&gt; |  |
+|  positionerType | Type&lt;[Positioner](./select.positioner.md)<!-- -->&gt; |  |
+|  readonlyStateType | Type&lt;[ReadonlyState](./select.readonlystate.md)<!-- -->&gt; |  |
+|  valueHandlerType | Type&lt;[ValueHandler](./select.valuehandler.md)<!-- -->&gt; |  |
+|  liveSearchType | Type&lt;[LiveSearch](./select.livesearch.md)<!-- -->&gt; |  |
+|  readonly | string |  |
+|  disabled | string |  |
+|  multiple | string |  |
 

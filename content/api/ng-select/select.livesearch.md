@@ -11,12 +11,13 @@ Keyboard handler plugin interface
 ```typescript
 export interface LiveSearch extends NgSelectPlugin 
 ```
+<b>Extends:</b> [NgSelectPlugin](./select.ngselectplugin.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [liveSearchElement](./select.livesearch.livesearchelement.md) | <code>HTMLElement</code> | HTML element that represents live search |
-|  [searchValue](./select.livesearch.searchvalue.md) | <code>string</code> | Current value of live search |
-|  [searchValueChange](./select.livesearch.searchvaluechange.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when current value of live search changes |
+|  [liveSearchElement](./select.livesearch.livesearchelement.md) | HTMLElement | HTML element that represents live search |
+|  [searchValue](./select.livesearch.searchvalue.md) | string | Current value of live search |
+|  [searchValueChange](./select.livesearch.searchvaluechange.md) | EventEmitter&lt;void&gt; | Occurs when current value of live search changes |
 

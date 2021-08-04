@@ -16,5 +16,5 @@ constructor(_select: NgSelectComponent<TValue>);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_select | <code>NgSelectComponent&lt;TValue&gt;</code> |  |
+|  \_select | [NgSelectComponent](./select.ngselectcomponent.md)<!-- -->&lt;TValue&gt; |  |
 

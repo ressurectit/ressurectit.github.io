@@ -11,6 +11,7 @@ Component that represents NgSelect itself, allows selection of value from option
 ```typescript
 export declare class NgSelectComponent<TValue = any> implements NgSelect<TValue>, OnChanges, OnInit, AfterViewInit, OnDestroy 
 ```
+<b>Implements:</b> [NgSelect](./select.ngselect.md)<!-- -->&lt;TValue&gt;, OnChanges, OnInit, AfterViewInit, OnDestroy
 
 ## Constructors
 
@@ -22,26 +23,28 @@ export declare class NgSelectComponent<TValue = any> implements NgSelect<TValue>
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_absolutePopup](./select.ngselectcomponent._absolutepopup.md) |  | <code>ComponentRef&lt;Popup&gt;</code> | Instance of component ref for absolute popup |
-|  [\_appRef](./select.ngselectcomponent._appref.md) |  | <code>ApplicationRef</code> |  |
-|  [\_availableOptions](./select.ngselectcomponent._availableoptions.md) |  | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of available options to be displayed |
-|  [\_availableOptionsChange](./select.ngselectcomponent._availableoptionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of visible, displayed options has changed |
-|  [\_changeDetector](./select.ngselectcomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
-|  [\_componentFactoryResolver](./select.ngselectcomponent._componentfactoryresolver.md) |  | <code>ComponentFactoryResolver</code> |  |
-|  [\_element](./select.ngselectcomponent._element.md) |  | <code>ElementRef&lt;HTMLElement&gt;</code> |  |
-|  [\_initializedSubject](./select.ngselectcomponent._initializedsubject.md) |  | <code>BehaviorSubject&lt;boolean&gt;</code> | Subject used for indication that NgSelect was initialized |
-|  [\_injector](./select.ngselectcomponent._injector.md) |  | <code>Injector</code> |  |
-|  [\_liveSearch](./select.ngselectcomponent._livesearch.md) |  | <code>LiveSearch</code> | Live search plugin currently used in NgSelect |
-|  [\_optionsChange](./select.ngselectcomponent._optionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of provided options has changed |
-|  [\_pluginBus](./select.ngselectcomponent._pluginbus.md) |  | <code>PluginBus&lt;TValue&gt;</code> |  |
-|  [\_pluginInstances](./select.ngselectcomponent._plugininstances.md) |  | <code>NgSelectPluginInstances</code> |  |
-|  [\_searchValueChangeSubscription](./select.ngselectcomponent._searchvaluechangesubscription.md) |  | <code>Subscription</code> | Subscription for changes of live search value |
-|  [\_selectOptions](./select.ngselectcomponent._selectoptions.md) |  | <code>NgSelectOptions&lt;TValue&gt;</code> | NgSelect options |
-|  [disabled](./select.ngselectcomponent.disabled.md) |  | <code>boolean</code> | Indication whether should be NgSelect disabled or not |
-|  [initialized](./select.ngselectcomponent.initialized.md) |  | <code>Observable&lt;boolean&gt;</code> | Occurs every time when NgSelect is initialized or reinitialized, if value is false NgSelect was not initialized yet |
-|  [isInitialized](./select.ngselectcomponent.isinitialized.md) |  | <code>boolean</code> | Gets current state of initialization |
-|  [readonly](./select.ngselectcomponent.readonly.md) |  | <code>boolean</code> | Indication whether should be NgSelect readonly or not |
-|  [selectOptions](./select.ngselectcomponent.selectoptions.md) |  | <code>NgSelectOptions&lt;TValue&gt;</code> | Gets or sets NgSelect options |
+|  [\_absolutePopup](./select.ngselectcomponent._absolutepopup.md) |  | ComponentRef&lt;[Popup](./select.popup.md)<!-- -->&gt; | Instance of component ref for absolute popup |
+|  [\_absolutePopupElement](./select.ngselectcomponent._absolutepopupelement.md) |  | HTMLElement | Instance of html element that is used |
+|  [\_absolutePopupType](./select.ngselectcomponent._absolutepopuptype.md) |  | Type&lt;[Popup](./select.popup.md)<!-- -->&gt; | Instance of type that is used as absolute popup |
+|  [\_appRef](./select.ngselectcomponent._appref.md) |  | ApplicationRef |  |
+|  [\_availableOptions](./select.ngselectcomponent._availableoptions.md) |  | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Array of available options to be displayed |
+|  [\_availableOptionsChange](./select.ngselectcomponent._availableoptionschange.md) |  | EventEmitter&lt;void&gt; | Occurs when array of visible, displayed options has changed |
+|  [\_changeDetector](./select.ngselectcomponent._changedetector.md) |  | ChangeDetectorRef |  |
+|  [\_componentFactoryResolver](./select.ngselectcomponent._componentfactoryresolver.md) |  | ComponentFactoryResolver |  |
+|  [\_element](./select.ngselectcomponent._element.md) |  | ElementRef&lt;HTMLElement&gt; |  |
+|  [\_initializedSubject](./select.ngselectcomponent._initializedsubject.md) |  | BehaviorSubject&lt;boolean&gt; | Subject used for indication that NgSelect was initialized |
+|  [\_injector](./select.ngselectcomponent._injector.md) |  | Injector |  |
+|  [\_liveSearch](./select.ngselectcomponent._livesearch.md) |  | [LiveSearch](./select.livesearch.md) | Live search plugin currently used in NgSelect |
+|  [\_optionsChange](./select.ngselectcomponent._optionschange.md) |  | EventEmitter&lt;void&gt; | Occurs when array of provided options has changed |
+|  [\_pluginBus](./select.ngselectcomponent._pluginbus.md) |  | [PluginBus](./select.pluginbus.md)<!-- -->&lt;TValue&gt; |  |
+|  [\_pluginInstances](./select.ngselectcomponent._plugininstances.md) |  | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  [\_searchValueChangeSubscription](./select.ngselectcomponent._searchvaluechangesubscription.md) |  | Subscription | Subscription for changes of live search value |
+|  [\_selectOptions](./select.ngselectcomponent._selectoptions.md) |  | [NgSelectOptions](./select.ngselectoptions.md)<!-- -->&lt;TValue&gt; | NgSelect options |
+|  [disabled](./select.ngselectcomponent.disabled.md) |  | boolean | Indication whether should be NgSelect disabled or not |
+|  [initialized](./select.ngselectcomponent.initialized.md) |  | Observable&lt;boolean&gt; | Occurs every time when NgSelect is initialized or reinitialized, if value is false NgSelect was not initialized yet |
+|  [isInitialized](./select.ngselectcomponent.isinitialized.md) |  | boolean | Gets current state of initialization |
+|  [readonly](./select.ngselectcomponent.readonly.md) |  | boolean | Indication whether should be NgSelect readonly or not |
+|  [selectOptions](./select.ngselectcomponent.selectoptions.md) |  | [NgSelectOptions](./select.ngselectoptions.md)<!-- -->&lt;TValue&gt; | Gets or sets NgSelect options |
 
 ## Methods
 

@@ -16,5 +16,5 @@ constructor(select: NgSelectComponent);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  select | <code>NgSelectComponent</code> |  |
+|  select | [NgSelectComponent](./select.ngselectcomponent.md) |  |
 

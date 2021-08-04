@@ -11,3 +11,5 @@ Public API for 'EditLiveSearchComponent'
 ```typescript
 export interface EditLiveSearch extends LiveSearch 
 ```
+<b>Extends:</b> [LiveSearch](./select.livesearch.md)
+

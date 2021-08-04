@@ -13,5 +13,5 @@ protected _markValueAsSelected(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

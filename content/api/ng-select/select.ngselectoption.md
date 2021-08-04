@@ -16,7 +16,7 @@ export interface NgSelectOption<TValue = any>
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [group](./select.ngselectoption.group.md) | <code>string</code> | If specified this option will be displayed in group |
-|  [text](./select.ngselectoption.text.md) | <code>string</code> | Text that is displayed if this value is selected |
-|  [value](./select.ngselectoption.value.md) | <code>TValue</code> | Value that will be used if this option will be selected |
+|  [group](./select.ngselectoption.group.md) | string | If specified this option will be displayed in group |
+|  [text](./select.ngselectoption.text.md) | string | Text that is displayed if this value is selected |
+|  [value](./select.ngselectoption.value.md) | TValue | Value that will be used if this option will be selected |
 

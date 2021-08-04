@@ -11,11 +11,12 @@ Options for popup plugin
 ```typescript
 export interface PopupOptions<TCssClasses = any> extends VisualPluginOptions<TCssClasses> 
 ```
+<b>Extends:</b> [VisualPluginOptions](./select.visualpluginoptions.md)<!-- -->&lt;TCssClasses&gt;
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [texts](./select.popupoptions.texts.md) | <code>PopupTexts</code> | Texts that are used within any Popup |
-|  [visible](./select.popupoptions.visible.md) | <code>boolean</code> | Indication whether are popup options visible, or not |
+|  [texts](./select.popupoptions.texts.md) | [PopupTexts](./select.popuptexts.md) | Texts that are used within any Popup |
+|  [visible](./select.popupoptions.visible.md) | boolean | Indication whether are popup options visible, or not |
 

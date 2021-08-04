@@ -11,3 +11,5 @@ Public API for 'EditNormalStateComponent'
 ```typescript
 export interface EditNormalState extends NormalState 
 ```
+<b>Extends:</b> [NormalState](./select.normalstate.md)
+

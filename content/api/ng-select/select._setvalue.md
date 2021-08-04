@@ -16,9 +16,9 @@ export declare function ɵSetValue<TValue>(value: TValue | TValue[]): NgSelectAc
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  value | <code>TValue &#124; TValue[]</code> | Value to be set into select |
+|  value | TValue \| TValue\[\] | Value to be set into select |
 
 <b>Returns:</b>
 
-`NgSelectAction<TValue>`
+[NgSelectAction](./select.ngselectaction.md)<!-- -->&lt;TValue&gt;
 

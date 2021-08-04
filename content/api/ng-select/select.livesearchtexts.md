@@ -16,5 +16,5 @@ export interface LiveSearchTexts
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [inputPlaceholder](./select.livesearchtexts.inputplaceholder.md) | <code>string</code> | Displayed when nothing was entered into input |
+|  [inputPlaceholder](./select.livesearchtexts.inputplaceholder.md) | string | Displayed when nothing was entered into input |
 

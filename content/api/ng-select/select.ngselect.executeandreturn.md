@@ -16,9 +16,9 @@ executeAndReturn<TResult>(func: NgSelectFunction<TResult, TValue>): TResult;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  func | <code>NgSelectFunction&lt;TResult, TValue&gt;</code> | Function that is executed and its result is returned |
+|  func | [NgSelectFunction](./select.ngselectfunction.md)<!-- -->&lt;TResult, TValue&gt; | Function that is executed and its result is returned |
 
 <b>Returns:</b>
 
-`TResult`
+TResult
 

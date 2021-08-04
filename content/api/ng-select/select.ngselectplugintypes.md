@@ -16,11 +16,11 @@ export interface NgSelectPluginTypes
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [keyboardHandler](./select.ngselectplugintypes.keyboardhandler.md) | <code>PluginDescription&lt;KeyboardHandler&gt;</code> | Handles keyboard events |
-|  [liveSearch](./select.ngselectplugintypes.livesearch.md) | <code>PluginDescription&lt;LiveSearch&gt;</code> | Contains component that is used for live searching in options |
-|  [normalState](./select.ngselectplugintypes.normalstate.md) | <code>PluginDescription&lt;NormalState&gt;</code> | Component used for displaying normal state of select |
-|  [popup](./select.ngselectplugintypes.popup.md) | <code>PluginDescription&lt;Popup&gt;</code> | Component used for displaying available options for selection |
-|  [positioner](./select.ngselectplugintypes.positioner.md) | <code>PluginDescription&lt;Positioner&gt;</code> | Handles correct position of pop component |
-|  [readonlyState](./select.ngselectplugintypes.readonlystate.md) | <code>PluginDescription&lt;ReadonlyState&gt;</code> | Component used for displaying readonly/disabled state of select, can be null, in that case normal state component is used |
-|  [valueHandler](./select.ngselectplugintypes.valuehandler.md) | <code>PluginDescription&lt;ValueHandler&gt;</code> | Handles obtaining and setting value of component |
+|  [keyboardHandler](./select.ngselectplugintypes.keyboardhandler.md) | [PluginDescription](./select.plugindescription.md)<!-- -->&lt;[KeyboardHandler](./select.keyboardhandler.md)<!-- -->&gt; | Handles keyboard events |
+|  [liveSearch](./select.ngselectplugintypes.livesearch.md) | [PluginDescription](./select.plugindescription.md)<!-- -->&lt;[LiveSearch](./select.livesearch.md)<!-- -->&gt; | Contains component that is used for live searching in options |
+|  [normalState](./select.ngselectplugintypes.normalstate.md) | [PluginDescription](./select.plugindescription.md)<!-- -->&lt;[NormalState](./select.normalstate.md)<!-- -->&gt; | Component used for displaying normal state of select |
+|  [popup](./select.ngselectplugintypes.popup.md) | [PluginDescription](./select.plugindescription.md)<!-- -->&lt;[Popup](./select.popup.md)<!-- -->&gt; | Component used for displaying available options for selection |
+|  [positioner](./select.ngselectplugintypes.positioner.md) | [PluginDescription](./select.plugindescription.md)<!-- -->&lt;[Positioner](./select.positioner.md)<!-- -->&gt; | Handles correct position of pop component |
+|  [readonlyState](./select.ngselectplugintypes.readonlystate.md) | [PluginDescription](./select.plugindescription.md)<!-- -->&lt;[ReadonlyState](./select.readonlystate.md)<!-- -->&gt; | Component used for displaying readonly/disabled state of select, can be null, in that case normal state component is used |
+|  [valueHandler](./select.ngselectplugintypes.valuehandler.md) | [PluginDescription](./select.plugindescription.md)<!-- -->&lt;[ValueHandler](./select.valuehandler.md)<!-- -->&gt; | Handles obtaining and setting value of component |
 

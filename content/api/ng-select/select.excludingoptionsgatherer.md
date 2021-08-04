@@ -11,23 +11,24 @@ Options gatherer using default build in gatherer extended with exclusion of sele
 ```typescript
 export declare class ExcludingOptionsGatherer<TValue = any> implements OptionsGatherer<TValue> 
 ```
+<b>Implements:</b> [OptionsGatherer](./select.optionsgatherer.md)<!-- -->&lt;TValue&gt;
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_availableOptions](./select.excludingoptionsgatherer._availableoptions.md) |  | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of visible, displayed options for select |
-|  [\_availableOptionsChange](./select.excludingoptionsgatherer._availableoptionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of visible, displayed options has changed |
-|  [\_availableOptionsChangeSubscription](./select.excludingoptionsgatherer._availableoptionschangesubscription.md) |  | <code>Subscription</code> | Subscription for change of available options |
-|  [\_valueChangedSubscription](./select.excludingoptionsgatherer._valuechangedsubscription.md) |  | <code>Subscription</code> | Subscription for change of value in value handler |
-|  [\_valueHandler](./select.excludingoptionsgatherer._valuehandler.md) |  | <code>ValueHandler</code> | Value handler plugin used within <code>NgSelect</code> |
-|  [availableOptions](./select.excludingoptionsgatherer.availableoptions.md) |  | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of visible, displayed options for select |
-|  [availableOptionsChange](./select.excludingoptionsgatherer.availableoptionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of visible, displayed options has changed |
-|  [ngSelectPlugins](./select.excludingoptionsgatherer.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> | NgSelect plugin instances available for gatherer |
-|  [options](./select.excludingoptionsgatherer.options.md) |  | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of provided options for select |
-|  [optionsChange](./select.excludingoptionsgatherer.optionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of provided options has changed |
-|  [pluginBus](./select.excludingoptionsgatherer.pluginbus.md) |  | <code>PluginBus&lt;TValue&gt;</code> | Plugin bus used for inter plugin shared events |
-|  [select](./select.excludingoptionsgatherer.select.md) |  | <code>NgSelect&lt;TValue&gt;</code> | Select element that implements default gatherers |
+|  [\_availableOptions](./select.excludingoptionsgatherer._availableoptions.md) |  | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Array of visible, displayed options for select |
+|  [\_availableOptionsChange](./select.excludingoptionsgatherer._availableoptionschange.md) |  | EventEmitter&lt;void&gt; | Occurs when array of visible, displayed options has changed |
+|  [\_availableOptionsChangeSubscription](./select.excludingoptionsgatherer._availableoptionschangesubscription.md) |  | Subscription | Subscription for change of available options |
+|  [\_valueChangedSubscription](./select.excludingoptionsgatherer._valuechangedsubscription.md) |  | Subscription | Subscription for change of value in value handler |
+|  [\_valueHandler](./select.excludingoptionsgatherer._valuehandler.md) |  | [ValueHandler](./select.valuehandler.md) | Value handler plugin used within <code>NgSelect</code> |
+|  [availableOptions](./select.excludingoptionsgatherer.availableoptions.md) |  | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Array of visible, displayed options for select |
+|  [availableOptionsChange](./select.excludingoptionsgatherer.availableoptionschange.md) |  | EventEmitter&lt;void&gt; | Occurs when array of visible, displayed options has changed |
+|  [ngSelectPlugins](./select.excludingoptionsgatherer.ngselectplugins.md) |  | [NgSelectPluginInstances](./select.ngselectplugininstances.md) | NgSelect plugin instances available for gatherer |
+|  [options](./select.excludingoptionsgatherer.options.md) |  | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Array of provided options for select |
+|  [optionsChange](./select.excludingoptionsgatherer.optionschange.md) |  | EventEmitter&lt;void&gt; | Occurs when array of provided options has changed |
+|  [pluginBus](./select.excludingoptionsgatherer.pluginbus.md) |  | [PluginBus](./select.pluginbus.md)<!-- -->&lt;TValue&gt; | Plugin bus used for inter plugin shared events |
+|  [select](./select.excludingoptionsgatherer.select.md) |  | [NgSelect](./select.ngselect.md)<!-- -->&lt;TValue&gt; | Select element that implements default gatherers |
 
 ## Methods
 

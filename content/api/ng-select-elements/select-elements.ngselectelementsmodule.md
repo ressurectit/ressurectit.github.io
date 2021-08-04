@@ -11,6 +11,7 @@ Represents module for WebComponent NgSelect
 ```typescript
 export declare class NgSelectElementsModule implements DoBootstrap 
 ```
+<b>Implements:</b> DoBootstrap
 
 ## Constructors
 

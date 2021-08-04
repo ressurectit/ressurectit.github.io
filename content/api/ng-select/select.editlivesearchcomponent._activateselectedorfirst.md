@@ -13,5 +13,5 @@ protected _activateSelectedOrFirst(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

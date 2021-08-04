@@ -11,3 +11,5 @@ Public API for 'EditKeyboardHandlerComponent'
 ```typescript
 export interface EditKeyboardHandler extends KeyboardHandler 
 ```
+<b>Extends:</b> [KeyboardHandler](./select.keyboardhandler.md)
+

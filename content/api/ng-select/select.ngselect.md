@@ -11,14 +11,15 @@ Public API for NgSelect
 ```typescript
 export interface NgSelect<TValue = any> extends OptionsGatherer<TValue>, TemplateGatherer 
 ```
+<b>Extends:</b> [OptionsGatherer](./select.optionsgatherer.md)<!-- -->&lt;TValue&gt;, [TemplateGatherer](./select.templategatherer.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [initialized](./select.ngselect.initialized.md) | <code>Observable&lt;boolean&gt;</code> | Occurs every time when NgSelect is initialized or reinitialized, if value is false NgSelect was not initialized yet |
-|  [isInitialized](./select.ngselect.isinitialized.md) | <code>boolean</code> | Gets current state of initialization |
-|  [selectOptions](./select.ngselect.selectoptions.md) | <code>NgSelectOptions&lt;TValue&gt;</code> | Gets or sets NgSelect options |
+|  [initialized](./select.ngselect.initialized.md) | Observable&lt;boolean&gt; | Occurs every time when NgSelect is initialized or reinitialized, if value is false NgSelect was not initialized yet |
+|  [isInitialized](./select.ngselect.isinitialized.md) | boolean | Gets current state of initialization |
+|  [selectOptions](./select.ngselect.selectoptions.md) | [NgSelectOptions](./select.ngselectoptions.md)<!-- -->&lt;TValue&gt; | Gets or sets NgSelect options |
 
 ## Methods
 

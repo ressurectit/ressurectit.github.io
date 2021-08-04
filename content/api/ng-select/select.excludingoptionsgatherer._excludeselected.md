@@ -13,5 +13,5 @@ protected _excludeSelected(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

@@ -11,6 +11,7 @@ Component used for obtaining edit keyboard handler html element
 ```typescript
 export declare class EditKeyboardHandlerComponent implements EditKeyboardHandler, NgSelectPlugin<EditKeyboardHandlerOptions>, OnDestroy 
 ```
+<b>Implements:</b> [EditKeyboardHandler](./select.editkeyboardhandler.md)<!-- -->, [NgSelectPlugin](./select.ngselectplugin.md)<!-- -->&lt;[EditKeyboardHandlerOptions](./select.editkeyboardhandleroptions.md)<!-- -->&gt;, OnDestroy
 
 ## Constructors
 
@@ -22,16 +23,16 @@ export declare class EditKeyboardHandlerComponent implements EditKeyboardHandler
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_handleKeyboard](./select.editkeyboardhandlercomponent._handlekeyboard.md) |  | <code>(event: KeyboardEvent) =&gt; void</code> | Handles keyboard event |
-|  [\_liveSearch](./select.editkeyboardhandlercomponent._livesearch.md) |  | <code>LiveSearch</code> | Live search plugin currently used in NgSelect |
-|  [\_options](./select.editkeyboardhandlercomponent._options.md) |  | <code>EditKeyboardHandlerOptions</code> | Options for NgSelect plugin |
-|  [\_popup](./select.editkeyboardhandlercomponent._popup.md) |  | <code>Popup</code> | Popup that is displayed |
-|  [\_valueHandler](./select.editkeyboardhandlercomponent._valuehandler.md) |  | <code>ValueHandler</code> | Value handler used for hanling current value |
-|  [availableOptions](./select.editkeyboardhandlercomponent.availableoptions.md) |  | <code>ɵNgSelectOption[]</code> | Gets currently available options |
-|  [ngSelectPlugins](./select.editkeyboardhandlercomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
-|  [options](./select.editkeyboardhandlercomponent.options.md) |  | <code>EditKeyboardHandlerOptions</code> | Options for NgSelect plugin |
-|  [pluginBus](./select.editkeyboardhandlercomponent.pluginbus.md) |  | <code>PluginBus</code> |  |
-|  [pluginElement](./select.editkeyboardhandlercomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
+|  [\_handleKeyboard](./select.editkeyboardhandlercomponent._handlekeyboard.md) |  | (event: KeyboardEvent) =&gt; void | Handles keyboard event |
+|  [\_liveSearch](./select.editkeyboardhandlercomponent._livesearch.md) |  | [LiveSearch](./select.livesearch.md) | Live search plugin currently used in NgSelect |
+|  [\_options](./select.editkeyboardhandlercomponent._options.md) |  | [EditKeyboardHandlerOptions](./select.editkeyboardhandleroptions.md) | Options for NgSelect plugin |
+|  [\_popup](./select.editkeyboardhandlercomponent._popup.md) |  | [Popup](./select.popup.md) | Popup that is displayed |
+|  [\_valueHandler](./select.editkeyboardhandlercomponent._valuehandler.md) |  | [ValueHandler](./select.valuehandler.md) | Value handler used for hanling current value |
+|  [availableOptions](./select.editkeyboardhandlercomponent.availableoptions.md) |  | [ɵNgSelectOption](./select._ngselectoption.md)<!-- -->\[\] | Gets currently available options |
+|  [ngSelectPlugins](./select.editkeyboardhandlercomponent.ngselectplugins.md) |  | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  [options](./select.editkeyboardhandlercomponent.options.md) |  | [EditKeyboardHandlerOptions](./select.editkeyboardhandleroptions.md) | Options for NgSelect plugin |
+|  [pluginBus](./select.editkeyboardhandlercomponent.pluginbus.md) |  | [PluginBus](./select.pluginbus.md) |  |
+|  [pluginElement](./select.editkeyboardhandlercomponent.pluginelement.md) |  | ElementRef |  |
 
 ## Methods
 

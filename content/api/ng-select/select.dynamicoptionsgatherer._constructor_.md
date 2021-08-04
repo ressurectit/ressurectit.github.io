@@ -16,5 +16,5 @@ constructor(_options: DynamicOptionsGathererOptions<TValue>);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_options | <code>DynamicOptionsGathererOptions&lt;TValue&gt;</code> |  |
+|  \_options | [DynamicOptionsGathererOptions](./select.dynamicoptionsgathereroptions.md)<!-- -->&lt;TValue&gt; |  |
 

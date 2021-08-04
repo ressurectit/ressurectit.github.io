@@ -11,20 +11,21 @@ Options gatherer used for static options gathering from code
 ```typescript
 export declare class CodeOptionsGatherer<TValue = any> implements OptionsGatherer<TValue> 
 ```
+<b>Implements:</b> [OptionsGatherer](./select.optionsgatherer.md)<!-- -->&lt;TValue&gt;
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_liveSearch](./select.codeoptionsgatherer._livesearch.md) |  | <code>LiveSearch</code> | Live search plugin currently used in NgSelect |
-|  [\_searchValueChangeSubscription](./select.codeoptionsgatherer._searchvaluechangesubscription.md) |  | <code>Subscription</code> | Subscription for changes of live search value |
-|  [availableOptions](./select.codeoptionsgatherer.availableoptions.md) |  | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of visible, displayed options for select |
-|  [availableOptionsChange](./select.codeoptionsgatherer.availableoptionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of visible, displayed options has changed |
-|  [ngSelectPlugins](./select.codeoptionsgatherer.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> | NgSelect plugin instances available for gatherer |
-|  [options](./select.codeoptionsgatherer.options.md) |  | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of provided options for select |
-|  [optionsChange](./select.codeoptionsgatherer.optionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of provided options has changed |
-|  [pluginBus](./select.codeoptionsgatherer.pluginbus.md) |  | <code>PluginBus&lt;TValue&gt;</code> | Plugin bus used for inter plugin shared events |
-|  [select](./select.codeoptionsgatherer.select.md) |  | <code>NgSelect&lt;TValue&gt;</code> | Select element that implements default gatherers |
+|  [\_liveSearch](./select.codeoptionsgatherer._livesearch.md) |  | [LiveSearch](./select.livesearch.md) | Live search plugin currently used in NgSelect |
+|  [\_searchValueChangeSubscription](./select.codeoptionsgatherer._searchvaluechangesubscription.md) |  | Subscription | Subscription for changes of live search value |
+|  [availableOptions](./select.codeoptionsgatherer.availableoptions.md) |  | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Array of visible, displayed options for select |
+|  [availableOptionsChange](./select.codeoptionsgatherer.availableoptionschange.md) |  | EventEmitter&lt;void&gt; | Occurs when array of visible, displayed options has changed |
+|  [ngSelectPlugins](./select.codeoptionsgatherer.ngselectplugins.md) |  | [NgSelectPluginInstances](./select.ngselectplugininstances.md) | NgSelect plugin instances available for gatherer |
+|  [options](./select.codeoptionsgatherer.options.md) |  | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Array of provided options for select |
+|  [optionsChange](./select.codeoptionsgatherer.optionschange.md) |  | EventEmitter&lt;void&gt; | Occurs when array of provided options has changed |
+|  [pluginBus](./select.codeoptionsgatherer.pluginbus.md) |  | [PluginBus](./select.pluginbus.md)<!-- -->&lt;TValue&gt; | Plugin bus used for inter plugin shared events |
+|  [select](./select.codeoptionsgatherer.select.md) |  | [NgSelect](./select.ngselect.md)<!-- -->&lt;TValue&gt; | Select element that implements default gatherers |
 
 ## Methods
 

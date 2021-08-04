@@ -11,3 +11,5 @@ Public API for 'NoPositionerComponent'
 ```typescript
 export interface NoPositioner extends Positioner 
 ```
+<b>Extends:</b> [Positioner](./select.positioner.md)
+

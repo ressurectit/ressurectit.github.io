@@ -11,3 +11,5 @@ Edit popup options
 ```typescript
 export interface EditPopupOptions extends PopupOptions<CssClassesEditPopup> 
 ```
+<b>Extends:</b> [PopupOptions](./select.popupoptions.md)<!-- -->&lt;[CssClassesEditPopup](./select.cssclasseseditpopup.md)<!-- -->&gt;
+

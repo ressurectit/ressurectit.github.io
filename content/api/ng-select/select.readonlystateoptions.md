@@ -11,3 +11,5 @@ Options for readonly state plugin
 ```typescript
 export interface ReadonlyStateOptions<TCssClasses = any> extends NormalStateOptions<TCssClasses> 
 ```
+<b>Extends:</b> [NormalStateOptions](./select.normalstateoptions.md)<!-- -->&lt;TCssClasses&gt;
+

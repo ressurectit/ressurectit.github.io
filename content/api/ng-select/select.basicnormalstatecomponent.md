@@ -9,8 +9,11 @@ Component used for rendering basic simple normal state of select
 <b>Signature:</b>
 
 ```typescript
-export declare class BasicNormalStateComponent extends NormalStateAbstractComponent<CssClassesBasicNormalState, BasicNormalStateOptions> implements BasicNormalState, NgSelectPlugin<BasicNormalStateOptions>, OnDestroy 
+export declare class BasicNormalStateComponent<TValue = any> extends NormalStateAbstractComponent<CssClassesBasicNormalState, BasicNormalStateOptions<TValue>, TValue> implements BasicNormalState, NgSelectPlugin<BasicNormalStateOptions>, OnDestroy 
 ```
+<b>Extends:</b> [NormalStateAbstractComponent](./select.normalstateabstractcomponent.md)<!-- -->&lt;[CssClassesBasicNormalState](./select.cssclassesbasicnormalstate.md)<!-- -->, [BasicNormalStateOptions](./select.basicnormalstateoptions.md)<!-- -->&lt;TValue&gt;, TValue&gt;
+
+<b>Implements:</b> [BasicNormalState](./select.basicnormalstate.md)<!-- -->, [NgSelectPlugin](./select.ngselectplugin.md)<!-- -->&lt;[BasicNormalStateOptions](./select.basicnormalstateoptions.md)<!-- -->&gt;, OnDestroy
 
 ## Constructors
 

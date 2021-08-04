@@ -16,6 +16,6 @@ export interface CssClassesEditLiveSearch
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [input](./select.cssclasseseditlivesearch.input.md) | <code>string</code> | Applied to input that represents live search |
-|  [wrapperDiv](./select.cssclasseseditlivesearch.wrapperdiv.md) | <code>string</code> | Applied to wrapper div around input |
+|  [input](./select.cssclasseseditlivesearch.input.md) | string | Applied to input that represents live search |
+|  [wrapperDiv](./select.cssclasseseditlivesearch.wrapperdiv.md) | string | Applied to wrapper div around input |
 

@@ -11,14 +11,15 @@ Value handler plugin interface
 ```typescript
 export interface ValueHandler<TValue = any> extends NgSelectPlugin 
 ```
+<b>Extends:</b> [NgSelectPlugin](./select.ngselectplugin.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [selectedOptions](./select.valuehandler.selectedoptions.md) | <code>NgSelectOption&lt;TValue&gt; &#124; NgSelectOption&lt;TValue&gt;[]</code> | Current selected options of NgSelect |
-|  [value](./select.valuehandler.value.md) | <code>TValue &#124; TValue[]</code> | Current selected value of NgSelect |
-|  [valueChange](./select.valuehandler.valuechange.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when value of NgSelect changes |
+|  [selectedOptions](./select.valuehandler.selectedoptions.md) | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt; \| [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Current selected options of NgSelect |
+|  [value](./select.valuehandler.value.md) | TValue \| TValue\[\] | Current selected value of NgSelect |
+|  [valueChange](./select.valuehandler.valuechange.md) | EventEmitter&lt;void&gt; | Occurs when value of NgSelect changes |
 
 ## Methods
 

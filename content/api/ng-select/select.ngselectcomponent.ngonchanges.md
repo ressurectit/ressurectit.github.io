@@ -16,9 +16,9 @@ ngOnChanges(changes: SimpleChanges): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  changes | <code>SimpleChanges</code> |  |
+|  changes | SimpleChanges |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

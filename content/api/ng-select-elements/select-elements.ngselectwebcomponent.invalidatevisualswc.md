@@ -13,5 +13,5 @@ invalidateVisualsWC(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

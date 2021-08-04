@@ -16,8 +16,8 @@ constructor(ngSelectPlugins: NgSelectPluginInstances, pluginBus: PluginBus, plug
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  ngSelectPlugins | <code>NgSelectPluginInstances</code> |  |
-|  pluginBus | <code>PluginBus</code> |  |
-|  pluginElement | <code>ElementRef</code> |  |
-|  options | <code>EditKeyboardHandlerOptions</code> |  |
+|  ngSelectPlugins | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  pluginBus | [PluginBus](./select.pluginbus.md) |  |
+|  pluginElement | ElementRef |  |
+|  options | [EditKeyboardHandlerOptions](./select.editkeyboardhandleroptions.md) |  |
 

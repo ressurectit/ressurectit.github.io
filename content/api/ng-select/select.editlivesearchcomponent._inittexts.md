@@ -13,5 +13,5 @@ protected _initTexts(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

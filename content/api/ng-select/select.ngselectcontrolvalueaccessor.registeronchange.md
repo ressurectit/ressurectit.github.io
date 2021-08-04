@@ -16,9 +16,9 @@ registerOnChange(fn: (data: TValue | Array<TValue>) => void): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  fn | <code>(data: TValue &#124; Array&lt;TValue&gt;) =&gt; void</code> |  |
+|  fn | (data: TValue \| Array&lt;TValue&gt;) =&gt; void |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

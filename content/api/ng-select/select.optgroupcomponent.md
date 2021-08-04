@@ -11,14 +11,15 @@ Component used for options group in select component
 ```typescript
 export declare class OptGroupComponent<TValue = any> implements NgSelectOptGroup<TValue>, AfterViewInit 
 ```
+<b>Implements:</b> [NgSelectOptGroup](./select.ngselectoptgroup.md)<!-- -->&lt;TValue&gt;, AfterViewInit
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [options](./select.optgroupcomponent.options.md) |  | <code>NgSelectOption&lt;TValue&gt;[]</code> | Options assigned to this options group |
-|  [optionsChange](./select.optgroupcomponent.optionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when options in this group change |
-|  [text](./select.optgroupcomponent.text.md) |  | <code>string</code> | Text that is displayed for this options group |
+|  [options](./select.optgroupcomponent.options.md) |  | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Options assigned to this options group |
+|  [optionsChange](./select.optgroupcomponent.optionschange.md) |  | EventEmitter&lt;void&gt; | Occurs when options in this group change |
+|  [text](./select.optgroupcomponent.text.md) |  | string | Text that is displayed for this options group |
 
 ## Methods
 

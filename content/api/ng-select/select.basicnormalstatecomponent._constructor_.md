@@ -16,10 +16,10 @@ constructor(ngSelectPlugins: NgSelectPluginInstances, pluginBus: PluginBus, plug
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  ngSelectPlugins | <code>NgSelectPluginInstances</code> |  |
-|  pluginBus | <code>PluginBus</code> |  |
-|  pluginElement | <code>ElementRef</code> |  |
-|  changeDetector | <code>ChangeDetectorRef</code> |  |
-|  stringLocalization | <code>StringLocalization</code> |  |
-|  options | <code>BasicNormalStateOptions</code> |  |
+|  ngSelectPlugins | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  pluginBus | [PluginBus](./select.pluginbus.md) |  |
+|  pluginElement | ElementRef |  |
+|  changeDetector | ChangeDetectorRef |  |
+|  stringLocalization | StringLocalization |  |
+|  options | [BasicNormalStateOptions](./select.basicnormalstateoptions.md) |  |
 

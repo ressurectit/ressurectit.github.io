@@ -9,17 +9,18 @@ Transforms selected option into string
 <b>Signature:</b>
 
 ```typescript
-transform(options: NgSelectOption<TValue> | Array<NgSelectOption<TValue>>, nothingSelectedText: string): string;
+transform(options: NgSelectOption<TValue> | Array<NgSelectOption<TValue>>, nothingSelectedText: string, optionDisplayText?: DisplayTextFunc<TValue>): string;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>NgSelectOption&lt;TValue&gt; &#124; Array&lt;NgSelectOption&lt;TValue&gt;&gt;</code> | Selected options to be transformed into text |
-|  nothingSelectedText | <code>string</code> | Text displayed if nothing is selected |
+|  options | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt; \| Array&lt;[NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;&gt; | Selected options to be transformed into text |
+|  nothingSelectedText | string | Text displayed if nothing is selected |
+|  optionDisplayText | [DisplayTextFunc](./select.displaytextfunc.md)<!-- -->&lt;TValue&gt; | Function used for transformation of option into display text, defaults to text property of option |
 
 <b>Returns:</b>
 
-`string`
+string
 

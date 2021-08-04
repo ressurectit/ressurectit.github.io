@@ -11,6 +11,9 @@ Component used for rendering basic popup with options
 ```typescript
 export declare class BasicPopupComponent extends PopupAbstractComponent<CssClassesBasicPopup, BasicPopupOptions> implements BasicPopup, NgSelectPlugin<BasicPopupOptions>, AfterViewInit, OnDestroy 
 ```
+<b>Extends:</b> [PopupAbstractComponent](./select.popupabstractcomponent.md)<!-- -->&lt;[CssClassesBasicPopup](./select.cssclassesbasicpopup.md)<!-- -->, [BasicPopupOptions](./select.basicpopupoptions.md)<!-- -->&gt;
+
+<b>Implements:</b> [BasicPopup](./select.basicpopup.md)<!-- -->, [NgSelectPlugin](./select.ngselectplugin.md)<!-- -->&lt;[BasicPopupOptions](./select.basicpopupoptions.md)<!-- -->&gt;, AfterViewInit, OnDestroy
 
 ## Constructors
 

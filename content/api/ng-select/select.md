@@ -12,7 +12,7 @@
 |  [BasicLiveSearchComponent](./select.basiclivesearchcomponent.md) | Component used for obtaining basic live search html element |
 |  [BasicNormalStateComponent](./select.basicnormalstatecomponent.md) | Component used for rendering basic simple normal state of select |
 |  [BasicPopupComponent](./select.basicpopupcomponent.md) | Component used for rendering basic popup with options |
-|  [BasicPositionerComponent](./select.basicpositionercomponent.md) | Component used for positioning popup element |
+|  [BasicPositionerComponent](./select.basicpositionercomponent.md) | Component used for positioning popup element, handles resize, scroll and collision with viewport |
 |  [BasicValueHandlerComponent](./select.basicvaluehandlercomponent.md) | Component used for handling current value of NgSelect |
 |  [CodeOptionsGatherer](./select.codeoptionsgatherer.md) | Options gatherer used for static options gathering from code |
 |  [DynamicOptionsGatherer](./select.dynamicoptionsgatherer.md) | Class that is used as for options gathering in dynamic way, for example from external source when writing |
@@ -34,8 +34,12 @@
 |  [NormalStateAbstractComponent](./select.normalstateabstractcomponent.md) | Base abstract class for normal state of select |
 |  [OptGroupComponent](./select.optgroupcomponent.md) | Component used for options group in select component |
 |  [OptionComponent](./select.optioncomponent.md) | Component used for options in select component |
+|  [ɵj](./select._j.md) | Pipe that checks whether select has currently any option |
+|  [ɵs](./select._s.md) | Directive used for setting absolute option for ng-select |
+|  [ɵt](./select._t.md) | Directive used for setting live search placeholder text |
 |  [PluginBus](./select.pluginbus.md) | Class represents centralized bus for plugin communications |
 |  [PopupAbstractComponent](./select.popupabstractcomponent.md) | Base abstract class for popup with options |
+|  [ScrollTargetSelector](./select.scrolltargetselector.md) | Scroll target selector that is used for obtaining scroll target |
 |  [ValueHandlerBase](./select.valuehandlerbase.md) | Base class for value handlers |
 
 ## Functions
@@ -71,6 +75,7 @@
 |  [CssClassesEditLiveSearch](./select.cssclasseseditlivesearch.md) | Css classes for edit live search |
 |  [CssClassesEditNormalState](./select.cssclasseseditnormalstate.md) | Css classes for edit normal state |
 |  [CssClassesEditPopup](./select.cssclasseseditpopup.md) | Css classes for edit popup |
+|  [DisplayTextFunc](./select.displaytextfunc.md) | Function used for transformation of ng select option into display text |
 |  [DynamicOptionsGathererOptions](./select.dynamicoptionsgathereroptions.md) | Options for dynamic options gatherer |
 |  [DynamicValueHandler](./select.dynamicvaluehandler.md) | Public API for 'DynamicValueHandlerComponent' |
 |  [DynamicValueHandlerOptions](./select.dynamicvaluehandleroptions.md) | Dynamic value handler options |

@@ -16,9 +16,9 @@ writeValue(value: TValue | Array<TValue>): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  value | <code>TValue &#124; Array&lt;TValue&gt;</code> |  |
+|  value | TValue \| Array&lt;TValue&gt; |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

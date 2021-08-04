@@ -11,6 +11,7 @@ Class that is used as for options gathering in dynamic way, for example from ext
 ```typescript
 export declare class DynamicOptionsGatherer<TValue = any> implements OptionsGatherer<TValue> 
 ```
+<b>Implements:</b> [OptionsGatherer](./select.optionsgatherer.md)<!-- -->&lt;TValue&gt;
 
 ## Constructors
 
@@ -22,20 +23,21 @@ export declare class DynamicOptionsGatherer<TValue = any> implements OptionsGath
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_initialized](./select.dynamicoptionsgatherer._initialized.md) |  | <code>boolean</code> | Indication that first initial call was performed |
-|  [\_liveSearch](./select.dynamicoptionsgatherer._livesearch.md) |  | <code>LiveSearch</code> | Live search plugin currently used in NgSelect |
-|  [\_minLength](./select.dynamicoptionsgatherer._minlength.md) |  | <code>number</code> | Minimal number of characters required for searching |
-|  [\_options](./select.dynamicoptionsgatherer._options.md) |  | <code>DynamicOptionsGathererOptions&lt;TValue&gt;</code> |  |
-|  [\_popup](./select.dynamicoptionsgatherer._popup.md) |  | <code>Popup</code> | Popup that is displayed |
-|  [\_searchValueChangeSubscription](./select.dynamicoptionsgatherer._searchvaluechangesubscription.md) |  | <code>Subscription</code> | Subscription for changes of live search value |
-|  [\_visibilitySubscription](./select.dynamicoptionsgatherer._visibilitysubscription.md) |  | <code>Subscription</code> | Subscription for visibility change of popup |
-|  [availableOptions](./select.dynamicoptionsgatherer.availableoptions.md) |  | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of visible, displayed options for select |
-|  [availableOptionsChange](./select.dynamicoptionsgatherer.availableoptionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of visible, displayed options has changed |
-|  [ngSelectPlugins](./select.dynamicoptionsgatherer.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> | NgSelect plugin instances available for gatherer |
-|  [options](./select.dynamicoptionsgatherer.options.md) |  | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of provided options for select |
-|  [optionsChange](./select.dynamicoptionsgatherer.optionschange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of provided options has changed |
-|  [pluginBus](./select.dynamicoptionsgatherer.pluginbus.md) |  | <code>PluginBus&lt;TValue&gt;</code> | Plugin bus used for inter plugin shared events |
-|  [select](./select.dynamicoptionsgatherer.select.md) |  | <code>NgSelect&lt;TValue&gt;</code> | Select element that implements default gatherers |
+|  [\_initialized](./select.dynamicoptionsgatherer._initialized.md) |  | boolean | Indication that first initial call was performed |
+|  [\_liveSearch](./select.dynamicoptionsgatherer._livesearch.md) |  | [LiveSearch](./select.livesearch.md) | Live search plugin currently used in NgSelect |
+|  [\_minLength](./select.dynamicoptionsgatherer._minlength.md) |  | number | Minimal number of characters required for searching |
+|  [\_options](./select.dynamicoptionsgatherer._options.md) |  | [DynamicOptionsGathererOptions](./select.dynamicoptionsgathereroptions.md)<!-- -->&lt;TValue&gt; |  |
+|  [\_popup](./select.dynamicoptionsgatherer._popup.md) |  | [Popup](./select.popup.md) | Popup that is displayed |
+|  [\_searchValueChangeSubscription](./select.dynamicoptionsgatherer._searchvaluechangesubscription.md) |  | Subscription | Subscription for changes of live search value |
+|  [\_valueHandler](./select.dynamicoptionsgatherer._valuehandler.md) |  | [ValueHandler](./select.valuehandler.md) | Currently used value handler plugin |
+|  [\_visibilitySubscription](./select.dynamicoptionsgatherer._visibilitysubscription.md) |  | Subscription | Subscription for visibility change of popup |
+|  [availableOptions](./select.dynamicoptionsgatherer.availableoptions.md) |  | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Array of visible, displayed options for select |
+|  [availableOptionsChange](./select.dynamicoptionsgatherer.availableoptionschange.md) |  | EventEmitter&lt;void&gt; | Occurs when array of visible, displayed options has changed |
+|  [ngSelectPlugins](./select.dynamicoptionsgatherer.ngselectplugins.md) |  | [NgSelectPluginInstances](./select.ngselectplugininstances.md) | NgSelect plugin instances available for gatherer |
+|  [options](./select.dynamicoptionsgatherer.options.md) |  | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Array of provided options for select |
+|  [optionsChange](./select.dynamicoptionsgatherer.optionschange.md) |  | EventEmitter&lt;void&gt; | Occurs when array of provided options has changed |
+|  [pluginBus](./select.dynamicoptionsgatherer.pluginbus.md) |  | [PluginBus](./select.pluginbus.md)<!-- -->&lt;TValue&gt; | Plugin bus used for inter plugin shared events |
+|  [select](./select.dynamicoptionsgatherer.select.md) |  | [NgSelect](./select.ngselect.md)<!-- -->&lt;TValue&gt; | Select element that implements default gatherers |
 
 ## Methods
 

@@ -11,3 +11,5 @@ Public API for 'NoLiveSearchComponent'
 ```typescript
 export interface NoLiveSearch extends LiveSearch 
 ```
+<b>Extends:</b> [LiveSearch](./select.livesearch.md)
+

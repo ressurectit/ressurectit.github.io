@@ -11,3 +11,5 @@ Public API for 'BasicPositionerComponent'
 ```typescript
 export interface BasicPositioner extends Positioner 
 ```
+<b>Extends:</b> [Positioner](./select.positioner.md)
+

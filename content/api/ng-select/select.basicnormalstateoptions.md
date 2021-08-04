@@ -9,5 +9,7 @@ Basic normal state options
 <b>Signature:</b>
 
 ```typescript
-export interface BasicNormalStateOptions extends NormalStateOptions<CssClassesBasicNormalState> 
+export interface BasicNormalStateOptions<TValue = any> extends NormalStateOptions<CssClassesBasicNormalState, TValue> 
 ```
+<b>Extends:</b> [NormalStateOptions](./select.normalstateoptions.md)<!-- -->&lt;[CssClassesBasicNormalState](./select.cssclassesbasicnormalstate.md)<!-- -->, TValue&gt;
+

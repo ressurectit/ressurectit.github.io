@@ -11,6 +11,7 @@ Base abstract class for popup with options
 ```typescript
 export declare class PopupAbstractComponent<TCssClasses = any, TOptions extends PopupOptions<TCssClasses> = any> implements Popup, NgSelectPlugin<TOptions>, AfterViewInit, OnDestroy 
 ```
+<b>Implements:</b> [Popup](./select.popup.md)<!-- -->, [NgSelectPlugin](./select.ngselectplugin.md)<!-- -->&lt;TOptions&gt;, AfterViewInit, OnDestroy
 
 ## Constructors
 
@@ -22,27 +23,27 @@ export declare class PopupAbstractComponent<TCssClasses = any, TOptions extends 
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_changeDetector](./select.popupabstractcomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
-|  [\_document](./select.popupabstractcomponent._document.md) |  | <code>HTMLDocument</code> |  |
-|  [\_handleClickOutside](./select.popupabstractcomponent._handleclickoutside.md) |  | <code>(event: MouseEvent) =&gt; void</code> | Handles click outside of select element |
-|  [\_handleVisibilityChange](./select.popupabstractcomponent._handlevisibilitychange.md) |  | <code>(visible: boolean) =&gt; void</code> | Handles visibility change |
-|  [\_options](./select.popupabstractcomponent._options.md) |  | <code>TOptions</code> | Options for NgSelect plugin |
-|  [\_optionsChangeSubscription](./select.popupabstractcomponent._optionschangesubscription.md) |  | <code>Subscription</code> | Subscription for changes of options in options gatherer |
-|  [\_optionsGatherer](./select.popupabstractcomponent._optionsgatherer.md) |  | <code>OptionsGatherer</code> | Instance of previous options gatherer, that is used for obtaining available options |
-|  [\_popupToggleSubscription](./select.popupabstractcomponent._popuptogglesubscription.md) |  | <code>Subscription</code> | Subscription for toggle popup event |
-|  [\_popupVisible](./select.popupabstractcomponent._popupvisible.md) |  | <code>boolean</code> | Indication whether is popup visible |
-|  [\_stringLocalization](./select.popupabstractcomponent._stringlocalization.md) |  | <code>StringLocalization</code> |  |
-|  [\_textsChangedSubscription](./select.popupabstractcomponent._textschangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes in texts |
-|  [\_valueChangedSubscription](./select.popupabstractcomponent._valuechangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes of selected value |
-|  [\_valueHandler](./select.popupabstractcomponent._valuehandler.md) |  | <code>ValueHandler</code> | Value handler plugin used within <code>NgSelect</code> |
-|  [\_visibilityRequestSubscription](./select.popupabstractcomponent._visibilityrequestsubscription.md) |  | <code>Subscription</code> | Subscription for popup visibility change request |
-|  [keepOpen](./select.popupabstractcomponent.keepopen.md) |  | <code>boolean</code> | Gets indication whether keep open popup after value change |
-|  [ngSelectPlugins](./select.popupabstractcomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
-|  [options](./select.popupabstractcomponent.options.md) |  | <code>TOptions</code> | Options for NgSelect plugin |
-|  [pluginBus](./select.popupabstractcomponent.pluginbus.md) |  | <code>PluginBus</code> |  |
-|  [pluginElement](./select.popupabstractcomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
-|  [popupElement](./select.popupabstractcomponent.popupelement.md) |  | <code>HTMLElement</code> | Html element that represents popup itself |
-|  [visibilityChange](./select.popupabstractcomponent.visibilitychange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when visibility of popup has changed |
+|  [\_changeDetector](./select.popupabstractcomponent._changedetector.md) |  | ChangeDetectorRef |  |
+|  [\_document](./select.popupabstractcomponent._document.md) |  | HTMLDocument |  |
+|  [\_handleClickOutside](./select.popupabstractcomponent._handleclickoutside.md) |  | (event: MouseEvent) =&gt; void | Handles click outside of select element |
+|  [\_handleVisibilityChange](./select.popupabstractcomponent._handlevisibilitychange.md) |  | (visible: boolean) =&gt; void | Handles visibility change |
+|  [\_options](./select.popupabstractcomponent._options.md) |  | TOptions | Options for NgSelect plugin |
+|  [\_optionsChangeSubscription](./select.popupabstractcomponent._optionschangesubscription.md) |  | Subscription | Subscription for changes of options in options gatherer |
+|  [\_optionsGatherer](./select.popupabstractcomponent._optionsgatherer.md) |  | [OptionsGatherer](./select.optionsgatherer.md) | Instance of previous options gatherer, that is used for obtaining available options |
+|  [\_popupToggleSubscription](./select.popupabstractcomponent._popuptogglesubscription.md) |  | Subscription | Subscription for toggle popup event |
+|  [\_popupVisible](./select.popupabstractcomponent._popupvisible.md) |  | boolean | Indication whether is popup visible |
+|  [\_stringLocalization](./select.popupabstractcomponent._stringlocalization.md) |  | StringLocalization |  |
+|  [\_textsChangedSubscription](./select.popupabstractcomponent._textschangedsubscription.md) |  | Subscription | Subscription for changes in texts |
+|  [\_valueChangedSubscription](./select.popupabstractcomponent._valuechangedsubscription.md) |  | Subscription | Subscription for changes of selected value |
+|  [\_valueHandler](./select.popupabstractcomponent._valuehandler.md) |  | [ValueHandler](./select.valuehandler.md) | Value handler plugin used within <code>NgSelect</code> |
+|  [\_visibilityRequestSubscription](./select.popupabstractcomponent._visibilityrequestsubscription.md) |  | Subscription | Subscription for popup visibility change request |
+|  [keepOpen](./select.popupabstractcomponent.keepopen.md) |  | boolean | Gets indication whether keep open popup after value change |
+|  [ngSelectPlugins](./select.popupabstractcomponent.ngselectplugins.md) |  | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  [options](./select.popupabstractcomponent.options.md) |  | TOptions | Options for NgSelect plugin |
+|  [pluginBus](./select.popupabstractcomponent.pluginbus.md) |  | [PluginBus](./select.pluginbus.md) |  |
+|  [pluginElement](./select.popupabstractcomponent.pluginelement.md) |  | ElementRef |  |
+|  [popupElement](./select.popupabstractcomponent.popupelement.md) |  | HTMLElement | Html element that represents popup itself |
+|  [visibilityChange](./select.popupabstractcomponent.visibilitychange.md) |  | EventEmitter&lt;void&gt; | Occurs when visibility of popup has changed |
 
 ## Methods
 

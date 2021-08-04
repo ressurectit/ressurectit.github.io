@@ -16,14 +16,14 @@ constructor(changeDetector: ChangeDetectorRef, element: ElementRef<HTMLElement>,
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  changeDetector | <code>ChangeDetectorRef</code> |  |
-|  element | <code>ElementRef&lt;HTMLElement&gt;</code> |  |
-|  componentFactoryResolver | <code>ComponentFactoryResolver</code> |  |
-|  appRef | <code>ApplicationRef</code> |  |
-|  injector | <code>Injector</code> |  |
-|  pluginBus | <code>PluginBus&lt;TValue&gt;</code> |  |
-|  pluginInstances | <code>NgSelectPluginInstances</code> |  |
-|  readonly | <code>string</code> |  |
-|  disabled | <code>string</code> |  |
-|  multiple | <code>string</code> |  |
+|  changeDetector | ChangeDetectorRef |  |
+|  element | ElementRef&lt;HTMLElement&gt; |  |
+|  componentFactoryResolver | ComponentFactoryResolver |  |
+|  appRef | ApplicationRef |  |
+|  injector | Injector |  |
+|  pluginBus | PluginBus&lt;TValue&gt; |  |
+|  pluginInstances | NgSelectPluginInstances |  |
+|  readonly | string |  |
+|  disabled | string |  |
+|  multiple | string |  |
 

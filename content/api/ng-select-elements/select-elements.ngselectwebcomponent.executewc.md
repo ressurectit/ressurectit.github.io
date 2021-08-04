@@ -16,9 +16,9 @@ executeWC(...actions: NgSelectAction<TValue>[]): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  actions | <code>NgSelectAction&lt;TValue&gt;[]</code> | Array of actions that are executed over NgSelect |
+|  actions | NgSelectAction&lt;TValue&gt;\[\] | Array of actions that are executed over NgSelect |
 
 <b>Returns:</b>
 
-`any`
+any
 

@@ -16,9 +16,9 @@ export declare function ɵSetReadonly<TValue>(readonly?: boolean): NgSelectActio
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  readonly | <code>boolean</code> | Indication whether is select readonly or not, if omitted defaults to true |
+|  readonly | boolean | Indication whether is select readonly or not, if omitted defaults to true |
 
 <b>Returns:</b>
 
-`NgSelectAction<TValue>`
+[NgSelectAction](./select.ngselectaction.md)<!-- -->&lt;TValue&gt;
 

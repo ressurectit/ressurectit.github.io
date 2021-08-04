@@ -16,5 +16,5 @@ export interface NormalStateTexts
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [nothingSelected](./select.normalstatetexts.nothingselected.md) | <code>string</code> | Displayed when there is no value selected, represents empty value, used if value is null or empty array |
+|  [nothingSelected](./select.normalstatetexts.nothingselected.md) | string | Displayed when there is no value selected, represents empty value, used if value is null or empty array |
 

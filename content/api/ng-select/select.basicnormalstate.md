@@ -11,3 +11,5 @@ Public API for 'BasicNormalStateComponent'
 ```typescript
 export interface BasicNormalState extends NormalState 
 ```
+<b>Extends:</b> [NormalState](./select.normalstate.md)
+

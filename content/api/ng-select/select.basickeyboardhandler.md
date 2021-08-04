@@ -11,3 +11,5 @@ Public API for 'BasicKeyboardHandlerComponent'
 ```typescript
 export interface BasicKeyboardHandler extends KeyboardHandler 
 ```
+<b>Extends:</b> [KeyboardHandler](./select.keyboardhandler.md)
+

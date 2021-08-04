@@ -11,6 +11,9 @@ Component used for rendering edit popup with options
 ```typescript
 export declare class EditPopupComponent extends PopupAbstractComponent<CssClassesEditPopup, EditPopupOptions> implements EditPopup, NgSelectPlugin<EditPopupOptions>, AfterViewInit, OnDestroy 
 ```
+<b>Extends:</b> [PopupAbstractComponent](./select.popupabstractcomponent.md)<!-- -->&lt;[CssClassesEditPopup](./select.cssclasseseditpopup.md)<!-- -->, [EditPopupOptions](./select.editpopupoptions.md)<!-- -->&gt;
+
+<b>Implements:</b> [EditPopup](./select.editpopup.md)<!-- -->, [NgSelectPlugin](./select.ngselectplugin.md)<!-- -->&lt;[EditPopupOptions](./select.editpopupoptions.md)<!-- -->&gt;, AfterViewInit, OnDestroy
 
 ## Constructors
 
@@ -22,6 +25,6 @@ export declare class EditPopupComponent extends PopupAbstractComponent<CssClasse
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [allOptions](./select.editpopupcomponent.alloptions.md) |  | <code>ɵNgSelectOption[]</code> | Gets all options |
-|  [keepOpen](./select.editpopupcomponent.keepopen.md) |  | <code>boolean</code> | Gets indication whether keep open popup after value change |
+|  [allOptions](./select.editpopupcomponent.alloptions.md) |  | [ɵNgSelectOption](./select._ngselectoption.md)<!-- -->\[\] | Gets all options |
+|  [keepOpen](./select.editpopupcomponent.keepopen.md) |  | boolean | Gets indication whether keep open popup after value change |
 

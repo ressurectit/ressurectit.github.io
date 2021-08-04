@@ -16,9 +16,9 @@ protected _loadText(value: TValue): Promise<ɵNgSelectOption<TValue>>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  value | <code>TValue</code> | Value that is going to be used for obtaining option |
+|  value | TValue | Value that is going to be used for obtaining option |
 
 <b>Returns:</b>
 
-`Promise<ɵNgSelectOption<TValue>>`
+Promise&lt;[ɵNgSelectOption](./select._ngselectoption.md)<!-- -->&lt;TValue&gt;&gt;
 

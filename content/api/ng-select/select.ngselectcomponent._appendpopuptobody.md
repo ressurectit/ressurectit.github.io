@@ -16,9 +16,9 @@ protected _appendPopupToBody(component: Type<Popup>): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  component | <code>Type&lt;Popup&gt;</code> | Popup component type to be appended |
+|  component | Type&lt;[Popup](./select.popup.md)<!-- -->&gt; | Popup component type to be appended |
 
 <b>Returns:</b>
 
-`void`
+void
 

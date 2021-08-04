@@ -4,39 +4,42 @@
 
 ## BasicPositionerComponent class
 
-Component used for positioning popup element
+Component used for positioning popup element, handles resize, scroll and collision with viewport
 
 <b>Signature:</b>
 
 ```typescript
 export declare class BasicPositionerComponent implements BasicPositioner, NgSelectPlugin<BasicPositionerOptions>, OnDestroy 
 ```
+<b>Implements:</b> [BasicPositioner](./select.basicpositioner.md)<!-- -->, [NgSelectPlugin](./select.ngselectplugin.md)<!-- -->&lt;[BasicPositionerOptions](./select.basicpositioneroptions.md)<!-- -->&gt;, OnDestroy
 
 ## Constructors
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, \_changeDetector, options, \_document, \_platformId)](./select.basicpositionercomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicPositionerComponent</code> class |
+|  [(constructor)(ngSelectPlugins, pluginBus, pluginElement, \_changeDetector, options, \_document, \_platformId, \_scrollTargetSelector)](./select.basicpositionercomponent._constructor_.md) |  | Constructs a new instance of the <code>BasicPositionerComponent</code> class |
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_changeDetector](./select.basicpositionercomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
-|  [\_document](./select.basicpositionercomponent._document.md) |  | <code>HTMLDocument</code> |  |
-|  [\_handleResizeAndScroll](./select.basicpositionercomponent._handleresizeandscroll.md) |  | <code>() =&gt; void</code> | Handles resize and scroll event |
-|  [\_isBrowser](./select.basicpositionercomponent._isbrowser.md) |  | <code>boolean</code> | Indication whether is code running in browser |
-|  [\_options](./select.basicpositionercomponent._options.md) |  | <code>BasicPositionerOptions</code> | Options for NgSelect plugin |
-|  [\_optionsChangeSubscription](./select.basicpositionercomponent._optionschangesubscription.md) |  | <code>Subscription</code> | Subscription for changes of options in options gatherer |
-|  [\_optionsGatherer](./select.basicpositionercomponent._optionsgatherer.md) |  | <code>OptionsGatherer</code> | Instance of previous options gatherer, that is used for obtaining available options |
-|  [\_platformId](./select.basicpositionercomponent._platformid.md) |  | <code>Object</code> |  |
-|  [\_popup](./select.basicpositionercomponent._popup.md) |  | <code>Popup</code> | Popup that is displayed |
-|  [\_popupElement](./select.basicpositionercomponent._popupelement.md) |  | <code>HTMLElement</code> | Html element of popup plugin |
-|  [\_visibilitySubscription](./select.basicpositionercomponent._visibilitysubscription.md) |  | <code>Subscription</code> | Subscription for visibility change of popup |
-|  [ngSelectPlugins](./select.basicpositionercomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
-|  [options](./select.basicpositionercomponent.options.md) |  | <code>BasicPositionerOptions</code> | Options for NgSelect plugin |
-|  [pluginBus](./select.basicpositionercomponent.pluginbus.md) |  | <code>PluginBus</code> |  |
-|  [pluginElement](./select.basicpositionercomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
+|  [\_changeDetector](./select.basicpositionercomponent._changedetector.md) |  | ChangeDetectorRef |  |
+|  [\_document](./select.basicpositionercomponent._document.md) |  | HTMLDocument |  |
+|  [\_handleResizeAndScroll](./select.basicpositionercomponent._handleresizeandscroll.md) |  | () =&gt; void | Handles resize and scroll event |
+|  [\_isBrowser](./select.basicpositionercomponent._isbrowser.md) |  | boolean | Indication whether is code running in browser |
+|  [\_options](./select.basicpositionercomponent._options.md) |  | [BasicPositionerOptions](./select.basicpositioneroptions.md) | Options for NgSelect plugin |
+|  [\_optionsChangeSubscription](./select.basicpositionercomponent._optionschangesubscription.md) |  | Subscription | Subscription for changes of options in options gatherer |
+|  [\_optionsGatherer](./select.basicpositionercomponent._optionsgatherer.md) |  | [OptionsGatherer](./select.optionsgatherer.md) | Instance of previous options gatherer, that is used for obtaining available options |
+|  [\_platformId](./select.basicpositionercomponent._platformid.md) |  | Object |  |
+|  [\_popup](./select.basicpositionercomponent._popup.md) |  | [Popup](./select.popup.md) | Popup that is displayed |
+|  [\_popupElement](./select.basicpositionercomponent._popupelement.md) |  | HTMLElement | Html element of popup plugin |
+|  [\_scrollTargetSelector](./select.basicpositionercomponent._scrolltargetselector.md) |  | [ScrollTargetSelector](./select.scrolltargetselector.md) |  |
+|  [\_visibilitySubscription](./select.basicpositionercomponent._visibilitysubscription.md) |  | Subscription | Subscription for visibility change of popup |
+|  [ngSelectPlugins](./select.basicpositionercomponent.ngselectplugins.md) |  | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  [options](./select.basicpositionercomponent.options.md) |  | [BasicPositionerOptions](./select.basicpositioneroptions.md) | Options for NgSelect plugin |
+|  [pluginBus](./select.basicpositionercomponent.pluginbus.md) |  | [PluginBus](./select.pluginbus.md) |  |
+|  [pluginElement](./select.basicpositionercomponent.pluginelement.md) |  | ElementRef |  |
+|  [scrollTarget](./select.basicpositionercomponent.scrolltarget.md) |  | EventTarget | Gets scroll target |
 
 ## Methods
 

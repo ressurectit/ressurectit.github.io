@@ -11,3 +11,14 @@ Basic positioner options
 ```typescript
 export interface BasicPositionerOptions extends PositionerOptions 
 ```
+<b>Extends:</b> [PositionerOptions](./select.positioneroptions.md)
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [activateOnResize](./select.basicpositioneroptions.activateonresize.md) | boolean | Indication whether positioner should be sensitive/activated also on resize of window |
+|  [activateOnScroll](./select.basicpositioneroptions.activateonscroll.md) | boolean | Indication whether positioner should be sensitive/activated also to scroll of scrollTarget |
+|  [flipCallback](./select.basicpositioneroptions.flipcallback.md) | FlipCallback | Callback that is called when flip occurs during positioning |
+|  [scrollTarget](./select.basicpositioneroptions.scrolltarget.md) | EventTarget | Target element that is used for handling scroll event |
+

@@ -16,9 +16,9 @@ setDisabledState(isDisabled: boolean): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  isDisabled | <code>boolean</code> | Indication whether is control disabled or not |
+|  isDisabled | boolean | Indication whether is control disabled or not |
 
 <b>Returns:</b>
 
-`void`
+void
 

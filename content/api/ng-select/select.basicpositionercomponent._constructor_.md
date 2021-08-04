@@ -9,18 +9,19 @@ Constructs a new instance of the `BasicPositionerComponent` class
 <b>Signature:</b>
 
 ```typescript
-constructor(ngSelectPlugins: NgSelectPluginInstances, pluginBus: PluginBus, pluginElement: ElementRef, _changeDetector: ChangeDetectorRef, options?: BasicPositionerOptions, _document?: HTMLDocument, _platformId?: Object);
+constructor(ngSelectPlugins: NgSelectPluginInstances, pluginBus: PluginBus, pluginElement: ElementRef, _changeDetector: ChangeDetectorRef, options?: BasicPositionerOptions, _document?: HTMLDocument, _platformId?: Object, _scrollTargetSelector?: ScrollTargetSelector);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  ngSelectPlugins | <code>NgSelectPluginInstances</code> |  |
-|  pluginBus | <code>PluginBus</code> |  |
-|  pluginElement | <code>ElementRef</code> |  |
-|  \_changeDetector | <code>ChangeDetectorRef</code> |  |
-|  options | <code>BasicPositionerOptions</code> |  |
-|  \_document | <code>HTMLDocument</code> |  |
-|  \_platformId | <code>Object</code> |  |
+|  ngSelectPlugins | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  pluginBus | [PluginBus](./select.pluginbus.md) |  |
+|  pluginElement | ElementRef |  |
+|  \_changeDetector | ChangeDetectorRef |  |
+|  options | [BasicPositionerOptions](./select.basicpositioneroptions.md) |  |
+|  \_document | HTMLDocument |  |
+|  \_platformId | Object |  |
+|  \_scrollTargetSelector | [ScrollTargetSelector](./select.scrolltargetselector.md) |  |
 

@@ -13,5 +13,5 @@ export declare function ɵGetValue<TValue>(): NgSelectFunction<TValue | TValue[]
 ```
 <b>Returns:</b>
 
-`NgSelectFunction<TValue | TValue[], TValue>`
+[NgSelectFunction](./select.ngselectfunction.md)<!-- -->&lt;TValue \| TValue\[\], TValue&gt;
 

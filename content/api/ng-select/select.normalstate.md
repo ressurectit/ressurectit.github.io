@@ -11,3 +11,5 @@ Normal state plugin interface
 ```typescript
 export interface NormalState extends NgSelectPlugin 
 ```
+<b>Extends:</b> [NgSelectPlugin](./select.ngselectplugin.md)
+

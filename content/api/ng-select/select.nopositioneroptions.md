@@ -11,3 +11,5 @@ No positioner options
 ```typescript
 export interface NoPositionerOptions extends PositionerOptions 
 ```
+<b>Extends:</b> [PositionerOptions](./select.positioneroptions.md)
+

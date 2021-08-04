@@ -11,3 +11,5 @@ Public API for 'BasicPopupComponent'
 ```typescript
 export interface BasicPopup extends Popup 
 ```
+<b>Extends:</b> [Popup](./select.popup.md)
+

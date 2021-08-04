@@ -16,9 +16,9 @@ abstract setValue(value: TValue | TValue[]): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  value | <code>TValue &#124; TValue[]</code> | Value to be set |
+|  value | TValue \| TValue\[\] | Value to be set |
 
 <b>Returns:</b>
 
-`void`
+void
 

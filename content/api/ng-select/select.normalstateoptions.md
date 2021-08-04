@@ -9,12 +9,14 @@ Options for normal state plugin
 <b>Signature:</b>
 
 ```typescript
-export interface NormalStateOptions<TCssClasses = any> extends VisualPluginOptions<TCssClasses> 
+export interface NormalStateOptions<TCssClasses = any, TValue = any> extends VisualPluginOptions<TCssClasses> 
 ```
+<b>Extends:</b> [VisualPluginOptions](./select.visualpluginoptions.md)<!-- -->&lt;TCssClasses&gt;
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [texts](./select.normalstateoptions.texts.md) | <code>NormalStateTexts</code> | Texts that are used within any NormalState |
+|  [optionDisplayText](./select.normalstateoptions.optiondisplaytext.md) | [DisplayTextFunc](./select.displaytextfunc.md)<!-- -->&lt;TValue&gt; | Function used for transformation of option into display text |
+|  [texts](./select.normalstateoptions.texts.md) | [NormalStateTexts](./select.normalstatetexts.md) | Texts that are used within any NormalState |
 

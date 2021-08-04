@@ -11,3 +11,5 @@ Options for value handler plugin
 ```typescript
 export interface ValueHandlerOptions extends PluginOptions 
 ```
+<b>Extends:</b> [PluginOptions](./select.pluginoptions.md)
+

@@ -11,6 +11,7 @@ Component used for obtaining basic keyboard handler html element
 ```typescript
 export declare class BasicKeyboardHandlerComponent implements BasicKeyboardHandler, NgSelectPlugin<BasicKeyboardHandlerOptions>, OnDestroy 
 ```
+<b>Implements:</b> [BasicKeyboardHandler](./select.basickeyboardhandler.md)<!-- -->, [NgSelectPlugin](./select.ngselectplugin.md)<!-- -->&lt;[BasicKeyboardHandlerOptions](./select.basickeyboardhandleroptions.md)<!-- -->&gt;, OnDestroy
 
 ## Constructors
 
@@ -22,14 +23,14 @@ export declare class BasicKeyboardHandlerComponent implements BasicKeyboardHandl
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_handleKeyboard](./select.basickeyboardhandlercomponent._handlekeyboard.md) |  | <code>(event: KeyboardEvent) =&gt; void</code> | Handles keyboard event |
-|  [\_options](./select.basickeyboardhandlercomponent._options.md) |  | <code>BasicKeyboardHandlerOptions</code> | Options for NgSelect plugin |
-|  [\_popup](./select.basickeyboardhandlercomponent._popup.md) |  | <code>Popup</code> | Popup that is displayed |
-|  [availableOptions](./select.basickeyboardhandlercomponent.availableoptions.md) |  | <code>ɵNgSelectOption[]</code> | Gets currently available options |
-|  [ngSelectPlugins](./select.basickeyboardhandlercomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
-|  [options](./select.basickeyboardhandlercomponent.options.md) |  | <code>BasicKeyboardHandlerOptions</code> | Options for NgSelect plugin |
-|  [pluginBus](./select.basickeyboardhandlercomponent.pluginbus.md) |  | <code>PluginBus</code> |  |
-|  [pluginElement](./select.basickeyboardhandlercomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
+|  [\_handleKeyboard](./select.basickeyboardhandlercomponent._handlekeyboard.md) |  | (event: KeyboardEvent) =&gt; void | Handles keyboard event |
+|  [\_options](./select.basickeyboardhandlercomponent._options.md) |  | [BasicKeyboardHandlerOptions](./select.basickeyboardhandleroptions.md) | Options for NgSelect plugin |
+|  [\_popup](./select.basickeyboardhandlercomponent._popup.md) |  | [Popup](./select.popup.md) | Popup that is displayed |
+|  [availableOptions](./select.basickeyboardhandlercomponent.availableoptions.md) |  | [ɵNgSelectOption](./select._ngselectoption.md)<!-- -->\[\] | Gets currently available options |
+|  [ngSelectPlugins](./select.basickeyboardhandlercomponent.ngselectplugins.md) |  | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  [options](./select.basickeyboardhandlercomponent.options.md) |  | [BasicKeyboardHandlerOptions](./select.basickeyboardhandleroptions.md) | Options for NgSelect plugin |
+|  [pluginBus](./select.basickeyboardhandlercomponent.pluginbus.md) |  | [PluginBus](./select.pluginbus.md) |  |
+|  [pluginElement](./select.basickeyboardhandlercomponent.pluginelement.md) |  | ElementRef |  |
 
 ## Methods
 

@@ -16,7 +16,7 @@ export interface NgSelectOptGroup<TValue = any>
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [options](./select.ngselectoptgroup.options.md) | <code>NgSelectOption&lt;TValue&gt;[]</code> | Options assigned to this options group |
-|  [optionsChange](./select.ngselectoptgroup.optionschange.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when options in this group change |
-|  [text](./select.ngselectoptgroup.text.md) | <code>string</code> | Text that is displayed for this options group |
+|  [options](./select.ngselectoptgroup.options.md) | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Options assigned to this options group |
+|  [optionsChange](./select.ngselectoptgroup.optionschange.md) | EventEmitter&lt;void&gt; | Occurs when options in this group change |
+|  [text](./select.ngselectoptgroup.text.md) | string | Text that is displayed for this options group |
 

@@ -13,5 +13,5 @@ ngDoBootstrap(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

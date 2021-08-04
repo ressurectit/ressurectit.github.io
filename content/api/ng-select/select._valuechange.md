@@ -16,9 +16,9 @@ export declare function ɵValueChange<TValue>(callback: (value: TValue | TValue[
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  callback | <code>(value: TValue &#124; TValue[]) =&gt; void</code> |  |
+|  callback | (value: TValue \| TValue\[\]) =&gt; void |  |
 
 <b>Returns:</b>
 
-`NgSelectFunction<Subscription, TValue>`
+[NgSelectFunction](./select.ngselectfunction.md)<!-- -->&lt;Subscription, TValue&gt;
 

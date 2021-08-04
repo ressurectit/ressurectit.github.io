@@ -11,3 +11,5 @@ Basic keyboard handler options
 ```typescript
 export interface BasicKeyboardHandlerOptions extends KeyboardHandlerOptions 
 ```
+<b>Extends:</b> [KeyboardHandlerOptions](./select.keyboardhandleroptions.md)
+

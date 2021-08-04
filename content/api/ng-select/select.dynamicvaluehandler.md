@@ -11,3 +11,5 @@ Public API for 'DynamicValueHandlerComponent'
 ```typescript
 export interface DynamicValueHandler<TValue = any> extends ValueHandler<TValue> 
 ```
+<b>Extends:</b> [ValueHandler](./select.valuehandler.md)<!-- -->&lt;TValue&gt;
+

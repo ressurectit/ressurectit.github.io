@@ -16,9 +16,9 @@ protected _useOptionsAsValue(value: TValue | TValue[]): Promise<void>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  value | <code>TValue &#124; TValue[]</code> | Value to be changed to options |
+|  value | TValue \| TValue\[\] | Value to be changed to options |
 
 <b>Returns:</b>
 
-`Promise<void>`
+Promise&lt;void&gt;
 

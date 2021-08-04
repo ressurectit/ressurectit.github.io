@@ -13,5 +13,5 @@ protected _handlePosition(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

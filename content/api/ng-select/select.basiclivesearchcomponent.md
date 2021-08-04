@@ -11,6 +11,7 @@ Component used for obtaining basic live search html element
 ```typescript
 export declare class BasicLiveSearchComponent implements BasicLiveSearch, NgSelectPlugin<BasicLiveSearchOptions>, OnDestroy 
 ```
+<b>Implements:</b> [BasicLiveSearch](./select.basiclivesearch.md)<!-- -->, [NgSelectPlugin](./select.ngselectplugin.md)<!-- -->&lt;[BasicLiveSearchOptions](./select.basiclivesearchoptions.md)<!-- -->&gt;, OnDestroy
 
 ## Constructors
 
@@ -22,20 +23,20 @@ export declare class BasicLiveSearchComponent implements BasicLiveSearch, NgSele
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_changeDetector](./select.basiclivesearchcomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
-|  [\_liveSearchFocusSubscription](./select.basiclivesearchcomponent._livesearchfocussubscription.md) |  | <code>Subscription</code> | Subscription for live search focus request |
-|  [\_options](./select.basiclivesearchcomponent._options.md) |  | <code>BasicLiveSearchOptions</code> | Options for NgSelect plugin |
-|  [\_popup](./select.basiclivesearchcomponent._popup.md) |  | <code>Popup</code> | Popup used in NgSelect |
-|  [\_stringLocalization](./select.basiclivesearchcomponent._stringlocalization.md) |  | <code>StringLocalization</code> |  |
-|  [\_textsChangedSubscription](./select.basiclivesearchcomponent._textschangedsubscription.md) |  | <code>Subscription</code> | Subscription for changes in texts |
-|  [\_visibilityChangeSubscription](./select.basiclivesearchcomponent._visibilitychangesubscription.md) |  | <code>Subscription</code> | Subscription for changes of popup visibility |
-|  [liveSearchElement](./select.basiclivesearchcomponent.livesearchelement.md) |  | <code>HTMLElement</code> | HTML element that represents live search |
-|  [ngSelectPlugins](./select.basiclivesearchcomponent.ngselectplugins.md) |  | <code>NgSelectPluginInstances</code> |  |
-|  [options](./select.basiclivesearchcomponent.options.md) |  | <code>BasicLiveSearchOptions</code> | Options for NgSelect plugin |
-|  [pluginBus](./select.basiclivesearchcomponent.pluginbus.md) |  | <code>PluginBus</code> |  |
-|  [pluginElement](./select.basiclivesearchcomponent.pluginelement.md) |  | <code>ElementRef</code> |  |
-|  [searchValue](./select.basiclivesearchcomponent.searchvalue.md) |  | <code>string</code> | Current value of live search |
-|  [searchValueChange](./select.basiclivesearchcomponent.searchvaluechange.md) |  | <code>EventEmitter&lt;void&gt;</code> | Occurs when current value of live search changes |
+|  [\_changeDetector](./select.basiclivesearchcomponent._changedetector.md) |  | ChangeDetectorRef |  |
+|  [\_liveSearchFocusSubscription](./select.basiclivesearchcomponent._livesearchfocussubscription.md) |  | Subscription | Subscription for live search focus request |
+|  [\_options](./select.basiclivesearchcomponent._options.md) |  | [BasicLiveSearchOptions](./select.basiclivesearchoptions.md) | Options for NgSelect plugin |
+|  [\_popup](./select.basiclivesearchcomponent._popup.md) |  | [Popup](./select.popup.md) | Popup used in NgSelect |
+|  [\_stringLocalization](./select.basiclivesearchcomponent._stringlocalization.md) |  | StringLocalization |  |
+|  [\_textsChangedSubscription](./select.basiclivesearchcomponent._textschangedsubscription.md) |  | Subscription | Subscription for changes in texts |
+|  [\_visibilityChangeSubscription](./select.basiclivesearchcomponent._visibilitychangesubscription.md) |  | Subscription | Subscription for changes of popup visibility |
+|  [liveSearchElement](./select.basiclivesearchcomponent.livesearchelement.md) |  | HTMLElement | HTML element that represents live search |
+|  [ngSelectPlugins](./select.basiclivesearchcomponent.ngselectplugins.md) |  | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  [options](./select.basiclivesearchcomponent.options.md) |  | [BasicLiveSearchOptions](./select.basiclivesearchoptions.md) | Options for NgSelect plugin |
+|  [pluginBus](./select.basiclivesearchcomponent.pluginbus.md) |  | [PluginBus](./select.pluginbus.md) |  |
+|  [pluginElement](./select.basiclivesearchcomponent.pluginelement.md) |  | ElementRef |  |
+|  [searchValue](./select.basiclivesearchcomponent.searchvalue.md) |  | string | Current value of live search |
+|  [searchValueChange](./select.basiclivesearchcomponent.searchvaluechange.md) |  | EventEmitter&lt;void&gt; | Occurs when current value of live search changes |
 
 ## Methods
 

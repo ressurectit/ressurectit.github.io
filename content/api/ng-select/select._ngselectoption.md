@@ -11,11 +11,12 @@ Option for ng select
 ```typescript
 export interface ɵNgSelectOption<TValue = any> extends NgSelectOption<TValue> 
 ```
+<b>Extends:</b> [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [active](./select._ngselectoption.active.md) | <code>boolean</code> | Indication whether is item active |
-|  [selected](./select._ngselectoption.selected.md) | <code>boolean</code> | Indication whether is this option selected |
+|  [active](./select._ngselectoption.active.md) | boolean | Indication whether is item active |
+|  [selected](./select._ngselectoption.selected.md) | boolean | Indication whether is this option selected |
 

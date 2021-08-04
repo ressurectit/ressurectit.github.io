@@ -13,5 +13,5 @@ protected _destroyAbsolutePopup(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

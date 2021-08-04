@@ -11,6 +11,9 @@ Component used for handling current value of NgSelect
 ```typescript
 export declare class BasicValueHandlerComponent<TValue = any> extends ValueHandlerBase<TValue, BasicValueHandlerOptions> implements BasicValueHandler<TValue> 
 ```
+<b>Extends:</b> [ValueHandlerBase](./select.valuehandlerbase.md)<!-- -->&lt;TValue, [BasicValueHandlerOptions](./select.basicvaluehandleroptions.md)<!-- -->&gt;
+
+<b>Implements:</b> [BasicValueHandler](./select.basicvaluehandler.md)<!-- -->&lt;TValue&gt;
 
 ## Constructors
 
@@ -22,9 +25,9 @@ export declare class BasicValueHandlerComponent<TValue = any> extends ValueHandl
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_setValue](./select.basicvaluehandlercomponent._setvalue.md) |  | <code>(option: ɵNgSelectOption&lt;TValue&gt;) =&gt; void</code> | Sets value |
-|  [\_unmappedValue](./select.basicvaluehandlercomponent._unmappedvalue.md) |  | <code>TValue &#124; TValue[]</code> | Backed up unmapped value that was set before options were obtained |
-|  [options](./select.basicvaluehandlercomponent.options.md) |  | <code>BasicValueHandlerOptions</code> | Options for NgSelect plugin |
+|  [\_setValue](./select.basicvaluehandlercomponent._setvalue.md) |  | (option: [ɵNgSelectOption](./select._ngselectoption.md)<!-- -->&lt;TValue&gt;) =&gt; void | Sets value |
+|  [\_unmappedValue](./select.basicvaluehandlercomponent._unmappedvalue.md) |  | TValue \| TValue\[\] | Backed up unmapped value that was set before options were obtained |
+|  [options](./select.basicvaluehandlercomponent.options.md) |  | [BasicValueHandlerOptions](./select.basicvaluehandleroptions.md) | Options for NgSelect plugin |
 
 ## Methods
 

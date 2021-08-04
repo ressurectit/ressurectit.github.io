@@ -11,3 +11,5 @@ Public API for 'EditPopupComponent'
 ```typescript
 export interface EditPopup extends Popup 
 ```
+<b>Extends:</b> [Popup](./select.popup.md)
+

@@ -16,8 +16,8 @@ export interface CssClassesBasicPopup
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [optionChecked](./select.cssclassesbasicpopup.optionchecked.md) | <code>string</code> | Css class used as icons indicating that option is selected (only when multiple) |
-|  [optionItemDiv](./select.cssclassesbasicpopup.optionitemdiv.md) | <code>string</code> | Css class applied to each option div |
-|  [optionItemTextDiv](./select.cssclassesbasicpopup.optionitemtextdiv.md) | <code>string</code> | Css class applied to each option text div |
-|  [popupDiv](./select.cssclassesbasicpopup.popupdiv.md) | <code>string</code> | Css class applied directly to css popup |
+|  [optionChecked](./select.cssclassesbasicpopup.optionchecked.md) | string | Css class used as icons indicating that option is selected (only when multiple) |
+|  [optionItemDiv](./select.cssclassesbasicpopup.optionitemdiv.md) | string | Css class applied to each option div |
+|  [optionItemTextDiv](./select.cssclassesbasicpopup.optionitemtextdiv.md) | string | Css class applied to each option text div |
+|  [popupDiv](./select.cssclassesbasicpopup.popupdiv.md) | string | Css class applied directly to css popup |
 

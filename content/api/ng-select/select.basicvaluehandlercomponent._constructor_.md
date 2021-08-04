@@ -16,8 +16,8 @@ constructor(ngSelectPlugins: NgSelectPluginInstances, pluginBus: PluginBus<TValu
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  ngSelectPlugins | <code>NgSelectPluginInstances</code> |  |
-|  pluginBus | <code>PluginBus&lt;TValue&gt;</code> |  |
-|  pluginElement | <code>ElementRef</code> |  |
-|  options | <code>BasicValueHandlerOptions</code> |  |
+|  ngSelectPlugins | [NgSelectPluginInstances](./select.ngselectplugininstances.md) |  |
+|  pluginBus | [PluginBus](./select.pluginbus.md)<!-- -->&lt;TValue&gt; |  |
+|  pluginElement | ElementRef |  |
+|  options | [BasicValueHandlerOptions](./select.basicvaluehandleroptions.md) |  |
 

@@ -13,5 +13,5 @@ protected _updateMinWidth(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

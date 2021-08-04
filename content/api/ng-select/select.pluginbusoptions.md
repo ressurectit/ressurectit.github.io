@@ -16,12 +16,12 @@ export interface PluginBusOptions<TValue = any>
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [liveSearchFilter](./select.pluginbusoptions.livesearchfilter.md) | <code>LiveSearchFilter&lt;TValue&gt;</code> | Method that is used for filtering when live search is running on static data |
-|  [multiple](./select.pluginbusoptions.multiple.md) | <code>boolean</code> | Indication that multiple values can be selected |
-|  [normalizer](./select.pluginbusoptions.normalizer.md) | <code>NormalizeFunc&lt;TValue&gt;</code> | Normalizer used for normalizing values |
-|  [optionsGatherer](./select.pluginbusoptions.optionsgatherer.md) | <code>OptionsGatherer&lt;TValue&gt;</code> | Instance of options gatherer that is used for obtaining options |
-|  [readonly](./select.pluginbusoptions.readonly.md) | <code>boolean</code> | Indication whether is NgSelect readonly or not |
-|  [templateGatherer](./select.pluginbusoptions.templategatherer.md) | <code>TemplateGatherer</code> | Instance of template gatherer used for obtaining custom templates |
-|  [useNonExistingAsValue](./select.pluginbusoptions.usenonexistingasvalue.md) | <code>boolean</code> | Indication whether use non existing value in live search as new value, use with dynamic value handler |
-|  [valueComparer](./select.pluginbusoptions.valuecomparer.md) | <code>CompareValueFunc&lt;TValue&gt;</code> | Function of value comparer that is used for comparison of values |
+|  [liveSearchFilter](./select.pluginbusoptions.livesearchfilter.md) | [LiveSearchFilter](./select.livesearchfilter.md)<!-- -->&lt;TValue&gt; | Method that is used for filtering when live search is running on static data |
+|  [multiple](./select.pluginbusoptions.multiple.md) | boolean | Indication that multiple values can be selected |
+|  [normalizer](./select.pluginbusoptions.normalizer.md) | [NormalizeFunc](./select.normalizefunc.md)<!-- -->&lt;TValue&gt; | Normalizer used for normalizing values |
+|  [optionsGatherer](./select.pluginbusoptions.optionsgatherer.md) | [OptionsGatherer](./select.optionsgatherer.md)<!-- -->&lt;TValue&gt; | Instance of options gatherer that is used for obtaining options |
+|  [readonly](./select.pluginbusoptions.readonly.md) | boolean | Indication whether is NgSelect readonly or not |
+|  [templateGatherer](./select.pluginbusoptions.templategatherer.md) | [TemplateGatherer](./select.templategatherer.md) | Instance of template gatherer used for obtaining custom templates |
+|  [useNonExistingAsValue](./select.pluginbusoptions.usenonexistingasvalue.md) | boolean | Indication whether use non existing value in live search as new value, use with dynamic value handler |
+|  [valueComparer](./select.pluginbusoptions.valuecomparer.md) | [CompareValueFunc](./select.comparevaluefunc.md)<!-- -->&lt;TValue&gt; | Function of value comparer that is used for comparison of values |
 

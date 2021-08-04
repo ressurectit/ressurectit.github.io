@@ -11,10 +11,11 @@ Options for live search plugin
 ```typescript
 export interface LiveSearchOptions<TCssClasses = any> extends VisualPluginOptions<TCssClasses> 
 ```
+<b>Extends:</b> [VisualPluginOptions](./select.visualpluginoptions.md)<!-- -->&lt;TCssClasses&gt;
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [texts](./select.livesearchoptions.texts.md) | <code>LiveSearchTexts</code> | Texts that are used within any LiveSearch |
+|  [texts](./select.livesearchoptions.texts.md) | [LiveSearchTexts](./select.livesearchtexts.md) | Texts that are used within any LiveSearch |
 

@@ -11,3 +11,5 @@ Edit keyboard handler options
 ```typescript
 export interface EditKeyboardHandlerOptions extends KeyboardHandlerOptions 
 ```
+<b>Extends:</b> [KeyboardHandlerOptions](./select.keyboardhandleroptions.md)
+

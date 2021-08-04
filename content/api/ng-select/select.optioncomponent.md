@@ -11,14 +11,15 @@ Component used for options in select component
 ```typescript
 export declare class OptionComponent<TValue = any> implements NgSelectOption<TValue> 
 ```
+<b>Implements:</b> [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [active](./select.optioncomponent.active.md) |  | <code>boolean</code> | Indication whether is item active |
-|  [group](./select.optioncomponent.group.md) |  | <code>string</code> | If specified this option will be displayed in group |
-|  [selected](./select.optioncomponent.selected.md) |  | <code>boolean</code> | Indication whether this option is selected |
-|  [text](./select.optioncomponent.text.md) |  | <code>string</code> | Text that is displayed if this value is selected |
-|  [value](./select.optioncomponent.value.md) |  | <code>TValue</code> | Value that will be used if this option will be selected |
+|  [active](./select.optioncomponent.active.md) |  | boolean | Indication whether is item active |
+|  [group](./select.optioncomponent.group.md) |  | string | If specified this option will be displayed in group |
+|  [selected](./select.optioncomponent.selected.md) |  | boolean | Indication whether this option is selected |
+|  [text](./select.optioncomponent.text.md) |  | string | Text that is displayed if this value is selected |
+|  [value](./select.optioncomponent.value.md) |  | TValue | Value that will be used if this option will be selected |
 

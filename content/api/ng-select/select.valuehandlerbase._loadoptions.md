@@ -13,5 +13,5 @@ protected abstract _loadOptions(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

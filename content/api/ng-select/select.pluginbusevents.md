@@ -16,11 +16,11 @@ export interface PluginBusEvents
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [focus](./select.pluginbusevents.focus.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when any part of select gains focus |
-|  [liveSearchFocus](./select.pluginbusevents.livesearchfocus.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when live search should gain focus |
-|  [optionCancel](./select.pluginbusevents.optioncancel.md) | <code>EventEmitter&lt;NgSelectOption&gt;</code> | Occurs when option should be canceled |
-|  [optionSelect](./select.pluginbusevents.optionselect.md) | <code>EventEmitter&lt;NgSelectOption&gt;</code> | Occurs when option should be selected |
-|  [showHidePopup](./select.pluginbusevents.showhidepopup.md) | <code>EventEmitter&lt;boolean&gt;</code> | Occurs when popup visibility should be changed |
-|  [togglePopup](./select.pluginbusevents.togglepopup.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when popup visibility should be toggled |
-|  [updateDisplayedValue](./select.pluginbusevents.updatedisplayedvalue.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when there is need for updating displayed value |
+|  [focus](./select.pluginbusevents.focus.md) | EventEmitter&lt;void&gt; | Occurs when any part of select gains focus |
+|  [liveSearchFocus](./select.pluginbusevents.livesearchfocus.md) | EventEmitter&lt;void&gt; | Occurs when live search should gain focus |
+|  [optionCancel](./select.pluginbusevents.optioncancel.md) | EventEmitter&lt;[NgSelectOption](./select.ngselectoption.md)<!-- -->&gt; | Occurs when option should be canceled |
+|  [optionSelect](./select.pluginbusevents.optionselect.md) | EventEmitter&lt;[NgSelectOption](./select.ngselectoption.md)<!-- -->&gt; | Occurs when option should be selected |
+|  [showHidePopup](./select.pluginbusevents.showhidepopup.md) | EventEmitter&lt;boolean&gt; | Occurs when popup visibility should be changed |
+|  [togglePopup](./select.pluginbusevents.togglepopup.md) | EventEmitter&lt;void&gt; | Occurs when popup visibility should be toggled |
+|  [updateDisplayedValue](./select.pluginbusevents.updatedisplayedvalue.md) | EventEmitter&lt;void&gt; | Occurs when there is need for updating displayed value |
 

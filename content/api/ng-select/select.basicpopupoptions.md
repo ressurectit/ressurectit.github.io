@@ -11,3 +11,5 @@ Basic popup options
 ```typescript
 export interface BasicPopupOptions extends PopupOptions<CssClassesBasicPopup> 
 ```
+<b>Extends:</b> [PopupOptions](./select.popupoptions.md)<!-- -->&lt;[CssClassesBasicPopup](./select.cssclassesbasicpopup.md)<!-- -->&gt;
+

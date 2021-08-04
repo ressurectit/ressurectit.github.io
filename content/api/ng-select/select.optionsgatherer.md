@@ -16,13 +16,13 @@ export interface OptionsGatherer<TValue = any>
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [availableOptions](./select.optionsgatherer.availableoptions.md) | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of visible, displayed options for select |
-|  [availableOptionsChange](./select.optionsgatherer.availableoptionschange.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of visible, displayed options has changed |
-|  [ngSelectPlugins](./select.optionsgatherer.ngselectplugins.md) | <code>NgSelectPluginInstances</code> | NgSelect plugin instances available for gatherer |
-|  [options](./select.optionsgatherer.options.md) | <code>NgSelectOption&lt;TValue&gt;[]</code> | Array of provided options for select |
-|  [optionsChange](./select.optionsgatherer.optionschange.md) | <code>EventEmitter&lt;void&gt;</code> | Occurs when array of provided options has changed |
-|  [pluginBus](./select.optionsgatherer.pluginbus.md) | <code>PluginBus&lt;TValue&gt;</code> | Plugin bus used for inter plugin shared events |
-|  [select](./select.optionsgatherer.select.md) | <code>NgSelect&lt;TValue&gt;</code> | Select element that implements default gatherers |
+|  [availableOptions](./select.optionsgatherer.availableoptions.md) | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Array of visible, displayed options for select |
+|  [availableOptionsChange](./select.optionsgatherer.availableoptionschange.md) | EventEmitter&lt;void&gt; | Occurs when array of visible, displayed options has changed |
+|  [ngSelectPlugins](./select.optionsgatherer.ngselectplugins.md) | [NgSelectPluginInstances](./select.ngselectplugininstances.md) | NgSelect plugin instances available for gatherer |
+|  [options](./select.optionsgatherer.options.md) | [NgSelectOption](./select.ngselectoption.md)<!-- -->&lt;TValue&gt;\[\] | Array of provided options for select |
+|  [optionsChange](./select.optionsgatherer.optionschange.md) | EventEmitter&lt;void&gt; | Occurs when array of provided options has changed |
+|  [pluginBus](./select.optionsgatherer.pluginbus.md) | [PluginBus](./select.pluginbus.md)<!-- -->&lt;TValue&gt; | Plugin bus used for inter plugin shared events |
+|  [select](./select.optionsgatherer.select.md) | [NgSelect](./select.ngselect.md)<!-- -->&lt;TValue&gt; | Select element that implements default gatherers |
 
 ## Methods
 

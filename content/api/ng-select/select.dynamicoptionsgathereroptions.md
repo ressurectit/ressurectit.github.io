@@ -16,7 +16,7 @@ export interface DynamicOptionsGathererOptions<TValue = any>
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [delay](./select.dynamicoptionsgathereroptions.delay.md) | <code>number</code> | Number of miliseconds which represents minimal delay between calls of dynamicOptionsCallback |
-|  [dynamicOptionsCallback](./select.dynamicoptionsgathereroptions.dynamicoptionscallback.md) | <code>GetOptionsCallback&lt;TValue&gt;</code> | Callback used for obtaining dynamic options |
-|  [minLength](./select.dynamicoptionsgathereroptions.minlength.md) | <code>number</code> | Minimal number of characters to be used for searching |
+|  [delay](./select.dynamicoptionsgathereroptions.delay.md) | number | Number of miliseconds which represents minimal delay between calls of dynamicOptionsCallback |
+|  [dynamicOptionsCallback](./select.dynamicoptionsgathereroptions.dynamicoptionscallback.md) | [GetOptionsCallback](./select.getoptionscallback.md)<!-- -->&lt;TValue&gt; | Callback used for obtaining dynamic options |
+|  [minLength](./select.dynamicoptionsgathereroptions.minlength.md) | number | Minimal number of characters to be used for searching |
 

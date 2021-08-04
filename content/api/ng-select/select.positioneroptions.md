@@ -11,11 +11,12 @@ Options for positioner plugin
 ```typescript
 export interface PositionerOptions extends PluginOptions 
 ```
+<b>Extends:</b> [PluginOptions](./select.pluginoptions.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [optionsCoordinates](./select.positioneroptions.optionscoordinates.md) | <code>Positions.PositionsCoordinates</code> | Coordinates of options popup relative to select |
-|  [selectCoordinates](./select.positioneroptions.selectcoordinates.md) | <code>Positions.PositionsCoordinates</code> | Coordinates of select relative to options |
+|  [optionsCoordinates](./select.positioneroptions.optionscoordinates.md) | Positions.PositionsCoordinates | Coordinates of options popup relative to select |
+|  [selectCoordinates](./select.positioneroptions.selectcoordinates.md) | Positions.PositionsCoordinates | Coordinates of select relative to options |
 

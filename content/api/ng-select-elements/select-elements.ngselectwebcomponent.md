@@ -16,9 +16,9 @@ export interface NgSelectWebComponent<TValue = any>
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [initializedWC](./select-elements.ngselectwebcomponent.initializedwc.md) | <code>Observable&lt;boolean&gt;</code> | Occurs every time when NgSelect is initialized or reinitialized, if value is false NgSelect was not initialized yet |
-|  [isInitializedWC](./select-elements.ngselectwebcomponent.isinitializedwc.md) | <code>boolean</code> | Gets current state of initialization |
-|  [selectOptionsWC](./select-elements.ngselectwebcomponent.selectoptionswc.md) | <code>NgSelectOptions&lt;TValue&gt;</code> | Gets or sets NgSelect options |
+|  [initializedWC](./select-elements.ngselectwebcomponent.initializedwc.md) | Observable&lt;boolean&gt; | Occurs every time when NgSelect is initialized or reinitialized, if value is false NgSelect was not initialized yet |
+|  [isInitializedWC](./select-elements.ngselectwebcomponent.isinitializedwc.md) | boolean | Gets current state of initialization |
+|  [selectOptionsWC](./select-elements.ngselectwebcomponent.selectoptionswc.md) | NgSelectOptions&lt;TValue&gt; | Gets or sets NgSelect options |
 
 ## Methods
 

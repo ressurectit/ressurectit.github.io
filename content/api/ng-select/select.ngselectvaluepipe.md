@@ -11,10 +11,11 @@ Pipe to transform ng select selected option into
 ```typescript
 export declare class NgSelectValuePipe<TValue = any> implements PipeTransform 
 ```
+<b>Implements:</b> PipeTransform
 
 ## Methods
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [transform(options, nothingSelectedText)](./select.ngselectvaluepipe.transform.md) |  | Transforms selected option into string |
+|  [transform(options, nothingSelectedText, optionDisplayText)](./select.ngselectvaluepipe.transform.md) |  | Transforms selected option into string |
 

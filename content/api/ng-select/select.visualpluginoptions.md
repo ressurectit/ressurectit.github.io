@@ -11,10 +11,11 @@ Base options for every visual plugin (component)
 ```typescript
 export interface VisualPluginOptions<TCssClasses = any> extends PluginOptions 
 ```
+<b>Extends:</b> [PluginOptions](./select.pluginoptions.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [cssClasses](./select.visualpluginoptions.cssclasses.md) | <code>TCssClasses</code> | Css classes applied to visual plugin (component), possible to override only part of classes |
+|  [cssClasses](./select.visualpluginoptions.cssclasses.md) | TCssClasses | Css classes applied to visual plugin (component), possible to override only part of classes |
 

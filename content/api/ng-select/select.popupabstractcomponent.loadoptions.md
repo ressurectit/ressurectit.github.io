@@ -13,5 +13,5 @@ protected loadOptions(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

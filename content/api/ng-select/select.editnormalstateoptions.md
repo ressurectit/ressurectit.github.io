@@ -9,12 +9,14 @@ Edit normal state options
 <b>Signature:</b>
 
 ```typescript
-export interface EditNormalStateOptions extends NormalStateOptions<CssClassesEditNormalState> 
+export interface EditNormalStateOptions<TValue = any> extends NormalStateOptions<CssClassesEditNormalState, TValue> 
 ```
+<b>Extends:</b> [NormalStateOptions](./select.normalstateoptions.md)<!-- -->&lt;[CssClassesEditNormalState](./select.cssclasseseditnormalstate.md)<!-- -->, TValue&gt;
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [cancelButton](./select.editnormalstateoptions.cancelbutton.md) | <code>boolean</code> | Indication whether display cancel button |
+|  [cancelButton](./select.editnormalstateoptions.cancelbutton.md) | boolean | Indication whether display cancel button |
+|  [showOptionsButton](./select.editnormalstateoptions.showoptionsbutton.md) | boolean | Indication whether display button for displaying options |
 
