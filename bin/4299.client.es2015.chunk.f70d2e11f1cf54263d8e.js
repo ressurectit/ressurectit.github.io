@@ -1,0 +1,2 @@
+(self.webpackChunkressurectit_github_io=self.webpackChunkressurectit_github_io||[]).push([[4299],{44299:(t,e,o)=>{"use strict";o.r(e),o.d(e,{default:()=>r});const r='<div>Value: {{datetimeControl?.value | dateFormat}}</div>\r\n\r\n<date-time-selector class="form-control"\r\n                    [formControl]="datetimeControl"\r\n                    [options]="dateTimeOptions"></date-time-selector>'}}]);
+//# sourceMappingURL=4299.client.es2015.chunk.f70d2e11f1cf54263d8e.js.map
