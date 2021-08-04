@@ -14,9 +14,9 @@ emit(events: LogEvent[]): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  events | <code>LogEvent[]</code> |  |
+|  events | LogEvent\[\] |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

@@ -11,6 +11,7 @@ Returns true if object is NaN
 ```typescript
 export declare class IsNaNPipe implements PipeTransform 
 ```
+<b>Implements:</b> PipeTransform
 
 ## Methods
 

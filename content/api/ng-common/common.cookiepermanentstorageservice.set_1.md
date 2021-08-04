@@ -9,18 +9,18 @@ Sets value that will be stored with 'name' in permanent storage until expiration
 <b>Signature:</b>
 
 ```typescript
-set(name: string, value: any, expires: moment.Moment): void;
+set(name: string, value: any, expires: Date): void;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> | Name with which will be value stored |
-|  value | <code>any</code> | Value to be stored |
-|  expires | <code>moment.Moment</code> | Time when value should expire |
+|  name | string | Name with which will be value stored |
+|  value | any | Value to be stored |
+|  expires | Date | Time when value should expire |
 
 <b>Returns:</b>
 
-`void`
+void
 

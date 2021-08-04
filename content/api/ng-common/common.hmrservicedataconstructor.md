@@ -18,5 +18,5 @@ export declare function HmrServiceDataConstructor(): (_target: new (...args: any
 ```
 <b>Returns:</b>
 
-`(_target: new (...args: any[]) => {}) => any`
+(\_target: new (...args: any\[\]) =&gt; {}) =&gt; any
 

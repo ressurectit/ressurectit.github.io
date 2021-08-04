@@ -8,6 +8,8 @@
 
 |  Class | Description |
 |  --- | --- |
+|  [ClickOutsideDirective](./common.clickoutsidedirective.md) | Directive that handles click outside of element |
+|  [ClickOutsideModule](./common.clickoutsidemodule.md) | Module for ClickOutside directive |
 |  [CommonModule](./common.commonmodule.md) | Module for common components, pipes and directives |
 |  [CookiePermanentStorageService](./common.cookiepermanentstorageservice.md) | Implementation of permanent storage using cookies |
 |  [CookieService](./common.cookieservice.md) | Class that is used as wrapper for working with cookies |
@@ -19,6 +21,9 @@
 |  [IsNaNPipe](./common.isnanpipe.md) | Returns true if object is NaN |
 |  [IsPresentPipe](./common.ispresentpipe.md) | Returns true if object is different from null or undefined |
 |  [LocalizePipe](./common.localizepipe.md) | Localize strings using 'StringLocalization' |
+|  [MemoryTemporaryStorageService](./common.memorytemporarystorageservice.md) | Implementation of temporary storage using process memory |
+|  [MultiButtonComponent](./common.multibuttoncomponent.md) | Component used for displaying multibutton |
+|  [MultiButtonModule](./common.multibuttonmodule.md) | Module containing components for displaying multi button |
 |  [NgComponentOutletEx](./common.ngcomponentoutletex.md) | Instantiates a single Component type and inserts its Host View into current View. |
 |  [NoStringLocalizationService](./common.nostringlocalizationservice.md) | Default implementation of StringLocalization, which uses 'key' as localization text |
 |  [ɵa](./common._a.md) | Directive that is used for displaying progress indicator as overlay |
@@ -39,27 +44,33 @@
 |  [HmrServiceData()](./common.hmrservicedata.md) | Indicates that property value of service is stored during webpack HMR |
 |  [HmrServiceDataConstructor()](./common.hmrservicedataconstructor.md) | Indicates that service class has properties values stored during webpack HMR |
 |  [runWhenModuleStable(moduleRefPromise, callback, angularProfiler)](./common.runwhenmodulestable.md) | Runs callback function when angular module is bootstrapped and stable |
+|  [updateHttpRequestClone()](./common.updatehttprequestclone.md) | Updates HttpRequest.clone() method, adds support for cloning also additionalInfo |
 
 ## Interfaces
 
 |  Interface | Description |
 |  --- | --- |
-|  [HttpRequestIgnoredInterceptorId](./common.httprequestignoredinterceptorid.md) | Http request with request id for IgnoredInterceptorsService |
+|  [AdditionalInfo](./common.additionalinfo.md) | Object containing additional info/data |
 |  [IgnoredInterceptorId](./common.ignoredinterceptorid.md) | Contains id of request, used for IgnoredInterceptorsService |
+|  [LocalProgressIndicatorName](./common.localprogressindicatorname.md) | Contains name of progress indicator group |
 |  [Logger](./common.logger.md) | Interface for general logger |
+|  [MultiButtonCssClasses](./common.multibuttoncssclasses.md) | Describes multi button css classes |
 |  [PermanentStorage](./common.permanentstorage.md) | Provides api for implementing permanent storage |
 |  [StringLocalization](./common.stringlocalization.md) | Provides api to localize strings |
+|  [TemporaryStorage](./common.temporarystorage.md) | Provides api for implementing temporary storage |
 
 ## Variables
 
 |  Variable | Description |
 |  --- | --- |
 |  [APP\_STABLE](./common.app_stable.md) | Injection token used for obtaining promise that is resolved when application is first time stable |
+|  [HTTP\_REQUEST\_AUTH\_HEADER](./common.http_request_auth_header.md) | Token is used to transfer http request authentication header |
+|  [HTTP\_REQUEST\_BASE\_URL](./common.http_request_base_url.md) | Base url when using HTTP (example: http://localhost:8888/) |
+|  [HTTP\_REQUEST\_COOKIE\_HEADER](./common.http_request_cookie_header.md) | Token is used to transfer http request cookie header |
 |  [LOGGER](./common.logger.md) | Token used for injecting Logger implementation |
+|  [MULTI\_BUTTON\_CSS\_CLASSES](./common.multi_button_css_classes.md) | Injection token for default css classes for multibutton |
 |  [PERMANENT\_STORAGE](./common.permanent_storage.md) | Token used for injecting permanent storage |
 |  [PROGRESS\_INTERCEPTOR\_PROVIDER](./common.progress_interceptor_provider.md) | Progress interceptor provider |
-|  [SERVER\_AUTH\_HEADER](./common.server_auth_header.md) | Token is used to transfer server authentication header |
-|  [SERVER\_BASE\_URL](./common.server_base_url.md) | Base url used during SSR when using HTTP (example: http://localhost:8888/) |
-|  [SERVER\_COOKIE\_HEADER](./common.server_cookie_header.md) | Token is used to transfer server cookie header |
 |  [STRING\_LOCALIZATION](./common.string_localization.md) | Token used for injecting StringLocalization service implementation |
+|  [TEMPORARY\_STORAGE](./common.temporary_storage.md) | Token used for injecting temporary storage |
 

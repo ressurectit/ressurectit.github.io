@@ -16,10 +16,10 @@ transform(value: number, format: any): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  value | <code>number</code> | Number to format |
-|  format | <code>any</code> | Format string (optional) |
+|  value | number | Number to format |
+|  format | any | Format string (optional) |
 
 <b>Returns:</b>
 
-`string`
+string
 

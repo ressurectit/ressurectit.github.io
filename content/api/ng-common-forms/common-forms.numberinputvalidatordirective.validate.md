@@ -16,11 +16,11 @@ validate(control: AbstractControl): ValidationErrors | null;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  control | <code>AbstractControl</code> | Control that is being validated |
+|  control | AbstractControl | Control that is being validated |
 
 <b>Returns:</b>
 
-`ValidationErrors | null`
+ValidationErrors \| null
 
 validation results
 

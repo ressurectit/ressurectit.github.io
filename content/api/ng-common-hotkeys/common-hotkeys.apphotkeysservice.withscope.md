@@ -16,10 +16,10 @@ withScope(element: HTMLElement, scopedInitialization: (appHotkeysService: AppHot
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  element | <code>HTMLElement</code> | Html element used as scope base for hotkeys |
-|  scopedInitialization | <code>(appHotkeysService: AppHotkeysService) =&gt; void</code> | Method used for initialization scoped hotkeys, hotkeys can be initialized only inside this method |
+|  element | HTMLElement | Html element used as scope base for hotkeys |
+|  scopedInitialization | (appHotkeysService: [AppHotkeysService](./common-hotkeys.apphotkeysservice.md)<!-- -->) =&gt; void | Method used for initialization scoped hotkeys, hotkeys can be initialized only inside this method |
 
 <b>Returns:</b>
 
-`void`
+void
 

@@ -11,6 +11,7 @@ Pipe to transform numbers to regional formatting using numeraljs.
 ```typescript
 export declare class NumeralPipe implements PipeTransform, OnDestroy 
 ```
+<b>Implements:</b> PipeTransform, OnDestroy
 
 ## Constructors
 

@@ -16,7 +16,7 @@ export interface StringLocalization
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [textsChange](./common.stringlocalization.textschange.md) | <code>Observable&lt;void&gt;</code> | Occurs when indication that locale has changes and strings should be obtained again, because they have changed |
+|  [textsChange](./common.stringlocalization.textschange.md) | Observable&lt;void&gt; | Occurs when indication that locale has changes and strings should be obtained again, because they have changed |
 
 ## Methods
 

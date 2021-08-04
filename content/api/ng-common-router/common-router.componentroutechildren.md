@@ -11,10 +11,11 @@ Extended route with possibility to extract children from components
 ```typescript
 export interface ComponentRouteChildren extends Route 
 ```
+<b>Extends:</b> Route
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [childrenComponents](./common-router.componentroutechildren.childrencomponents.md) | <code>Type&lt;any&gt;[]</code> | Array of components which contains routes |
+|  [childrenComponents?](./common-router.componentroutechildren.childrencomponents.md) | Type&lt;any&gt;\[\] | <i>(Optional)</i> Array of components which contains routes |
 

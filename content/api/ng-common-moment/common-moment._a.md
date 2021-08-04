@@ -11,6 +11,7 @@ Performs moment conversion
 ```typescript
 export declare class MomentConvertPipe implements PipeTransform 
 ```
+<b>Implements:</b> PipeTransform
 
 ## Methods
 

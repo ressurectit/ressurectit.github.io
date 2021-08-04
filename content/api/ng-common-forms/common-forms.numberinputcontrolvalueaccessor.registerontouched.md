@@ -16,9 +16,9 @@ registerOnTouched(fn: () => any): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  fn | <code>() =&gt; any</code> |  |
+|  fn | () =&gt; any |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

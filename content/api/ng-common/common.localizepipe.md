@@ -11,6 +11,7 @@ Localize strings using 'StringLocalization'
 ```typescript
 export declare class LocalizePipe implements PipeTransform, OnInit, OnDestroy 
 ```
+<b>Implements:</b> PipeTransform, OnInit, OnDestroy
 
 ## Constructors
 

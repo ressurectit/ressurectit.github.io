@@ -11,6 +11,7 @@ Directive injecting checking for number min value validator
 ```typescript
 export declare class MinValueNumberValidatorDirective implements Validator, OnChanges 
 ```
+<b>Implements:</b> Validator, OnChanges
 
 ## Constructors
 
@@ -22,7 +23,7 @@ export declare class MinValueNumberValidatorDirective implements Validator, OnCh
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [minValue](./common-forms.minvaluenumbervalidatordirective.minvalue.md) |  | <code>number</code> | Bound min value that is allowed, which overrides value set to attribute minValue |
+|  [minValue?](./common-forms.minvaluenumbervalidatordirective.minvalue.md) |  | number | <i>(Optional)</i> Bound min value that is allowed, which overrides value set to attribute minValue |
 
 ## Methods
 

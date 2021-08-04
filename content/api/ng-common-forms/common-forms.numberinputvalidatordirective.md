@@ -11,6 +11,7 @@ Is number directive injecting checking for number validator
 ```typescript
 export declare class NumberInputValidatorDirective implements Validator 
 ```
+<b>Implements:</b> Validator
 
 ## Methods
 

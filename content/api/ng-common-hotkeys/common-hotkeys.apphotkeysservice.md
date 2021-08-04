@@ -22,7 +22,7 @@ export declare class AppHotkeysService
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [hotkeys](./common-hotkeys.apphotkeysservice.hotkeys.md) |  | <code>HotkeysService</code> | Hotkeys service used for handling hotkeys |
+|  [hotkeys](./common-hotkeys.apphotkeysservice.hotkeys.md) |  | HotkeysService | Hotkeys service used for handling hotkeys |
 
 ## Methods
 

@@ -11,6 +11,7 @@ Directive injecting checking for number max value validator
 ```typescript
 export declare class MaxValueNumberValidatorDirective implements Validator, OnChanges 
 ```
+<b>Implements:</b> Validator, OnChanges
 
 ## Constructors
 
@@ -22,7 +23,7 @@ export declare class MaxValueNumberValidatorDirective implements Validator, OnCh
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [maxValue](./common-forms.maxvaluenumbervalidatordirective.maxvalue.md) |  | <code>number</code> | Bound max value that is allowed, which overrides value set to attribute maxValue |
+|  [maxValue?](./common-forms.maxvaluenumbervalidatordirective.maxvalue.md) |  | number | <i>(Optional)</i> Bound max value that is allowed, which overrides value set to attribute maxValue |
 
 ## Methods
 

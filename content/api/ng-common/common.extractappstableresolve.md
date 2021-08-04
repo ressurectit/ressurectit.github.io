@@ -16,9 +16,9 @@ export declare function extractAppStableResolve(appStablePromise: Promise<void>)
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  appStablePromise | <code>Promise&lt;void&gt;</code> | Promise which contains resolve method that is going to be extracted |
+|  appStablePromise | Promise&lt;void&gt; | Promise which contains resolve method that is going to be extracted |
 
 <b>Returns:</b>
 
-`() => void`
+() =&gt; void
 

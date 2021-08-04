@@ -16,9 +16,9 @@ static number(control: AbstractControl): ValidationErrors | null;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  control | <code>AbstractControl</code> | Control which value to be validated |
+|  control | AbstractControl | Control which value to be validated |
 
 <b>Returns:</b>
 
-`ValidationErrors | null`
+ValidationErrors \| null
 

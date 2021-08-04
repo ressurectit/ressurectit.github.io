@@ -16,7 +16,7 @@ export interface ɵTitledDialogOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [componentOrTemplateRef](./common-material._a.componentortemplateref.md) | <code>ComponentType&lt;any&gt; &#124; TemplateRef&lt;any&gt;</code> | Component or template to be rendered |
-|  [data](./common-material._a.data.md) | <code>any</code> | Data passed to rendered component |
-|  [title](./common-material._a.title.md) | <code>string</code> | Title that is displayed in title of dialog |
+|  [componentOrTemplateRef?](./common-material._a.componentortemplateref.md) | ComponentType&lt;any&gt; \| TemplateRef&lt;any&gt; | <i>(Optional)</i> Component or template to be rendered |
+|  [data?](./common-material._a.data.md) | any | <i>(Optional)</i> Data passed to rendered component |
+|  [title?](./common-material._a.title.md) | string | <i>(Optional)</i> Title that is displayed in title of dialog |
 

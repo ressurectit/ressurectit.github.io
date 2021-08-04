@@ -16,10 +16,10 @@ isIgnored<TType>(interceptorType: Type<TType>, requestId: IgnoredInterceptorId):
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  interceptorType | <code>Type&lt;TType&gt;</code> | Type of interceptor that is checked whether is ignored |
-|  requestId | <code>IgnoredInterceptorId</code> |  |
+|  interceptorType | Type&lt;TType&gt; | Type of interceptor that is checked whether is ignored |
+|  requestId | [IgnoredInterceptorId](./common.ignoredinterceptorid.md) |  |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

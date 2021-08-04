@@ -16,8 +16,8 @@ export interface ModuleRoutesOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [rootModule](./common-router.moduleroutesoptions.rootmodule.md) | <code>boolean</code> | Indication that <code>forRoot</code> should be used during registration of routes |
-|  [rootModuleConfig](./common-router.moduleroutesoptions.rootmoduleconfig.md) | <code>ExtraOptions</code> | Extra options used for <code>forRoot</code> module creation |
-|  [staticRoutesAfter](./common-router.moduleroutesoptions.staticroutesafter.md) | <code>ComponentRouteChildren[]</code> | Routes that will be set after routedComponents |
-|  [staticRoutesBefore](./common-router.moduleroutesoptions.staticroutesbefore.md) | <code>ComponentRouteChildren[]</code> | Routes that will be set before routedComponents |
+|  [rootModule?](./common-router.moduleroutesoptions.rootmodule.md) | boolean | <i>(Optional)</i> Indication that <code>forRoot</code> should be used during registration of routes |
+|  [rootModuleConfig?](./common-router.moduleroutesoptions.rootmoduleconfig.md) | ExtraOptions | <i>(Optional)</i> Extra options used for <code>forRoot</code> module creation |
+|  [staticRoutesAfter?](./common-router.moduleroutesoptions.staticroutesafter.md) | [ComponentRouteChildren](./common-router.componentroutechildren.md)<!-- -->\[\] | <i>(Optional)</i> Routes that will be set after routedComponents |
+|  [staticRoutesBefore?](./common-router.moduleroutesoptions.staticroutesbefore.md) | [ComponentRouteChildren](./common-router.componentroutechildren.md)<!-- -->\[\] | <i>(Optional)</i> Routes that will be set before routedComponents |
 

@@ -9,17 +9,17 @@ Adds interceptor type that should be ignored for specified url
 <b>Signature:</b>
 
 ```typescript
-addInterceptor<TType>(interceptorType: Type<TType>, requestId: IgnoredInterceptorId): void;
+addInterceptor<TType>(interceptorType: Type<TType>, additionalInfo: IgnoredInterceptorId): void;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  interceptorType | <code>Type&lt;TType&gt;</code> | Type of interceptor should be ignored |
-|  requestId | <code>IgnoredInterceptorId</code> | Object containing request id |
+|  interceptorType | Type&lt;TType&gt; | Type of interceptor should be ignored |
+|  additionalInfo | [IgnoredInterceptorId](./common.ignoredinterceptorid.md) | Object containing additional info - request id |
 
 <b>Returns:</b>
 
-`void`
+void
 

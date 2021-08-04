@@ -16,9 +16,9 @@ addMessage(message: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  message | <code>string</code> | Message to display what is happening |
+|  message | string | Message to display what is happening |
 
 <b>Returns:</b>
 
-`void`
+void
 

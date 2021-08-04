@@ -16,6 +16,6 @@ constructor(_localizationSvc: StringLocalization, _changeDetector: ChangeDetecto
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_localizationSvc | <code>StringLocalization</code> |  |
-|  \_changeDetector | <code>ChangeDetectorRef</code> |  |
+|  \_localizationSvc | [StringLocalization](./common.stringlocalization.md) |  |
+|  \_changeDetector | ChangeDetectorRef |  |
 

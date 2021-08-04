@@ -16,9 +16,9 @@ copyMessage(message: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  message | <code>string</code> | Message to be copied |
+|  message | string | Message to be copied |
 
 <b>Returns:</b>
 
-`void`
+void
 

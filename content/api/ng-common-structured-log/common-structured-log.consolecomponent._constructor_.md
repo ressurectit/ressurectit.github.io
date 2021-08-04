@@ -16,6 +16,6 @@ constructor(_consoleSvc: ConsoleComponentSink, _changeDetector: ChangeDetectorRe
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_consoleSvc | <code>ConsoleComponentSink</code> |  |
-|  \_changeDetector | <code>ChangeDetectorRef</code> |  |
+|  \_consoleSvc | [ConsoleComponentSink](./common-structured-log.consolecomponentsink.md) |  |
+|  \_changeDetector | ChangeDetectorRef |  |
 

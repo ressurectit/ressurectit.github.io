@@ -16,5 +16,5 @@ constructor(_router: Router);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_router | <code>Router</code> |  |
+|  \_router | Router |  |
 

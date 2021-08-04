@@ -16,7 +16,7 @@ export interface ConsoleComponentLog
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [expanded](./common-structured-log.consolecomponentlog.expanded.md) | <code>boolean</code> | Indication whether detail of line is expanded or not |
-|  [logLevel](./common-structured-log.consolecomponentlog.loglevel.md) | <code>string</code> | Log level of log |
-|  [text](./common-structured-log.consolecomponentlog.text.md) | <code>string</code> | Text of log to be displayed |
+|  [expanded?](./common-structured-log.consolecomponentlog.expanded.md) | boolean | <i>(Optional)</i> Indication whether detail of line is expanded or not |
+|  [logLevel](./common-structured-log.consolecomponentlog.loglevel.md) | string | Log level of log |
+|  [text](./common-structured-log.consolecomponentlog.text.md) | string | Text of log to be displayed |
 

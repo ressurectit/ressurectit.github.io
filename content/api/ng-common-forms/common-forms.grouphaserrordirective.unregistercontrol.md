@@ -16,9 +16,9 @@ unregisterControl(id: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  id | <code>string</code> | Id of control to be unregistered |
+|  id | string | Id of control to be unregistered |
 
 <b>Returns:</b>
 
-`void`
+void
 

@@ -11,6 +11,7 @@ Implementation of permanent storage using LocalStorage
 ```typescript
 export declare class LocalPermanentStorageService implements PermanentStorage 
 ```
+<b>Implements:</b> PermanentStorage
 
 ## Constructors
 

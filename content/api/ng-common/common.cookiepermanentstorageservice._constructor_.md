@@ -16,5 +16,5 @@ constructor(_cookies: CookieService);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_cookies | <code>CookieService</code> |  |
+|  \_cookies | [CookieService](./common.cookieservice.md) |  |
 

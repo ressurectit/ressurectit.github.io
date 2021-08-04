@@ -16,6 +16,6 @@ constructor(_renderer: Renderer2, _elementRef: ElementRef);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_renderer | <code>Renderer2</code> |  |
-|  \_elementRef | <code>ElementRef</code> |  |
+|  \_renderer | Renderer2 |  |
+|  \_elementRef | ElementRef |  |
 

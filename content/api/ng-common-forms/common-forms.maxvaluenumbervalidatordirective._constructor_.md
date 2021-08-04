@@ -16,5 +16,5 @@ constructor(maxValue: string);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  maxValue | <code>string</code> |  |
+|  maxValue | string |  |
 

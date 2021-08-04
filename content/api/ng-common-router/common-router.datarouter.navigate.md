@@ -16,12 +16,12 @@ navigate(linkParams: any[], routeData: any): Promise<any>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  linkParams | <code>any[]</code> | Link params that are used as for standard router |
-|  routeData | <code>any</code> | Any type of object that can be passed to your routed component |
+|  linkParams | any\[\] | Link params that are used as for standard router |
+|  routeData | any | Any type of object that can be passed to your routed component |
 
 <b>Returns:</b>
 
-`Promise<any>`
+Promise&lt;any&gt;
 
 Promise
 

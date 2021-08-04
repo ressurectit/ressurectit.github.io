@@ -16,7 +16,7 @@ export declare class IgnoredInterceptorsService
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [addInterceptor(interceptorType, requestId)](./common.ignoredinterceptorsservice.addinterceptor.md) |  | Adds interceptor type that should be ignored for specified url |
+|  [addInterceptor(interceptorType, additionalInfo)](./common.ignoredinterceptorsservice.addinterceptor.md) |  | Adds interceptor type that should be ignored for specified url |
 |  [clear()](./common.ignoredinterceptorsservice.clear.md) |  | Clears all ignored interceptors from service |
 |  [isIgnored(interceptorType, requestId)](./common.ignoredinterceptorsservice.isignored.md) |  | Checks specified interceptor whether is ingored |
 

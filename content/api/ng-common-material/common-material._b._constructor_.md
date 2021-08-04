@@ -16,7 +16,7 @@ constructor(data: ɵTitledDialogOptions, dialogRef: MatDialogRef<ɵTitledDialogO
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  data | <code>ɵTitledDialogOptions</code> |  |
-|  dialogRef | <code>MatDialogRef&lt;ɵTitledDialogOptions&gt;</code> |  |
-|  injector | <code>Injector</code> |  |
+|  data | ɵTitledDialogOptions |  |
+|  dialogRef | MatDialogRef&lt;ɵTitledDialogOptions&gt; |  |
+|  injector | Injector |  |
 

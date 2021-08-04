@@ -22,5 +22,5 @@ export declare class DataRouterData
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [value](./common-router.datarouterdata.value.md) |  | <code>Promise&lt;any&gt;</code> | Value of DataRouter for currently routed page |
+|  [value](./common-router.datarouterdata.value.md) |  | Promise&lt;any&gt; | Value of DataRouter for currently routed page |
 

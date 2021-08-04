@@ -16,12 +16,12 @@ getCookie(name: string, skipSerialization?: boolean): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> | Identification of the Cookie |
-|  skipSerialization | <code>boolean</code> | Indication whether skip deserialization from json string |
+|  name | string | Identification of the Cookie |
+|  skipSerialization | boolean | Indication whether skip deserialization from json string |
 
 <b>Returns:</b>
 
-`any`
+any
 
 The Cookie's value
 

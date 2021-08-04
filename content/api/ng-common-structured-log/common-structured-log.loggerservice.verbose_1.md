@@ -16,11 +16,11 @@ verbose(error: Error, messageTemplate: string, ...properties: any[]): any;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  error | <code>Error</code> | Error for the log event. |
-|  messageTemplate | <code>string</code> | Message template for the log event. |
-|  properties | <code>any[]</code> | Properties that can be used to render the message template. |
+|  error | Error | Error for the log event. |
+|  messageTemplate | string | Message template for the log event. |
+|  properties | any\[\] | Properties that can be used to render the message template. |
 
 <b>Returns:</b>
 
-`any`
+any
 

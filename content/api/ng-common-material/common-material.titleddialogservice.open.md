@@ -16,12 +16,12 @@ open<T, D = any, R = any>(componentOrTemplateRef: ComponentType<T> | TemplateRef
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  componentOrTemplateRef | <code>ComponentType&lt;T&gt; &#124; TemplateRef&lt;T&gt;</code> |  |
-|  config | <code>TitledDialogConfig&lt;D&gt;</code> |  |
+|  componentOrTemplateRef | ComponentType&lt;T&gt; \| TemplateRef&lt;T&gt; | Type of the component to load into the dialog, or a TemplateRef to instantiate as the dialog content. |
+|  config | [TitledDialogConfig](./common-material.titleddialogconfig.md)<!-- -->&lt;D&gt; | Extra configuration options. |
 
 <b>Returns:</b>
 
-`MatDialogRef<T, R>`
+MatDialogRef&lt;T, R&gt;
 
 Reference to the newly-opened dialog.
 

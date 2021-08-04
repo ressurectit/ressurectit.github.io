@@ -16,10 +16,10 @@ export declare function hmrAccept(platformGet: () => PlatformRef, rootComponentS
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  platformGet | <code>() =&gt; PlatformRef</code> | Callback used for obtaining platform used for bootstraping main module |
-|  rootComponentSelector | <code>string</code> | Name of root component, defaults to 'app' |
+|  platformGet | () =&gt; PlatformRef | Callback used for obtaining platform used for bootstraping main module |
+|  rootComponentSelector | string | Name of root component, defaults to 'app' |
 
 <b>Returns:</b>
 
-`void`
+void
 

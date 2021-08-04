@@ -9,16 +9,16 @@ Removes value stored with 'name' from permanent storage
 <b>Signature:</b>
 
 ```typescript
-remove(name: any): void;
+remove(name: string): void;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>any</code> | Name of stored value that will be removed |
+|  name | string | Name of stored value that will be removed |
 
 <b>Returns:</b>
 
-`void`
+void
 

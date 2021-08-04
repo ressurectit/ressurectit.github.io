@@ -16,9 +16,9 @@ transform(value: string | moment.Moment): moment.Moment;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  value | <code>string &#124; moment.Moment</code> | Value to be converted to moment |
+|  value | string \| moment.Moment | Value to be converted to moment |
 
 <b>Returns:</b>
 
-`moment.Moment`
+moment.Moment
 

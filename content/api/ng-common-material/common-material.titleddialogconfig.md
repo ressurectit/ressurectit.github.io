@@ -11,10 +11,11 @@ Configuration for opening a titled modal dialog with the MatDialog service.
 ```typescript
 export interface TitledDialogConfig<TData> extends MatDialogConfig<TData> 
 ```
+<b>Extends:</b> MatDialogConfig&lt;TData&gt;
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [title](./common-material.titleddialogconfig.title.md) | <code>string</code> | Title that is displayed in title of dialog |
+|  [title?](./common-material.titleddialogconfig.title.md) | string | <i>(Optional)</i> Title that is displayed in title of dialog |
 

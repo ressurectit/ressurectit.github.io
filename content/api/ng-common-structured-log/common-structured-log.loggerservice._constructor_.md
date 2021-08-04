@@ -16,5 +16,5 @@ constructor(sinks: Sink[]);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  sinks | <code>Sink[]</code> |  |
+|  sinks | Sink\[\] |  |
 

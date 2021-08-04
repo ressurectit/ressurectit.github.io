@@ -16,7 +16,7 @@ export declare class StatusCodeService
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [statusCode](./common.statuscodeservice.statuscode.md) |  | <code>number &#124; null &#124; undefined</code> | Gets current status code |
+|  [statusCode](./common.statuscodeservice.statuscode.md) |  | number \| null \| undefined | Gets current status code |
 
 ## Methods
 

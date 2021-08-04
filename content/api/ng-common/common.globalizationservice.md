@@ -16,6 +16,6 @@ export declare abstract class GlobalizationService
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [locale](./common.globalizationservice.locale.md) |  | <code>string</code> | Gets current name of locale, that is used within application |
-|  [localeChange](./common.globalizationservice.localechange.md) |  | <code>Observable&lt;void&gt;</code> | Gets observable that emits when locale changes and change should be applied to application |
+|  [locale](./common.globalizationservice.locale.md) |  | string | Gets current name of locale, that is used within application |
+|  [localeChange](./common.globalizationservice.localechange.md) |  | Observable&lt;void&gt; | Gets observable that emits when locale changes and change should be applied to application |
 

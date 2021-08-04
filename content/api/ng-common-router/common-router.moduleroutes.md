@@ -16,10 +16,10 @@ export declare function ModuleRoutes(routedComponents: Type<any>[], options?: Mo
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  routedComponents | <code>Type&lt;any&gt;[]</code> | Array of components that will be used for routes extration |
-|  options | <code>ModuleRoutesOptions</code> | Optional options for defining routes |
+|  routedComponents | Type&lt;any&gt;\[\] | Array of components that will be used for routes extration |
+|  options | [ModuleRoutesOptions](./common-router.moduleroutesoptions.md) | Optional options for defining routes |
 
 <b>Returns:</b>
 
-`<TFunction extends Function>(target: TFunction) => TFunction`
+&lt;TFunction extends Function&gt;(target: TFunction) =&gt; TFunction
 

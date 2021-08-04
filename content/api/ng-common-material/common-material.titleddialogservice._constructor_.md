@@ -16,5 +16,5 @@ constructor(_dialog: MatDialog);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_dialog | <code>MatDialog</code> |  |
+|  \_dialog | MatDialog |  |
 

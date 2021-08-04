@@ -11,5 +11,5 @@ flush(): Promise<any>;
 ```
 <b>Returns:</b>
 
-`Promise<any>`
+Promise&lt;any&gt;
 

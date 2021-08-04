@@ -16,10 +16,10 @@ export declare function hasError(form: NgForm, controls: string[]): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  form | <code>NgForm</code> | Form containing controls |
-|  controls | <code>string[]</code> | Array of controls names to be checked for errors |
+|  form | NgForm | Form containing controls |
+|  controls | string\[\] | Array of controls names to be checked for errors |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

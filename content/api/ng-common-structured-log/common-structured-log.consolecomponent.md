@@ -11,6 +11,7 @@ Component used for displaying console logs
 ```typescript
 export declare class ConsoleComponent implements OnInit, OnDestroy 
 ```
+<b>Implements:</b> OnInit, OnDestroy
 
 ## Constructors
 
@@ -22,9 +23,9 @@ export declare class ConsoleComponent implements OnInit, OnDestroy
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [canCopy](./common-structured-log.consolecomponent.cancopy.md) |  | <code>Clipboard</code> | Indication whether can use copy to clipboard |
-|  [currentLogs](./common-structured-log.consolecomponent.currentlogs.md) |  | <code>ConsoleComponentLog[]</code> | Current state of logger |
-|  [filterValue](./common-structured-log.consolecomponent.filtervalue.md) |  | <code>string</code> | Current value of filter |
+|  [canCopy](./common-structured-log.consolecomponent.cancopy.md) |  | Clipboard | Indication whether can use copy to clipboard |
+|  [currentLogs](./common-structured-log.consolecomponent.currentlogs.md) |  | [ConsoleComponentLog](./common-structured-log.consolecomponentlog.md)<!-- -->\[\] | Current state of logger |
+|  [filterValue](./common-structured-log.consolecomponent.filtervalue.md) |  | string | Current value of filter |
 
 ## Methods
 

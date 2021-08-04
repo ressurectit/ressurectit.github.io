@@ -22,7 +22,7 @@ export declare class DataRouter
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [valuePromise](./common-router.datarouter.valuepromise.md) |  | <code>Promise&lt;any&gt;</code> | Gets promise that resolves into value for current route |
+|  [valuePromise](./common-router.datarouter.valuepromise.md) |  | Promise&lt;any&gt; | Gets promise that resolves into value for current route |
 
 ## Methods
 

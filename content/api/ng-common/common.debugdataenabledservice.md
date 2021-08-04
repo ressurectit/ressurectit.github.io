@@ -16,8 +16,8 @@ export declare class DebugDataEnabledService
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [enabled](./common.debugdataenabledservice.enabled.md) |  | <code>boolean</code> | Indication whether debug data copmonent is enabled |
-|  [enabledChange](./common.debugdataenabledservice.enabledchange.md) |  | <code>Observable&lt;void&gt;</code> | Occurs when enabled state changed |
+|  [enabled](./common.debugdataenabledservice.enabled.md) |  | boolean | Indication whether debug data copmonent is enabled |
+|  [enabledChange](./common.debugdataenabledservice.enabledchange.md) |  | Observable&lt;void&gt; | Occurs when enabled state changed |
 
 ## Methods
 

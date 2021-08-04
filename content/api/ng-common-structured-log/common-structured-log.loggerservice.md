@@ -11,6 +11,7 @@ Service used for logging using structured-log
 ```typescript
 export declare class LoggerService implements LoggerInterface 
 ```
+<b>Implements:</b> LoggerInterface
 
 ## Constructors
 

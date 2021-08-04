@@ -9,20 +9,20 @@ Constructs a new instance of the `HasErrorDirective` class
 <b>Signature:</b>
 
 ```typescript
-constructor(_element: ElementRef<HTMLElement>, _groupHasError: GroupHasErrorDirective, _formControl: FormControlDirective, _formControlName: FormControlName, _submittedSvc: SubmittedService, _document: HTMLDocument, _stringLocalization: StringLocalization, options?: HasErrorOptions, _globalErrorMessages?: StringDictionary);
+constructor(_element: ElementRef<HTMLElement>, _rendererFactory: ValidationErrorRendererFactory, _groupHasError: GroupHasErrorDirective, _formControl: FormControlDirective, _formControlName: FormControlName, _ngModel: NgModel, _submittedSvc: SubmittedService, _stringLocalization: StringLocalization, _injector: Injector);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_element | <code>ElementRef&lt;HTMLElement&gt;</code> |  |
-|  \_groupHasError | <code>GroupHasErrorDirective</code> |  |
-|  \_formControl | <code>FormControlDirective</code> |  |
-|  \_formControlName | <code>FormControlName</code> |  |
-|  \_submittedSvc | <code>SubmittedService</code> |  |
-|  \_document | <code>HTMLDocument</code> |  |
-|  \_stringLocalization | <code>StringLocalization</code> |  |
-|  options | <code>HasErrorOptions</code> |  |
-|  \_globalErrorMessages | <code>StringDictionary</code> |  |
+|  \_element | ElementRef&lt;HTMLElement&gt; |  |
+|  \_rendererFactory | [ValidationErrorRendererFactory](./common-forms.validationerrorrendererfactory.md) |  |
+|  \_groupHasError | [GroupHasErrorDirective](./common-forms.grouphaserrordirective.md) |  |
+|  \_formControl | FormControlDirective |  |
+|  \_formControlName | FormControlName |  |
+|  \_ngModel | NgModel |  |
+|  \_submittedSvc | [SubmittedService](./common-forms.submittedservice.md) |  |
+|  \_stringLocalization | StringLocalization |  |
+|  \_injector | Injector |  |
 

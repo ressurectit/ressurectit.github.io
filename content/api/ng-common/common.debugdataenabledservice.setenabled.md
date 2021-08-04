@@ -16,9 +16,9 @@ setEnabled(enabled?: boolean): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  enabled | <code>boolean</code> | Indication whether will be enabled state set to true, or false, defaults to true |
+|  enabled | boolean | Indication whether will be enabled state set to true, or false, defaults to true |
 
 <b>Returns:</b>
 
-`void`
+void
 

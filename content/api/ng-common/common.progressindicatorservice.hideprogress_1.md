@@ -16,9 +16,9 @@ hideProgress(name: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> | Name of progress group (separate counter) |
+|  name | string | Name of progress group (separate counter) |
 
 <b>Returns:</b>
 
-`void`
+void
 

@@ -16,9 +16,9 @@ get<TResult>(name: string): TResult;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> | Name with which was value stored |
+|  name | string | Name with which was value stored |
 
 <b>Returns:</b>
 
-`TResult`
+TResult
 

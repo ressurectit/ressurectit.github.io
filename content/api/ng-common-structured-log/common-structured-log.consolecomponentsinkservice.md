@@ -11,6 +11,7 @@ Sink that is used for storing logs in `ConsoleComponent`
 ```typescript
 export declare class ConsoleComponentSinkService implements Sink, ConsoleComponentSink 
 ```
+<b>Implements:</b> Sink, [ConsoleComponentSink](./common-structured-log.consolecomponentsink.md)
 
 ## Constructors
 
@@ -22,8 +23,8 @@ export declare class ConsoleComponentSinkService implements Sink, ConsoleCompone
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [logs](./common-structured-log.consolecomponentsinkservice.logs.md) |  | <code>ConsoleComponentLog[]</code> | Gets current logs |
-|  [logsChange](./common-structured-log.consolecomponentsinkservice.logschange.md) |  | <code>Observable&lt;void&gt;</code> | Occurs when logs change |
+|  [logs](./common-structured-log.consolecomponentsinkservice.logs.md) |  | [ConsoleComponentLog](./common-structured-log.consolecomponentlog.md)<!-- -->\[\] | Gets current logs |
+|  [logsChange](./common-structured-log.consolecomponentsinkservice.logschange.md) |  | Observable&lt;void&gt; | Occurs when logs change |
 
 ## Methods
 

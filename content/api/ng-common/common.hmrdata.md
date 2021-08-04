@@ -18,5 +18,5 @@ export declare function HmrData(): (_target: any, _propertyKey: string) => void;
 ```
 <b>Returns:</b>
 
-`(_target: any, _propertyKey: string) => void`
+(\_target: any, \_propertyKey: string) =&gt; void
 

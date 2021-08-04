@@ -11,6 +11,7 @@ ProgressInterceptor used for intercepting http requests and displaying progress 
 ```typescript
 export declare class ProgressInterceptor implements HttpInterceptor 
 ```
+<b>Implements:</b> HttpInterceptor
 
 ## Constructors
 

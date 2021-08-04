@@ -16,5 +16,5 @@ constructor(_element: ElementRef<HTMLElement>);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_element | <code>ElementRef&lt;HTMLElement&gt;</code> |  |
+|  \_element | ElementRef&lt;HTMLElement&gt; |  |
 

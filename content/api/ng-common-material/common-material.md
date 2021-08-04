@@ -8,6 +8,9 @@
 
 |  Class | Description |
 |  --- | --- |
+|  [ConfirmationDialogComponent](./common-material.confirmationdialogcomponent.md) | Confirmation dialog component |
+|  [ConfirmationDialogDirective](./common-material.confirmationdialogdirective.md) | Directive that enables confirmation dialog on click |
+|  [ConfirmationDialogModule](./common-material.confirmationdialogmodule.md) | Module containing confirmation dialog component and directive |
 |  [ɵb](./common-material._b.md) | Component used as wrapper for material dialog enhanced with title |
 |  [TitledDialogModule](./common-material.titleddialogmodule.md) | Module for components and service for displaying titled dialog |
 |  [TitledDialogService](./common-material.titleddialogservice.md) | Titled dialog service used for displaying components in dialog |
@@ -16,6 +19,7 @@
 
 |  Interface | Description |
 |  --- | --- |
+|  [ConfirmationDialogData](./common-material.confirmationdialogdata.md) | Data that can be passed to confirmation dialog |
 |  [ɵa](./common-material._a.md) | Titled dialog options passed to titled dialog component |
 |  [TitledDialogConfig](./common-material.titleddialogconfig.md) | Configuration for opening a titled modal dialog with the MatDialog service. |
 
@@ -23,5 +27,6 @@
 
 |  Variable | Description |
 |  --- | --- |
+|  [CONFIRMATION\_DIALOG\_DATA](./common-material.confirmation_dialog_data.md) | Injection token used for setting global default data for confirmation dialog |
 |  [TITLED\_DIALOG\_DATA](./common-material.titled_dialog_data.md) | Injection token that can be used to access the data that was passed in to a titled dialog. |
 

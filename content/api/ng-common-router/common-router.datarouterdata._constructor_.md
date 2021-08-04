@@ -16,5 +16,5 @@ constructor(dataRouter: DataRouter);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  dataRouter | <code>DataRouter</code> |  |
+|  dataRouter | [DataRouter](./common-router.datarouter.md) |  |
 

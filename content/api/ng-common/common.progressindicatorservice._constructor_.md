@@ -16,6 +16,6 @@ constructor(_platformId: Object, config?: ProgressIndicatorOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_platformId | <code>Object</code> |  |
-|  config | <code>ProgressIndicatorOptions</code> |  |
+|  \_platformId | Object |  |
+|  config | [ProgressIndicatorOptions](./common.progressindicatoroptions.md) |  |
 

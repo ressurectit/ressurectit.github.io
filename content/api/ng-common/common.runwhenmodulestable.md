@@ -16,11 +16,11 @@ export declare function runWhenModuleStable(moduleRefPromise: Promise<NgModuleRe
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  moduleRefPromise | <code>Promise&lt;NgModuleRef&lt;{}&gt;&gt;</code> | Promise for module that was bootstrapped |
-|  callback | <code>(moduleRef: NgModuleRef&lt;{}&gt;) =&gt; void</code> | Callback that is called |
-|  angularProfiler | <code>boolean</code> | Indication that angular profiler should be enabled |
+|  moduleRefPromise | Promise&lt;NgModuleRef&lt;{}&gt;&gt; | Promise for module that was bootstrapped |
+|  callback | (moduleRef: NgModuleRef&lt;{}&gt;) =&gt; void | Callback that is called |
+|  angularProfiler | boolean | Indication that angular profiler should be enabled |
 
 <b>Returns:</b>
 
-`void`
+void
 

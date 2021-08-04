@@ -16,9 +16,9 @@ export declare function consoleComponentSinkFactory(configSvc: ConsoleSinkConfig
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  configSvc | <code>ConsoleSinkConfigService</code> |  |
+|  configSvc | [ConsoleSinkConfigService](./common-structured-log.consolesinkconfigservice.md) |  |
 
 <b>Returns:</b>
 
-`ConsoleComponentSinkService`
+[ConsoleComponentSinkService](./common-structured-log.consolecomponentsinkservice.md)
 

@@ -16,9 +16,9 @@ registerOnChange(fn: (data: any) => any): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  fn | <code>(data: any) =&gt; any</code> |  |
+|  fn | (data: any) =&gt; any |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

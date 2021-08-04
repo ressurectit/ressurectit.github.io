@@ -16,8 +16,8 @@ export declare class SubmittedService
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [submitted](./common-forms.submittedservice.submitted.md) |  | <code>boolean</code> | Gets indication whether was form submitted |
-|  [submittedChange](./common-forms.submittedservice.submittedchange.md) |  | <code>Observable&lt;void&gt;</code> | Occurs when indication whether was form submitted changes |
+|  [submitted](./common-forms.submittedservice.submitted.md) |  | boolean | Gets indication whether was form submitted |
+|  [submittedChange](./common-forms.submittedservice.submittedchange.md) |  | Observable&lt;void&gt; | Occurs when indication whether was form submitted changes |
 
 ## Methods
 

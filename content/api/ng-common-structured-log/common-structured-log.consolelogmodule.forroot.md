@@ -9,9 +9,9 @@ Registers structured-log as logger service, with console component sink
 <b>Signature:</b>
 
 ```typescript
-static forRoot(): ModuleWithProviders;
+static forRoot(): ModuleWithProviders<ConsoleLogModule>;
 ```
 <b>Returns:</b>
 
-`ModuleWithProviders`
+ModuleWithProviders&lt;[ConsoleLogModule](./common-structured-log.consolelogmodule.md)<!-- -->&gt;
 

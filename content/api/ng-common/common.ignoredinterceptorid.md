@@ -16,5 +16,5 @@ export interface IgnoredInterceptorId
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [requestId](./common.ignoredinterceptorid.requestid.md) | <code>string</code> | Identification of request |
+|  [requestId?](./common.ignoredinterceptorid.requestid.md) | string | <i>(Optional)</i> Identification of request |
 

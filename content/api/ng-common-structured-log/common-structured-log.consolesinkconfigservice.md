@@ -22,6 +22,6 @@ export declare class ConsoleSinkConfigService
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [maxLogsCount](./common-structured-log.consolesinkconfigservice.maxlogscount.md) |  | <code>number</code> |  |
-|  [restrictToLevel](./common-structured-log.consolesinkconfigservice.restricttolevel.md) |  | <code>LogEventLevel</code> |  |
+|  [maxLogsCount?](./common-structured-log.consolesinkconfigservice.maxlogscount.md) |  | number | <i>(Optional)</i> |
+|  [restrictToLevel?](./common-structured-log.consolesinkconfigservice.restricttolevel.md) |  | LogEventLevel | <i>(Optional)</i> |
 

@@ -16,10 +16,10 @@ set(name: string, value: any): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> | Name with which will be value stored |
-|  value | <code>any</code> | Value to be stored |
+|  name | string | Name with which will be value stored |
+|  value | any | Value to be stored |
 
 <b>Returns:</b>
 
-`void`
+void
 

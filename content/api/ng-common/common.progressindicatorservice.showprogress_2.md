@@ -16,9 +16,9 @@ showProgress(messages: string[]): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  messages | <code>string[]</code> | Array of messages to display what is happening |
+|  messages | string\[\] | Array of messages to display what is happening |
 
 <b>Returns:</b>
 
-`void`
+void
 

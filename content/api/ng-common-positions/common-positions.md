@@ -4,9 +4,39 @@
 
 ## common-positions package
 
+## Classes
+
+|  Class | Description |
+|  --- | --- |
+|  [PositionsModule](./common-positions.positionsmodule.md) | Module for position to directive |
+|  [PositionToDirective](./common-positions.positiontodirective.md) | Sets position of attached element relative to provided element |
+|  [TooltipComponent](./common-positions.tooltipcomponent.md) | Component used for displaying tooltip content |
+|  [TooltipDirective](./common-positions.tooltipdirective.md) | Directive used for rendering tooltip |
+|  [TooltipModule](./common-positions.tooltipmodule.md) | Module for rendering tooltips |
+
 ## Functions
 
 |  Function | Description |
 |  --- | --- |
-|  [positionsWithFlip(element, elementCoordinates, target, targetCoordinates, htmlDocument)](./common-positions.positionswithflip.md) | Computes and applies position for element relative to target, if there is collision it automatically flips |
+|  [positionsWithFlip(element, elementCoordinates, target, targetCoordinates, htmlDocument, flipCallback)](./common-positions.positionswithflip.md) | Computes and applies position for element relative to target, if there is collision it automatically flips |
+
+## Interfaces
+
+|  Interface | Description |
+|  --- | --- |
+|  [FlipCallback](./common-positions.flipcallback.md) | Function to be called when flip occurs |
+|  [TooltipOptions](./common-positions.tooltipoptions.md) | Options used for tooltip directive |
+|  [TooltipRenderer](./common-positions.tooltiprenderer.md) | Represents component that is used for rendering tooltip |
+
+## Variables
+
+|  Variable | Description |
+|  --- | --- |
+|  [TOOLTIP\_OPTIONS](./common-positions.tooltip_options.md) | Injection token used for injecting tooltip options |
+
+## Type Aliases
+
+|  Type Alias | Description |
+|  --- | --- |
+|  [FLIP\_DIRECTION](./common-positions.flip_direction.md) | Available flip directions |
 

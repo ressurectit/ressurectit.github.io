@@ -16,9 +16,9 @@ static min(min: number | null): ValidatorFn;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  min | <code>number &#124; null</code> | Min value that should be validated |
+|  min | number \| null | Min value that should be validated |
 
 <b>Returns:</b>
 
-`ValidatorFn`
+ValidatorFn
 

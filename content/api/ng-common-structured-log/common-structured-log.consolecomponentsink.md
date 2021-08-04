@@ -16,8 +16,8 @@ export interface ConsoleComponentSink
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [logs](./common-structured-log.consolecomponentsink.logs.md) | <code>ConsoleComponentLog[]</code> | Gets current logs |
-|  [logsChange](./common-structured-log.consolecomponentsink.logschange.md) | <code>Observable&lt;void&gt;</code> | Occurs when logs change |
+|  [logs](./common-structured-log.consolecomponentsink.logs.md) | [ConsoleComponentLog](./common-structured-log.consolecomponentlog.md)<!-- -->\[\] | Gets current logs |
+|  [logsChange](./common-structured-log.consolecomponentsink.logschange.md) | Observable&lt;void&gt; | Occurs when logs change |
 
 ## Methods
 

@@ -16,13 +16,13 @@ export declare function ComponentRedirectRoute(redirectFrom: string, redirectTo?
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  redirectFrom | <code>string</code> | Path from which should redirection occur |
-|  redirectTo | <code>string</code> | Path to which should be redirect performed, if not specified and only one route is defined, its path will be used |
-|  pathMatchFull | <code>boolean</code> | Indication that full path match should be used, default is true |
+|  redirectFrom | string | Path from which should redirection occur |
+|  redirectTo | string | Path to which should be redirect performed, if not specified and only one route is defined, its path will be used |
+|  pathMatchFull | boolean | Indication that full path match should be used, default is true |
 
 <b>Returns:</b>
 
-`ClassDecorator`
+ClassDecorator
 
 ClassDecorator
 

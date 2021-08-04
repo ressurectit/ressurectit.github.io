@@ -11,6 +11,7 @@ Component that is used for displaying global progress indicator
 ```typescript
 export declare class ProgressIndicatorComponent implements OnDestroy 
 ```
+<b>Implements:</b> OnDestroy
 
 ## Constructors
 

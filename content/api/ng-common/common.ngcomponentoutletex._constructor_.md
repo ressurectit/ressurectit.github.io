@@ -16,5 +16,5 @@ constructor(_viewContainerRef: ViewContainerRef);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_viewContainerRef | <code>ViewContainerRef</code> |  |
+|  \_viewContainerRef | ViewContainerRef |  |
 

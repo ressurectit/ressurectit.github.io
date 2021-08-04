@@ -16,12 +16,12 @@ export declare function alertHiddenCustom(form: NgForm | FormGroup, control: str
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  form | <code>NgForm &#124; FormGroup</code> | Form containing controls |
-|  control | <code>string</code> | Controls name that will be checked |
-|  errors | <code>string[]</code> | Array of validation errors to be checked for existance |
-|  submitted | <code>boolean</code> | Indication whether form was submitted |
+|  form | NgForm \| FormGroup | Form containing controls |
+|  control | string | Controls name that will be checked |
+|  errors | string\[\] | Array of validation errors to be checked for existance |
+|  submitted | boolean | Indication whether form was submitted |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

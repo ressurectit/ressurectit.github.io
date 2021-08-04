@@ -22,6 +22,6 @@ export declare class ProgressIndicatorOptions
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [fallbackToDefault](./common.progressindicatoroptions.fallbacktodefault.md) |  | <code>boolean</code> | Indication whether fallback to default group name |
-|  [timeout](./common.progressindicatoroptions.timeout.md) |  | <code>number</code> | Timeout length after which will be progress indication displayed |
+|  [fallbackToDefault](./common.progressindicatoroptions.fallbacktodefault.md) |  | boolean | Indication whether fallback to default group name |
+|  [timeout](./common.progressindicatoroptions.timeout.md) |  | number | Timeout length after which will be progress indication displayed |
 

@@ -16,9 +16,9 @@ setStatusCode(code?: number): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  code | <code>number</code> | Status code value that will be set |
+|  code | number | Status code value that will be set |
 
 <b>Returns:</b>
 
-`void`
+void
 

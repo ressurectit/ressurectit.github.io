@@ -16,5 +16,5 @@ constructor(minValue: string);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  minValue | <code>string</code> |  |
+|  minValue | string |  |
 

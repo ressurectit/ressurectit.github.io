@@ -4,12 +4,10 @@
 
 ## HasErrorDirective.errorMessages property
 
-Object storing error messages
+Customized error messages
 
 <b>Signature:</b>
 
 ```typescript
-get errorMessages(): StringDictionary;
-
-set errorMessages(errorMessages: StringDictionary);
+errorMessages: StringDictionary;
 ```

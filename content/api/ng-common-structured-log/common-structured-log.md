@@ -13,6 +13,8 @@
 |  [ConsoleLogModule](./common-structured-log.consolelogmodule.md) | Module containing component Console (log) |
 |  [ConsoleSinkConfigService](./common-structured-log.consolesinkconfigservice.md) | Service used as configuration for \*console sink component\* |
 |  [LoggerService](./common-structured-log.loggerservice.md) | Service used for logging using structured-log |
+|  [RestSinkConfigService](./common-structured-log.restsinkconfigservice.md) | Service used as configuration for \*rest sink\* |
+|  [RestSinkService](./common-structured-log.restsinkservice.md) | Sink that is used for storing logs using REST |
 
 ## Functions
 
@@ -28,6 +30,8 @@
 |  --- | --- |
 |  [ConsoleComponentLog](./common-structured-log.consolecomponentlog.md) | Definition of logs available for <code>ConsoleComponent</code> |
 |  [ConsoleComponentSink](./common-structured-log.consolecomponentsink.md) | Definition of sink that will write to <code>ConsoleComponent</code> |
+|  [LoggerRestClient](./common-structured-log.loggerrestclient.md) | Client used for logging logs using REST |
+|  [RestLog](./common-structured-log.restlog.md) | Definition of log object that is sent to server |
 
 ## Variables
 
@@ -37,6 +41,8 @@
 |  [CONSOLE\_COMPONENT\_SINK\_SERVICE](./common-structured-log.console_component_sink_service.md) | Injection token for obtaining sink service for <code>ConsoleComponent</code> |
 |  [CONSOLE\_COMPONENT\_SINK](./common-structured-log.console_component_sink.md) | Provider for ConsoleComponentSink for logger |
 |  [consoleAnimationTrigger](./common-structured-log.consoleanimationtrigger.md) | Show hide animation for console component |
+|  [LOGGER\_REST\_CLIENT](./common-structured-log.logger_rest_client.md) | Injection token for obtaining rest client for rest sink |
 |  [LOGGER\_SINKS](./common-structured-log.logger_sinks.md) | Injection token for obtaining loggers sinks |
+|  [REST\_SINK](./common-structured-log.rest_sink.md) | Provider for RestSinkService for logger |
 |  [STRUCTURED\_LOG\_LOGGER](./common-structured-log.structured_log_logger.md) | Provider for logger that is using structured log implementation |
 

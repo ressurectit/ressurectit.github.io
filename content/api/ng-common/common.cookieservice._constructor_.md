@@ -16,6 +16,6 @@ constructor(platformId: Object, _serverCookies: string);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  platformId | <code>Object</code> |  |
-|  \_serverCookies | <code>string</code> |  |
+|  platformId | Object |  |
+|  \_serverCookies | string |  |
 

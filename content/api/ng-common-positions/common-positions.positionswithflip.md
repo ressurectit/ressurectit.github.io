@@ -9,20 +9,21 @@ Computes and applies position for element relative to target, if there is collis
 <b>Signature:</b>
 
 ```typescript
-export declare function positionsWithFlip(element: HTMLElement, elementCoordinates: Positions.PositionsCoordinates, target: HTMLElement, targetCoordinates: Positions.PositionsCoordinates, htmlDocument?: HTMLDocument): void;
+export declare function positionsWithFlip(element: HTMLElement, elementCoordinates: Positions.PositionsCoordinates, target: HTMLElement, targetCoordinates: Positions.PositionsCoordinates, htmlDocument?: HTMLDocument, flipCallback?: FlipCallback): void;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  element | <code>HTMLElement</code> | Element that will be positioned |
-|  elementCoordinates | <code>Positions.PositionsCoordinates</code> | Relative coordinates of element |
-|  target | <code>HTMLElement</code> | Target element which will be element positioned against |
-|  targetCoordinates | <code>Positions.PositionsCoordinates</code> | Relative coordinates of target element |
-|  htmlDocument | <code>HTMLDocument</code> | HTML document instance |
+|  element | HTMLElement | Element that will be positioned |
+|  elementCoordinates | Positions.PositionsCoordinates | Relative coordinates of element |
+|  target | HTMLElement | Target element which will be element positioned against |
+|  targetCoordinates | Positions.PositionsCoordinates | Relative coordinates of target element |
+|  htmlDocument | HTMLDocument | HTML document instance |
+|  flipCallback | [FlipCallback](./common-positions.flipcallback.md) | Callback called when flip occured during positioning |
 
 <b>Returns:</b>
 
-`void`
+void
 

@@ -16,6 +16,6 @@ constructor(_service: ProgressIndicatorService, _changeDetector: ChangeDetectorR
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_service | <code>ProgressIndicatorService</code> |  |
-|  \_changeDetector | <code>ChangeDetectorRef</code> |  |
+|  \_service | [ProgressIndicatorService](./common.progressindicatorservice.md) |  |
+|  \_changeDetector | ChangeDetectorRef |  |
 

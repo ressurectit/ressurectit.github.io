@@ -16,5 +16,5 @@ constructor(globalizationSvc: GlobalizationService);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  globalizationSvc | <code>GlobalizationService</code> |  |
+|  globalizationSvc | GlobalizationService |  |
 

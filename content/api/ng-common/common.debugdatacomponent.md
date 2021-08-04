@@ -11,6 +11,7 @@ Component used for displaying debug data
 ```typescript
 export declare class DebugDataComponent implements OnDestroy, OnInit 
 ```
+<b>Implements:</b> OnDestroy, OnInit
 
 ## Constructors
 
@@ -22,10 +23,10 @@ export declare class DebugDataComponent implements OnDestroy, OnInit
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_changeDetector](./common.debugdatacomponent._changedetector.md) |  | <code>ChangeDetectorRef</code> |  |
-|  [\_debugDataEnabledChangeSubscription](./common.debugdatacomponent._debugdataenabledchangesubscription.md) |  | <code>Subscription</code> | Subscription for changes of debug data enabled |
-|  [\_debugDataEnabledSvc](./common.debugdatacomponent._debugdataenabledsvc.md) |  | <code>DebugDataEnabledService</code> |  |
-|  [enabled](./common.debugdatacomponent.enabled.md) |  | <code>boolean</code> | Indication whether is debug data enabled |
+|  [\_changeDetector](./common.debugdatacomponent._changedetector.md) |  | ChangeDetectorRef |  |
+|  [\_debugDataEnabledChangeSubscription](./common.debugdatacomponent._debugdataenabledchangesubscription.md) |  | Subscription | Subscription for changes of debug data enabled |
+|  [\_debugDataEnabledSvc](./common.debugdatacomponent._debugdataenabledsvc.md) |  | [DebugDataEnabledService](./common.debugdataenabledservice.md) |  |
+|  [enabled](./common.debugdatacomponent.enabled.md) |  | boolean | Indication whether is debug data enabled |
 
 ## Methods
 

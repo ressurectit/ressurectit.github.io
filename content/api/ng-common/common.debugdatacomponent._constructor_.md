@@ -16,6 +16,6 @@ constructor(_debugDataEnabledSvc: DebugDataEnabledService, _changeDetector: Chan
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_debugDataEnabledSvc | <code>DebugDataEnabledService</code> |  |
-|  \_changeDetector | <code>ChangeDetectorRef</code> |  |
+|  \_debugDataEnabledSvc | [DebugDataEnabledService](./common.debugdataenabledservice.md) |  |
+|  \_changeDetector | ChangeDetectorRef |  |
 

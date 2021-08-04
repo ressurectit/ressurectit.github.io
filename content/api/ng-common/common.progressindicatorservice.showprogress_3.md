@@ -16,10 +16,10 @@ showProgress(name: string, messages: string[]): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> | Name of progress group (separate counter) |
-|  messages | <code>string[]</code> | Array of messages to display what is happening |
+|  name | string | Name of progress group (separate counter) |
+|  messages | string\[\] | Array of messages to display what is happening |
 
 <b>Returns:</b>
 
-`void`
+void
 

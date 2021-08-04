@@ -16,9 +16,9 @@ setSubmitted(submitted?: boolean): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  submitted | <code>boolean</code> | If set to false, sets submitted to false |
+|  submitted | boolean | If set to false, sets submitted to false |
 
 <b>Returns:</b>
 
-`void`
+void
 

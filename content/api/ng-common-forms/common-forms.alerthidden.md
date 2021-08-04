@@ -16,11 +16,11 @@ export declare function alertHidden(form: NgForm, control: string, errors?: stri
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  form | <code>NgForm</code> | Form containing controls |
-|  control | <code>string</code> | Controls name that will be checked |
-|  errors | <code>string[]</code> | Array of validation errors to be checked for existance |
+|  form | NgForm | Form containing controls |
+|  control | string | Controls name that will be checked |
+|  errors | string\[\] | Array of validation errors to be checked for existance |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

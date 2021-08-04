@@ -22,10 +22,10 @@ export declare class ProgressIndicatorService
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [config](./common.progressindicatorservice.config.md) |  | <code>ProgressIndicatorOptions</code> |  |
-|  [messages](./common.progressindicatorservice.messages.md) |  | <code>{</code><br/><code>        [group: string]: string[];</code><br/><code>    }</code> | Messages for each group |
-|  [running](./common.progressindicatorservice.running.md) |  | <code>{</code><br/><code>        [group: string]: boolean;</code><br/><code>    }</code> | Indications that progress is running for each group |
-|  [stateChange](./common.progressindicatorservice.statechange.md) |  | <code>Observable&lt;string&gt;</code> | Occurs when state of one of progress groups have changed, passing name of group as parameter |
+|  [config?](./common.progressindicatorservice.config.md) |  | [ProgressIndicatorOptions](./common.progressindicatoroptions.md) | <i>(Optional)</i> |
+|  [messages](./common.progressindicatorservice.messages.md) |  | { \[group: string\]: string\[\]; } | Messages for each group |
+|  [running](./common.progressindicatorservice.running.md) |  | { \[group: string\]: boolean; } | Indications that progress is running for each group |
+|  [stateChange](./common.progressindicatorservice.statechange.md) |  | Observable&lt;string&gt; | Occurs when state of one of progress groups have changed, passing name of group as parameter |
 
 ## Methods
 

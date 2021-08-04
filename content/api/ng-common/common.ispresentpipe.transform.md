@@ -16,9 +16,9 @@ transform(value: any): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  value | <code>any</code> | Value to be checked |
+|  value | any | Value to be checked |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

@@ -16,9 +16,9 @@ transform(value: object): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  value | <code>object</code> | Value to be encoded |
+|  value | object | Value to be encoded |
 
 <b>Returns:</b>
 
-`string`
+string
 

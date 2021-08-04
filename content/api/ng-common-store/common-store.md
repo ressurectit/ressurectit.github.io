@@ -9,4 +9,5 @@
 |  Class | Description |
 |  --- | --- |
 |  [LocalPermanentStorageService](./common-store.localpermanentstorageservice.md) | Implementation of permanent storage using LocalStorage |
+|  [SessionTemporaryStorageService](./common-store.sessiontemporarystorageservice.md) | Implementation of temporary storage using SessionStorage |
 

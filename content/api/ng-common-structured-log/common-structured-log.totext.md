@@ -16,9 +16,9 @@ export declare function toText(property: any): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  property | <code>any</code> | Property to be transformed to text |
+|  property | any | Property to be transformed to text |
 
 <b>Returns:</b>
 
-`string`
+string
 

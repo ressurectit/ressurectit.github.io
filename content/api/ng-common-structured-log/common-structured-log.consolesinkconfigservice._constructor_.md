@@ -16,6 +16,6 @@ constructor(maxLogsCount?: number, restrictToLevel?: LogEventLevel);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  maxLogsCount | <code>number</code> | Maximal number of logs that can be stored |
-|  restrictToLevel | <code>LogEventLevel</code> | Minimal log level to be displayed |
+|  maxLogsCount | number | Maximal number of logs that can be stored |
+|  restrictToLevel | LogEventLevel | Minimal log level to be displayed |
 

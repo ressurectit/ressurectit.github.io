@@ -16,9 +16,9 @@ hideProgress(force: boolean): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  force | <code>boolean</code> | Indication that indicator should be hidden even if some processes are running |
+|  force | boolean | Indication that indicator should be hidden even if some processes are running |
 
 <b>Returns:</b>
 
-`void`
+void
 

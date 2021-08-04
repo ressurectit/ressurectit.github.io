@@ -16,5 +16,5 @@ export interface RouteDecoratedComponent
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [routeValues](./common-router.routedecoratedcomponent.routevalues.md) | <code>Route[]</code> | Definition of routes that are assigned to this type |
+|  [routeValues](./common-router.routedecoratedcomponent.routevalues.md) | Route\[\] | Definition of routes that are assigned to this type |
 

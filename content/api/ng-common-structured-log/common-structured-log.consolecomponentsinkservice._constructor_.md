@@ -16,5 +16,5 @@ constructor(_configSvc: ConsoleSinkConfigService);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_configSvc | <code>ConsoleSinkConfigService</code> |  |
+|  \_configSvc | [ConsoleSinkConfigService](./common-structured-log.consolesinkconfigservice.md) |  |
 

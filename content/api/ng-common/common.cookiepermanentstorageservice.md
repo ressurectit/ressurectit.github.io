@@ -11,6 +11,7 @@ Implementation of permanent storage using cookies
 ```typescript
 export declare class CookiePermanentStorageService implements PermanentStorage 
 ```
+<b>Implements:</b> [PermanentStorage](./common.permanentstorage.md)
 
 ## Constructors
 

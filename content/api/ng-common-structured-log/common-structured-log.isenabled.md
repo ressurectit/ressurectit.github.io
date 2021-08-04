@@ -16,12 +16,12 @@ export declare function isEnabled(level: LogEventLevel, target: LogEventLevel): 
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  level | <code>LogEventLevel</code> | The level to check. |
-|  target | <code>LogEventLevel</code> | The target level. |
+|  level | LogEventLevel | The level to check. |
+|  target | LogEventLevel | The target level. |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 
 True if the checked level contains the target level, or if the checked level is undefined.
 

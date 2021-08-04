@@ -22,8 +22,8 @@ export declare class TitledDialogComponent
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [component](./common-material._b.component.md) |  | <code>ComponentType&lt;any&gt;</code> |  |
-|  [data](./common-material._b.data.md) |  | <code>ɵTitledDialogOptions</code> |  |
-|  [dialogRef](./common-material._b.dialogref.md) |  | <code>MatDialogRef&lt;ɵTitledDialogOptions&gt;</code> |  |
-|  [injector](./common-material._b.injector.md) |  | <code>Injector</code> | Injector used for creating component or template |
+|  [component](./common-material._b.component.md) |  | ComponentType&lt;any&gt; |  |
+|  [data](./common-material._b.data.md) |  | ɵTitledDialogOptions |  |
+|  [dialogRef](./common-material._b.dialogref.md) |  | MatDialogRef&lt;ɵTitledDialogOptions&gt; |  |
+|  [injector](./common-material._b.injector.md) |  | Injector | Injector used for creating component or template |
 

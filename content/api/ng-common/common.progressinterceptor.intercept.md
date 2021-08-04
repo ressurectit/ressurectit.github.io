@@ -9,17 +9,17 @@ Intercepts http request
 <b>Signature:</b>
 
 ```typescript
-intercept(req: HttpRequestIgnoredInterceptorId<any>, next: HttpHandler): Observable<HttpEvent<any>>;
+intercept(req: HttpRequest<any> & AdditionalInfo<LocalProgressIndicatorName & IgnoredInterceptorId>, next: HttpHandler): Observable<HttpEvent<any>>;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  req | <code>HttpRequestIgnoredInterceptorId&lt;any&gt;</code> | Request to be intercepted |
-|  next | <code>HttpHandler</code> | Next middleware that can be called for next processing |
+|  req | HttpRequest&lt;any&gt; &amp; [AdditionalInfo](./common.additionalinfo.md)<!-- -->&lt;[LocalProgressIndicatorName](./common.localprogressindicatorname.md) &amp; [IgnoredInterceptorId](./common.ignoredinterceptorid.md)<!-- -->&gt; | Request to be intercepted |
+|  next | HttpHandler | Next middleware that can be called for next processing |
 
 <b>Returns:</b>
 
-`Observable<HttpEvent<any>>`
+Observable&lt;HttpEvent&lt;any&gt;&gt;
 

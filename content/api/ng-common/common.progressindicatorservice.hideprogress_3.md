@@ -16,10 +16,10 @@ hideProgress(name: string, force: boolean): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> | Name of progress group (separate counter) |
-|  force | <code>boolean</code> | Indication that indicator should be hidden even if some processes are running |
+|  name | string | Name of progress group (separate counter) |
+|  force | boolean | Indication that indicator should be hidden even if some processes are running |
 
 <b>Returns:</b>
 
-`void`
+void
 

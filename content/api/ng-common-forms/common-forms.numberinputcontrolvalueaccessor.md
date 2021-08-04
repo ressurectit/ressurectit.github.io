@@ -11,6 +11,7 @@ Value accessor for getting and setting values for number inputs
 ```typescript
 export declare class NumberInputControlValueAccessor implements ControlValueAccessor 
 ```
+<b>Implements:</b> ControlValueAccessor
 
 ## Constructors
 
@@ -22,8 +23,8 @@ export declare class NumberInputControlValueAccessor implements ControlValueAcce
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [onChange](./common-forms.numberinputcontrolvalueaccessor.onchange.md) |  | <code>(_: any) =&gt; void</code> |  |
-|  [onTouched](./common-forms.numberinputcontrolvalueaccessor.ontouched.md) |  | <code>() =&gt; void</code> | Method that is called when picker was touched |
+|  [onChange](./common-forms.numberinputcontrolvalueaccessor.onchange.md) |  | (\_: any) =&gt; void |  |
+|  [onTouched](./common-forms.numberinputcontrolvalueaccessor.ontouched.md) |  | () =&gt; void | Method that is called when picker was touched |
 
 ## Methods
 

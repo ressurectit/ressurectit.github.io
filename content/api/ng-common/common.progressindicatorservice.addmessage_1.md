@@ -16,10 +16,10 @@ addMessage(name: string, message?: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> | Name of progress group (separate counter) |
-|  message | <code>string</code> | Message to display what is happening |
+|  name | string | Name of progress group (separate counter) |
+|  message | string | Message to display what is happening |
 
 <b>Returns:</b>
 
-`void`
+void
 

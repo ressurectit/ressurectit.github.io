@@ -11,6 +11,7 @@ Returns true if object is different from null or undefined
 ```typescript
 export declare class IsPresentPipe implements PipeTransform 
 ```
+<b>Implements:</b> PipeTransform
 
 ## Methods
 

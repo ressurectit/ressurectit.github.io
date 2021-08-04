@@ -16,6 +16,6 @@ constructor(_indicatorSvc: ProgressIndicatorService, _ignoredInterceptorsService
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_indicatorSvc | <code>ProgressIndicatorService</code> |  |
-|  \_ignoredInterceptorsService | <code>IgnoredInterceptorsService</code> |  |
+|  \_indicatorSvc | [ProgressIndicatorService](./common.progressindicatorservice.md) |  |
+|  \_ignoredInterceptorsService | [IgnoredInterceptorsService](./common.ignoredinterceptorsservice.md) |  |
 

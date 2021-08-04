@@ -16,11 +16,11 @@ export declare function hasErrorCustom(form: NgForm | FormGroup, controls: strin
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  form | <code>NgForm &#124; FormGroup</code> | Form containing controls |
-|  controls | <code>string[]</code> | Array of controls names to be checked for errors |
-|  submitted | <code>boolean</code> | Indication whether form was submitted |
+|  form | NgForm \| FormGroup | Form containing controls |
+|  controls | string\[\] | Array of controls names to be checked for errors |
+|  submitted | boolean | Indication whether form was submitted |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

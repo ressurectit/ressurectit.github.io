@@ -16,10 +16,10 @@ get(key: string, interpolateParams?: Object): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  key | <code>string</code> | Key to be localized |
-|  interpolateParams | <code>Object</code> | Optional object storing interpolation parameters |
+|  key | string | Key to be localized |
+|  interpolateParams | Object | Optional object storing interpolation parameters |
 
 <b>Returns:</b>
 
-`string`
+string
 

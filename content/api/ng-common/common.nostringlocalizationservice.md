@@ -11,12 +11,13 @@ Default implementation of StringLocalization, which uses 'key' as localization t
 ```typescript
 export declare class NoStringLocalizationService implements StringLocalization 
 ```
+<b>Implements:</b> [StringLocalization](./common.stringlocalization.md)
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [textsChange](./common.nostringlocalizationservice.textschange.md) |  | <code>Observable&lt;void&gt;</code> | Occurs when indication that locale has changes and strings should be obtained again, because they have changed |
+|  [textsChange](./common.nostringlocalizationservice.textschange.md) |  | Observable&lt;void&gt; | Occurs when indication that locale has changes and strings should be obtained again, because they have changed |
 
 ## Methods
 

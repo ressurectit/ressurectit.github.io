@@ -16,5 +16,5 @@ constructor(_hotkeySvc: HotkeysService);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_hotkeySvc | <code>HotkeysService</code> |  |
+|  \_hotkeySvc | HotkeysService |  |
 

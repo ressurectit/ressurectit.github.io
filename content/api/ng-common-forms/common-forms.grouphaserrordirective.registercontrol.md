@@ -16,9 +16,9 @@ registerControl(id: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  id | <code>string</code> | Name of control to be registered |
+|  id | string | Name of control to be registered |
 
 <b>Returns:</b>
 
-`void`
+void
 

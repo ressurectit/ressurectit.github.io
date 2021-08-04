@@ -16,5 +16,5 @@ export interface GroupHasErrorOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [cssClass](./common-forms.grouphaserroroptions.cssclass.md) | <code>string</code> | Css class applied to element when there is an error |
+|  [cssClass?](./common-forms.grouphaserroroptions.cssclass.md) | string | <i>(Optional)</i> Css class applied to element when there is an error |
 

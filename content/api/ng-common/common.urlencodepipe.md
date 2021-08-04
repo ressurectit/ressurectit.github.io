@@ -11,6 +11,7 @@ Pipe that encodes data for url
 ```typescript
 export declare class UrlEncodePipe implements PipeTransform 
 ```
+<b>Implements:</b> PipeTransform
 
 ## Methods
 

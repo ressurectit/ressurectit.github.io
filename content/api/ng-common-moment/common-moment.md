@@ -12,3 +12,9 @@
 |  [ɵa](./common-moment._a.md) | Performs moment conversion |
 |  [ɵb](./common-moment._b.md) | Performs moment conversion and formats result |
 
+## Functions
+
+|  Function | Description |
+|  --- | --- |
+|  [readEncodedFilterWithDates(defaultValue, filterValue, offsetCorrelation)](./common-moment.readencodedfilterwithdates.md) | Reads filter value from encoded string, deserialize date properties into moment |
+

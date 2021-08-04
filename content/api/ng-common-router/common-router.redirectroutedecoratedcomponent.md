@@ -16,5 +16,5 @@ export interface RedirectRouteDecoratedComponent
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [redirectRouteValues](./common-router.redirectroutedecoratedcomponent.redirectroutevalues.md) | <code>Route[]</code> | Definition of redirection routes that are assigned to this type |
+|  [redirectRouteValues](./common-router.redirectroutedecoratedcomponent.redirectroutevalues.md) | Route\[\] | Definition of redirection routes that are assigned to this type |
 

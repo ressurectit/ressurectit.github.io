@@ -16,10 +16,10 @@ transform(value: string | moment.Moment, format?: string): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  value | <code>string &#124; moment.Moment</code> | Value to be converted to moment |
-|  format | <code>string</code> | Formats used for formatting moment |
+|  value | string \| moment.Moment | Value to be converted to moment |
+|  format | string | Formats used for formatting moment |
 
 <b>Returns:</b>
 
-`string`
+string
 

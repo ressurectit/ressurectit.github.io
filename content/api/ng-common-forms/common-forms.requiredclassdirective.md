@@ -11,6 +11,7 @@ Required class directive adds required class to element
 ```typescript
 export declare class RequiredClassDirective implements AfterViewInit 
 ```
+<b>Implements:</b> AfterViewInit
 
 ## Constructors
 
@@ -22,7 +23,7 @@ export declare class RequiredClassDirective implements AfterViewInit
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [required](./common-forms.requiredclassdirective.required.md) |  | <code>boolean</code> | Handles css class for required input |
+|  [required](./common-forms.requiredclassdirective.required.md) |  | boolean | Handles css class for required input |
 
 ## Methods
 

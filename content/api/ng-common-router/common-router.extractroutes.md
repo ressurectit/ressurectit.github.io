@@ -16,11 +16,11 @@ export declare function extractRoutes(components: any[]): Route[];
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  components | <code>any[]</code> | Array of components to be used for extraction |
+|  components | any\[\] | Array of components to be used for extraction |
 
 <b>Returns:</b>
 
-`Route[]`
+Route\[\]
 
 RouteDefinition Extracted routes
 

@@ -16,6 +16,6 @@ constructor(timeout?: number, fallbackToDefault?: boolean);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  timeout | <code>number</code> |  |
-|  fallbackToDefault | <code>boolean</code> |  |
+|  timeout | number |  |
+|  fallbackToDefault | boolean |  |
 

@@ -11,6 +11,7 @@ Directive that is used for displaying progress indicator as overlay
 ```typescript
 export declare class ProgressOverlayDirective implements OnInit, OnDestroy 
 ```
+<b>Implements:</b> OnInit, OnDestroy
 
 ## Constructors
 
@@ -22,7 +23,7 @@ export declare class ProgressOverlayDirective implements OnInit, OnDestroy
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [name](./common._a.name.md) |  | <code>string</code> | Name of progress indicator group |
+|  [name](./common._a.name.md) |  | string | Name of progress indicator group |
 
 ## Methods
 

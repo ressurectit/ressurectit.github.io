@@ -11,6 +11,7 @@ Instantiates a single Component type and inserts its Host View into current View
 ```typescript
 export declare class NgComponentOutletEx<TComponent> implements OnChanges, OnDestroy 
 ```
+<b>Implements:</b> OnChanges, OnDestroy
 
 ## Constructors
 
@@ -22,12 +23,12 @@ export declare class NgComponentOutletEx<TComponent> implements OnChanges, OnDes
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [component](./common.ngcomponentoutletex.component.md) |  | <code>TComponent &#124; null</code> | Instance of dynamically created component |
-|  [ngComponentOutletEx](./common.ngcomponentoutletex.ngcomponentoutletex.md) |  | <code>Type&lt;TComponent&gt;</code> | Type that should be dynamically created into current container |
-|  [ngComponentOutletExContent](./common.ngcomponentoutletex.ngcomponentoutletexcontent.md) |  | <code>any[][]</code> | Projectable nodes that can be injected into component |
-|  [ngComponentOutletExCreated](./common.ngcomponentoutletex.ngcomponentoutletexcreated.md) |  | <code>EventEmitter&lt;TComponent &#124; null&gt;</code> | Occurs when component is created or destroyed, it can send instance of component, or null |
-|  [ngComponentOutletExInjector](./common.ngcomponentoutletex.ngcomponentoutletexinjector.md) |  | <code>Injector</code> | Custom injector that will be used for newly created component |
-|  [ngComponentOutletExNgModuleFactory](./common.ngcomponentoutletex.ngcomponentoutletexngmodulefactory.md) |  | <code>NgModuleFactory&lt;any&gt;</code> | Different module factory that is used for creation of new component |
+|  [component](./common.ngcomponentoutletex.component.md) |  | TComponent \| null | Instance of dynamically created component |
+|  [ngComponentOutletEx](./common.ngcomponentoutletex.ngcomponentoutletex.md) |  | Type&lt;TComponent&gt; | Type that should be dynamically created into current container |
+|  [ngComponentOutletExContent](./common.ngcomponentoutletex.ngcomponentoutletexcontent.md) |  | any\[\]\[\] | Projectable nodes that can be injected into component |
+|  [ngComponentOutletExCreated](./common.ngcomponentoutletex.ngcomponentoutletexcreated.md) |  | EventEmitter&lt;TComponent \| null&gt; | Occurs when component is created or destroyed, it can send instance of component, or null |
+|  [ngComponentOutletExInjector](./common.ngcomponentoutletex.ngcomponentoutletexinjector.md) |  | Injector | Custom injector that will be used for newly created component |
+|  [ngComponentOutletExNgModuleFactory](./common.ngcomponentoutletex.ngcomponentoutletexngmodulefactory.md) |  | NgModuleFactory&lt;any&gt; | Different module factory that is used for creation of new component |
 
 ## Methods
 

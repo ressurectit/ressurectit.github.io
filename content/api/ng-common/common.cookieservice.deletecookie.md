@@ -16,11 +16,11 @@ deleteCookie(name: string, path?: string, domain?: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> | Cookie's identification |
-|  path | <code>string</code> | Path relative to the domain where the cookie should be avaiable. Default / |
-|  domain | <code>string</code> | Domain where the cookie should be avaiable. Default current domain |
+|  name | string | Cookie's identification |
+|  path | string | Path relative to the domain where the cookie should be avaiable. Default / |
+|  domain | string | Domain where the cookie should be avaiable. Default current domain |
 
 <b>Returns:</b>
 
-`void`
+void
 

@@ -16,7 +16,7 @@ constructor(_formControl: FormControlDirective, _formControlName: FormControlNam
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_formControl | <code>FormControlDirective</code> |  |
-|  \_formControlName | <code>FormControlName</code> |  |
-|  \_changeDetector | <code>ChangeDetectorRef</code> |  |
+|  \_formControl | FormControlDirective |  |
+|  \_formControlName | FormControlName |  |
+|  \_changeDetector | ChangeDetectorRef |  |
 

@@ -8,6 +8,8 @@
 
 |  Class | Description |
 |  --- | --- |
+|  [DefaultValidationErrorRenderer](./common-forms.defaultvalidationerrorrenderer.md) | Default implementation of validation error renderer |
+|  [ErrorMessagesExtractor](./common-forms.errormessagesextractor.md) | Service used for extracting error messages from form control |
 |  [GroupHasErrorDirective](./common-forms.grouphaserrordirective.md) | Directive that is attached to parent element of inputs group and handles css class that is added to this element |
 |  [HasErrorDirective](./common-forms.haserrordirective.md) | Directive that is attached to control element and handles css classes that are added to this element |
 |  [HasErrorModule](./common-forms.haserrormodule.md) | Module for input validation directives |
@@ -17,7 +19,9 @@
 |  [NumberInputModule](./common-forms.numberinputmodule.md) | Module for number input components, pipes and directives |
 |  [NumberInputValidatorDirective](./common-forms.numberinputvalidatordirective.md) | Is number directive injecting checking for number validator |
 |  [RequiredClassDirective](./common-forms.requiredclassdirective.md) | Required class directive adds required class to element |
+|  [RequiredClassModule](./common-forms.requiredclassmodule.md) | Module for required class directive |
 |  [SubmittedService](./common-forms.submittedservice.md) | Service used for handling submitted state of form |
+|  [ValidationErrorRendererFactory](./common-forms.validationerrorrendererfactory.md) | Service used for creating validation errors renderer |
 |  [Validators](./common-forms.validators.md) | Validations functions |
 
 ## Functions
@@ -28,18 +32,27 @@
 |  [alertHiddenCustom(form, control, errors, submitted)](./common-forms.alerthiddencustom.md) | Gets indication whether hide alerts or not for control, with custom indication of submitted |
 |  [hasError(form, controls)](./common-forms.haserror.md) | Gets indication whether controls have errors |
 |  [hasErrorCustom(form, controls, submitted)](./common-forms.haserrorcustom.md) | Gets indication whether controls have errors, with custom indication of submitted |
+|  [prepareForFormBuilder(value)](./common-forms.prepareforformbuilder.md) | Prepares object for form builder, wraps each property in array |
+|  [readEncodedFilter(defaultValue, filterValue, reviver)](./common-forms.readencodedfilter.md) | Reads filter value from encoded string |
 
 ## Interfaces
 
 |  Interface | Description |
 |  --- | --- |
 |  [GroupHasErrorOptions](./common-forms.grouphaserroroptions.md) | Options for GroupHasErrorDirective |
-|  [HasErrorOptions](./common-forms.haserroroptions.md) | Options for HasErrorDirective |
+|  [IsSubmittedOrDirtyFunc](./common-forms.issubmittedordirtyfunc.md) | Describes function that is used for performing actions when form is submitted or dirty |
+|  [ValidationErrorRenderer](./common-forms.validationerrorrenderer.md) | Describes service that is used for rendering validation errors |
+|  [ValidationErrorRendererCtor](./common-forms.validationerrorrendererctor.md) | Describes type that represents ValidationErrorRenderer |
+|  [ValidationErrorRendererFactoryOptions](./common-forms.validationerrorrendererfactoryoptions.md) | Options for ValidationErrorRendererFactory |
+|  [ValidationErrorsComponent](./common-forms.validationerrorscomponent.md) | Component that is used for rendering validation errors |
+|  [ValidationErrorsRendererOptions](./common-forms.validationerrorsrendereroptions.md) | Options for ValidationErrorRenderer |
+|  [ValidationErrorsResult](./common-forms.validationerrorsresult.md) | Object containing information about validation errors result |
+|  [ValidationErrorsTemplateContext](./common-forms.validationerrorstemplatecontext.md) | Context passed to template that is used for rendering validation errors |
 
 ## Variables
 
 |  Variable | Description |
 |  --- | --- |
-|  [HAS\_ERROR\_DEFAULT\_MESSAGES](./common-forms.has_error_default_messages.md) | Injection token for hasError default messages |
-|  [HAS\_ERROR\_OPTIONS](./common-forms.has_error_options.md) | Injection token for 'HasErrorOptions' |
+|  [VALIDATION\_ERROR\_MESSAGES](./common-forms.validation_error_messages.md) | Injection token containing validation error messages |
+|  [VALIDATION\_ERROR\_RENDERER\_FACTORY\_OPTIONS](./common-forms.validation_error_renderer_factory_options.md) | Injection token used for injecting global options for ValidationErrorRendererFactory |
 

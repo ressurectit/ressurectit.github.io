@@ -16,14 +16,14 @@ setCookie(name: string, value: any, expires?: number, path?: string, domain?: st
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> | Cookie's identification |
-|  value | <code>any</code> | Cookie's value |
-|  expires | <code>number</code> | Cookie's expiration date in days from now. If it's undefined the cookie is a session Cookie |
-|  path | <code>string</code> | Path relative to the domain where the cookie should be avaiable. Default / |
-|  domain | <code>string</code> | Domain where the cookie should be avaiable. Default current domain |
-|  skipSerialization | <code>boolean</code> | Indication whether skip serialization to json string |
+|  name | string | Cookie's identification |
+|  value | any | Cookie's value |
+|  expires | number | Cookie's expiration date in days from now. If it's undefined the cookie is a session Cookie |
+|  path | string | Path relative to the domain where the cookie should be avaiable. Default / |
+|  domain | string | Domain where the cookie should be avaiable. Default current domain |
+|  skipSerialization | boolean | Indication whether skip serialization to json string |
 
 <b>Returns:</b>
 
-`void`
+void
 

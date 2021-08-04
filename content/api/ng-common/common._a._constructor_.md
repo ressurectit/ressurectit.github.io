@@ -16,8 +16,8 @@ constructor(_service: ProgressIndicatorService, _element: ElementRef<HTMLElement
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_service | <code>ProgressIndicatorService</code> |  |
-|  \_element | <code>ElementRef&lt;HTMLElement&gt;</code> |  |
-|  \_document | <code>HTMLDocument</code> |  |
-|  \_localizationSvc | <code>StringLocalization</code> |  |
+|  \_service | [ProgressIndicatorService](./common.progressindicatorservice.md) |  |
+|  \_element | ElementRef&lt;HTMLElement&gt; |  |
+|  \_document | HTMLDocument |  |
+|  \_localizationSvc | [StringLocalization](./common.stringlocalization.md) |  |
 

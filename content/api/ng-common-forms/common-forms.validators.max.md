@@ -16,9 +16,9 @@ static max(max: number | null): ValidatorFn;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  max | <code>number &#124; null</code> | Max value that should be validated |
+|  max | number \| null | Max value that should be validated |
 
 <b>Returns:</b>
 
-`ValidatorFn`
+ValidatorFn
 

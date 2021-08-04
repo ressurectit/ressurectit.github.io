@@ -16,9 +16,9 @@ export declare function ComponentRoute(route: Route): ClassDecorator;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  route | <code>Route</code> | route Definition of route, does not require component to be set |
+|  route | Route | route Definition of route, does not require component to be set |
 
 <b>Returns:</b>
 
-`ClassDecorator`
+ClassDecorator
 
