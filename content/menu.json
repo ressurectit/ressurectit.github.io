@@ -16,6 +16,10 @@
         "title": "Bootstrap"
     },
     {
+        "mdPath": "datetime",
+        "title": "Datetime"
+    },
+    {
         "mdPath": "common",
         "title": "Common"
     },
