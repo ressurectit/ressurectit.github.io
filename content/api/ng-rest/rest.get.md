@@ -9,5 +9,5 @@ GET method
 <b>Signature:</b>
 
 ```typescript
-GET: (url: string) => (target: RESTClient, propertyKey: string, descriptor: any) => any
+GET: (url: string) => (target: RESTClient & RestParameters, propertyKey: string, descriptor: RestMethod & ɵRestMethod & RestMethodMiddlewares) => RestMethod & ɵRestMethod & RestMethodMiddlewares
 ```

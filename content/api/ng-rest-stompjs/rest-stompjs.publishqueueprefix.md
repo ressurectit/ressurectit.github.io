@@ -16,9 +16,9 @@ export declare function PublishQueuePrefix(prefix: string): ClassDecorator;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  prefix | <code>string</code> | Prefix that is used for each publish to queue |
+|  prefix | string | Prefix that is used for each publish to queue |
 
 <b>Returns:</b>
 
-`ClassDecorator`
+ClassDecorator
 

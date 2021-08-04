@@ -16,9 +16,9 @@ export declare function QueueCorrelation(options?: QueueCorrelationOptions): Cla
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>QueueCorrelationOptions</code> |  |
+|  options | [QueueCorrelationOptions](./rest-stompjs.queuecorrelationoptions.md) |  |
 
 <b>Returns:</b>
 
-`ClassDecorator`
+ClassDecorator
 

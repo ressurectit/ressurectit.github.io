@@ -13,5 +13,5 @@ protected getCorrelationBodyProperty(): string;
 ```
 <b>Returns:</b>
 
-`string`
+string
 

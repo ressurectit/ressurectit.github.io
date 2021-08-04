@@ -9,18 +9,18 @@ Allows to intercept all responses for all methods in class
 <b>Signature:</b>
 
 ```typescript
-protected responseInterceptor(res: Observable<any>): Observable<any>;
+protected responseInterceptor<TBody = any>(res: Observable<HttpEvent<TBody>>): Observable<HttpEvent<any>>;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  res | <code>Observable&lt;any&gt;</code> | response object |
+|  res | Observable&lt;HttpEvent&lt;TBody&gt;&gt; | response object |
 
 <b>Returns:</b>
 
-`Observable<any>`
+Observable&lt;HttpEvent&lt;any&gt;&gt;
 
 res - transformed response object
 

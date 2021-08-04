@@ -9,9 +9,9 @@ Allows method to report full progress events
 <b>Signature:</b>
 
 ```typescript
-export declare function ReportProgress(): (_target: RESTClient, _propertyKey: string, descriptor: any) => any;
+export declare function ReportProgress(): (_target: RESTClient, _propertyKey: string, descriptor: RestReportProgress & RestMethodMiddlewares) => RestReportProgress & RestMethodMiddlewares;
 ```
 <b>Returns:</b>
 
-`(_target: RESTClient, _propertyKey: string, descriptor: any) => any`
+(\_target: [RESTClient](./rest.restclient.md)<!-- -->, \_propertyKey: string, descriptor: [RestReportProgress](./rest.restreportprogress.md) &amp; [RestMethodMiddlewares](./rest.restmethodmiddlewares.md)<!-- -->) =&gt; [RestReportProgress](./rest.restreportprogress.md) &amp; [RestMethodMiddlewares](./rest.restmethodmiddlewares.md)
 

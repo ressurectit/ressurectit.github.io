@@ -13,5 +13,5 @@ protected useQueueCorrelation(): QueueCorrelationOptions;
 ```
 <b>Returns:</b>
 
-`QueueCorrelationOptions`
+[QueueCorrelationOptions](./rest-stompjs.queuecorrelationoptions.md)
 

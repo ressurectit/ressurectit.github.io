@@ -9,9 +9,11 @@ Returns the default headers of RESTClient in a key-value
 <b>Signature:</b>
 
 ```typescript
-protected getDefaultHeaders(): Object;
+protected getDefaultHeaders(): string | {
+        [name: string]: string | string[];
+    };
 ```
 <b>Returns:</b>
 
-`Object`
+string \| { \[name: string\]: string \| string\[\]; }
 

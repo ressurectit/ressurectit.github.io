@@ -16,9 +16,9 @@ export declare function BaseUrl(url: string): ClassDecorator;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  url | <code>string</code> | base URL |
+|  url | string | base URL |
 
 <b>Returns:</b>
 
-`ClassDecorator`
+ClassDecorator
 

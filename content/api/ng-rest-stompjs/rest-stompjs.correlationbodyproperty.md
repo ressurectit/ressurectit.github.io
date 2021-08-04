@@ -16,9 +16,9 @@ export declare function CorrelationBodyProperty(property: string): ClassDecorato
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  property | <code>string</code> | Name of property holding correlation id |
+|  property | string | Name of property holding correlation id |
 
 <b>Returns:</b>
 
-`ClassDecorator`
+ClassDecorator
 

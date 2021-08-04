@@ -16,6 +16,6 @@ export interface WebSocketError
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [data](./rest-stompjs.websocketerror.data.md) | <code>IFrame &#124; Event</code> | Data passed with information about error |
-|  [type](./rest-stompjs.websocketerror.type.md) | <code>WebSocketErrorType</code> | Type of error |
+|  [data](./rest-stompjs.websocketerror.data.md) | IFrame \| Event | Data passed with information about error |
+|  [type](./rest-stompjs.websocketerror.type.md) | [WebSocketErrorType](./rest-stompjs.websocketerrortype.md) | Type of error |
 

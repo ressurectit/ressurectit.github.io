@@ -9,16 +9,16 @@ Defines method name that will be called and modifies response
 <b>Signature:</b>
 
 ```typescript
-export declare function ResponseTransform(methodName?: string): (target: RESTClient, propertyKey: string, descriptor: any) => any;
+export declare function ResponseTransform(methodName?: string): (target: RESTClient, propertyKey: string, descriptor: RestResponseTransform & RestMethodMiddlewares) => RestResponseTransform & RestMethodMiddlewares;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  methodName | <code>string</code> | Name of method that will be called to modify response, method takes Observable and returns required type |
+|  methodName | string | Name of method that will be called to modify response, method takes Observable and returns required type |
 
 <b>Returns:</b>
 
-`(target: RESTClient, propertyKey: string, descriptor: any) => any`
+(target: [RESTClient](./rest.restclient.md)<!-- -->, propertyKey: string, descriptor: [RestResponseTransform](./rest.restresponsetransform.md) &amp; [RestMethodMiddlewares](./rest.restmethodmiddlewares.md)<!-- -->) =&gt; [RestResponseTransform](./rest.restresponsetransform.md) &amp; [RestMethodMiddlewares](./rest.restmethodmiddlewares.md)
 

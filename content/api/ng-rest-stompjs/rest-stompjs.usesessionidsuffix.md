@@ -13,5 +13,5 @@ export declare function UseSessionIdSuffix(): ClassDecorator;
 ```
 <b>Returns:</b>
 
-`ClassDecorator`
+ClassDecorator
 

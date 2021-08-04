@@ -16,9 +16,9 @@ hasKey(key: string): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  key | <code>string</code> | Key identifying value |
+|  key | string | Key identifying value |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

@@ -16,6 +16,6 @@ export interface BlobAndFilenameResponse
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [blob](./rest.blobandfilenameresponse.blob.md) | <code>Blob</code> | Content of the downloaded file |
-|  [filename](./rest.blobandfilenameresponse.filename.md) | <code>string</code> | Name of the file that is being downloaded |
+|  [blob](./rest.blobandfilenameresponse.blob.md) | Blob | Content of the downloaded file |
+|  [filename](./rest.blobandfilenameresponse.filename.md) | string | Name of the file that is being downloaded |
 

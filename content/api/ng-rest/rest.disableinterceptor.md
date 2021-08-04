@@ -9,16 +9,16 @@ Disables specified type of http client interceptor for all calls of applied meth
 <b>Signature:</b>
 
 ```typescript
-export declare function DisableInterceptor<TType>(interceptorType: Type<TType>): (_target: RESTClient, _propertyKey: string, descriptor: any) => any;
+export declare function DisableInterceptor<TType>(interceptorType: Type<TType>): (_target: RESTClient, _propertyKey: string, descriptor: RestDisabledInterceptors<TType> & RestMethodMiddlewares) => RestDisabledInterceptors<TType> & RestMethodMiddlewares;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  interceptorType | <code>Type&lt;TType&gt;</code> | Type of interceptor that will be disabled for method to which is this attached |
+|  interceptorType | Type&lt;TType&gt; | Type of interceptor that will be disabled for method to which is this attached |
 
 <b>Returns:</b>
 
-`(_target: RESTClient, _propertyKey: string, descriptor: any) => any`
+(\_target: [RESTClient](./rest.restclient.md)<!-- -->, \_propertyKey: string, descriptor: [RestDisabledInterceptors](./rest.restdisabledinterceptors.md)<!-- -->&lt;TType&gt; &amp; [RestMethodMiddlewares](./rest.restmethodmiddlewares.md)<!-- -->) =&gt; [RestDisabledInterceptors](./rest.restdisabledinterceptors.md)<!-- -->&lt;TType&gt; &amp; [RestMethodMiddlewares](./rest.restmethodmiddlewares.md)
 

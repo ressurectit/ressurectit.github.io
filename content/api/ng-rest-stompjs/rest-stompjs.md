@@ -17,7 +17,7 @@
 |  --- | --- |
 |  [QueueCorrelationPosition](./rest-stompjs.queuecorrelationposition.md) | How to use queue correlation id |
 |  [RequestType](./rest-stompjs.requesttype.md) | Supported PublishQueue request types |
-|  [ResponseType](./rest-stompjs.responsetype.md) | Supported Produces response types |
+|  [ResponseType\_2](./rest-stompjs.responsetype_2.md) | Supported Produces response types |
 
 ## Functions
 
@@ -54,7 +54,7 @@
 
 |  Variable | Description |
 |  --- | --- |
-|  [Body](./rest-stompjs.body.md) | Body of a REST method, json stringify applied Only one body per method! |
+|  [Body\_2](./rest-stompjs.body_2.md) | Body of a REST method, json stringify applied Only one body per method! |
 |  [BodyProperty](./rest-stompjs.bodyproperty.md) | Value of parameter is assigned to body property with specified name |
 |  [DEFAULT\_WEB\_SOCKET\_HANDLE\_RESULT\_MIDDLEWARE](./rest-stompjs.default_web_socket_handle_result_middleware.md) | Default web socket handle result middleware, multi providers are required for this token |
 |  [DEFAULT\_WEB\_SOCKET\_HANDLE\_STATUS\_SUBSCRIBE\_MIDDLEWARE](./rest-stompjs.default_web_socket_handle_status_subscribe_middleware.md) | Default web socket handle status subscribe middleware, multi providers are required for this token |

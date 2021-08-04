@@ -16,6 +16,6 @@ export interface LocationHeaderResponse
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [id](./rest.locationheaderresponse.id.md) | <code>string</code> | Guessed id of new record from 'location' header |
-|  [location](./rest.locationheaderresponse.location.md) | <code>string</code> | Value of 'location' header from response |
+|  [id](./rest.locationheaderresponse.id.md) | string | Guessed id of new record from 'location' header |
+|  [location](./rest.locationheaderresponse.location.md) | string | Value of 'location' header from response |
 

@@ -13,5 +13,5 @@ export declare function UseWebSocket(): ClassDecorator;
 ```
 <b>Returns:</b>
 
-`ClassDecorator`
+ClassDecorator
 

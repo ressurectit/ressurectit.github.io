@@ -9,9 +9,9 @@ Allows method to return full HttpResponse with requested response type body
 <b>Signature:</b>
 
 ```typescript
-export declare function FullHttpResponse(): (_target: RESTClient, _propertyKey: string, descriptor: any) => any;
+export declare function FullHttpResponse(): (_target: RESTClient, _propertyKey: string, descriptor: RestFullHttpResponse & RestMethodMiddlewares) => RestFullHttpResponse & RestMethodMiddlewares;
 ```
 <b>Returns:</b>
 
-`(_target: RESTClient, _propertyKey: string, descriptor: any) => any`
+(\_target: [RESTClient](./rest.restclient.md)<!-- -->, \_propertyKey: string, descriptor: [RestFullHttpResponse](./rest.restfullhttpresponse.md) &amp; [RestMethodMiddlewares](./rest.restmethodmiddlewares.md)<!-- -->) =&gt; [RestFullHttpResponse](./rest.restfullhttpresponse.md) &amp; [RestMethodMiddlewares](./rest.restmethodmiddlewares.md)
 

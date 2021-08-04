@@ -13,5 +13,5 @@ protected getPublishQueuePrefix(): string;
 ```
 <b>Returns:</b>
 
-`string`
+string
 

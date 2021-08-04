@@ -13,5 +13,5 @@ protected useSessionIdSuffix(): boolean;
 ```
 <b>Returns:</b>
 
-`boolean`
+boolean
 

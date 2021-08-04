@@ -11,10 +11,11 @@ Status queue generic
 ```typescript
 export interface StatusQueueResponseGeneric<TOriginal> extends StatusQueueResponse 
 ```
+<b>Extends:</b> [StatusQueueResponse](./rest-stompjs.statusqueueresponse.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [original](./rest-stompjs.statusqueueresponsegeneric.original.md) | <code>TOriginal</code> |  |
+|  [original](./rest-stompjs.statusqueueresponsegeneric.original.md) | TOriginal |  |
 

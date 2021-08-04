@@ -16,9 +16,9 @@ protected requestInterceptor(req: HttpRequest<any>): HttpRequest<any>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  req | <code>HttpRequest&lt;any&gt;</code> | request object |
+|  req | HttpRequest&lt;any&gt; | request object |
 
 <b>Returns:</b>
 
-`HttpRequest<any>`
+HttpRequest&lt;any&gt;
 

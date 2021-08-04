@@ -11,10 +11,11 @@ Type describing response for ResponseType.LocationHeaderAndJson
 ```typescript
 export interface LocationHeaderAndJsonResponse<TData> extends LocationHeaderResponse 
 ```
+<b>Extends:</b> [LocationHeaderResponse](./rest.locationheaderresponse.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [data](./rest.locationheaderandjsonresponse.data.md) | <code>TData</code> | Deserialized json string from response body |
+|  [data](./rest.locationheaderandjsonresponse.data.md) | TData | Deserialized json string from response body |
 

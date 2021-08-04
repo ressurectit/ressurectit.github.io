@@ -13,5 +13,5 @@ protected getConnection(): StompConfig;
 ```
 <b>Returns:</b>
 
-`StompConfig`
+StompConfig
 

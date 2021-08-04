@@ -9,5 +9,5 @@ Path variable of a method's url, type: string
 <b>Signature:</b>
 
 ```typescript
-Path: (key: string) => (target: RESTClient, propertyKey: string, parameterIndex: number) => void
+Path: (key: string) => (target: RESTClient & RestParameters, propertyKey: string, parameterIndex: number) => void
 ```

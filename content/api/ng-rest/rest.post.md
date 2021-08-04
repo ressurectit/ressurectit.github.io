@@ -9,5 +9,5 @@ POST method
 <b>Signature:</b>
 
 ```typescript
-POST: (url: string) => (target: RESTClient, propertyKey: string, descriptor: any) => any
+POST: (url: string) => (target: RESTClient & RestParameters, propertyKey: string, descriptor: RestMethod & ɵRestMethod & RestMethodMiddlewares) => RestMethod & ɵRestMethod & RestMethodMiddlewares
 ```

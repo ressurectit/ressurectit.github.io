@@ -16,7 +16,7 @@ export interface WebSocketClientResponse<TQueue>
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [output](./rest-stompjs.websocketclientresponse.output.md) | <code>TQueue</code> | Object holding output observables for each subscribed queue |
+|  [output](./rest-stompjs.websocketclientresponse.output.md) | TQueue | Object holding output observables for each subscribed queue |
 
 ## Methods
 

@@ -9,16 +9,16 @@ Defines the response type(s) that the methods can produce or tzpe of body id ful
 <b>Signature:</b>
 
 ```typescript
-export declare function Produces(producesDef: ResponseType): (_target: RESTClient, _propertyKey: string, descriptor: any) => any;
+export declare function Produces(producesDef: ResponseType): (_target: RESTClient, _propertyKey: string, descriptor: RestResponseType & RestMethodMiddlewares) => RestResponseType & RestMethodMiddlewares;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  producesDef | <code>ResponseType</code> | response type to be produced |
+|  producesDef | ResponseType | response type to be produced |
 
 <b>Returns:</b>
 
-`(_target: RESTClient, _propertyKey: string, descriptor: any) => any`
+(\_target: [RESTClient](./rest.restclient.md)<!-- -->, \_propertyKey: string, descriptor: [RestResponseType](./rest.restresponsetype.md) &amp; [RestMethodMiddlewares](./rest.restmethodmiddlewares.md)<!-- -->) =&gt; [RestResponseType](./rest.restresponsetype.md) &amp; [RestMethodMiddlewares](./rest.restmethodmiddlewares.md)
 

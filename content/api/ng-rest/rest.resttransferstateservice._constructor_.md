@@ -16,5 +16,5 @@ constructor(_transferState: TransferState);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  \_transferState | <code>TransferState</code> |  |
+|  \_transferState | TransferState |  |
 

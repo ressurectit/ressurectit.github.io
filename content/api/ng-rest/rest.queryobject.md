@@ -9,5 +9,5 @@ Query object serialized with dot notation separating hierarchies
 <b>Signature:</b>
 
 ```typescript
-QueryObject: (target: RESTClient, propertyKey: string, parameterIndex: number) => void
+QueryObject: (target: RESTClient & RestParameters, propertyKey: string, parameterIndex: number) => void
 ```

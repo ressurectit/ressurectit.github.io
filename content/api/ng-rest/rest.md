@@ -8,6 +8,22 @@
 
 |  Class | Description |
 |  --- | --- |
+|  [AdditionalDataMiddleware](./rest.additionaldatamiddleware.md) | Middleware that is used for adding support for additional info to request from decorators |
+|  [BodyParameterMiddleware](./rest.bodyparametermiddleware.md) | Middleware that is used for adding body to request |
+|  [CacheMiddleware](./rest.cachemiddleware.md) | Middleware that is used for storing and restoring response from cache |
+|  [HeaderParameterMiddleware](./rest.headerparametermiddleware.md) | Middleware that is used for adding header from parameter |
+|  [HeadersMiddleware](./rest.headersmiddleware.md) | Middleware that is used for setting custom http headers |
+|  [IgnoredInterceptorsMiddleware](./rest.ignoredinterceptorsmiddleware.md) | Middleware that is used for adding support for ignored interceptors |
+|  [LoggerMiddleware](./rest.loggermiddleware.md) | Middleware that is used for logging requests and responses |
+|  [NotType](./rest.nottype.md) | Type indicates that it should be removed from array |
+|  [PathParameterMiddleware](./rest.pathparametermiddleware.md) | Middleware that is used for modifying request URL path |
+|  [ProducesMiddleware](./rest.producesmiddleware.md) | Middleware that is used for changing response type |
+|  [QueryObjectParameterMiddleware](./rest.queryobjectparametermiddleware.md) | Middleware that is used for adding query string from query object |
+|  [QueryParameterMiddleware](./rest.queryparametermiddleware.md) | Middleware that is used for adding query string parameters |
+|  [QueryStringSerializer](./rest.querystringserializer.md) | Query string serializer used for serializing objects into query string |
+|  [ReportProgressMiddleware](./rest.reportprogressmiddleware.md) | Middleware that is used for handling report progress setting, if not set returns only final http response with data |
+|  [ResponseTransformMiddleware](./rest.responsetransformmiddleware.md) | Middleware that is used for adding support of response transform |
+|  [ResponseTypeMiddleware](./rest.responsetypemiddleware.md) | Middleware that is used for extracting http body and transforming it according to specified response type |
 |  [RESTClient](./rest.restclient.md) | Angular RESTClient base class. |
 |  [RestTransferStateService](./rest.resttransferstateservice.md) | Service used for transfering data between server and browser for RESTClient |
 
@@ -15,44 +31,79 @@
 
 |  Enumeration | Description |
 |  --- | --- |
-|  [ResponseType](./rest.responsetype.md) | Supported Produces response types |
+|  [ResponseType\_2](./rest.responsetype_2.md) | Supported Produces response types |
 
 ## Functions
 
 |  Function | Description |
 |  --- | --- |
+|  [AcceptAny()](./rest.acceptany.md) | Add custom header Accept that sets accepted type to any |
 |  [BaseUrl(url)](./rest.baseurl.md) | Set the base URL of REST resource |
-|  [Cache()](./rest.cache.md) | Results of requests are cached in javascript memory |
+|  [Cache\_2()](./rest.cache_2.md) | Results of requests are cached in javascript memory |
 |  [DefaultHeaders(headers)](./rest.defaultheaders.md) | Set default headers for every method of the RESTClient |
 |  [DisableInterceptor(interceptorType)](./rest.disableinterceptor.md) | Disables specified type of http client interceptor for all calls of applied method |
 |  [FullHttpResponse()](./rest.fullhttpresponse.md) | Allows method to return full HttpResponse with requested response type body |
-|  [Headers(headersDef)](./rest.headers.md) | Set custom headers for a REST method |
+|  [getType(type)](./rest.gettype.md) | Gets underlying type for Type and NotType |
+|  [Headers\_2(headersDef)](./rest.headers_2.md) | Set custom headers for a REST method |
+|  [isNotType(type)](./rest.isnottype.md) | Tests whether is provided type NotType |
 |  [JsonContentType()](./rest.jsoncontenttype.md) | Add custom header Content-Type "application/json" to headers array |
+|  [not(type)](./rest.not.md) | Creates NotType from Type, this type will be removed from middlewares |
 |  [ParameterTransform(methodName)](./rest.parametertransform.md) | Parameter descriptor that is used for transforming parameter before QueryObject serialization |
 |  [Produces(producesDef)](./rest.produces.md) | Defines the response type(s) that the methods can produce or tzpe of body id full request or events are requested |
+|  [ProgressIndicatorGroup(name)](./rest.progressindicatorgroup.md) | Allows to specify progress indicator group for displaying local progress indicator |
 |  [ReportProgress()](./rest.reportprogress.md) | Allows method to report full progress events |
 |  [ResponseTransform(methodName)](./rest.responsetransform.md) | Defines method name that will be called and modifies response |
+|  [TextContentType()](./rest.textcontenttype.md) | Add custom header Content-Type "text/plain" to headers array |
 
 ## Interfaces
 
 |  Interface | Description |
 |  --- | --- |
+|  [AdditionalInfoPropertyDescriptor](./rest.additionalinfopropertydescriptor.md) | Property descriptor that is used for creating decorators that can pass additional info to method |
 |  [BlobAndFilenameResponse](./rest.blobandfilenameresponse.md) | Type describing response for ResponseType.BlobAndFilename |
+|  [BuildMiddlewaresFn](./rest.buildmiddlewaresfn.md) | Defintion of buildMiddleware function type |
+|  [KeyIndex](./rest.keyindex.md) | Information about parameter key and index |
 |  [LocationHeaderAndJsonResponse](./rest.locationheaderandjsonresponse.md) | Type describing response for ResponseType.LocationHeaderAndJson |
 |  [LocationHeaderResponse](./rest.locationheaderresponse.md) | Type describing response for ResponseType.LocationHeader |
+|  [ɵRESTClient](./rest._restclient.md) | Represents private defintion of rest client |
+|  [ParametersMetadata](./rest.parametersmetadata.md) | Metadata for parameters |
+|  [ParametersMiddlewaresMetadata](./rest.parametersmiddlewaresmetadata.md) | Metadata for middleware types for parameters |
+|  [ParametersTransformMetadata](./rest.parameterstransformmetadata.md) | Metadata for parameters transforms |
+|  [ParametersTransformsObj](./rest.parameterstransformsobj.md) | Defines object for parameter transforms |
+|  [RestCaching](./rest.restcaching.md) | Contains methods used for handling 'caching' |
+|  [RestDateApi](./rest.restdateapi.md) | Definition of RestDateApi used for testing whether value is date and for serialization |
+|  [RestDisabledInterceptors](./rest.restdisabledinterceptors.md) | Contains array of interceptor types that will be disabled |
+|  [RestFullHttpResponse](./rest.restfullhttpresponse.md) | Contains indication whether is response full HttpResponse or just data |
+|  [RestHttpHeaders](./rest.resthttpheaders.md) | Contains additional headers that will be added |
+|  [RestMethod](./rest.restmethod.md) | Contains data that are stored when REST method is set |
+|  [RestMethodMiddlewares](./rest.restmethodmiddlewares.md) | Contains rest middleware types that will be used, decorator can add type if it wish to be used |
+|  [RestMiddleware](./rest.restmiddleware.md) | Definition of rest middleware that will be pluged in to processing of request and response |
+|  [RestMiddlewareRunMethod](./rest.restmiddlewarerunmethod.md) | Definition of method that is used for running middleware code |
+|  [RestParameters](./rest.restparameters.md) | Contains parameters metadata for each decorated method parameters |
+|  [RestReportProgress](./rest.restreportprogress.md) | Contains indication whether report progress |
+|  [RestResponseTransform](./rest.restresponsetransform.md) | Contains response transform function to be called |
+|  [RestResponseType](./rest.restresponsetype.md) | Contains response type that will be set |
 
 ## Variables
 
 |  Variable | Description |
 |  --- | --- |
-|  [Body](./rest.body.md) | Body of a REST method, json stringify applied Only one body per method! |
+|  [BASIC\_DEFAULT\_REST\_METHOD\_MIDDLEWARES](./rest.basic_default_rest_method_middlewares.md) | Definition of basic defaut array of rest middlewares used for each rest method |
+|  [BASIC\_DEFAULT\_REST\_MIDDLEWARES\_ORDER](./rest.basic_default_rest_middlewares_order.md) | Definition of basic default array of rest middlewares order |
+|  [Body\_2](./rest.body_2.md) | Body of a REST method, json stringify applied Only one body per method! |
+|  [buildMiddlewares](./rest.buildmiddlewares.md) | Builds and returns array of middleware run functions |
 |  [DELETE](./rest.delete.md) | DELETE method |
 |  [GET](./rest.get.md) | GET method |
 |  [HEAD](./rest.head.md) | HEAD method |
 |  [Header](./rest.header.md) | Custom header of a REST method, type: string |
+|  [HTTP\_HEADER\_ACCEPT](./rest.http_header_accept.md) | Http header name for "Accept" header |
+|  [HTTP\_HEADER\_CONTENT\_TYPE](./rest.http_header_content_type.md) | Http header name for "Content-Type" header |
 |  [Path](./rest.path.md) | Path variable of a method's url, type: string |
 |  [POST](./rest.post.md) | POST method |
 |  [PUT](./rest.put.md) | PUT method |
 |  [Query](./rest.query.md) | Query value of a method's url, type: string |
 |  [QueryObject](./rest.queryobject.md) | Query object serialized with dot notation separating hierarchies |
+|  [REST\_DATE\_API](./rest.rest_date_api.md) | Injection token used for injecting RestDateApi implementation |
+|  [REST\_METHOD\_MIDDLEWARES](./rest.rest_method_middlewares.md) | Injection token used for injecting array of rest middleware types that are default for each rest method |
+|  [REST\_MIDDLEWARES\_ORDER](./rest.rest_middlewares_order.md) | Injection token used for injecting array of rest middleware types that defines order of rest middlewares |
 

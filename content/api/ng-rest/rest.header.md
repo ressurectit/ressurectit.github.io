@@ -9,5 +9,5 @@ Custom header of a REST method, type: string
 <b>Signature:</b>
 
 ```typescript
-Header: (key: string) => (target: RESTClient, propertyKey: string, parameterIndex: number) => void
+Header: (key: string) => (target: RESTClient & RestParameters, propertyKey: string, parameterIndex: number) => void
 ```

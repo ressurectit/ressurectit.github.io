@@ -14,10 +14,10 @@ export declare function WebSocketHandleProducesType(source: Observable<any>, met
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  source | <code>Observable&lt;any&gt;</code> |  |
-|  metadata | <code>SubscribeMetadataData</code> |  |
+|  source | Observable&lt;any&gt; |  |
+|  metadata | SubscribeMetadataData |  |
 
 <b>Returns:</b>
 
-`Observable<any>`
+Observable&lt;any&gt;
 

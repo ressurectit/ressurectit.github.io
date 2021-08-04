@@ -16,10 +16,10 @@ export declare function PublishQueue(name: string, options?: PublishQueueOptions
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> | Name of queue to be published to |
-|  options | <code>PublishQueueOptions</code> | Options for publish queue |
+|  name | string | Name of queue to be published to |
+|  options | [PublishQueueOptions](./rest-stompjs.publishqueueoptions.md) | Options for publish queue |
 
 <b>Returns:</b>
 
-`(target: WebSocketClient, propertyKey: string, descriptor: any) => any`
+(target: [WebSocketClient](./rest-stompjs.websocketclient.md)<!-- -->, propertyKey: string, descriptor: any) =&gt; any
 

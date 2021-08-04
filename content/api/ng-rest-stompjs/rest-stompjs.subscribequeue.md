@@ -16,10 +16,10 @@ export declare function SubscribeQueue(name: string, options?: SubscribeQueueOpt
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> | Name of subscription to be subscribed to |
-|  options | <code>SubscribeQueueOptions</code> | Options for subscribe queue |
+|  name | string | Name of subscription to be subscribed to |
+|  options | [SubscribeQueueOptions](./rest-stompjs.subscribequeueoptions.md) | Options for subscribe queue |
 
 <b>Returns:</b>
 
-`(target: WebSocketClient, _propertyKey: string, descriptor: any) => any`
+(target: [WebSocketClient](./rest-stompjs.websocketclient.md)<!-- -->, \_propertyKey: string, descriptor: any) =&gt; any
 

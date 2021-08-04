@@ -16,19 +16,17 @@ export declare abstract class RESTClient
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(http, transferState, baseUrl, serverCookieHeader, serverAuthHeader, ignoredInterceptorsService, injector)](./rest.restclient._constructor_.md) |  | Constructs a new instance of the <code>RESTClient</code> class |
+|  [(constructor)(http, baseUrl, injector, middlewaresOrder, methodMiddlewares)](./rest.restclient._constructor_.md) |  | Constructs a new instance of the <code>RESTClient</code> class |
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [baseUrl](./rest.restclient.baseurl.md) |  | <code>string</code> |  |
-|  [http](./rest.restclient.http.md) |  | <code>HttpClient</code> |  |
-|  [ignoredInterceptorsService](./rest.restclient.ignoredinterceptorsservice.md) |  | <code>IgnoredInterceptorsService</code> |  |
-|  [injector](./rest.restclient.injector.md) |  | <code>Injector</code> |  |
-|  [serverAuthHeader](./rest.restclient.serverauthheader.md) |  | <code>string</code> |  |
-|  [serverCookieHeader](./rest.restclient.servercookieheader.md) |  | <code>string</code> |  |
-|  [transferState](./rest.restclient.transferstate.md) |  | <code>RestTransferStateService</code> |  |
+|  [baseUrl](./rest.restclient.baseurl.md) |  | string |  |
+|  [http](./rest.restclient.http.md) |  | HttpClient |  |
+|  [injector](./rest.restclient.injector.md) |  | Injector |  |
+|  [methodMiddlewares](./rest.restclient.methodmiddlewares.md) |  | Type&lt;[RestMiddleware](./rest.restmiddleware.md)<!-- -->&gt;\[\] |  |
+|  [middlewaresOrder](./rest.restclient.middlewaresorder.md) |  | Type&lt;[RestMiddleware](./rest.restmiddleware.md)<!-- -->&gt;\[\] |  |
 
 ## Methods
 

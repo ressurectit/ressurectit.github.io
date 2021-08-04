@@ -13,5 +13,5 @@ protected getBaseUrl(): string;
 ```
 <b>Returns:</b>
 
-`string`
+string
 

@@ -16,9 +16,9 @@ export declare function SubscribeQueuePrefix(prefix: string): ClassDecorator;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  prefix | <code>string</code> | Prefix that is used for each subscribe from queue |
+|  prefix | string | Prefix that is used for each subscribe from queue |
 
 <b>Returns:</b>
 
-`ClassDecorator`
+ClassDecorator
 

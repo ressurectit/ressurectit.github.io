@@ -16,6 +16,6 @@ constructor(injector: Injector, logger: Logger);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  injector | <code>Injector</code> |  |
-|  logger | <code>Logger</code> |  |
+|  injector | Injector |  |
+|  logger | Logger |  |
 

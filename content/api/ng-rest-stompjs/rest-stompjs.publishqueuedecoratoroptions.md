@@ -16,7 +16,7 @@ export interface PublishQueueDecoratorOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [cacheResponse](./rest-stompjs.publishqueuedecoratoroptions.cacheresponse.md) | <code>(body: any) =&gt; string</code> | If set, response caching will be enabled, obtains unique identification of request |
-|  [delayed](./rest-stompjs.publishqueuedecoratoroptions.delayed.md) | <code>boolean</code> | Indication whether publish to queue should be delayed and manually run |
-|  [type](./rest-stompjs.publishqueuedecoratoroptions.type.md) | <code>RequestType</code> | Type of request to be sent to server |
+|  [cacheResponse](./rest-stompjs.publishqueuedecoratoroptions.cacheresponse.md) | (body: any) =&gt; string | If set, response caching will be enabled, obtains unique identification of request |
+|  [delayed](./rest-stompjs.publishqueuedecoratoroptions.delayed.md) | boolean | Indication whether publish to queue should be delayed and manually run |
+|  [type](./rest-stompjs.publishqueuedecoratoroptions.type.md) | [RequestType](./rest-stompjs.requesttype.md) | Type of request to be sent to server |
 

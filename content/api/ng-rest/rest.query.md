@@ -9,5 +9,5 @@ Query value of a method's url, type: string
 <b>Signature:</b>
 
 ```typescript
-Query: (key: string) => (target: RESTClient, propertyKey: string, parameterIndex: number) => void
+Query: (key: string) => (target: RESTClient & RestParameters, propertyKey: string, parameterIndex: number) => void
 ```

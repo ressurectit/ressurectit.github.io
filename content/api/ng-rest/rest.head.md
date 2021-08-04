@@ -9,5 +9,5 @@ HEAD method
 <b>Signature:</b>
 
 ```typescript
-HEAD: (url: string) => (target: RESTClient, propertyKey: string, descriptor: any) => any
+HEAD: (url: string) => (target: RESTClient & RestParameters, propertyKey: string, descriptor: RestMethod & ɵRestMethod & RestMethodMiddlewares) => RestMethod & ɵRestMethod & RestMethodMiddlewares
 ```

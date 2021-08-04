@@ -16,10 +16,10 @@ set(key: string, value: any): RestTransferStateService;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  key | <code>string</code> | Key for storing value |
-|  value | <code>any</code> | Value that is going to be stored |
+|  key | string | Key for storing value |
+|  value | any | Value that is going to be stored |
 
 <b>Returns:</b>
 
-`RestTransferStateService`
+[RestTransferStateService](./rest.resttransferstateservice.md)
 

@@ -16,9 +16,9 @@ export declare function WebSocketHandleResultMiddlewareFactory(handleResultMiddl
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  handleResultMiddlewares | <code>WebSocketHandleResultMiddleware[]</code> |  |
+|  handleResultMiddlewares | [WebSocketHandleResultMiddleware](./rest-stompjs.websockethandleresultmiddleware.md)<!-- -->\[\] |  |
 
 <b>Returns:</b>
 
-`WebSocketHandleResultMiddleware[]`
+[WebSocketHandleResultMiddleware](./rest-stompjs.websockethandleresultmiddleware.md)<!-- -->\[\]
 

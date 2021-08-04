@@ -22,7 +22,7 @@ export declare class RestTransferStateService
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [deactivated](./rest.resttransferstateservice.deactivated.md) |  | <code>boolean</code> | Gets indication |
+|  [deactivated](./rest.resttransferstateservice.deactivated.md) |  | boolean | Gets indication |
 
 ## Methods
 

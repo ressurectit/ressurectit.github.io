@@ -9,18 +9,16 @@ Constructs a new instance of the `RESTClient` class
 <b>Signature:</b>
 
 ```typescript
-constructor(http: HttpClient, transferState?: RestTransferStateService, baseUrl?: string, serverCookieHeader?: string, serverAuthHeader?: string, ignoredInterceptorsService?: IgnoredInterceptorsService, injector?: Injector);
+constructor(http: HttpClient, baseUrl?: string, injector?: Injector, middlewaresOrder?: Type<RestMiddleware>[], methodMiddlewares?: Type<RestMiddleware>[]);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  http | <code>HttpClient</code> |  |
-|  transferState | <code>RestTransferStateService</code> |  |
-|  baseUrl | <code>string</code> |  |
-|  serverCookieHeader | <code>string</code> |  |
-|  serverAuthHeader | <code>string</code> |  |
-|  ignoredInterceptorsService | <code>IgnoredInterceptorsService</code> |  |
-|  injector | <code>Injector</code> |  |
+|  http | HttpClient |  |
+|  baseUrl | string |  |
+|  injector | Injector |  |
+|  middlewaresOrder | Type&lt;[RestMiddleware](./rest.restmiddleware.md)<!-- -->&gt;\[\] |  |
+|  methodMiddlewares | Type&lt;[RestMiddleware](./rest.restmiddleware.md)<!-- -->&gt;\[\] |  |
 

@@ -9,16 +9,16 @@ Parameter descriptor that is used for transforming parameter before QueryObject 
 <b>Signature:</b>
 
 ```typescript
-export declare function ParameterTransform(methodName?: string): (target: RESTClient, propertyKey: string, parameterIndex: number) => void;
+export declare function ParameterTransform(methodName?: string): (target: RESTClient & RestParameters, propertyKey: string, parameterIndex: number) => void;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  methodName | <code>string</code> | Name of method that will be called to modify parameter, method takes any type of object and returns transformed object |
+|  methodName | string | Name of method that will be called to modify parameter, method takes any type of object and returns transformed object |
 
 <b>Returns:</b>
 
-`(target: RESTClient, propertyKey: string, parameterIndex: number) => void`
+(target: [RESTClient](./rest.restclient.md) &amp; [RestParameters](./rest.restparameters.md)<!-- -->, propertyKey: string, parameterIndex: number) =&gt; void
 

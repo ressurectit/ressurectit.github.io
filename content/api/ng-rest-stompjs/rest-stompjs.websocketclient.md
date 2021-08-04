@@ -11,6 +11,7 @@ WebSocketClient base class.
 ```typescript
 export declare abstract class WebSocketClient implements OnDestroy 
 ```
+<b>Implements:</b> OnDestroy
 
 ## Constructors
 
@@ -22,12 +23,12 @@ export declare abstract class WebSocketClient implements OnDestroy
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [active](./rest-stompjs.websocketclient.active.md) |  | <code>Promise&lt;void&gt;</code> | Promise that is resolved when connection is active |
-|  [close](./rest-stompjs.websocketclient.close.md) |  | <code>Observable&lt;CloseEvent&gt;</code> | Observable that emits messages on socket close |
-|  [error](./rest-stompjs.websocketclient.error.md) |  | <code>Observable&lt;WebSocketError&gt;</code> | Observable that emits messages on errors |
-|  [injector](./rest-stompjs.websocketclient.injector.md) |  | <code>Injector</code> |  |
-|  [logger](./rest-stompjs.websocketclient.logger.md) |  | <code>Logger</code> |  |
-|  [wsClient](./rest-stompjs.websocketclient.wsclient.md) |  | <code>Client</code> | Instance of opened WebSocket stomp client |
+|  [active](./rest-stompjs.websocketclient.active.md) |  | Promise&lt;void&gt; | Promise that is resolved when connection is active |
+|  [close](./rest-stompjs.websocketclient.close.md) |  | Observable&lt;CloseEvent&gt; | Observable that emits messages on socket close |
+|  [error](./rest-stompjs.websocketclient.error.md) |  | Observable&lt;[WebSocketError](./rest-stompjs.websocketerror.md)<!-- -->&gt; | Observable that emits messages on errors |
+|  [injector](./rest-stompjs.websocketclient.injector.md) |  | Injector |  |
+|  [logger](./rest-stompjs.websocketclient.logger.md) |  | Logger |  |
+|  [wsClient](./rest-stompjs.websocketclient.wsclient.md) |  | Client | Instance of opened WebSocket stomp client |
 
 ## Methods
 

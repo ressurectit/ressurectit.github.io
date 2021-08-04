@@ -9,5 +9,5 @@ DELETE method
 <b>Signature:</b>
 
 ```typescript
-DELETE: (url: string) => (target: RESTClient, propertyKey: string, descriptor: any) => any
+DELETE: (url: string) => (target: RESTClient & RestParameters, propertyKey: string, descriptor: RestMethod & ɵRestMethod & RestMethodMiddlewares) => RestMethod & ɵRestMethod & RestMethodMiddlewares
 ```

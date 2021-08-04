@@ -16,6 +16,6 @@ export interface QueueCorrelationOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [position](./rest-stompjs.queuecorrelationoptions.position.md) | <code>QueueCorrelationPosition</code> | Position where should be correlation id positioned, defaults to 'Suffix' |
-|  [replacementKey](./rest-stompjs.queuecorrelationoptions.replacementkey.md) | <code>string</code> | If position is replace, use this as name that should be looked for and replaced, defaults to 'corrId' |
+|  [position](./rest-stompjs.queuecorrelationoptions.position.md) | [QueueCorrelationPosition](./rest-stompjs.queuecorrelationposition.md) | Position where should be correlation id positioned, defaults to 'Suffix' |
+|  [replacementKey](./rest-stompjs.queuecorrelationoptions.replacementkey.md) | string | If position is replace, use this as name that should be looked for and replaced, defaults to 'corrId' |
 

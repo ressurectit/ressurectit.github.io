@@ -16,9 +16,9 @@ export declare function ParameterTransform(methodName?: string): (target: WebSoc
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  methodName | <code>string</code> | Name of method that will be called to modify parameter, method takes any type of object and returns transformed object |
+|  methodName | string | Name of method that will be called to modify parameter, method takes any type of object and returns transformed object |
 
 <b>Returns:</b>
 
-`(target: WebSocketClient, propertyKey: string, parameterIndex: number) => void`
+(target: [WebSocketClient](./rest-stompjs.websocketclient.md)<!-- -->, propertyKey: string, parameterIndex: number) =&gt; void
 

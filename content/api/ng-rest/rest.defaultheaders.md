@@ -18,9 +18,9 @@ export declare function DefaultHeaders(headers: {
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  headers | <code>{</code><br/><code>    [key: string]: string;</code><br/><code>}</code> | deafult headers in a key-value pair |
+|  headers | { \[key: string\]: string; } | deafult headers in a key-value pair |
 
 <b>Returns:</b>
 
-`ClassDecorator`
+ClassDecorator
 

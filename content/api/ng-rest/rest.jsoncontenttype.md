@@ -9,9 +9,9 @@ Add custom header Content-Type "application/json" to headers array
 <b>Signature:</b>
 
 ```typescript
-export declare function JsonContentType(): (_target: RESTClient, _propertyKey: string, descriptor: any) => any;
+export declare function JsonContentType(): (_target: RESTClient, _propertyKey: string, descriptor: RestHttpHeaders & RestMethodMiddlewares) => RestHttpHeaders & RestMethodMiddlewares;
 ```
 <b>Returns:</b>
 
-`(_target: RESTClient, _propertyKey: string, descriptor: any) => any`
+(\_target: [RESTClient](./rest.restclient.md)<!-- -->, \_propertyKey: string, descriptor: [RestHttpHeaders](./rest.resthttpheaders.md) &amp; [RestMethodMiddlewares](./rest.restmethodmiddlewares.md)<!-- -->) =&gt; [RestHttpHeaders](./rest.resthttpheaders.md) &amp; [RestMethodMiddlewares](./rest.restmethodmiddlewares.md)
 

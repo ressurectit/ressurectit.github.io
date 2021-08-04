@@ -16,9 +16,9 @@ export declare function WebSocketHandleStatusSubscribeMiddlewareFactory(handleSt
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  handleStatusMiddlewares | <code>WebSocketHandleStatusSubscribeMiddleware[]</code> |  |
+|  handleStatusMiddlewares | [WebSocketHandleStatusSubscribeMiddleware](./rest-stompjs.websockethandlestatussubscribemiddleware.md)<!-- -->\[\] |  |
 
 <b>Returns:</b>
 
-`WebSocketHandleStatusSubscribeMiddleware[]`
+[WebSocketHandleStatusSubscribeMiddleware](./rest-stompjs.websockethandlestatussubscribemiddleware.md)<!-- -->\[\]
 

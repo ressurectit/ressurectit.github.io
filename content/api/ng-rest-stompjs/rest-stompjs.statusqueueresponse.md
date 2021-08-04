@@ -16,11 +16,11 @@ export interface StatusQueueResponse
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [code](./rest-stompjs.statusqueueresponse.code.md) | <code>string</code> |  |
-|  [description](./rest-stompjs.statusqueueresponse.description.md) | <code>string</code> |  |
-|  [done](./rest-stompjs.statusqueueresponse.done.md) | <code>number</code> |  |
-|  [httpStatus](./rest-stompjs.statusqueueresponse.httpstatus.md) | <code>number</code> |  |
-|  [original](./rest-stompjs.statusqueueresponse.original.md) | <code>any</code> |  |
-|  [queue](./rest-stompjs.statusqueueresponse.queue.md) | <code>string</code> |  |
-|  [todo](./rest-stompjs.statusqueueresponse.todo.md) | <code>number</code> |  |
+|  [code](./rest-stompjs.statusqueueresponse.code.md) | string |  |
+|  [description](./rest-stompjs.statusqueueresponse.description.md) | string |  |
+|  [done](./rest-stompjs.statusqueueresponse.done.md) | number |  |
+|  [httpStatus](./rest-stompjs.statusqueueresponse.httpstatus.md) | number |  |
+|  [original](./rest-stompjs.statusqueueresponse.original.md) | any |  |
+|  [queue](./rest-stompjs.statusqueueresponse.queue.md) | string |  |
+|  [todo](./rest-stompjs.statusqueueresponse.todo.md) | number |  |
 
