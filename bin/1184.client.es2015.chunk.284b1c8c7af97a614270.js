@@ -1,2 +1,0 @@
-(self.webpackChunkressurectit_github_io=self.webpackChunkressurectit_github_io||[]).push([[1184],{11184:(e,t,r)=>{"use strict";r.r(t),r.d(t,{default:()=>i});const i='<ng-grid [gridOptions]="gridOptions">\r\n    <gallery-metadata>\r\n        <gallery-item source="test"></gallery-item>\r\n    </gallery-metadata>\r\n</ng-grid>'}}]);
-//# sourceMappingURL=1184.client.es2015.chunk.284b1c8c7af97a614270.js.map

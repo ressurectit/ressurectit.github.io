@@ -1,2 +1,0 @@
-(self.webpackChunkressurectit_github_io=self.webpackChunkressurectit_github_io||[]).push([[707],{70707:(e,t,s)=>{"use strict";s.r(t),s.d(t,{default:()=>l});const l='<div>Value: {{selectControl?.value | json}}</div>\r\n\r\n<ng-select [selectOptions]="selectOptions" [formControl]="selectControl">\r\n</ng-select>'}}]);
-//# sourceMappingURL=707.client.es2015.chunk.df3adc9bbf3b6150ba4c.js.map

@@ -6,9 +6,11 @@
 
 @INCLUDEMD#https://raw.githubusercontent.com/ressurectit/ng-datetime/HEAD/readme.md@
 
-# Angular Datetime
+## Samples
 
-- [API](/content/api/ng-datetime/datetime)
+- [Basic](#basic)
+- [Simple selector](#simple-selector)
+- [Min max static](#min-max-static)
 
 ### Basic
 

@@ -1,2 +1,0 @@
-(self.webpackChunkressurectit_github_io=self.webpackChunkressurectit_github_io||[]).push([[8253],{28253:(e,t,s)=>{"use strict";s.r(t),s.d(t,{default:()=>i});const i='<div class="gallery-content">\r\n    <div *ngFor="let item of data" class="gallery-item">\r\n        <img [src]="item?.source">\r\n    </div>\r\n</div>'}}]);
-//# sourceMappingURL=8253.client.es2015.chunk.82d1fd044258ca80c6eb.js.map

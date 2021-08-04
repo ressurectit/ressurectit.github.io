@@ -1,2 +1,0 @@
-(self.webpackChunkressurectit_github_io=self.webpackChunkressurectit_github_io||[]).push([[3107],{3107:(e,t,s)=>{"use strict";s.r(t),s.d(t,{GalleryItemComponent:()=>n});var c=s(60205);class n{}n.ɵfac=function(e){return new(e||n)},n.ɵcmp=c.Xp({type:n,selectors:[["gallery-item"]],inputs:{source:"source"},decls:0,vars:0,template:function(e,t){},encapsulation:2,changeDetection:0})}}]);
-//# sourceMappingURL=3107.client.es2015.chunk.4591438c141068abbc9f.js.map
