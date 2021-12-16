@@ -19,11 +19,11 @@ export declare function visibleFlyInOutTriggerFactory(params: {
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  params | <code>{</code><br/><code>    inParams: FlyInParams;</code><br/><code>    outParams: FlyOutParams;</code><br/><code>}</code> | Parameters |
+|  params | { inParams: [FlyInParams](./animations.flyinparams.md)<!-- -->; outParams: [FlyOutParams](./animations.flyoutparams.md)<!-- -->; } | Parameters |
 
 <b>Returns:</b>
 
-`AnimationTriggerMetadata`
+AnimationTriggerMetadata
 
 AnimationTriggerMetadata
 

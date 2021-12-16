@@ -12,12 +12,6 @@ Type representing slide out params
 export declare type SlideOutParams = {
     heightDuration?: string;
     opacityDuration?: string;
-    fromHeight?: string;
-    toHeight?: string;
-    fromOpacity?: number | '*';
-    toOpacity?: number | '*';
-    position?: CssPosition;
-    display?: CssDisplay;
-    overflow?: CssOverflow;
+    toOpacity?: number;
 };
 ```

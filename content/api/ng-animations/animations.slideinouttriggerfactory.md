@@ -19,11 +19,9 @@ export declare function slideInOutTriggerFactory(params: {
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  params | <code>{</code><br/><code>    inParams: SlideInParams;</code><br/><code>    outParams: SlideOutParams;</code><br/><code>}</code> | Parameters |
+|  params | { inParams: [SlideInParams](./animations.slideinparams.md)<!-- -->; outParams: [SlideOutParams](./animations.slideoutparams.md)<!-- -->; } | Parameters |
 
 <b>Returns:</b>
-
-`AnimationTriggerMetadata`
 
 AnimationTriggerMetadata
 

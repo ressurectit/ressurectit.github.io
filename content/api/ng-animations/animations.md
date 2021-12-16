@@ -37,9 +37,6 @@
 
 |  Type Alias | Description |
 |  --- | --- |
-|  [CssDisplay](./animations.cssdisplay.md) | Represents css display values |
-|  [CssOverflow](./animations.cssoverflow.md) | Represents css position values |
-|  [CssPosition](./animations.cssposition.md) | Represents css position values |
 |  [FadeInParams](./animations.fadeinparams.md) | Type representing fade in params |
 |  [FadeOutParams](./animations.fadeoutparams.md) | Type representing fade out params |
 |  [FlyInParams](./animations.flyinparams.md) | Type representing fly in params |

@@ -12,12 +12,6 @@ Type representing slide in params
 export declare type SlideInParams = {
     heightDuration?: string;
     opacityDuration?: string;
-    fromHeight?: string;
-    toHeight?: string;
-    fromOpacity?: number | '*';
-    toOpacity?: number | '*';
-    position?: CssPosition;
-    display?: CssDisplay;
-    overflow?: CssOverflow;
+    fromOpacity?: number;
 };
 ```

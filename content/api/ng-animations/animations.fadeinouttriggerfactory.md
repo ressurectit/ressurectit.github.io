@@ -19,11 +19,11 @@ export declare function fadeInOutTriggerFactory(params: {
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  params | <code>{</code><br/><code>    inParams: FadeInParams;</code><br/><code>    outParams: FadeOutParams;</code><br/><code>}</code> | Parameters |
+|  params | { inParams: [FadeInParams](./animations.fadeinparams.md)<!-- -->; outParams: [FadeOutParams](./animations.fadeoutparams.md)<!-- -->; } | Parameters |
 
 <b>Returns:</b>
 
-`AnimationTriggerMetadata`
+AnimationTriggerMetadata
 
 AnimationTriggerMetadata
 

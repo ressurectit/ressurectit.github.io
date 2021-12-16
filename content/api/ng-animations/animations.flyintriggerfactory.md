@@ -16,11 +16,11 @@ export declare function flyInTriggerFactory(params: FlyInParams): AnimationTrigg
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  params | <code>FlyInParams</code> | Parameters |
+|  params | [FlyInParams](./animations.flyinparams.md) | Parameters |
 
 <b>Returns:</b>
 
-`AnimationTriggerMetadata`
+AnimationTriggerMetadata
 
 AnimationTriggerMetadata
 

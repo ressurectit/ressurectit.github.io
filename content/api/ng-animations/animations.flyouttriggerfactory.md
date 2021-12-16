@@ -16,11 +16,11 @@ export declare function flyOutTriggerFactory(params: FlyOutParams): AnimationTri
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  params | <code>FlyOutParams</code> | Parameters |
+|  params | [FlyOutParams](./animations.flyoutparams.md) | Parameters |
 
 <b>Returns:</b>
 
-`AnimationTriggerMetadata`
+AnimationTriggerMetadata
 
 AnimationTriggerMetadata
 
