@@ -1,4 +1,4 @@
-<div class="pull-right">
+<div class="flex-row flex-end">
     <a href="https://github.com/ressurectit/ng-authentication">
         <span class="fab fa-github"></span>
     </a>

@@ -1,2 +1,0 @@
-(self.webpackChunkressurectit_github_io=self.webpackChunkressurectit_github_io||[]).push([[129],{129:(o,t,e)=>{"use strict";e.r(t),e.d(t,{default:()=>n});const n='<div>Value: {{selectControl?.value | json}}</div>\r\n\r\n<ng-select [formControl]="selectControl">\r\n    <ng-option *ngFor="let option of lazyOptions" [value]="option?.kod" [text]="option?.popis"></ng-option>\r\n</ng-select>'}}]);
-//# sourceMappingURL=129.client.es2015.chunk.c080b60b702fcae6dc58.js.map

@@ -1,0 +1,1 @@
+import{hb as s}from"./chunk-BOFRI4VS.js";function l(){return function(o){let i=o.\u0275cmp.hostBindings;return o.\u0275cmp.hostVars=(o.\u0275cmp.hostVars??0)+2,o.\u0275cmp.hostBindings=function(n,c){i?.(n,c),n&2&&s("scrollable",!0)},o}}export{l as a};

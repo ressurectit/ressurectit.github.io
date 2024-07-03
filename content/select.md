@@ -1,4 +1,4 @@
-<div class="pull-right">
+<div class="flex-row flex-end">
     <a href="https://github.com/ressurectit/ng-select">
         <span class="fab fa-github"></span>
     </a>
@@ -213,7 +213,7 @@ Demonstration of dialog with standard `popup` plugin and with absolutely positio
 
 ---
 
-### Modal popup
+<!-- ### Modal popup
 
 Dialog popup is displayed as *modal dialog*. *Popup* plugin is set using *DialogPopupDirective*. Using default *dialog* content type and default options, this can be changed.
 
@@ -225,9 +225,9 @@ Dialog popup is displayed as *modal dialog*. *Popup* plugin is set using *Dialog
         - `value` - value that is assigned to this option, if selected this value will be used
         - `text` - text that is displayed for option
 
-@SAMPLE#modal-popup-select&select/ModalPopupComponent@
+@XSAMPLEX#modal-popup-select&select/ModalPopupComponentX@
 
----
+--- -->
 
 ### Edit
 

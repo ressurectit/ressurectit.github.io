@@ -10,7 +10,6 @@ This project contains *Angular* libraries, *Javascript* libraries, *.Net* librar
 
 - **[Animations](https://ressurectit.github.io/#/content/animations)** - Prebuilt angular animations (*triggers*)
 - **[Authentication](https://ressurectit.github.io/#/content/authentication)** - Authentication and authorization *services* and *directives*
-- **[Bootstrap](https://ressurectit.github.io/#/content/bootstrap)** - Wrappers for *Bootstrap* components **DEPRECATED**
 - **[Common](https://ressurectit.github.io/#/content/common)** - Many commonly used *Angular* components, services and so on ...
 - **[Datetime](https://ressurectit.github.io/#/content/datetime)** - Abstract set of tools (components, directives, utils) for working with datetime
 - **[Error handling](https://ressurectit.github.io/#/content/error-handling)** - Http interceptors, error handlers

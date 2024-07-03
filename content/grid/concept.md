@@ -7,8 +7,8 @@ Basic features of grid are:
  - *grid* does not contains methods for working with *grid* and *plugins* (only basic methods), but complex methods are defined as *extensions*
  - *options* and *plugins* can be changed anytime
  - *grid* itself and *plugins* have defined order of initialization methods: `initOptions`, then `initialize`
- - each *plugin* you can be accessed from any other *plugin*, obtain plugin`s *html element*, its *options*, possible to invalidate its visuals by explicit running of *change detection*
- - plugins communication is *event* based, that means no plugin explicitly sets anything on different plugin, but it just triggers event that something on itself was changed and other plugins (which wants to) listens to these changes
+ - each *plugin* can be accessed from any other *plugin*, obtain plugin`s *html element*, its *options*, possible to invalidate its visuals by explicit running of *change detection*
+ - plugins communication is *event* based, that means no plugin explicitly sets anything on different plugin, but it just triggers event that something on itself has changed and other plugins (which wants to) listens to these changes
  - each part of *grid* (components, plugins ... anything) is defined as `interface`, this should be used for using *grid* from code, because each `interface` contains public API
 
 ## Grid options
@@ -21,11 +21,17 @@ Grid consists of plugins that handles different parts of grid functionality. The
 
 ### Content Renderer
 
-Content renderer plugin is used for displaying data. Defaults to `<table>` renderer, which means that if you dont change type of content renderer grid will be rendered as table. This content renderer consists of 2 *visual subplugins*, that means you can separately change rendering of `<thead>` and `<tbody>` without affecting other one. This does not have to be this way, if you use completely custom non-table like layout.
+New `MatrixContentRenderer` is ultimate *content renderer* that can render almost anything and can be customized easily. Defaults to `<div>` styled using *css grid*. 
+
+Legacy content renderer plugin is used for displaying data. Defaults to `<table>` renderer, which means that if you dont change type of content renderer grid will be rendered as table. This content renderer consists of 2 *visual subplugins*, that means you can separately change rendering of `<thead>` and `<tbody>` without affecting other one. This does not have to be this way, if you use completely custom non-table like layout. New `MatrixContentRenderer` is much better optimized for *customization* without need of creating new `ContentRenderer`.
 
 ### Data Loader
 
 Data loader plugin is used for obtaining data for grid. This plugin reacts to changes of page, or ordering and retrieves data for grid.
+
+### Grid Initializer
+
+Grid initializer plugin can be used inside of *Paging* or any other *plugin* and its purpose is to get *default* values for *Grid* data initialization of grid *plugins* from store. For example loading items per page from *cookies*, or page from *query string*, or ordering from *query string*.
 
 ### Metadata Selector
 
@@ -35,13 +41,13 @@ Metadata selector plugin reads metadata from *Metadata Gatherer* and allows sele
 
 No data renderer plugin can be used for displaying *something* that you want to display, if no data are available from *Data Loader*.
 
+### Ordering
+
+Ordering plugin is used for rendering and storing information about current ordering.
+
 ### Paging
 
 Paging plugin is used for changing of displayed page and items per page from whole set of data. Allows you to split your whole set of data in smaller parts.
-
-### Grid Initializer
-
-Grid initializer plugin can be used inside of *Paging* or any other *plugin* and its purpose is to get *default* values for *Grid* data initialization of grid *plugins* from store. For example loading items per page from *cookies*, or page from *query string*, or ordering from *query string*.
 
 ### Row Selector
 

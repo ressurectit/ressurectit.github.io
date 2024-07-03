@@ -12,10 +12,6 @@
         "title": "Authentication"
     },
     {
-        "mdPath": "bootstrap",
-        "title": "Bootstrap"
-    },
-    {
         "mdPath": "datetime",
         "title": "Datetime"
     },
@@ -39,6 +35,10 @@
             {
                 "mdPath": "grid/basic",
                 "title": "Basic Async Usage"
+            },
+            {
+                "mdPath": "grid/legacyBasic",
+                "title": "Legacy Basic Async Usage"
             },
             {
                 "mdPath": "grid/basicSync",
