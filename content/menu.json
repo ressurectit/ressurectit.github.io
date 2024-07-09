@@ -13,7 +13,30 @@
     },
     {
         "mdPath": "datetime",
-        "title": "Datetime"
+        "title": "Datetime",
+        "children":
+        [
+            {
+                "mdPath": "datetime/concept",
+                "title": "Concept"
+            },
+            {
+                "mdPath": "datetime/userInput",
+                "title": "User input"
+            },
+            {
+                "mdPath": "datetime/pipes",
+                "title": "Pipes"
+            },
+            {
+                "mdPath": "datetime/calendar",
+                "title": "Calendar"
+            },
+            {
+                "mdPath": "datetime/dateApi",
+                "title": "DateApi"
+            }
+        ]
     },
     {
         "mdPath": "common",
