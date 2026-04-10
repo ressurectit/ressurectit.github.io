@@ -1,0 +1,1 @@
+import{j as r,l as o,q as t,w as n}from"./chunk-TLVGNUZP.js";function c(e){return{provide:r,useValue:e}}function I(e){return{provide:o,useValue:e}}function A(e){return{provide:t,useValue:e}}function f(e){return{provide:n,useValue:e}}export{c as a,I as b,A as c,f as d};

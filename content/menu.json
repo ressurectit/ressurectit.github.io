@@ -99,7 +99,14 @@
     },
     {
         "mdPath": "select",
-        "title": "Select"
+        "title": "Select",
+        "children":
+        [
+            {
+                "mdPath": "select/samples",
+                "title": "Samples"
+            }
+        ]
     },
     {
         "mdPath": "translate-extensions",
