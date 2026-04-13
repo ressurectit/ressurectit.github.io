@@ -14,6 +14,10 @@
 - [Absolute](#absolute)
 - [Edit](#edit)
 - [Popover popup](#popover-popup)
+- [Select dynamic option and get value property](#select-dynamic-option-and-get-value-property)
+- [Hide carret](#hide-carret)
+- [Cancel value](#cancel-value)
+- [Add new option](#add-new-option)
 
 ### Basic
 
@@ -274,7 +278,7 @@ Select with *liveSearch* plugin placed in *normalState* plugin. Using specialize
 - html `<ng-select>` is top level element
     - applied `edit` attribute for `SelectEdit` directive
     - second select has `multiple` attribute
-    - it contains static `<ng-option>` elements 
+    - it contains static `<ng-option>` elements
         - `value` - value that is assigned to this option, if selected this value will be used
         - `text` - text that is displayed for option
 
@@ -296,8 +300,32 @@ Select with *liveSearch* plugin placed in *normalState* plugin. Using specialize
 - html `<ng-select>` is top level element
     - applied `edit` attribute for `SelectEdit` directive
     - second select has `multiple` attribute
-    - it contains static `<ng-option>` elements 
+    - it contains static `<ng-option>` elements
         - `value` - value that is assigned to this option, if selected this value will be used
         - `text` - text that is displayed for option
 
 @SAMPLE#popover-popup-select&select/PopoverPopupComponent@
+
+---
+
+### Select dynamic option and get value property
+
+@SAMPLE#dynamic-options-getter-select&select/DynamicOptionGetterComponent@
+
+---
+
+### Hide carret
+
+@SAMPLE#hide-carret-select&select/HideCarretComponent@
+
+---
+
+### Cancel value
+
+@SAMPLE#cancel-value-select&select/CancelValueComponent@
+
+---
+
+### Add new option
+
+@SAMPLE#add-new-option-select&select/AddNewOptionComponent@
