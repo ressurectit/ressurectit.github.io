@@ -288,18 +288,19 @@ Select with *liveSearch* plugin placed in *normalState* plugin. Using specialize
 
 ### Popover popup
 
-Select with *liveSearch* plugin placed in *normalState* plugin. Using specialized *normalState* plugin implementation and *liveSearch* plugin implementation and preconfigured *keyboardHandler* plugin handling also *liveSearch* plugin events and disabling `alphanumericSearch`. It can be used as *autocomplete*.
+Select popup with native html popover and anchor positioning.
 
 - imports from `@anglr/select`
     - `Select` select component itself
     - `Option` option component
     - `SelectFormControl` form control for *signal forms*
-    - `SelectEdit` directive to setup *liveSearch* type, *normalState* type and *keyboardHandler* options
-    - `SelectMultipleKeepPopup` directive that applied to *multiple* select and keeps popup open after selection of option
-- `SelectOptions` initialized with default or DI provided defaults, additinally changed in `SelectEdit`
+- `SelectOptions` initialized
+    - *interaction* options set
+        - *handleClickOutside* set to `false`
+    - *positioner* options set
+        - *popoverAuto* set to `true`
+    - `PopoverPositioner` used as *positioner* plugin
 - html `<ng-select>` is top level element
-    - applied `edit` attribute for `SelectEdit` directive
-    - second select has `multiple` attribute
     - it contains static `<ng-option>` elements
         - `value` - value that is assigned to this option, if selected this value will be used
         - `text` - text that is displayed for option
@@ -310,11 +311,46 @@ Select with *liveSearch* plugin placed in *normalState* plugin. Using specialize
 
 ### Select dynamic option and get value property
 
+Edit select with dynamically loaded values. Value of select is different than value of option, only part of option is used as value. Preselecting value creates dynamically option.
+
+- imports from `@anglr/select`
+    - `Select` select component itself
+    - `Option` option component
+    - `SelectEdit` directive to setup *liveSearch* type, *normalState* type and *keyboardHandler* options
+    - `SelectFormControl` form control for *signal forms*
+- `SelectOptions` initialized
+    - `DynamicValueHandler` is used as *valueHandler* plugin
+    - `CodeOptionsGatherer` used as *optionsGatherer*
+    - *valueHandler* options set to `DynamicValueHandlerOptions`
+        - *optionGetter* set to lambda that obtains option for selected value
+- `selectField` is set to predefined value
+- html `<ng-select>` is top level element
+    - applied `edit` attribute for `SelectEdit` directive
+    - it contains static `<ng-option>` elements
+        - `value` - value that is assigned to this option, if selected this value will be used
+        - `text` - text that is displayed for option
+
 @SAMPLE#dynamic-options-getter-select&select/DynamicOptionGetterComponent@
 
 ---
 
 ### Hide carret
+
+Edit select with hidden carret.
+
+- imports from `@anglr/select`
+    - `Select` select component itself
+    - `Option` option component
+    - `SelectEdit` directive to setup *liveSearch* type, *normalState* type and *keyboardHandler* options
+    - `SelectFormControl` form control for *signal forms*
+- `SelectOptions` initialized
+    - *normalState* options set to `EditNormalStateOptions`
+        - *carret* set to `false`
+- html `<ng-select>` is top level element
+    - applied `edit` attribute for `SelectEdit` directive
+    - it contains static `<ng-option>` elements
+        - `value` - value that is assigned to this option, if selected this value will be used
+        - `text` - text that is displayed for option
 
 @SAMPLE#hide-carret-select&select/HideCarretComponent@
 
@@ -322,10 +358,40 @@ Select with *liveSearch* plugin placed in *normalState* plugin. Using specialize
 
 ### Cancel value
 
+Select with possibility to cancel selected value.
+
+- imports from `@anglr/select`
+    - `Select` select component itself
+    - `Option` option component
+    - `SelectFormControl` form control for *signal forms*
+- `SelectOptions` initialized
+    - *normalState* options set
+        - *cancelValue* set to `true`
+- html `<ng-select>` is top level element
+    - it contains static `<ng-option>` elements
+        - `value` - value that is assigned to this option, if selected this value will be used
+        - `text` - text that is displayed for option
+
 @SAMPLE#cancel-value-select&select/CancelValueComponent@
 
 ---
 
 ### Add new option
+
+Edit select with possibility to add new value.
+
+- imports from `@anglr/select`
+    - `Select` select component itself
+    - `Option` option component
+    - `SelectEdit` directive to setup *liveSearch* type, *normalState* type and *keyboardHandler* options
+    - `SelectFormControl` form control for *signal forms*
+- `SelectOptions` initialized
+    - *optionsHandler* options set
+        - *newOptionGetter* set to lambda that returns new option
+- html `<ng-select>` is top level element
+    - applied `edit` attribute for `SelectEdit` directive
+    - it contains static `<ng-option>` elements
+        - `value` - value that is assigned to this option, if selected this value will be used
+        - `text` - text that is displayed for option
 
 @SAMPLE#add-new-option-select&select/AddNewOptionComponent@

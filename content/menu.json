@@ -105,6 +105,10 @@
             {
                 "mdPath": "select/samples",
                 "title": "Samples"
+            },
+            {
+                "mdPath": "select/styling",
+                "title": "Styling"
             }
         ]
     },
