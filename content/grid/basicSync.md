@@ -1,17 +1,18 @@
 # Basic synchronous data
 
-Basic simple usage of *Grid* with data loaded synchronously. That means all data are provided to grid at once and grid will handle paging and ordering in *javascript*, on browser side. Data can be provided at initialization of grid, or later using extension method (see [Accessing from code](/grid/accessingFromCode)).
+Basic simple usage of **new Matrix** *Grid* with data loaded synchronously. That means all data are provided to grid at once and grid will handle paging and ordering in *javascript*, on browser side. Data can be provided at initialization of grid, or later using extension method (see [Accessing from code](/grid/accessingFromCode)).
 
-- required module `GridModule` from `@anglr/grid`
+- required module `MatrixGridModule` from `@anglr/grid`
 - `GridOptions` initialized with
     - `SyncDataLoaderComponent` with data provided from *DI*
         - custom ordering method specified, not required
     - default `BasicPagingComponent` initialized with intial items per page and available items per page, which will be offered to user
-- html `<ng-grid>` is top level element
-    - it contains `MetadataGatherer` (default `BasicTableMetadataGathererComponent`)
-        - columns are displaying properties of each row objects and are defined inside `MetadataGatherer`
-            - name of property that is displayed is provided by `name` attribute
-            - `id` attribute is used for identification of column, its good to set it to unique string, used for column selection
-            - `title` attribute contains text that is displayed in header of each column
+- html `<div>` is top level element, can be any element
+    - top level element contains `ngGrid` *attribute*, which changes element to `MatrixGridComponent`, which configures `ContentRenderer` to `MatrixContentRenderer` and also uses custom `MetadataGatherer`
+    - on `MatrixGridComponent` you can set `gridOptions`
+    - it contains templates for *columns*
+        - column definition is *template* with `id` (set by `matrixGridColumn` assignment) value (must be set to unique value if metadata selector should work)
+            - it contains header and content cell templates
+                - *content cell template* has template context containing `datum` which are row data
 
 @SAMPLE#basic-sync-grid&grid/BasicSyncComponent@

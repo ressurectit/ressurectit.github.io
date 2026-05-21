@@ -68,8 +68,8 @@
                 "title": "Basic Sync Usage"
             },
             {
-                "mdPath": "grid/basicMetadata",
-                "title": "Basic metadata (all)"
+                "mdPath": "grid/templateMetadata",
+                "title": "Template metadata"
             },
             {
                 "mdPath": "grid/groupedMetadata",
@@ -80,8 +80,8 @@
                 "title": "Configuration"
             },
             {
-                "mdPath": "grid/customRenderer",
-                "title": "Custom renderer"
+                "mdPath": "grid/customizedView",
+                "title": "Customized view"
             }
         ]
     },

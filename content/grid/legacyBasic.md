@@ -1,6 +1,6 @@
 # Legacy basic asynchronous data
 
-Basic simple usage of **legacy** *Grid* with data loaded asynchronously from *REST* service and simple columns.
+Basic simple usage of **legacy** *Grid* with data loaded asynchronously from *REST* service and simple columns. **This usage is deprecated and recommended to be used.**
 
 - required module `GridModule` from `@anglr/grid`
 - `GridOptions` initialized with

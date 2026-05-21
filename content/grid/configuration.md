@@ -1,8 +1,8 @@
 ## Configuration
 
-Grid and its plugins allows configuration. There are several ways of providing configuration. That means you can provide configuration options using *Angular DI providers*. You can provide options on `'root'` level, or for requested *lazy* `NgModules`, or on `Component` level. You can also override them as any other *Angular providers*. This allows you to create *customized* grid for whole application in one place and possibility to override this in specific cases. Or you can simple provide *options* directly for instance of *Grid*.
+Grid and its plugins allows configuration. There are several ways of providing configuration. You can provide configuration options using *Angular DI providers* or directly passing options to `gridOptions` property of *Grid*. When using *Angular DI* you use hiearchy of providers. That means you can override provided configuration on closer injector. This allows you to create *customized* grid for whole application in one place and possibility to override this in specific cases. Or you can simply provide *options* directly for instance of *Grid*.
 
-Each plugin has its own options. You can provide type of *plugin* or *options* using *Angular DI providers*, or you can provide whole `GridOptions` as object. All options provided anyway are merged, that means you can provide only *part* of options and it is merged.
+Each plugin has its own options. You can provide type of *plugin* or *options* using *Angular DI providers*, or you can provide whole `GridOptions` as object. All options provided anyway are merged, that means you can provide only *part* of options and it is merged. Merging only happens between *DI provided* and `gridOptions`. 
 
 Order of merging options is following (from lowest priority):
  - default options and *plugin* types
