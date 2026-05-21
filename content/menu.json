@@ -34,7 +34,7 @@
             },
             {
                 "mdPath": "datetime/dateApi",
-                "title": "DateApi"
+                "title": "Date API"
             }
         ]
     },
@@ -68,12 +68,24 @@
                 "title": "Basic Sync Usage"
             },
             {
-                "mdPath": "grid/templateMetadata",
-                "title": "Template metadata"
+                "mdPath": "grid/htmlTable",
+                "title": "HTML Table"
             },
             {
-                "mdPath": "grid/groupedMetadata",
-                "title": "Grouped metadata"
+                "mdPath": "grid/templateMetadata",
+                "title": "Template Metadata"
+            },
+            {
+                "mdPath": "grid/groupedColumns",
+                "title": "Grouped Columns"
+            },
+            {
+                "mdPath": "grid/metadataSelection",
+                "title": "Metadata Selection"
+            },
+            {
+                "mdPath": "grid/stronglyTyped",
+                "title": "Strongly Typed"
             },
             {
                 "mdPath": "grid/configuration",
@@ -81,7 +93,7 @@
             },
             {
                 "mdPath": "grid/customizedView",
-                "title": "Customized view"
+                "title": "Customized View"
             }
         ]
     },
