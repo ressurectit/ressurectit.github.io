@@ -14,5 +14,6 @@ Basic simple usage of **new Matrix** *Grid* with data loaded synchronously. That
         - column definition is *template* with `id` (set by `matrixGridColumn` assignment) value (must be set to unique value if metadata selector should work)
             - it contains header and content cell templates
                 - *content cell template* has template context containing `datum` which are row data
+- alternatively you can pass all data to grid using `data` attribute (`GridDataDirective` directive from `@anglr/grid`) see second grid in sample
 
 @SAMPLE#basic-sync-grid&grid/BasicSyncComponent@

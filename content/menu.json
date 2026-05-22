@@ -84,6 +84,18 @@
                 "title": "Metadata Selection"
             },
             {
+                "mdPath": "grid/ordering",
+                "title": "Ordering"
+            },
+            {
+                "mdPath": "grid/detailView",
+                "title": "Detail View"
+            },
+            {
+                "mdPath": "grid/reactiveData",
+                "title": "Reactive Data"
+            },
+            {
                 "mdPath": "grid/stronglyTyped",
                 "title": "Strongly Typed"
             },
