@@ -88,6 +88,10 @@
                 "title": "Ordering"
             },
             {
+                "mdPath": "grid/rowSelection",
+                "title": "Row Selection"
+            },
+            {
                 "mdPath": "grid/detailView",
                 "title": "Detail View"
             },
